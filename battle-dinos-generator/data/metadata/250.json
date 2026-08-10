@@ -1,0 +1,28 @@
+{
+  "name": "Onyxclaw",
+  "description": "Common Spinosaurus from the Battle Dinos Genesis 333 collection.",
+  "image": "ipfs://REPLACE/250.png",
+  "token_id": 250,
+  "species": "Spinosaurus",
+  "rarity": "Common",
+  "visual": {
+    "palette": "Amber",
+    "description": "Spinosaurus with amber-gold scales with dark brown striping, bright dorsal stripe, dark iron shoulder plates, and small battle scars across the snout",
+    "arena": "desert fossil basin with windblown dust"
+  },
+  "moves": [
+    {
+      "name": "Acid Bite",
+      "power": 55
+    },
+    {
+      "name": "Toxic Crest Surge",
+      "power": 87
+    },
+    {
+      "name": "Acid Crosscut",
+      "power": 63
+    }
+  ],
+  "image_prompt": "Premium stylized 3D battle dinosaur collectible, designed as a consistent character collection. Full-body dinosaur centered in a powerful three-quarter battle stance, entire body visible from head to feet and tail, strong readable silhouette, oversized expressive eyes with fierce personality, chunky stylized anatomy, detailed scales, polished game-cinematic materials, dramatic rim lighting, high-end animated feature-film quality, collectible game character aesthetic, slightly exaggerated proportions, bold armor and accessory shapes when present, rich color contrast, crisp texture detail, atmospheric prehistoric arena environment, shallow cinematic depth of field, dynamic but uncluttered background, no text, no logos, no UI, no frame, no humans, no duplicate dinosaurs, square 1:1 composition. Keep the visual language consistent across the entire collection while making each dinosaur clearly unique. Character: Onyxclaw, a Spinosaurus with amber-gold scales with dark brown striping, bright dorsal stripe, dark iron shoulder plates, and small battle scars across the snout. Pose with confident battle-ready personality in a desert fossil basin with windblown dust. Do not depict attacks, powers, text, numbers, or other combatants."
+}

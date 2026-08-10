@@ -1,0 +1,7 @@
+node_modules/
+.env
+output/*
+!output/.gitkeep
+logs/*
+!logs/.gitkeep
+.DS_Store

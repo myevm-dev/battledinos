@@ -1,0 +1,28 @@
+{
+  "name": "Vortexmauler",
+  "description": "Common Baryonyx from the Battle Dinos Genesis 333 collection.",
+  "image": "ipfs://REPLACE/294.png",
+  "token_id": 294,
+  "species": "Baryonyx",
+  "rarity": "Common",
+  "visual": {
+    "palette": "Copper",
+    "description": "Baryonyx with burnished copper scales with teal patina accents, marbled scale pattern, dark iron shoulder plates, and no accessory",
+    "arena": "misty fern canyon with towering stone walls"
+  },
+  "moves": [
+    {
+      "name": "Ice Rake",
+      "power": 95
+    },
+    {
+      "name": "Winter Bite",
+      "power": 53
+    },
+    {
+      "name": "Winter Snap Lunge",
+      "power": 58
+    }
+  ],
+  "image_prompt": "Premium stylized 3D battle dinosaur collectible, designed as a consistent character collection. Full-body dinosaur centered in a powerful three-quarter battle stance, entire body visible from head to feet and tail, strong readable silhouette, oversized expressive eyes with fierce personality, chunky stylized anatomy, detailed scales, polished game-cinematic materials, dramatic rim lighting, high-end animated feature-film quality, collectible game character aesthetic, slightly exaggerated proportions, bold armor and accessory shapes when present, rich color contrast, crisp texture detail, atmospheric prehistoric arena environment, shallow cinematic depth of field, dynamic but uncluttered background, no text, no logos, no UI, no frame, no humans, no duplicate dinosaurs, square 1:1 composition. Keep the visual language consistent across the entire collection while making each dinosaur clearly unique. Character: Vortexmauler, a Baryonyx with burnished copper scales with teal patina accents, marbled scale pattern, dark iron shoulder plates, and no accessory. Pose with confident battle-ready personality in a misty fern canyon with towering stone walls. Do not depict attacks, powers, text, numbers, or other combatants."
+}

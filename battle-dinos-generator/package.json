@@ -1,0 +1,14 @@
+{
+  "name": "battle-dinos-generator",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "generate": "node scripts/generate-images.mjs",
+    "test:5": "node scripts/generate-images.mjs --start=1 --end=5"
+  },
+  "dependencies": {
+    "dotenv": "latest",
+    "openai": "latest"
+  }
+}

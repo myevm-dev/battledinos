@@ -1,0 +1,28 @@
+{
+  "name": "Savagetooth",
+  "description": "Epic Carnotaurus from the Battle Dinos Genesis 333 collection.",
+  "image": "ipfs://REPLACE/122.png",
+  "token_id": 122,
+  "species": "Carnotaurus",
+  "rarity": "Epic",
+  "visual": {
+    "palette": "Crimson",
+    "description": "Carnotaurus with deep red scales with ember-orange accents, freckled snout and cheeks, dark iron shoulder plates, and small arena tag attached to the harness",
+    "arena": "stormy basalt arena beneath dark clouds"
+  },
+  "moves": [
+    {
+      "name": "Thunder Horn Breaker",
+      "power": 63
+    },
+    {
+      "name": "Static Sprint Strike",
+      "power": 50
+    },
+    {
+      "name": "Static Jaw",
+      "power": 51
+    }
+  ],
+  "image_prompt": "Premium stylized 3D battle dinosaur collectible, designed as a consistent character collection. Full-body dinosaur centered in a powerful three-quarter battle stance, entire body visible from head to feet and tail, strong readable silhouette, oversized expressive eyes with fierce personality, chunky stylized anatomy, detailed scales, polished game-cinematic materials, dramatic rim lighting, high-end animated feature-film quality, collectible game character aesthetic, slightly exaggerated proportions, bold armor and accessory shapes when present, rich color contrast, crisp texture detail, atmospheric prehistoric arena environment, shallow cinematic depth of field, dynamic but uncluttered background, no text, no logos, no UI, no frame, no humans, no duplicate dinosaurs, square 1:1 composition. Keep the visual language consistent across the entire collection while making each dinosaur clearly unique. Character: Savagetooth, a Carnotaurus with deep red scales with ember-orange accents, freckled snout and cheeks, dark iron shoulder plates, and small arena tag attached to the harness. Pose with confident battle-ready personality in a stormy basalt arena beneath dark clouds. Do not depict attacks, powers, text, numbers, or other combatants."
+}

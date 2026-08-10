@@ -1,0 +1,28 @@
+{
+  "name": "Titanstalker",
+  "description": "Uncommon Ankylosaurus from the Battle Dinos Genesis 333 collection.",
+  "image": "ipfs://REPLACE/264.png",
+  "token_id": 264,
+  "species": "Ankylosaurus",
+  "rarity": "Uncommon",
+  "visual": {
+    "palette": "Abyss",
+    "description": "Ankylosaurus with midnight navy scales with luminous blue accents, dark limb gradients, dark iron shoulder plates, and small battle scars across the snout",
+    "arena": "volcanic jungle arena with glowing lava in the distance"
+  },
+  "moves": [
+    {
+      "name": "Solar Club Smash",
+      "power": 78
+    },
+    {
+      "name": "Radiant Guard",
+      "power": 75
+    },
+    {
+      "name": "Sun Iron Rush",
+      "power": 78
+    }
+  ],
+  "image_prompt": "Premium stylized 3D battle dinosaur collectible, designed as a consistent character collection. Full-body dinosaur centered in a powerful three-quarter battle stance, entire body visible from head to feet and tail, strong readable silhouette, oversized expressive eyes with fierce personality, chunky stylized anatomy, detailed scales, polished game-cinematic materials, dramatic rim lighting, high-end animated feature-film quality, collectible game character aesthetic, slightly exaggerated proportions, bold armor and accessory shapes when present, rich color contrast, crisp texture detail, atmospheric prehistoric arena environment, shallow cinematic depth of field, dynamic but uncluttered background, no text, no logos, no UI, no frame, no humans, no duplicate dinosaurs, square 1:1 composition. Keep the visual language consistent across the entire collection while making each dinosaur clearly unique. Character: Titanstalker, a Ankylosaurus with midnight navy scales with luminous blue accents, dark limb gradients, dark iron shoulder plates, and small battle scars across the snout. Pose with confident battle-ready personality in a volcanic jungle arena with glowing lava in the distance. Do not depict attacks, powers, text, numbers, or other combatants."
+}

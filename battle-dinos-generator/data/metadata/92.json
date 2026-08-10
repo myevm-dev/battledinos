@@ -1,0 +1,28 @@
+{
+  "name": "Duststalker",
+  "description": "Common Triceratops from the Battle Dinos Genesis 333 collection.",
+  "image": "ipfs://REPLACE/92.png",
+  "token_id": 92,
+  "species": "Triceratops",
+  "rarity": "Common",
+  "visual": {
+    "palette": "Ivory",
+    "description": "Triceratops with warm ivory scales with charcoal markings, freckled snout and cheeks, bronze gladiator harness, and leather neck wrap",
+    "arena": "icy prehistoric valley with blue glacier cliffs"
+  },
+  "moves": [
+    {
+      "name": "Savage Horn Breaker",
+      "power": 48
+    },
+    {
+      "name": "Primal Charge",
+      "power": 63
+    },
+    {
+      "name": "Primal Guard",
+      "power": 52
+    }
+  ],
+  "image_prompt": "Premium stylized 3D battle dinosaur collectible, designed as a consistent character collection. Full-body dinosaur centered in a powerful three-quarter battle stance, entire body visible from head to feet and tail, strong readable silhouette, oversized expressive eyes with fierce personality, chunky stylized anatomy, detailed scales, polished game-cinematic materials, dramatic rim lighting, high-end animated feature-film quality, collectible game character aesthetic, slightly exaggerated proportions, bold armor and accessory shapes when present, rich color contrast, crisp texture detail, atmospheric prehistoric arena environment, shallow cinematic depth of field, dynamic but uncluttered background, no text, no logos, no UI, no frame, no humans, no duplicate dinosaurs, square 1:1 composition. Keep the visual language consistent across the entire collection while making each dinosaur clearly unique. Character: Duststalker, a Triceratops with warm ivory scales with charcoal markings, freckled snout and cheeks, bronze gladiator harness, and leather neck wrap. Pose with confident battle-ready personality in a icy prehistoric valley with blue glacier cliffs. Do not depict attacks, powers, text, numbers, or other combatants."
+}

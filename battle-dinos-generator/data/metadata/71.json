@@ -1,0 +1,28 @@
+{
+  "name": "Venommauler",
+  "description": "Uncommon Velociraptor from the Battle Dinos Genesis 333 collection.",
+  "image": "ipfs://REPLACE/71.png",
+  "token_id": 71,
+  "species": "Velociraptor",
+  "rarity": "Uncommon",
+  "visual": {
+    "palette": "Arctic",
+    "description": "Velociraptor with pale blue-white scales with slate markings, faint bioluminescent-looking lines, dark iron shoulder plates, and small battle scars across the snout",
+    "arena": "icy prehistoric valley with blue glacier cliffs"
+  },
+  "moves": [
+    {
+      "name": "Solar Talon",
+      "power": 57
+    },
+    {
+      "name": "Radiant Leap",
+      "power": 55
+    },
+    {
+      "name": "Radiant Fakeout",
+      "power": 70
+    }
+  ],
+  "image_prompt": "Premium stylized 3D battle dinosaur collectible, designed as a consistent character collection. Full-body dinosaur centered in a powerful three-quarter battle stance, entire body visible from head to feet and tail, strong readable silhouette, oversized expressive eyes with fierce personality, chunky stylized anatomy, detailed scales, polished game-cinematic materials, dramatic rim lighting, high-end animated feature-film quality, collectible game character aesthetic, slightly exaggerated proportions, bold armor and accessory shapes when present, rich color contrast, crisp texture detail, atmospheric prehistoric arena environment, shallow cinematic depth of field, dynamic but uncluttered background, no text, no logos, no UI, no frame, no humans, no duplicate dinosaurs, square 1:1 composition. Keep the visual language consistent across the entire collection while making each dinosaur clearly unique. Character: Venommauler, a Velociraptor with pale blue-white scales with slate markings, faint bioluminescent-looking lines, dark iron shoulder plates, and small battle scars across the snout. Pose with confident battle-ready personality in a icy prehistoric valley with blue glacier cliffs. Do not depict attacks, powers, text, numbers, or other combatants."
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Scarletcrest",
+  "description": "Uncommon Giganotosaurus from the Battle Dinos Genesis 333 collection.",
+  "image": "ipfs://REPLACE/280.png",
+  "token_id": 280,
+  "species": "Giganotosaurus",
+  "rarity": "Uncommon",
+  "visual": {
+    "palette": "Sand",
+    "description": "Giganotosaurus with desert tan scales with rust-colored bands, broken dorsal bands, bone-and-leather battle harness, and metal collar with a simple round emblem",
+    "arena": "volcanic jungle arena with glowing lava in the distance"
+  },
+  "moves": [
+    {
+      "name": "Magma Jaw",
+      "power": 87
+    },
+    {
+      "name": "Magma Roar",
+      "power": 79
+    },
+    {
+      "name": "Inferno Rush",
+      "power": 64
+    }
+  ],
+  "image_prompt": "Premium stylized 3D battle dinosaur collectible, designed as a consistent character collection. Full-body dinosaur centered in a powerful three-quarter battle stance, entire body visible from head to feet and tail, strong readable silhouette, oversized expressive eyes with fierce personality, chunky stylized anatomy, detailed scales, polished game-cinematic materials, dramatic rim lighting, high-end animated feature-film quality, collectible game character aesthetic, slightly exaggerated proportions, bold armor and accessory shapes when present, rich color contrast, crisp texture detail, atmospheric prehistoric arena environment, shallow cinematic depth of field, dynamic but uncluttered background, no text, no logos, no UI, no frame, no humans, no duplicate dinosaurs, square 1:1 composition. Keep the visual language consistent across the entire collection while making each dinosaur clearly unique. Character: Scarletcrest, a Giganotosaurus with desert tan scales with rust-colored bands, broken dorsal bands, bone-and-leather battle harness, and metal collar with a simple round emblem. Pose with confident battle-ready personality in a volcanic jungle arena with glowing lava in the distance. Do not depict attacks, powers, text, numbers, or other combatants."
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Chromewarden",
+  "description": "Uncommon Pachycephalosaurus from the Battle Dinos Genesis 333 collection.",
+  "image": "ipfs://REPLACE/46.png",
+  "token_id": 46,
+  "species": "Pachycephalosaurus",
+  "rarity": "Uncommon",
+  "visual": {
+    "palette": "Crimson",
+    "description": "Pachycephalosaurus with deep red scales with ember-orange accents, mottled camouflage, blackened steel leg guards, and leather neck wrap",
+    "arena": "ancient stone-ring arena reclaimed by jungle"
+  },
+  "moves": [
+    {
+      "name": "Venom Dome Crash",
+      "power": 65
+    },
+    {
+      "name": "Venom Rush",
+      "power": 91
+    },
+    {
+      "name": "Toxic Groundbreak",
+      "power": 68
+    }
+  ],
+  "image_prompt": "Premium stylized 3D battle dinosaur collectible, designed as a consistent character collection. Full-body dinosaur centered in a powerful three-quarter battle stance, entire body visible from head to feet and tail, strong readable silhouette, oversized expressive eyes with fierce personality, chunky stylized anatomy, detailed scales, polished game-cinematic materials, dramatic rim lighting, high-end animated feature-film quality, collectible game character aesthetic, slightly exaggerated proportions, bold armor and accessory shapes when present, rich color contrast, crisp texture detail, atmospheric prehistoric arena environment, shallow cinematic depth of field, dynamic but uncluttered background, no text, no logos, no UI, no frame, no humans, no duplicate dinosaurs, square 1:1 composition. Keep the visual language consistent across the entire collection while making each dinosaur clearly unique. Character: Chromewarden, a Pachycephalosaurus with deep red scales with ember-orange accents, mottled camouflage, blackened steel leg guards, and leather neck wrap. Pose with confident battle-ready personality in a ancient stone-ring arena reclaimed by jungle. Do not depict attacks, powers, text, numbers, or other combatants."
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Thundermaw",
+  "description": "Common Stegosaurus from the Battle Dinos Genesis 333 collection.",
+  "image": "ipfs://REPLACE/121.png",
+  "token_id": 121,
+  "species": "Stegosaurus",
+  "rarity": "Common",
+  "visual": {
+    "palette": "Rose",
+    "description": "Stegosaurus with dusty rose scales with burgundy striping, speckled scales, no armor, natural battle-hardened look, and no accessory",
+    "arena": "stormy basalt arena beneath dark clouds"
+  },
+  "moves": [
+    {
+      "name": "Cinder Spike Sweep",
+      "power": 76
+    },
+    {
+      "name": "Inferno Bulwark",
+      "power": 53
+    },
+    {
+      "name": "Magma Groundbreak",
+      "power": 85
+    }
+  ],
+  "image_prompt": "Premium stylized 3D battle dinosaur collectible, designed as a consistent character collection. Full-body dinosaur centered in a powerful three-quarter battle stance, entire body visible from head to feet and tail, strong readable silhouette, oversized expressive eyes with fierce personality, chunky stylized anatomy, detailed scales, polished game-cinematic materials, dramatic rim lighting, high-end animated feature-film quality, collectible game character aesthetic, slightly exaggerated proportions, bold armor and accessory shapes when present, rich color contrast, crisp texture detail, atmospheric prehistoric arena environment, shallow cinematic depth of field, dynamic but uncluttered background, no text, no logos, no UI, no frame, no humans, no duplicate dinosaurs, square 1:1 composition. Keep the visual language consistent across the entire collection while making each dinosaur clearly unique. Character: Thundermaw, a Stegosaurus with dusty rose scales with burgundy striping, speckled scales, no armor, natural battle-hardened look, and no accessory. Pose with confident battle-ready personality in a stormy basalt arena beneath dark clouds. Do not depict attacks, powers, text, numbers, or other combatants."
+}

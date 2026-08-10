@@ -1,0 +1,28 @@
+{
+  "name": "Chromescar",
+  "description": "Epic Parasaurolophus from the Battle Dinos Genesis 333 collection.",
+  "image": "ipfs://REPLACE/266.png",
+  "token_id": 266,
+  "species": "Parasaurolophus",
+  "rarity": "Epic",
+  "visual": {
+    "palette": "Emerald",
+    "description": "Parasaurolophus with emerald green scales with lime highlights, tiger-like flank stripes, minimal reinforced neck guard, and one chipped horn or crest edge",
+    "arena": "lush waterfall arena surrounded by giant ferns"
+  },
+  "moves": [
+    {
+      "name": "Flare Resonance",
+      "power": 76
+    },
+    {
+      "name": "Cinder Blitz",
+      "power": 46
+    },
+    {
+      "name": "Inferno Tail Sweep",
+      "power": 73
+    }
+  ],
+  "image_prompt": "Premium stylized 3D battle dinosaur collectible, designed as a consistent character collection. Full-body dinosaur centered in a powerful three-quarter battle stance, entire body visible from head to feet and tail, strong readable silhouette, oversized expressive eyes with fierce personality, chunky stylized anatomy, detailed scales, polished game-cinematic materials, dramatic rim lighting, high-end animated feature-film quality, collectible game character aesthetic, slightly exaggerated proportions, bold armor and accessory shapes when present, rich color contrast, crisp texture detail, atmospheric prehistoric arena environment, shallow cinematic depth of field, dynamic but uncluttered background, no text, no logos, no UI, no frame, no humans, no duplicate dinosaurs, square 1:1 composition. Keep the visual language consistent across the entire collection while making each dinosaur clearly unique. Character: Chromescar, a Parasaurolophus with emerald green scales with lime highlights, tiger-like flank stripes, minimal reinforced neck guard, and one chipped horn or crest edge. Pose with confident battle-ready personality in a lush waterfall arena surrounded by giant ferns. Do not depict attacks, powers, text, numbers, or other combatants."
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Grimspike",
+  "description": "Rare Pachycephalosaurus from the Battle Dinos Genesis 333 collection.",
+  "image": "ipfs://REPLACE/37.png",
+  "token_id": 37,
+  "species": "Pachycephalosaurus",
+  "rarity": "Rare",
+  "visual": {
+    "palette": "Rose",
+    "description": "Pachycephalosaurus with dusty rose scales with burgundy striping, tiger-like flank stripes, bronze gladiator harness, and weathered claw guards",
+    "arena": "stormy basalt arena beneath dark clouds"
+  },
+  "moves": [
+    {
+      "name": "Dawn Skull Bash",
+      "power": 59
+    },
+    {
+      "name": "Solar Sprint Strike",
+      "power": 76
+    },
+    {
+      "name": "Dawn Tremor",
+      "power": 87
+    }
+  ],
+  "image_prompt": "Premium stylized 3D battle dinosaur collectible, designed as a consistent character collection. Full-body dinosaur centered in a powerful three-quarter battle stance, entire body visible from head to feet and tail, strong readable silhouette, oversized expressive eyes with fierce personality, chunky stylized anatomy, detailed scales, polished game-cinematic materials, dramatic rim lighting, high-end animated feature-film quality, collectible game character aesthetic, slightly exaggerated proportions, bold armor and accessory shapes when present, rich color contrast, crisp texture detail, atmospheric prehistoric arena environment, shallow cinematic depth of field, dynamic but uncluttered background, no text, no logos, no UI, no frame, no humans, no duplicate dinosaurs, square 1:1 composition. Keep the visual language consistent across the entire collection while making each dinosaur clearly unique. Character: Grimspike, a Pachycephalosaurus with dusty rose scales with burgundy striping, tiger-like flank stripes, bronze gladiator harness, and weathered claw guards. Pose with confident battle-ready personality in a stormy basalt arena beneath dark clouds. Do not depict attacks, powers, text, numbers, or other combatants."
+}
