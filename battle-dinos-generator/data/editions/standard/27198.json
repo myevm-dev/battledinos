@@ -1,0 +1,53 @@
+{
+  "token_id": 27198,
+  "base_id": 274,
+  "name": "Azurebane",
+  "edition": 11,
+  "edition_supply": 57,
+  "edition_label": "11/57",
+  "finish": "standard",
+  "species": "Dilophosaurus",
+  "rarity": "Rare",
+  "element": "Stone",
+  "image": "ipfs://REPLACE/274.png",
+  "genetics": {
+    "health": 1.0485,
+    "attack": 0.9665,
+    "defense": 0.9932,
+    "speed": 1.0052,
+    "move_1": 0.9505,
+    "move_2": 0.9917,
+    "move_3": 1.0028
+  },
+  "battle_stats": {
+    "health": 68,
+    "attack": 70,
+    "defense": 56,
+    "speed": 91
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Quake Crest Call",
+      "power": 67
+    },
+    {
+      "slot": 2,
+      "name": "Granite Feint",
+      "power": 63
+    },
+    {
+      "slot": 3,
+      "name": "Boulder Bite",
+      "power": 56
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

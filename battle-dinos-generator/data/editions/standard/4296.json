@@ -1,0 +1,53 @@
+{
+  "token_id": 4296,
+  "base_id": 42,
+  "name": "Duskstalker",
+  "edition": 10,
+  "edition_supply": 45,
+  "edition_label": "10/45",
+  "finish": "standard",
+  "species": "Allosaurus",
+  "rarity": "Rare",
+  "element": "Tide",
+  "image": "ipfs://REPLACE/42.png",
+  "genetics": {
+    "health": 0.9784,
+    "attack": 0.9639,
+    "defense": 1.0173,
+    "speed": 0.9507,
+    "move_1": 0.935,
+    "move_2": 0.9374,
+    "move_3": 1.0248
+  },
+  "battle_stats": {
+    "health": 77,
+    "attack": 77,
+    "defense": 71,
+    "speed": 69
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Torrent Bite",
+      "power": 85
+    },
+    {
+      "slot": 2,
+      "name": "Torrent Claw",
+      "power": 61
+    },
+    {
+      "slot": 3,
+      "name": "Tidal Sprint Strike",
+      "power": 66
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

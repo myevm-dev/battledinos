@@ -1,0 +1,53 @@
+{
+  "token_id": 19705,
+  "base_id": 198,
+  "name": "Wildstrike",
+  "edition": 115,
+  "edition_supply": 119,
+  "edition_label": "115/119",
+  "finish": "standard",
+  "species": "Parasaurolophus",
+  "rarity": "Common",
+  "element": "Shadow",
+  "image": "ipfs://REPLACE/198.png",
+  "genetics": {
+    "health": 1.0385,
+    "attack": 0.968,
+    "defense": 0.9933,
+    "speed": 1.0116,
+    "move_1": 0.9565,
+    "move_2": 1.0464,
+    "move_3": 1.0225
+  },
+  "battle_stats": {
+    "health": 88,
+    "attack": 57,
+    "defense": 73,
+    "speed": 70
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Night Resonance",
+      "power": 65
+    },
+    {
+      "slot": 2,
+      "name": "Dusk Blitz",
+      "power": 58
+    },
+    {
+      "slot": 3,
+      "name": "Shadow Tail Slam",
+      "power": 81
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

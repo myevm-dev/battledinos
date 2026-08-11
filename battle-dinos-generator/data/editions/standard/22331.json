@@ -1,0 +1,53 @@
+{
+  "token_id": 22331,
+  "base_id": 226,
+  "name": "Cragguard",
+  "edition": 70,
+  "edition_supply": 117,
+  "edition_label": "70/117",
+  "finish": "standard",
+  "species": "Utahraptor",
+  "rarity": "Uncommon",
+  "element": "Shadow",
+  "image": "ipfs://REPLACE/226.png",
+  "genetics": {
+    "health": 1.049,
+    "attack": 1.0496,
+    "defense": 1.0257,
+    "speed": 0.954,
+    "move_1": 0.9997,
+    "move_2": 0.943,
+    "move_3": 1.0125
+  },
+  "battle_stats": {
+    "health": 79,
+    "attack": 85,
+    "defense": 58,
+    "speed": 89
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Night Claw",
+      "power": 83
+    },
+    {
+      "slot": 2,
+      "name": "Night Leap",
+      "power": 72
+    },
+    {
+      "slot": 3,
+      "name": "Dusk Feint",
+      "power": 81
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

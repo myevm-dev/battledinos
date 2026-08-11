@@ -1,0 +1,53 @@
+{
+  "token_id": 28248,
+  "base_id": 284,
+  "name": "Emberscale",
+  "edition": 17,
+  "edition_supply": 77,
+  "edition_label": "17/77",
+  "finish": "standard",
+  "species": "Therizinosaurus",
+  "rarity": "Uncommon",
+  "element": "Tide",
+  "image": "ipfs://REPLACE/284.png",
+  "genetics": {
+    "health": 0.9914,
+    "attack": 0.9539,
+    "defense": 0.9935,
+    "speed": 0.9982,
+    "move_1": 0.9269,
+    "move_2": 0.9973,
+    "move_3": 1.0434
+  },
+  "battle_stats": {
+    "health": 77,
+    "attack": 84,
+    "defense": 67,
+    "speed": 70
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Aqua Claw",
+      "power": 44
+    },
+    {
+      "slot": 2,
+      "name": "Tidal Guard",
+      "power": 79
+    },
+    {
+      "slot": 3,
+      "name": "Tidal Crosscut",
+      "power": 85
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

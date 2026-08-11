@@ -1,0 +1,53 @@
+{
+  "token_id": 752,
+  "base_id": 8,
+  "name": "Ghosttail",
+  "edition": 176,
+  "edition_supply": 178,
+  "edition_label": "176/178",
+  "finish": "standard",
+  "species": "Suchomimus",
+  "rarity": "Common",
+  "element": "Frost",
+  "image": "ipfs://REPLACE/8.png",
+  "genetics": {
+    "health": 1.0437,
+    "attack": 1.0354,
+    "defense": 0.9882,
+    "speed": 0.9985,
+    "move_1": 1.0426,
+    "move_2": 1.0705,
+    "move_3": 0.9351
+  },
+  "battle_stats": {
+    "health": 81,
+    "attack": 82,
+    "defense": 69,
+    "speed": 76
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Winter Talon",
+      "power": 72
+    },
+    {
+      "slot": 2,
+      "name": "Glacier Chomp",
+      "power": 86
+    },
+    {
+      "slot": 3,
+      "name": "Winter Lunge",
+      "power": 67
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

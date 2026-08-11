@@ -1,0 +1,53 @@
+{
+  "token_id": 1208,
+  "base_id": 11,
+  "name": "Riftrage",
+  "edition": 111,
+  "edition_supply": 135,
+  "edition_label": "111/135",
+  "finish": "standard",
+  "species": "Baryonyx",
+  "rarity": "Uncommon",
+  "element": "Tide",
+  "image": "ipfs://REPLACE/11.png",
+  "genetics": {
+    "health": 1.0248,
+    "attack": 1.0267,
+    "defense": 0.9639,
+    "speed": 0.99,
+    "move_1": 1.0012,
+    "move_2": 1.0043,
+    "move_3": 0.979
+  },
+  "battle_stats": {
+    "health": 83,
+    "attack": 78,
+    "defense": 61,
+    "speed": 78
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Torrent Claw",
+      "power": 50
+    },
+    {
+      "slot": 2,
+      "name": "Tidal Jaw",
+      "power": 57
+    },
+    {
+      "slot": 3,
+      "name": "Tidal Lunge",
+      "power": 74
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

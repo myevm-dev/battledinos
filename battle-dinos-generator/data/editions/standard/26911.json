@@ -1,0 +1,53 @@
+{
+  "token_id": 26911,
+  "base_id": 271,
+  "name": "Stormhorn",
+  "edition": 102,
+  "edition_supply": 118,
+  "edition_label": "102/118",
+  "finish": "standard",
+  "species": "Iguanodon",
+  "rarity": "Common",
+  "element": "Primal",
+  "image": "ipfs://REPLACE/271.png",
+  "genetics": {
+    "health": 0.9868,
+    "attack": 1.0354,
+    "defense": 0.9554,
+    "speed": 1.0447,
+    "move_1": 1.0626,
+    "move_2": 0.9533,
+    "move_3": 0.9472
+  },
+  "battle_stats": {
+    "health": 84,
+    "attack": 67,
+    "defense": 70,
+    "speed": 72
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Wild Spike Jab",
+      "power": 67
+    },
+    {
+      "slot": 2,
+      "name": "Alpha Blitz",
+      "power": 73
+    },
+    {
+      "slot": 3,
+      "name": "Savage Shell",
+      "power": 65
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

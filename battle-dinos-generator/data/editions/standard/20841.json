@@ -1,0 +1,53 @@
+{
+  "token_id": 20841,
+  "base_id": 210,
+  "name": "Pyrestrike",
+  "edition": 21,
+  "edition_supply": 86,
+  "edition_label": "21/86",
+  "finish": "standard",
+  "species": "Ceratosaurus",
+  "rarity": "Uncommon",
+  "element": "Solar",
+  "image": "ipfs://REPLACE/210.png",
+  "genetics": {
+    "health": 1.0358,
+    "attack": 1.0328,
+    "defense": 1.0471,
+    "speed": 1.017,
+    "move_1": 0.9783,
+    "move_2": 1.0192,
+    "move_3": 0.9753
+  },
+  "battle_stats": {
+    "health": 77,
+    "attack": 87,
+    "defense": 72,
+    "speed": 72
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Radiant Gore",
+      "power": 53
+    },
+    {
+      "slot": 2,
+      "name": "Solar Bite",
+      "power": 67
+    },
+    {
+      "slot": 3,
+      "name": "Radiant Roar",
+      "power": 85
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

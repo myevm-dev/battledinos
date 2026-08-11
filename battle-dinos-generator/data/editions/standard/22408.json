@@ -1,0 +1,53 @@
+{
+  "token_id": 22408,
+  "base_id": 227,
+  "name": "Cindertooth",
+  "edition": 30,
+  "edition_supply": 110,
+  "edition_label": "30/110",
+  "finish": "standard",
+  "species": "Carnotaurus",
+  "rarity": "Uncommon",
+  "element": "Storm",
+  "image": "ipfs://REPLACE/227.png",
+  "genetics": {
+    "health": 0.9835,
+    "attack": 0.9547,
+    "defense": 0.9542,
+    "speed": 0.994,
+    "move_1": 0.9971,
+    "move_2": 0.9312,
+    "move_3": 1.0489
+  },
+  "battle_stats": {
+    "health": 72,
+    "attack": 85,
+    "defense": 57,
+    "speed": 81
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Lightning Horn Strike",
+      "power": 49
+    },
+    {
+      "slot": 2,
+      "name": "Static Sprint Strike",
+      "power": 69
+    },
+    {
+      "slot": 3,
+      "name": "Thunder Chomp",
+      "power": 96
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

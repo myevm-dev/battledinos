@@ -1,0 +1,53 @@
+{
+  "token_id": 6618,
+  "base_id": 66,
+  "name": "Boulderwarden",
+  "edition": 32,
+  "edition_supply": 125,
+  "edition_label": "32/125",
+  "finish": "standard",
+  "species": "Parasaurolophus",
+  "rarity": "Uncommon",
+  "element": "Shadow",
+  "image": "ipfs://REPLACE/66.png",
+  "genetics": {
+    "health": 0.9978,
+    "attack": 0.9853,
+    "defense": 1.0268,
+    "speed": 0.9896,
+    "move_1": 1.0632,
+    "move_2": 1.0607,
+    "move_3": 0.9649
+  },
+  "battle_stats": {
+    "health": 78,
+    "attack": 63,
+    "defense": 75,
+    "speed": 72
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Night Crest Pulse",
+      "power": 49
+    },
+    {
+      "slot": 2,
+      "name": "Phantom Rush",
+      "power": 76
+    },
+    {
+      "slot": 3,
+      "name": "Phantom Tail Slam",
+      "power": 76
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

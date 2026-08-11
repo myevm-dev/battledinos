@@ -1,0 +1,53 @@
+{
+  "token_id": 27785,
+  "base_id": 279,
+  "name": "Dustrunner",
+  "edition": 66,
+  "edition_supply": 72,
+  "edition_label": "66/72",
+  "finish": "standard",
+  "species": "Suchomimus",
+  "rarity": "Uncommon",
+  "element": "Shadow",
+  "image": "ipfs://REPLACE/279.png",
+  "genetics": {
+    "health": 0.9826,
+    "attack": 0.988,
+    "defense": 1.0022,
+    "speed": 0.9777,
+    "move_1": 1.032,
+    "move_2": 0.9202,
+    "move_3": 1.044
+  },
+  "battle_stats": {
+    "health": 74,
+    "attack": 79,
+    "defense": 69,
+    "speed": 77
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Dusk Rake",
+      "power": 65
+    },
+    {
+      "slot": 2,
+      "name": "Phantom Jaw",
+      "power": 83
+    },
+    {
+      "slot": 3,
+      "name": "Dusk Snap Lunge",
+      "power": 50
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

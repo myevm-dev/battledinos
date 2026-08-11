@@ -1,0 +1,53 @@
+{
+  "token_id": 11031,
+  "base_id": 112,
+  "name": "Dustclaw",
+  "edition": 7,
+  "edition_supply": 31,
+  "edition_label": "7/31",
+  "finish": "standard",
+  "species": "Utahraptor",
+  "rarity": "Epic",
+  "element": "Void",
+  "image": "ipfs://REPLACE/112.png",
+  "genetics": {
+    "health": 0.9683,
+    "attack": 1.0346,
+    "defense": 0.9825,
+    "speed": 0.9937,
+    "move_1": 1.0172,
+    "move_2": 1.0144,
+    "move_3": 1.0216
+  },
+  "battle_stats": {
+    "health": 69,
+    "attack": 88,
+    "defense": 61,
+    "speed": 87
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Abyss Talon",
+      "power": 58
+    },
+    {
+      "slot": 2,
+      "name": "Abyss Pounce",
+      "power": 83
+    },
+    {
+      "slot": 3,
+      "name": "Null Feint",
+      "power": 60
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

@@ -1,0 +1,53 @@
+{
+  "token_id": 19714,
+  "base_id": 199,
+  "name": "Vortextalon",
+  "edition": 5,
+  "edition_supply": 90,
+  "edition_label": "5/90",
+  "finish": "standard",
+  "species": "Pachycephalosaurus",
+  "rarity": "Common",
+  "element": "Ember",
+  "image": "ipfs://REPLACE/199.png",
+  "genetics": {
+    "health": 1.0291,
+    "attack": 1.0113,
+    "defense": 0.951,
+    "speed": 0.9612,
+    "move_1": 1.0199,
+    "move_2": 1.0458,
+    "move_3": 1.03
+  },
+  "battle_stats": {
+    "health": 80,
+    "attack": 82,
+    "defense": 68,
+    "speed": 68
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Inferno Dome Crash",
+      "power": 47
+    },
+    {
+      "slot": 2,
+      "name": "Magma Sprint Strike",
+      "power": 95
+    },
+    {
+      "slot": 3,
+      "name": "Magma Tremor",
+      "power": 49
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

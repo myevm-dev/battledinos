@@ -1,28 +1,44 @@
 {
+  "base_id": 206,
   "name": "Duskstrike",
-  "description": "Rare Allosaurus from the Battle Dinos Genesis 333 collection.",
-  "image": "ipfs://REPLACE/206.png",
-  "token_id": 206,
+  "description": "Rare Allosaurus Battle Dinos base archetype.",
   "species": "Allosaurus",
   "rarity": "Rare",
+  "element": "Venom",
+  "image": "ipfs://REPLACE/206.png",
   "visual": {
     "palette": "Jade",
     "description": "Allosaurus with jade scales with turquoise accents, broken dorsal bands, blackened steel leg guards, and bone charm tied near the shoulder",
     "arena": "sunlit prehistoric jungle clearing"
   },
+  "base_battle_stats": {
+    "health": 79,
+    "attack": 83,
+    "defense": 71,
+    "speed": 71
+  },
   "moves": [
     {
+      "slot": 1,
       "name": "Viper Bite",
-      "power": 94
+      "base_power": 94
     },
     {
+      "slot": 2,
       "name": "Acid Rake",
-      "power": 53
+      "base_power": 53
     },
     {
+      "slot": 3,
       "name": "Venom Blitz",
-      "power": 80
+      "base_power": 80
     }
   ],
+  "starting_state": {
+    "level": 1,
+    "xp": 0,
+    "evolution_stage": 0,
+    "mutations": []
+  },
   "image_prompt": "Premium stylized 3D battle dinosaur collectible, designed as a consistent character collection. Full-body dinosaur centered in a powerful three-quarter battle stance, entire body visible from head to feet and tail, strong readable silhouette, oversized expressive eyes with fierce personality, chunky stylized anatomy, detailed scales, polished game-cinematic materials, dramatic rim lighting, high-end animated feature-film quality, collectible game character aesthetic, slightly exaggerated proportions, bold armor and accessory shapes when present, rich color contrast, crisp texture detail, atmospheric prehistoric arena environment, shallow cinematic depth of field, dynamic but uncluttered background, no text, no logos, no UI, no frame, no humans, no duplicate dinosaurs, square 1:1 composition. Keep the visual language consistent across the entire collection while making each dinosaur clearly unique. Character: Duskstrike, a Allosaurus with jade scales with turquoise accents, broken dorsal bands, blackened steel leg guards, and bone charm tied near the shoulder. Pose with confident battle-ready personality in a sunlit prehistoric jungle clearing. Do not depict attacks, powers, text, numbers, or other combatants."
 }

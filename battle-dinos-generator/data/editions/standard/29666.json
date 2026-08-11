@@ -1,0 +1,53 @@
+{
+  "token_id": 29666,
+  "base_id": 297,
+  "name": "Frostbreaker",
+  "edition": 91,
+  "edition_supply": 98,
+  "edition_label": "91/98",
+  "finish": "standard",
+  "species": "Ceratosaurus",
+  "rarity": "Common",
+  "element": "Solar",
+  "image": "ipfs://REPLACE/297.png",
+  "genetics": {
+    "health": 0.9932,
+    "attack": 0.9668,
+    "defense": 0.9606,
+    "speed": 1.0345,
+    "move_1": 0.9381,
+    "move_2": 1.0536,
+    "move_3": 0.9854
+  },
+  "battle_stats": {
+    "health": 74,
+    "attack": 81,
+    "defense": 64,
+    "speed": 76
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Radiant Gore",
+      "power": 86
+    },
+    {
+      "slot": 2,
+      "name": "Solar Jaw",
+      "power": 47
+    },
+    {
+      "slot": 3,
+      "name": "Dawn Bellow",
+      "power": 46
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

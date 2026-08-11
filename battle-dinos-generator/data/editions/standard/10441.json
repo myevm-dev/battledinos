@@ -1,0 +1,53 @@
+{
+  "token_id": 10441,
+  "base_id": 107,
+  "name": "Scarletmaw",
+  "edition": 42,
+  "edition_supply": 162,
+  "edition_label": "42/162",
+  "finish": "standard",
+  "species": "Carnotaurus",
+  "rarity": "Common",
+  "element": "Ember",
+  "image": "ipfs://REPLACE/107.png",
+  "genetics": {
+    "health": 0.9851,
+    "attack": 0.9923,
+    "defense": 0.9769,
+    "speed": 1.0448,
+    "move_1": 0.9567,
+    "move_2": 1.0343,
+    "move_3": 0.9434
+  },
+  "battle_stats": {
+    "health": 67,
+    "attack": 87,
+    "defense": 61,
+    "speed": 90
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Inferno Horn Breaker",
+      "power": 54
+    },
+    {
+      "slot": 2,
+      "name": "Cinder Sprint Strike",
+      "power": 94
+    },
+    {
+      "slot": 3,
+      "name": "Cinder Jaw",
+      "power": 75
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

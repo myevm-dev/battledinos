@@ -1,0 +1,53 @@
+{
+  "token_id": 32865,
+  "base_id": 328,
+  "name": "Titanfang",
+  "edition": 102,
+  "edition_supply": 129,
+  "edition_label": "102/129",
+  "finish": "standard",
+  "species": "Baryonyx",
+  "rarity": "Common",
+  "element": "Storm",
+  "image": "ipfs://REPLACE/328.png",
+  "genetics": {
+    "health": 1.0357,
+    "attack": 0.9618,
+    "defense": 0.9979,
+    "speed": 1.0226,
+    "move_1": 0.9674,
+    "move_2": 0.9752,
+    "move_3": 1.0632
+  },
+  "battle_stats": {
+    "health": 79,
+    "attack": 76,
+    "defense": 68,
+    "speed": 80
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Lightning Talon",
+      "power": 71
+    },
+    {
+      "slot": 2,
+      "name": "Tempest Bite",
+      "power": 58
+    },
+    {
+      "slot": 3,
+      "name": "Thunder Lunge",
+      "power": 64
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

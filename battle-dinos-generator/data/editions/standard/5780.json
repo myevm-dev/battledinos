@@ -1,0 +1,53 @@
+{
+  "token_id": 5780,
+  "base_id": 57,
+  "name": "Cindermaw",
+  "edition": 105,
+  "edition_supply": 172,
+  "edition_label": "105/172",
+  "finish": "standard",
+  "species": "Ankylosaurus",
+  "rarity": "Common",
+  "element": "Frost",
+  "image": "ipfs://REPLACE/57.png",
+  "genetics": {
+    "health": 1.0416,
+    "attack": 0.9828,
+    "defense": 1.0447,
+    "speed": 0.9813,
+    "move_1": 0.9989,
+    "move_2": 0.9836,
+    "move_3": 0.9829
+  },
+  "battle_stats": {
+    "health": 103,
+    "attack": 65,
+    "defense": 97,
+    "speed": 34
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Ice Club Smash",
+      "power": 82
+    },
+    {
+      "slot": 2,
+      "name": "Glacier Guard",
+      "power": 62
+    },
+    {
+      "slot": 3,
+      "name": "Winter Body Check",
+      "power": 89
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

@@ -1,0 +1,53 @@
+{
+  "token_id": 7007,
+  "base_id": 71,
+  "name": "Venommauler",
+  "edition": 66,
+  "edition_supply": 102,
+  "edition_label": "66/102",
+  "finish": "standard",
+  "species": "Velociraptor",
+  "rarity": "Uncommon",
+  "element": "Solar",
+  "image": "ipfs://REPLACE/71.png",
+  "genetics": {
+    "health": 0.9768,
+    "attack": 1.035,
+    "defense": 0.983,
+    "speed": 1.0,
+    "move_1": 0.995,
+    "move_2": 0.9753,
+    "move_3": 0.9947
+  },
+  "battle_stats": {
+    "health": 66,
+    "attack": 75,
+    "defense": 58,
+    "speed": 92
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Solar Talon",
+      "power": 57
+    },
+    {
+      "slot": 2,
+      "name": "Radiant Leap",
+      "power": 54
+    },
+    {
+      "slot": 3,
+      "name": "Radiant Fakeout",
+      "power": 70
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

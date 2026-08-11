@@ -1,0 +1,53 @@
+{
+  "token_id": 30136,
+  "base_id": 301,
+  "name": "Novascar",
+  "edition": 107,
+  "edition_supply": 153,
+  "edition_label": "107/153",
+  "finish": "standard",
+  "species": "Giganotosaurus",
+  "rarity": "Common",
+  "element": "Primal",
+  "image": "ipfs://REPLACE/301.png",
+  "genetics": {
+    "health": 0.983,
+    "attack": 0.9854,
+    "defense": 1.0186,
+    "speed": 0.9907,
+    "move_1": 0.9869,
+    "move_2": 1.0294,
+    "move_3": 1.0728
+  },
+  "battle_stats": {
+    "health": 85,
+    "attack": 94,
+    "defense": 72,
+    "speed": 59
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Wild Jaw",
+      "power": 67
+    },
+    {
+      "slot": 2,
+      "name": "Primal Bellow",
+      "power": 81
+    },
+    {
+      "slot": 3,
+      "name": "Wild Blitz",
+      "power": 78
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

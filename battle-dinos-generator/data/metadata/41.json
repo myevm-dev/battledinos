@@ -1,28 +1,44 @@
 {
+  "base_id": 41,
   "name": "Riftcrest",
-  "description": "Rare Utahraptor from the Battle Dinos Genesis 333 collection.",
-  "image": "ipfs://REPLACE/41.png",
-  "token_id": 41,
+  "description": "Rare Utahraptor Battle Dinos base archetype.",
   "species": "Utahraptor",
   "rarity": "Rare",
+  "element": "Ember",
+  "image": "ipfs://REPLACE/41.png",
   "visual": {
     "palette": "Sand",
     "description": "Utahraptor with desert tan scales with rust-colored bands, angular shoulder markings, obsidian-colored ceremonial armor, and leather neck wrap",
     "arena": "desert fossil basin with windblown dust"
   },
+  "base_battle_stats": {
+    "health": 69,
+    "attack": 88,
+    "defense": 63,
+    "speed": 86
+  },
   "moves": [
     {
+      "slot": 1,
       "name": "Magma Talon",
-      "power": 51
+      "base_power": 51
     },
     {
+      "slot": 2,
       "name": "Magma Ambush",
-      "power": 46
+      "base_power": 46
     },
     {
+      "slot": 3,
       "name": "Cinder Fakeout",
-      "power": 55
+      "base_power": 55
     }
   ],
+  "starting_state": {
+    "level": 1,
+    "xp": 0,
+    "evolution_stage": 0,
+    "mutations": []
+  },
   "image_prompt": "Premium stylized 3D battle dinosaur collectible, designed as a consistent character collection. Full-body dinosaur centered in a powerful three-quarter battle stance, entire body visible from head to feet and tail, strong readable silhouette, oversized expressive eyes with fierce personality, chunky stylized anatomy, detailed scales, polished game-cinematic materials, dramatic rim lighting, high-end animated feature-film quality, collectible game character aesthetic, slightly exaggerated proportions, bold armor and accessory shapes when present, rich color contrast, crisp texture detail, atmospheric prehistoric arena environment, shallow cinematic depth of field, dynamic but uncluttered background, no text, no logos, no UI, no frame, no humans, no duplicate dinosaurs, square 1:1 composition. Keep the visual language consistent across the entire collection while making each dinosaur clearly unique. Character: Riftcrest, a Utahraptor with desert tan scales with rust-colored bands, angular shoulder markings, obsidian-colored ceremonial armor, and leather neck wrap. Pose with confident battle-ready personality in a desert fossil basin with windblown dust. Do not depict attacks, powers, text, numbers, or other combatants."
 }

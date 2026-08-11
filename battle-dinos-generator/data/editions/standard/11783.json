@@ -1,0 +1,53 @@
+{
+  "token_id": 11783,
+  "base_id": 124,
+  "name": "Vortexshard",
+  "edition": 5,
+  "edition_supply": 83,
+  "edition_label": "5/83",
+  "finish": "standard",
+  "species": "Suchomimus",
+  "rarity": "Uncommon",
+  "element": "Storm",
+  "image": "ipfs://REPLACE/124.png",
+  "genetics": {
+    "health": 0.9691,
+    "attack": 1.0186,
+    "defense": 1.0386,
+    "speed": 0.9558,
+    "move_1": 1.0524,
+    "move_2": 0.9428,
+    "move_3": 0.9684
+  },
+  "battle_stats": {
+    "health": 76,
+    "attack": 84,
+    "defense": 68,
+    "speed": 72
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Lightning Rake",
+      "power": 68
+    },
+    {
+      "slot": 2,
+      "name": "Thunder Bite",
+      "power": 54
+    },
+    {
+      "slot": 3,
+      "name": "Static River Rush",
+      "power": 50
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

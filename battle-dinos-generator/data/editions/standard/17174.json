@@ -1,0 +1,53 @@
+{
+  "token_id": 17174,
+  "base_id": 178,
+  "name": "Pyrehide",
+  "edition": 86,
+  "edition_supply": 130,
+  "edition_label": "86/130",
+  "finish": "standard",
+  "species": "Allosaurus",
+  "rarity": "Common",
+  "element": "Venom",
+  "image": "ipfs://REPLACE/178.png",
+  "genetics": {
+    "health": 1.0449,
+    "attack": 0.9832,
+    "defense": 1.0271,
+    "speed": 0.9632,
+    "move_1": 0.9697,
+    "move_2": 0.9265,
+    "move_3": 1.0687
+  },
+  "battle_stats": {
+    "health": 86,
+    "attack": 85,
+    "defense": 67,
+    "speed": 66
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Venom Jaw",
+      "power": 91
+    },
+    {
+      "slot": 2,
+      "name": "Toxic Claw",
+      "power": 83
+    },
+    {
+      "slot": 3,
+      "name": "Acid Sprint Strike",
+      "power": 89
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

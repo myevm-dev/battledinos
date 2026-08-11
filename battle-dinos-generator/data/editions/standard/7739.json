@@ -1,0 +1,53 @@
+{
+  "token_id": 7739,
+  "base_id": 80,
+  "name": "Solarcrest",
+  "edition": 94,
+  "edition_supply": 120,
+  "edition_label": "94/120",
+  "finish": "standard",
+  "species": "Triceratops",
+  "rarity": "Common",
+  "element": "Stone",
+  "image": "ipfs://REPLACE/80.png",
+  "genetics": {
+    "health": 1.0189,
+    "attack": 0.9834,
+    "defense": 0.9736,
+    "speed": 0.9643,
+    "move_1": 1.0774,
+    "move_2": 0.9982,
+    "move_3": 0.9313
+  },
+  "battle_stats": {
+    "health": 92,
+    "attack": 76,
+    "defense": 89,
+    "speed": 41
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Stone Horn Strike",
+      "power": 96
+    },
+    {
+      "slot": 2,
+      "name": "Boulder Stampede",
+      "power": 56
+    },
+    {
+      "slot": 3,
+      "name": "Boulder Shell",
+      "power": 79
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

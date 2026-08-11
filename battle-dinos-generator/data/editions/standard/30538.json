@@ -1,0 +1,53 @@
+{
+  "token_id": 30538,
+  "base_id": 305,
+  "name": "Titanmauler",
+  "edition": 3,
+  "edition_supply": 64,
+  "edition_label": "3/64",
+  "finish": "standard",
+  "species": "Baryonyx",
+  "rarity": "Rare",
+  "element": "Primal",
+  "image": "ipfs://REPLACE/305.png",
+  "genetics": {
+    "health": 1.0027,
+    "attack": 1.045,
+    "defense": 1.006,
+    "speed": 1.0345,
+    "move_1": 0.9372,
+    "move_2": 0.9362,
+    "move_3": 0.9621
+  },
+  "battle_stats": {
+    "health": 74,
+    "attack": 88,
+    "defense": 68,
+    "speed": 78
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Savage Claw",
+      "power": 67
+    },
+    {
+      "slot": 2,
+      "name": "Primal Bite",
+      "power": 43
+    },
+    {
+      "slot": 3,
+      "name": "Primal Snap Lunge",
+      "power": 79
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

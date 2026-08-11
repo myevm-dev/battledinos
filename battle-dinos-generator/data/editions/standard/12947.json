@@ -1,0 +1,53 @@
+{
+  "token_id": 12947,
+  "base_id": 137,
+  "name": "Ashwarden",
+  "edition": 5,
+  "edition_supply": 73,
+  "edition_label": "5/73",
+  "finish": "standard",
+  "species": "Allosaurus",
+  "rarity": "Uncommon",
+  "element": "Storm",
+  "image": "ipfs://REPLACE/137.png",
+  "genetics": {
+    "health": 1.0394,
+    "attack": 0.9729,
+    "defense": 1.0335,
+    "speed": 1.0314,
+    "move_1": 0.9555,
+    "move_2": 1.0541,
+    "move_3": 0.9539
+  },
+  "battle_stats": {
+    "health": 81,
+    "attack": 84,
+    "defense": 73,
+    "speed": 71
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Thunder Bite",
+      "power": 58
+    },
+    {
+      "slot": 2,
+      "name": "Static Rake",
+      "power": 67
+    },
+    {
+      "slot": 3,
+      "name": "Thunder Sprint Strike",
+      "power": 75
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

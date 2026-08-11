@@ -1,0 +1,53 @@
+{
+  "token_id": 14477,
+  "base_id": 150,
+  "name": "Jadehunter",
+  "edition": 18,
+  "edition_supply": 109,
+  "edition_label": "18/109",
+  "finish": "standard",
+  "species": "Deinonychus",
+  "rarity": "Common",
+  "element": "Solar",
+  "image": "ipfs://REPLACE/150.png",
+  "genetics": {
+    "health": 1.0114,
+    "attack": 0.9728,
+    "defense": 0.9707,
+    "speed": 0.9692,
+    "move_1": 0.9624,
+    "move_2": 0.9697,
+    "move_3": 1.004
+  },
+  "battle_stats": {
+    "health": 71,
+    "attack": 70,
+    "defense": 55,
+    "speed": 91
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Sun Claw",
+      "power": 50
+    },
+    {
+      "slot": 2,
+      "name": "Radiant Pounce",
+      "power": 86
+    },
+    {
+      "slot": 3,
+      "name": "Radiant Sprint Strike",
+      "power": 46
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

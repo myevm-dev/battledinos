@@ -1,0 +1,53 @@
+{
+  "token_id": 12638,
+  "base_id": 134,
+  "name": "Copperhide",
+  "edition": 44,
+  "edition_supply": 85,
+  "edition_label": "44/85",
+  "finish": "standard",
+  "species": "Allosaurus",
+  "rarity": "Uncommon",
+  "element": "Tide",
+  "image": "ipfs://REPLACE/134.png",
+  "genetics": {
+    "health": 0.9533,
+    "attack": 0.9512,
+    "defense": 1.0071,
+    "speed": 0.9648,
+    "move_1": 0.9701,
+    "move_2": 0.9405,
+    "move_3": 1.0241
+  },
+  "battle_stats": {
+    "health": 75,
+    "attack": 77,
+    "defense": 72,
+    "speed": 69
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Aqua Jaw",
+      "power": 61
+    },
+    {
+      "slot": 2,
+      "name": "Aqua Talon",
+      "power": 85
+    },
+    {
+      "slot": 3,
+      "name": "Riptide Rush",
+      "power": 79
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

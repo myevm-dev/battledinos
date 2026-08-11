@@ -1,0 +1,53 @@
+{
+  "token_id": 565,
+  "base_id": 7,
+  "name": "Coppertail",
+  "edition": 31,
+  "edition_supply": 42,
+  "edition_label": "31/42",
+  "finish": "standard",
+  "species": "Suchomimus",
+  "rarity": "Rare",
+  "element": "Stone",
+  "image": "ipfs://REPLACE/7.png",
+  "genetics": {
+    "health": 1.0141,
+    "attack": 0.9569,
+    "defense": 0.9657,
+    "speed": 1.0277,
+    "move_1": 1.0746,
+    "move_2": 0.9893,
+    "move_3": 0.9425
+  },
+  "battle_stats": {
+    "health": 81,
+    "attack": 78,
+    "defense": 62,
+    "speed": 81
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Granite Talon",
+      "power": 49
+    },
+    {
+      "slot": 2,
+      "name": "Boulder Chomp",
+      "power": 84
+    },
+    {
+      "slot": 3,
+      "name": "Boulder Snap Lunge",
+      "power": 71
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

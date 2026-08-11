@@ -1,0 +1,53 @@
+{
+  "token_id": 2038,
+  "base_id": 19,
+  "name": "Stormtail",
+  "edition": 92,
+  "edition_supply": 118,
+  "edition_label": "92/118",
+  "finish": "standard",
+  "species": "Stegosaurus",
+  "rarity": "Common",
+  "element": "Ember",
+  "image": "ipfs://REPLACE/19.png",
+  "genetics": {
+    "health": 0.9871,
+    "attack": 1.0443,
+    "defense": 0.9702,
+    "speed": 1.0208,
+    "move_1": 1.04,
+    "move_2": 0.9657,
+    "move_3": 0.9476
+  },
+  "battle_stats": {
+    "health": 87,
+    "attack": 69,
+    "defense": 84,
+    "speed": 46
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Inferno Spike Sweep",
+      "power": 69
+    },
+    {
+      "slot": 2,
+      "name": "Flare Guard",
+      "power": 48
+    },
+    {
+      "slot": 3,
+      "name": "Flare Tremor",
+      "power": 45
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

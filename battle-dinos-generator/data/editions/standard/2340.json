@@ -1,0 +1,53 @@
+{
+  "token_id": 2340,
+  "base_id": 22,
+  "name": "Emberbreaker",
+  "edition": 7,
+  "edition_supply": 30,
+  "edition_label": "7/30",
+  "finish": "standard",
+  "species": "Ankylosaurus",
+  "rarity": "Epic",
+  "element": "Ember",
+  "image": "ipfs://REPLACE/22.png",
+  "genetics": {
+    "health": 0.9635,
+    "attack": 0.982,
+    "defense": 0.99,
+    "speed": 0.9668,
+    "move_1": 1.0542,
+    "move_2": 0.951,
+    "move_3": 0.9241
+  },
+  "battle_stats": {
+    "health": 88,
+    "attack": 60,
+    "defense": 97,
+    "speed": 38
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Cinder Hammer Tail",
+      "power": 57
+    },
+    {
+      "slot": 2,
+      "name": "Inferno Shell",
+      "power": 52
+    },
+    {
+      "slot": 3,
+      "name": "Magma Body Check",
+      "power": 73
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

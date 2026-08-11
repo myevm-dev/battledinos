@@ -1,0 +1,53 @@
+{
+  "token_id": 30294,
+  "base_id": 303,
+  "name": "Titanhorn",
+  "edition": 7,
+  "edition_supply": 130,
+  "edition_label": "7/130",
+  "finish": "standard",
+  "species": "Giganotosaurus",
+  "rarity": "Common",
+  "element": "Venom",
+  "image": "ipfs://REPLACE/303.png",
+  "genetics": {
+    "health": 0.994,
+    "attack": 1.0084,
+    "defense": 1.0363,
+    "speed": 1.0019,
+    "move_1": 0.9839,
+    "move_2": 0.9835,
+    "move_3": 1.0531
+  },
+  "battle_stats": {
+    "health": 88,
+    "attack": 96,
+    "defense": 75,
+    "speed": 57
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Acid Bite",
+      "power": 92
+    },
+    {
+      "slot": 2,
+      "name": "Venom Bellow",
+      "power": 51
+    },
+    {
+      "slot": 3,
+      "name": "Venom Sprint Strike",
+      "power": 64
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

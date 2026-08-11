@@ -1,0 +1,53 @@
+{
+  "token_id": 8730,
+  "base_id": 91,
+  "name": "Rifttooth",
+  "edition": 23,
+  "edition_supply": 96,
+  "edition_label": "23/96",
+  "finish": "standard",
+  "species": "Ankylosaurus",
+  "rarity": "Common",
+  "element": "Frost",
+  "image": "ipfs://REPLACE/91.png",
+  "genetics": {
+    "health": 0.9505,
+    "attack": 0.9885,
+    "defense": 0.9672,
+    "speed": 1.0404,
+    "move_1": 1.0703,
+    "move_2": 0.9361,
+    "move_3": 1.0767
+  },
+  "battle_stats": {
+    "health": 90,
+    "attack": 66,
+    "defense": 91,
+    "speed": 37
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Winter Club Smash",
+      "power": 90
+    },
+    {
+      "slot": 2,
+      "name": "Glacier Bulwark",
+      "power": 86
+    },
+    {
+      "slot": 3,
+      "name": "Ice Ram",
+      "power": 96
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

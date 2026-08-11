@@ -1,0 +1,53 @@
+{
+  "token_id": 28312,
+  "base_id": 285,
+  "name": "Blazeroar",
+  "edition": 4,
+  "edition_supply": 77,
+  "edition_label": "4/77",
+  "finish": "standard",
+  "species": "Tyrannosaurus",
+  "rarity": "Uncommon",
+  "element": "Tide",
+  "image": "ipfs://REPLACE/285.png",
+  "genetics": {
+    "health": 0.973,
+    "attack": 0.9538,
+    "defense": 0.9941,
+    "speed": 1.0381,
+    "move_1": 1.0774,
+    "move_2": 1.0488,
+    "move_3": 1.0293
+  },
+  "battle_stats": {
+    "health": 88,
+    "attack": 85,
+    "defense": 71,
+    "speed": 60
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Aqua Jaw",
+      "power": 60
+    },
+    {
+      "slot": 2,
+      "name": "Aqua Bellow",
+      "power": 79
+    },
+    {
+      "slot": 3,
+      "name": "Torrent Tail Crash",
+      "power": 64
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

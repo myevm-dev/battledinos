@@ -1,0 +1,65 @@
+{
+  "collection": "Battle Dinos",
+  "version": "standard-editions-v1",
+  "base_archetypes": 333,
+  "standard_supply": 33300,
+  "foil_supply": 0,
+  "total_current_supply": 33300,
+  "supply_seed": 33300,
+  "supply_ranges": {
+    "Common": {
+      "min": 75,
+      "max": 190
+    },
+    "Uncommon": {
+      "min": 55,
+      "max": 135
+    },
+    "Rare": {
+      "min": 25,
+      "max": 90
+    },
+    "Epic": {
+      "min": 8,
+      "max": 45
+    },
+    "Legendary": {
+      "min": 2,
+      "max": 20
+    }
+  },
+  "genetics": {
+    "stat_multiplier_range": {
+      "min": 0.95,
+      "max": 1.05
+    },
+    "move_multiplier_range": {
+      "min": 0.92,
+      "max": 1.08
+    },
+    "note": "Genetics are deterministic per base_id and edition. All copies preserve their base archetype's name, art, species, element, rarity, and three move names."
+  },
+  "rarity_summary": {
+    "Common": {
+      "archetypes": 167,
+      "standard_editions": 21646
+    },
+    "Uncommon": {
+      "archetypes": 83,
+      "standard_editions": 7903
+    },
+    "Rare": {
+      "archetypes": 50,
+      "standard_editions": 2942
+    },
+    "Epic": {
+      "archetypes": 25,
+      "standard_editions": 708
+    },
+    "Legendary": {
+      "archetypes": 8,
+      "standard_editions": 101
+    }
+  },
+  "foil_note": "Holo, reverse holo, and other special finishes are intentionally excluded from this standard-edition supply and can be layered on later."
+}

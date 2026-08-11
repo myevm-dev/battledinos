@@ -1,0 +1,53 @@
+{
+  "token_id": 11565,
+  "base_id": 121,
+  "name": "Thundermaw",
+  "edition": 92,
+  "edition_supply": 177,
+  "edition_label": "92/177",
+  "finish": "standard",
+  "species": "Stegosaurus",
+  "rarity": "Common",
+  "element": "Ember",
+  "image": "ipfs://REPLACE/121.png",
+  "genetics": {
+    "health": 1.0375,
+    "attack": 0.9731,
+    "defense": 0.9766,
+    "speed": 0.9922,
+    "move_1": 1.0697,
+    "move_2": 0.9376,
+    "move_3": 0.9514
+  },
+  "battle_stats": {
+    "health": 92,
+    "attack": 67,
+    "defense": 85,
+    "speed": 43
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Cinder Spike Sweep",
+      "power": 81
+    },
+    {
+      "slot": 2,
+      "name": "Inferno Bulwark",
+      "power": 50
+    },
+    {
+      "slot": 3,
+      "name": "Magma Groundbreak",
+      "power": 81
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

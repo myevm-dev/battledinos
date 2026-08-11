@@ -1,0 +1,53 @@
+{
+  "token_id": 3591,
+  "base_id": 32,
+  "name": "Onyxrush",
+  "edition": 121,
+  "edition_supply": 149,
+  "edition_label": "121/149",
+  "finish": "standard",
+  "species": "Styracosaurus",
+  "rarity": "Common",
+  "element": "Venom",
+  "image": "ipfs://REPLACE/32.png",
+  "genetics": {
+    "health": 0.967,
+    "attack": 1.0359,
+    "defense": 0.9719,
+    "speed": 0.9952,
+    "move_1": 0.9702,
+    "move_2": 0.9703,
+    "move_3": 1.0244
+  },
+  "battle_stats": {
+    "health": 88,
+    "attack": 79,
+    "defense": 88,
+    "speed": 45
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Venom Gore",
+      "power": 88
+    },
+    {
+      "slot": 2,
+      "name": "Acid Rush",
+      "power": 48
+    },
+    {
+      "slot": 3,
+      "name": "Acid Shell",
+      "power": 91
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

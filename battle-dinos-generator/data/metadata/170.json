@@ -1,28 +1,44 @@
 {
+  "base_id": 170,
   "name": "Ivoryrage",
-  "description": "Epic Ankylosaurus from the Battle Dinos Genesis 333 collection.",
-  "image": "ipfs://REPLACE/170.png",
-  "token_id": 170,
+  "description": "Epic Ankylosaurus Battle Dinos base archetype.",
   "species": "Ankylosaurus",
   "rarity": "Epic",
+  "element": "Primal",
+  "image": "ipfs://REPLACE/170.png",
   "visual": {
     "palette": "Storm",
     "description": "Ankylosaurus with slate-gray scales with electric blue markings, marbled scale pattern, blackened steel leg guards, and small battle scars across the snout",
     "arena": "misty fern canyon with towering stone walls"
   },
+  "base_battle_stats": {
+    "health": 93,
+    "attack": 66,
+    "defense": 97,
+    "speed": 35
+  },
   "moves": [
     {
+      "slot": 1,
       "name": "Primal Tail Club",
-      "power": 82
+      "base_power": 82
     },
     {
+      "slot": 2,
       "name": "Primal Bulwark",
-      "power": 66
+      "base_power": 66
     },
     {
+      "slot": 3,
       "name": "Wild Iron Rush",
-      "power": 51
+      "base_power": 51
     }
   ],
+  "starting_state": {
+    "level": 1,
+    "xp": 0,
+    "evolution_stage": 0,
+    "mutations": []
+  },
   "image_prompt": "Premium stylized 3D battle dinosaur collectible, designed as a consistent character collection. Full-body dinosaur centered in a powerful three-quarter battle stance, entire body visible from head to feet and tail, strong readable silhouette, oversized expressive eyes with fierce personality, chunky stylized anatomy, detailed scales, polished game-cinematic materials, dramatic rim lighting, high-end animated feature-film quality, collectible game character aesthetic, slightly exaggerated proportions, bold armor and accessory shapes when present, rich color contrast, crisp texture detail, atmospheric prehistoric arena environment, shallow cinematic depth of field, dynamic but uncluttered background, no text, no logos, no UI, no frame, no humans, no duplicate dinosaurs, square 1:1 composition. Keep the visual language consistent across the entire collection while making each dinosaur clearly unique. Character: Ivoryrage, a Ankylosaurus with slate-gray scales with electric blue markings, marbled scale pattern, blackened steel leg guards, and small battle scars across the snout. Pose with confident battle-ready personality in a misty fern canyon with towering stone walls. Do not depict attacks, powers, text, numbers, or other combatants."
 }

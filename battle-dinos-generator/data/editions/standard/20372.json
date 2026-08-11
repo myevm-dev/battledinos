@@ -1,0 +1,53 @@
+{
+  "token_id": 20372,
+  "base_id": 203,
+  "name": "Cragroar",
+  "edition": 57,
+  "edition_supply": 84,
+  "edition_label": "57/84",
+  "finish": "standard",
+  "species": "Carnotaurus",
+  "rarity": "Rare",
+  "element": "Shadow",
+  "image": "ipfs://REPLACE/203.png",
+  "genetics": {
+    "health": 0.9887,
+    "attack": 0.9725,
+    "defense": 1.0461,
+    "speed": 1.0489,
+    "move_1": 0.9553,
+    "move_2": 0.9976,
+    "move_3": 1.0419
+  },
+  "battle_stats": {
+    "health": 75,
+    "attack": 83,
+    "defense": 62,
+    "speed": 90
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Phantom Gore",
+      "power": 65
+    },
+    {
+      "slot": 2,
+      "name": "Dusk Rush",
+      "power": 77
+    },
+    {
+      "slot": 3,
+      "name": "Shadow Bite",
+      "power": 68
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

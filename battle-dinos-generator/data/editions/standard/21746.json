@@ -1,0 +1,53 @@
+{
+  "token_id": 21746,
+  "base_id": 219,
+  "name": "Ashhide",
+  "edition": 83,
+  "edition_supply": 116,
+  "edition_label": "83/116",
+  "finish": "standard",
+  "species": "Baryonyx",
+  "rarity": "Common",
+  "element": "Tide",
+  "image": "ipfs://REPLACE/219.png",
+  "genetics": {
+    "health": 1.0006,
+    "attack": 1.048,
+    "defense": 0.9877,
+    "speed": 0.9888,
+    "move_1": 0.9852,
+    "move_2": 1.0767,
+    "move_3": 1.0402
+  },
+  "battle_stats": {
+    "health": 78,
+    "attack": 85,
+    "defense": 65,
+    "speed": 75
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Torrent Talon",
+      "power": 58
+    },
+    {
+      "slot": 2,
+      "name": "Torrent Chomp",
+      "power": 75
+    },
+    {
+      "slot": 3,
+      "name": "Aqua River Rush",
+      "power": 71
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

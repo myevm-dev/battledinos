@@ -1,0 +1,53 @@
+{
+  "token_id": 20256,
+  "base_id": 202,
+  "name": "Razorstrike",
+  "edition": 129,
+  "edition_supply": 188,
+  "edition_label": "129/188",
+  "finish": "standard",
+  "species": "Stegosaurus",
+  "rarity": "Common",
+  "element": "Tide",
+  "image": "ipfs://REPLACE/202.png",
+  "genetics": {
+    "health": 0.9958,
+    "attack": 0.9927,
+    "defense": 1.0455,
+    "speed": 0.9622,
+    "move_1": 1.0667,
+    "move_2": 1.0171,
+    "move_3": 0.9228
+  },
+  "battle_stats": {
+    "health": 95,
+    "attack": 66,
+    "defense": 90,
+    "speed": 38
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Aqua Tail Spike",
+      "power": 96
+    },
+    {
+      "slot": 2,
+      "name": "Torrent Shell",
+      "power": 69
+    },
+    {
+      "slot": 3,
+      "name": "Riptide Tremor",
+      "power": 71
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

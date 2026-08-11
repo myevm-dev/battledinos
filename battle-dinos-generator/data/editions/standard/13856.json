@@ -1,0 +1,53 @@
+{
+  "token_id": 13856,
+  "base_id": 144,
+  "name": "Cinderfang",
+  "edition": 16,
+  "edition_supply": 71,
+  "edition_label": "16/71",
+  "finish": "standard",
+  "species": "Parasaurolophus",
+  "rarity": "Uncommon",
+  "element": "Venom",
+  "image": "ipfs://REPLACE/144.png",
+  "genetics": {
+    "health": 1.0129,
+    "attack": 1.0024,
+    "defense": 1.0136,
+    "speed": 1.0449,
+    "move_1": 0.9804,
+    "move_2": 1.0352,
+    "move_3": 1.0334
+  },
+  "battle_stats": {
+    "health": 85,
+    "attack": 59,
+    "defense": 76,
+    "speed": 70
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Viper Crest Call",
+      "power": 60
+    },
+    {
+      "slot": 2,
+      "name": "Venom Rush",
+      "power": 67
+    },
+    {
+      "slot": 3,
+      "name": "Toxic Tail Crash",
+      "power": 85
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

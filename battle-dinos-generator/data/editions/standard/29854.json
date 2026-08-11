@@ -1,0 +1,53 @@
+{
+  "token_id": 29854,
+  "base_id": 299,
+  "name": "Riftspike",
+  "edition": 5,
+  "edition_supply": 79,
+  "edition_label": "5/79",
+  "finish": "standard",
+  "species": "Stegosaurus",
+  "rarity": "Common",
+  "element": "Venom",
+  "image": "ipfs://REPLACE/299.png",
+  "genetics": {
+    "health": 0.9657,
+    "attack": 1.0337,
+    "defense": 1.0374,
+    "speed": 0.9771,
+    "move_1": 0.9336,
+    "move_2": 1.0338,
+    "move_3": 0.9834
+  },
+  "battle_stats": {
+    "health": 87,
+    "attack": 71,
+    "defense": 88,
+    "speed": 43
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Acid Tail Spike",
+      "power": 78
+    },
+    {
+      "slot": 2,
+      "name": "Venom Guard",
+      "power": 67
+    },
+    {
+      "slot": 3,
+      "name": "Toxic Tremor",
+      "power": 68
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

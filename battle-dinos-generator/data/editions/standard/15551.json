@@ -1,0 +1,53 @@
+{
+  "token_id": 15551,
+  "base_id": 161,
+  "name": "Onyxtalon",
+  "edition": 40,
+  "edition_supply": 133,
+  "edition_label": "40/133",
+  "finish": "standard",
+  "species": "Styracosaurus",
+  "rarity": "Common",
+  "element": "Stone",
+  "image": "ipfs://REPLACE/161.png",
+  "genetics": {
+    "health": 1.0466,
+    "attack": 0.9512,
+    "defense": 0.9829,
+    "speed": 1.0309,
+    "move_1": 0.9877,
+    "move_2": 0.9688,
+    "move_3": 1.0431
+  },
+  "battle_stats": {
+    "health": 93,
+    "attack": 76,
+    "defense": 84,
+    "speed": 46
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Boulder Horn Strike",
+      "power": 73
+    },
+    {
+      "slot": 2,
+      "name": "Boulder Stampede",
+      "power": 82
+    },
+    {
+      "slot": 3,
+      "name": "Granite Shell",
+      "power": 76
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

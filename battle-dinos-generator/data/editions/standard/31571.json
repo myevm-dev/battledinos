@@ -1,0 +1,53 @@
+{
+  "token_id": 31571,
+  "base_id": 315,
+  "name": "Obsidianrage",
+  "edition": 78,
+  "edition_supply": 87,
+  "edition_label": "78/87",
+  "finish": "standard",
+  "species": "Therizinosaurus",
+  "rarity": "Uncommon",
+  "element": "Ember",
+  "image": "ipfs://REPLACE/315.png",
+  "genetics": {
+    "health": 0.993,
+    "attack": 0.9973,
+    "defense": 1.0183,
+    "speed": 1.0205,
+    "move_1": 1.0348,
+    "move_2": 0.9361,
+    "move_3": 0.9795
+  },
+  "battle_stats": {
+    "health": 73,
+    "attack": 89,
+    "defense": 67,
+    "speed": 73
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Magma Talon",
+      "power": 57
+    },
+    {
+      "slot": 2,
+      "name": "Magma Shell",
+      "power": 48
+    },
+    {
+      "slot": 3,
+      "name": "Cinder Swipe",
+      "power": 63
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

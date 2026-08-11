@@ -1,0 +1,53 @@
+{
+  "token_id": 153,
+  "base_id": 2,
+  "name": "Jadetooth",
+  "edition": 54,
+  "edition_supply": 110,
+  "edition_label": "54/110",
+  "finish": "standard",
+  "species": "Iguanodon",
+  "rarity": "Common",
+  "element": "Primal",
+  "image": "ipfs://REPLACE/2.png",
+  "genetics": {
+    "health": 0.9721,
+    "attack": 0.9537,
+    "defense": 0.9892,
+    "speed": 0.9563,
+    "move_1": 0.9857,
+    "move_2": 0.9783,
+    "move_3": 0.9713
+  },
+  "battle_stats": {
+    "health": 84,
+    "attack": 61,
+    "defense": 74,
+    "speed": 65
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Alpha Spike Jab",
+      "power": 88
+    },
+    {
+      "slot": 2,
+      "name": "Savage Sprint Strike",
+      "power": 69
+    },
+    {
+      "slot": 3,
+      "name": "Alpha Shell",
+      "power": 83
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

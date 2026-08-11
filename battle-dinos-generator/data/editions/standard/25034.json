@@ -1,0 +1,53 @@
+{
+  "token_id": 25034,
+  "base_id": 254,
+  "name": "Mossmaw",
+  "edition": 11,
+  "edition_supply": 52,
+  "edition_label": "11/52",
+  "finish": "standard",
+  "species": "Ankylosaurus",
+  "rarity": "Rare",
+  "element": "Solar",
+  "image": "ipfs://REPLACE/254.png",
+  "genetics": {
+    "health": 1.0424,
+    "attack": 1.0241,
+    "defense": 0.9984,
+    "speed": 1.0138,
+    "move_1": 1.0539,
+    "move_2": 0.9517,
+    "move_3": 0.9548
+  },
+  "battle_stats": {
+    "health": 100,
+    "attack": 66,
+    "defense": 99,
+    "speed": 32
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Dawn Hammer Tail",
+      "power": 65
+    },
+    {
+      "slot": 2,
+      "name": "Solar Shell",
+      "power": 53
+    },
+    {
+      "slot": 3,
+      "name": "Solar Ram",
+      "power": 43
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

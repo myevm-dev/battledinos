@@ -1,28 +1,44 @@
 {
+  "base_id": 304,
   "name": "Ironrush",
-  "description": "Common Styracosaurus from the Battle Dinos Genesis 333 collection.",
-  "image": "ipfs://REPLACE/304.png",
-  "token_id": 304,
+  "description": "Common Styracosaurus Battle Dinos base archetype.",
   "species": "Styracosaurus",
   "rarity": "Common",
+  "element": "Primal",
+  "image": "ipfs://REPLACE/304.png",
   "visual": {
     "palette": "Copper",
     "description": "Styracosaurus with burnished copper scales with teal patina accents, speckled scales, no armor, natural battle-hardened look, and one chipped horn or crest edge",
     "arena": "stormy basalt arena beneath dark clouds"
   },
+  "base_battle_stats": {
+    "health": 87,
+    "attack": 80,
+    "defense": 87,
+    "speed": 48
+  },
   "moves": [
     {
+      "slot": 1,
       "name": "Savage Horn Strike",
-      "power": 54
+      "base_power": 54
     },
     {
+      "slot": 2,
       "name": "Savage Stampede",
-      "power": 68
+      "base_power": 68
     },
     {
+      "slot": 3,
       "name": "Alpha Shell",
-      "power": 93
+      "base_power": 93
     }
   ],
+  "starting_state": {
+    "level": 1,
+    "xp": 0,
+    "evolution_stage": 0,
+    "mutations": []
+  },
   "image_prompt": "Premium stylized 3D battle dinosaur collectible, designed as a consistent character collection. Full-body dinosaur centered in a powerful three-quarter battle stance, entire body visible from head to feet and tail, strong readable silhouette, oversized expressive eyes with fierce personality, chunky stylized anatomy, detailed scales, polished game-cinematic materials, dramatic rim lighting, high-end animated feature-film quality, collectible game character aesthetic, slightly exaggerated proportions, bold armor and accessory shapes when present, rich color contrast, crisp texture detail, atmospheric prehistoric arena environment, shallow cinematic depth of field, dynamic but uncluttered background, no text, no logos, no UI, no frame, no humans, no duplicate dinosaurs, square 1:1 composition. Keep the visual language consistent across the entire collection while making each dinosaur clearly unique. Character: Ironrush, a Styracosaurus with burnished copper scales with teal patina accents, speckled scales, no armor, natural battle-hardened look, and one chipped horn or crest edge. Pose with confident battle-ready personality in a stormy basalt arena beneath dark clouds. Do not depict attacks, powers, text, numbers, or other combatants."
 }

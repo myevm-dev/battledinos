@@ -1,0 +1,53 @@
+{
+  "token_id": 12887,
+  "base_id": 136,
+  "name": "Cindercrest",
+  "edition": 26,
+  "edition_supply": 81,
+  "edition_label": "26/81",
+  "finish": "standard",
+  "species": "Dilophosaurus",
+  "rarity": "Uncommon",
+  "element": "Frost",
+  "image": "ipfs://REPLACE/136.png",
+  "genetics": {
+    "health": 1.0144,
+    "attack": 0.9836,
+    "defense": 0.9755,
+    "speed": 0.9775,
+    "move_1": 1.0202,
+    "move_2": 0.9924,
+    "move_3": 0.9615
+  },
+  "battle_stats": {
+    "health": 68,
+    "attack": 75,
+    "defense": 52,
+    "speed": 88
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Frost Crest Call",
+      "power": 81
+    },
+    {
+      "slot": 2,
+      "name": "Glacier Sidestep",
+      "power": 73
+    },
+    {
+      "slot": 3,
+      "name": "Glacier Jaw",
+      "power": 70
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

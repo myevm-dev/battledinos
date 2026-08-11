@@ -1,0 +1,53 @@
+{
+  "token_id": 1321,
+  "base_id": 13,
+  "name": "Chromeclaw",
+  "edition": 33,
+  "edition_supply": 77,
+  "edition_label": "33/77",
+  "finish": "standard",
+  "species": "Carnotaurus",
+  "rarity": "Common",
+  "element": "Venom",
+  "image": "ipfs://REPLACE/13.png",
+  "genetics": {
+    "health": 0.9878,
+    "attack": 1.0166,
+    "defense": 0.9552,
+    "speed": 1.0489,
+    "move_1": 1.0683,
+    "move_2": 0.9848,
+    "move_3": 1.0773
+  },
+  "battle_stats": {
+    "health": 75,
+    "attack": 87,
+    "defense": 54,
+    "speed": 89
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Viper Horn Breaker",
+      "power": 67
+    },
+    {
+      "slot": 2,
+      "name": "Viper Sprint Strike",
+      "power": 88
+    },
+    {
+      "slot": 3,
+      "name": "Toxic Chomp",
+      "power": 50
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

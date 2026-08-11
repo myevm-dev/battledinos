@@ -1,0 +1,53 @@
+{
+  "token_id": 12320,
+  "base_id": 131,
+  "name": "Emberrage",
+  "edition": 60,
+  "edition_supply": 69,
+  "edition_label": "60/69",
+  "finish": "standard",
+  "species": "Ankylosaurus",
+  "rarity": "Rare",
+  "element": "Ember",
+  "image": "ipfs://REPLACE/131.png",
+  "genetics": {
+    "health": 1.0052,
+    "attack": 1.047,
+    "defense": 1.0203,
+    "speed": 0.9862,
+    "move_1": 0.9538,
+    "move_2": 1.0508,
+    "move_3": 0.9589
+  },
+  "battle_stats": {
+    "health": 95,
+    "attack": 66,
+    "defense": 97,
+    "speed": 36
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Cinder Hammer Tail",
+      "power": 85
+    },
+    {
+      "slot": 2,
+      "name": "Flare Bulwark",
+      "power": 95
+    },
+    {
+      "slot": 3,
+      "name": "Magma Iron Rush",
+      "power": 51
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

@@ -1,0 +1,53 @@
+{
+  "token_id": 30920,
+  "base_id": 309,
+  "name": "Ghostbane",
+  "edition": 88,
+  "edition_supply": 106,
+  "edition_label": "88/106",
+  "finish": "standard",
+  "species": "Giganotosaurus",
+  "rarity": "Common",
+  "element": "Primal",
+  "image": "ipfs://REPLACE/309.png",
+  "genetics": {
+    "health": 0.9803,
+    "attack": 0.9606,
+    "defense": 1.0054,
+    "speed": 0.9953,
+    "move_1": 0.9978,
+    "move_2": 0.9873,
+    "move_3": 1.0593
+  },
+  "battle_stats": {
+    "health": 84,
+    "attack": 92,
+    "defense": 70,
+    "speed": 60
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Alpha Chomp",
+      "power": 56
+    },
+    {
+      "slot": 2,
+      "name": "Alpha Howl",
+      "power": 71
+    },
+    {
+      "slot": 3,
+      "name": "Primal Blitz",
+      "power": 78
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

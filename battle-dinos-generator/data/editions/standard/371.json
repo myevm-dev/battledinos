@@ -1,0 +1,53 @@
+{
+  "token_id": 371,
+  "base_id": 4,
+  "name": "Ashfang",
+  "edition": 65,
+  "edition_supply": 105,
+  "edition_label": "65/105",
+  "finish": "standard",
+  "species": "Ceratosaurus",
+  "rarity": "Uncommon",
+  "element": "Void",
+  "image": "ipfs://REPLACE/4.png",
+  "genetics": {
+    "health": 1.0249,
+    "attack": 0.9984,
+    "defense": 0.9982,
+    "speed": 1.0447,
+    "move_1": 0.9219,
+    "move_2": 1.033,
+    "move_3": 0.9694
+  },
+  "battle_stats": {
+    "health": 82,
+    "attack": 81,
+    "defense": 63,
+    "speed": 79
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Null Horn Breaker",
+      "power": 82
+    },
+    {
+      "slot": 2,
+      "name": "Rift Jaw",
+      "power": 52
+    },
+    {
+      "slot": 3,
+      "name": "Abyss Bellow",
+      "power": 48
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

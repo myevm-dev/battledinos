@@ -1,0 +1,53 @@
+{
+  "token_id": 4769,
+  "base_id": 47,
+  "name": "Azurewarden",
+  "edition": 95,
+  "edition_supply": 132,
+  "edition_label": "95/132",
+  "finish": "standard",
+  "species": "Therizinosaurus",
+  "rarity": "Common",
+  "element": "Storm",
+  "image": "ipfs://REPLACE/47.png",
+  "genetics": {
+    "health": 1.0471,
+    "attack": 1.0215,
+    "defense": 1.039,
+    "speed": 0.9536,
+    "move_1": 0.9302,
+    "move_2": 1.0489,
+    "move_3": 1.0465
+  },
+  "battle_stats": {
+    "health": 80,
+    "attack": 90,
+    "defense": 64,
+    "speed": 72
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Tempest Claw",
+      "power": 47
+    },
+    {
+      "slot": 2,
+      "name": "Thunder Guard",
+      "power": 65
+    },
+    {
+      "slot": 3,
+      "name": "Tempest Crosscut",
+      "power": 55
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

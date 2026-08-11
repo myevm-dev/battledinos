@@ -1,0 +1,53 @@
+{
+  "token_id": 32418,
+  "base_id": 324,
+  "name": "Nightguard",
+  "edition": 10,
+  "edition_supply": 117,
+  "edition_label": "10/117",
+  "finish": "standard",
+  "species": "Velociraptor",
+  "rarity": "Uncommon",
+  "element": "Venom",
+  "image": "ipfs://REPLACE/324.png",
+  "genetics": {
+    "health": 0.9764,
+    "attack": 1.0123,
+    "defense": 1.0002,
+    "speed": 1.0069,
+    "move_1": 1.02,
+    "move_2": 0.942,
+    "move_3": 1.0778
+  },
+  "battle_stats": {
+    "health": 64,
+    "attack": 75,
+    "defense": 57,
+    "speed": 94
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Venom Claw",
+      "power": 88
+    },
+    {
+      "slot": 2,
+      "name": "Venom Pounce",
+      "power": 69
+    },
+    {
+      "slot": 3,
+      "name": "Venom Fakeout",
+      "power": 86
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

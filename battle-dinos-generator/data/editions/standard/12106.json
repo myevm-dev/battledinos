@@ -1,0 +1,53 @@
+{
+  "token_id": 12106,
+  "base_id": 128,
+  "name": "Voidspike",
+  "edition": 5,
+  "edition_supply": 112,
+  "edition_label": "5/112",
+  "finish": "standard",
+  "species": "Spinosaurus",
+  "rarity": "Uncommon",
+  "element": "Void",
+  "image": "ipfs://REPLACE/128.png",
+  "genetics": {
+    "health": 1.0287,
+    "attack": 1.0455,
+    "defense": 1.0372,
+    "speed": 0.9582,
+    "move_1": 0.9525,
+    "move_2": 1.075,
+    "move_3": 0.9938
+  },
+  "battle_stats": {
+    "health": 85,
+    "attack": 91,
+    "defense": 68,
+    "speed": 67
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Abyss Chomp",
+      "power": 61
+    },
+    {
+      "slot": 2,
+      "name": "Null Sail Flash",
+      "power": 94
+    },
+    {
+      "slot": 3,
+      "name": "Null Backhand",
+      "power": 72
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

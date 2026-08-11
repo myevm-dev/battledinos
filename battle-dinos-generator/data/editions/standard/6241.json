@@ -1,0 +1,53 @@
+{
+  "token_id": 6241,
+  "base_id": 62,
+  "name": "Cinderstalker",
+  "edition": 68,
+  "edition_supply": 176,
+  "edition_label": "68/176",
+  "finish": "standard",
+  "species": "Velociraptor",
+  "rarity": "Common",
+  "element": "Tide",
+  "image": "ipfs://REPLACE/62.png",
+  "genetics": {
+    "health": 0.9595,
+    "attack": 1.0106,
+    "defense": 0.9702,
+    "speed": 1.0301,
+    "move_1": 0.9533,
+    "move_2": 0.9633,
+    "move_3": 0.9269
+  },
+  "battle_stats": {
+    "health": 59,
+    "attack": 74,
+    "defense": 57,
+    "speed": 99
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Torrent Talon",
+      "power": 74
+    },
+    {
+      "slot": 2,
+      "name": "Aqua Ambush",
+      "power": 87
+    },
+    {
+      "slot": 3,
+      "name": "Riptide Sidestep",
+      "power": 72
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

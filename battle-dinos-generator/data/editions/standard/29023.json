@@ -1,0 +1,53 @@
+{
+  "token_id": 29023,
+  "base_id": 292,
+  "name": "Ivorywarden",
+  "edition": 16,
+  "edition_supply": 128,
+  "edition_label": "16/128",
+  "finish": "standard",
+  "species": "Pachycephalosaurus",
+  "rarity": "Uncommon",
+  "element": "Stone",
+  "image": "ipfs://REPLACE/292.png",
+  "genetics": {
+    "health": 1.0042,
+    "attack": 0.9813,
+    "defense": 0.9918,
+    "speed": 1.019,
+    "move_1": 1.0033,
+    "move_2": 1.001,
+    "move_3": 0.9547
+  },
+  "battle_stats": {
+    "health": 81,
+    "attack": 77,
+    "defense": 73,
+    "speed": 71
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Boulder Headbutt",
+      "power": 68
+    },
+    {
+      "slot": 2,
+      "name": "Quake Rush",
+      "power": 55
+    },
+    {
+      "slot": 3,
+      "name": "Boulder Tremor",
+      "power": 61
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

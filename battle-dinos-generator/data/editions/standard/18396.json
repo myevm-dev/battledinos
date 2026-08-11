@@ -1,0 +1,53 @@
+{
+  "token_id": 18396,
+  "base_id": 188,
+  "name": "Ashscale",
+  "edition": 63,
+  "edition_supply": 174,
+  "edition_label": "63/174",
+  "finish": "standard",
+  "species": "Velociraptor",
+  "rarity": "Common",
+  "element": "Tide",
+  "image": "ipfs://REPLACE/188.png",
+  "genetics": {
+    "health": 0.9975,
+    "attack": 1.0153,
+    "defense": 1.0324,
+    "speed": 0.9747,
+    "move_1": 0.9413,
+    "move_2": 0.9455,
+    "move_3": 0.9475
+  },
+  "battle_stats": {
+    "health": 62,
+    "attack": 77,
+    "defense": 59,
+    "speed": 93
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Aqua Claw",
+      "power": 76
+    },
+    {
+      "slot": 2,
+      "name": "Tidal Ambush",
+      "power": 68
+    },
+    {
+      "slot": 3,
+      "name": "Torrent Feint",
+      "power": 78
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

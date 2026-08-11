@@ -1,0 +1,53 @@
+{
+  "token_id": 3826,
+  "base_id": 36,
+  "name": "Grimcrusher",
+  "edition": 5,
+  "edition_supply": 90,
+  "edition_label": "5/90",
+  "finish": "standard",
+  "species": "Ceratosaurus",
+  "rarity": "Common",
+  "element": "Frost",
+  "image": "ipfs://REPLACE/36.png",
+  "genetics": {
+    "health": 1.0407,
+    "attack": 0.9603,
+    "defense": 0.9534,
+    "speed": 0.9791,
+    "move_1": 0.9334,
+    "move_2": 1.0143,
+    "move_3": 0.9663
+  },
+  "battle_stats": {
+    "health": 78,
+    "attack": 83,
+    "defense": 60,
+    "speed": 73
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Frost Horn Breaker",
+      "power": 51
+    },
+    {
+      "slot": 2,
+      "name": "Frost Bite",
+      "power": 52
+    },
+    {
+      "slot": 3,
+      "name": "Frost Howl",
+      "power": 53
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

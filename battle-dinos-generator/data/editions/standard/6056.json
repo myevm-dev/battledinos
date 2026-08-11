@@ -1,0 +1,53 @@
+{
+  "token_id": 6056,
+  "base_id": 60,
+  "name": "Bouldershard",
+  "edition": 24,
+  "edition_supply": 42,
+  "edition_label": "24/42",
+  "finish": "standard",
+  "species": "Dilophosaurus",
+  "rarity": "Rare",
+  "element": "Void",
+  "image": "ipfs://REPLACE/60.png",
+  "genetics": {
+    "health": 1.0108,
+    "attack": 0.963,
+    "defense": 0.9852,
+    "speed": 1.044,
+    "move_1": 1.047,
+    "move_2": 1.0415,
+    "move_3": 1.0175
+  },
+  "battle_stats": {
+    "health": 67,
+    "attack": 72,
+    "defense": 54,
+    "speed": 95
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Rift Crest Call",
+      "power": 72
+    },
+    {
+      "slot": 2,
+      "name": "Abyss Fakeout",
+      "power": 55
+    },
+    {
+      "slot": 3,
+      "name": "Rift Jaw",
+      "power": 88
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

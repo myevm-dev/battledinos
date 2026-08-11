@@ -1,28 +1,44 @@
 {
+  "base_id": 57,
   "name": "Cindermaw",
-  "description": "Common Ankylosaurus from the Battle Dinos Genesis 333 collection.",
-  "image": "ipfs://REPLACE/57.png",
-  "token_id": 57,
+  "description": "Common Ankylosaurus Battle Dinos base archetype.",
   "species": "Ankylosaurus",
   "rarity": "Common",
+  "element": "Frost",
+  "image": "ipfs://REPLACE/57.png",
   "visual": {
     "palette": "Sand",
     "description": "Ankylosaurus with desert tan scales with rust-colored bands, faint bioluminescent-looking lines, bronze gladiator harness, and leather neck wrap",
     "arena": "lush waterfall arena surrounded by giant ferns"
   },
+  "base_battle_stats": {
+    "health": 99,
+    "attack": 66,
+    "defense": 93,
+    "speed": 35
+  },
   "moves": [
     {
+      "slot": 1,
       "name": "Ice Club Smash",
-      "power": 82
+      "base_power": 82
     },
     {
+      "slot": 2,
       "name": "Glacier Guard",
-      "power": 63
+      "base_power": 63
     },
     {
+      "slot": 3,
       "name": "Winter Body Check",
-      "power": 91
+      "base_power": 91
     }
   ],
+  "starting_state": {
+    "level": 1,
+    "xp": 0,
+    "evolution_stage": 0,
+    "mutations": []
+  },
   "image_prompt": "Premium stylized 3D battle dinosaur collectible, designed as a consistent character collection. Full-body dinosaur centered in a powerful three-quarter battle stance, entire body visible from head to feet and tail, strong readable silhouette, oversized expressive eyes with fierce personality, chunky stylized anatomy, detailed scales, polished game-cinematic materials, dramatic rim lighting, high-end animated feature-film quality, collectible game character aesthetic, slightly exaggerated proportions, bold armor and accessory shapes when present, rich color contrast, crisp texture detail, atmospheric prehistoric arena environment, shallow cinematic depth of field, dynamic but uncluttered background, no text, no logos, no UI, no frame, no humans, no duplicate dinosaurs, square 1:1 composition. Keep the visual language consistent across the entire collection while making each dinosaur clearly unique. Character: Cindermaw, a Ankylosaurus with desert tan scales with rust-colored bands, faint bioluminescent-looking lines, bronze gladiator harness, and leather neck wrap. Pose with confident battle-ready personality in a lush waterfall arena surrounded by giant ferns. Do not depict attacks, powers, text, numbers, or other combatants."
 }

@@ -1,0 +1,53 @@
+{
+  "token_id": 4824,
+  "base_id": 48,
+  "name": "Savagerunner",
+  "edition": 18,
+  "edition_supply": 128,
+  "edition_label": "18/128",
+  "finish": "standard",
+  "species": "Styracosaurus",
+  "rarity": "Common",
+  "element": "Tide",
+  "image": "ipfs://REPLACE/48.png",
+  "genetics": {
+    "health": 0.9879,
+    "attack": 1.0005,
+    "defense": 0.9719,
+    "speed": 0.9536,
+    "move_1": 1.0518,
+    "move_2": 0.9293,
+    "move_3": 1.0219
+  },
+  "battle_stats": {
+    "health": 90,
+    "attack": 76,
+    "defense": 87,
+    "speed": 44
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Riptide Gore",
+      "power": 60
+    },
+    {
+      "slot": 2,
+      "name": "Torrent Charge",
+      "power": 63
+    },
+    {
+      "slot": 3,
+      "name": "Torrent Bulwark",
+      "power": 78
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

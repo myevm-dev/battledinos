@@ -1,0 +1,53 @@
+{
+  "token_id": 13714,
+  "base_id": 143,
+  "name": "Cinderspike",
+  "edition": 53,
+  "edition_supply": 179,
+  "edition_label": "53/179",
+  "finish": "standard",
+  "species": "Spinosaurus",
+  "rarity": "Common",
+  "element": "Ember",
+  "image": "ipfs://REPLACE/143.png",
+  "genetics": {
+    "health": 0.9539,
+    "attack": 1.0236,
+    "defense": 0.9568,
+    "speed": 0.9605,
+    "move_1": 0.9882,
+    "move_2": 0.9591,
+    "move_3": 0.9421
+  },
+  "battle_stats": {
+    "health": 77,
+    "attack": 85,
+    "defense": 67,
+    "speed": 66
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Flare Chomp",
+      "power": 53
+    },
+    {
+      "slot": 2,
+      "name": "Cinder Crest Surge",
+      "power": 49
+    },
+    {
+      "slot": 3,
+      "name": "Flare Swipe",
+      "power": 62
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

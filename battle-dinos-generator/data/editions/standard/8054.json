@@ -1,0 +1,53 @@
+{
+  "token_id": 8054,
+  "base_id": 84,
+  "name": "Solarroar",
+  "edition": 5,
+  "edition_supply": 51,
+  "edition_label": "5/51",
+  "finish": "standard",
+  "species": "Therizinosaurus",
+  "rarity": "Rare",
+  "element": "Venom",
+  "image": "ipfs://REPLACE/84.png",
+  "genetics": {
+    "health": 0.9521,
+    "attack": 1.0153,
+    "defense": 1.0122,
+    "speed": 1.0112,
+    "move_1": 1.0677,
+    "move_2": 0.9463,
+    "move_3": 0.9413
+  },
+  "battle_stats": {
+    "health": 74,
+    "attack": 87,
+    "defense": 63,
+    "speed": 75
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Toxic Talon",
+      "power": 74
+    },
+    {
+      "slot": 2,
+      "name": "Toxic Bulwark",
+      "power": 43
+    },
+    {
+      "slot": 3,
+      "name": "Toxic Crosscut",
+      "power": 60
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

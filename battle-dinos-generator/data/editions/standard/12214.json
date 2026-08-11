@@ -1,0 +1,53 @@
+{
+  "token_id": 12214,
+  "base_id": 129,
+  "name": "Riftmauler",
+  "edition": 1,
+  "edition_supply": 15,
+  "edition_label": "1/15",
+  "finish": "standard",
+  "species": "Giganotosaurus",
+  "rarity": "Legendary",
+  "element": "Tide",
+  "image": "ipfs://REPLACE/129.png",
+  "genetics": {
+    "health": 1.0245,
+    "attack": 0.9814,
+    "defense": 1.0203,
+    "speed": 1.0331,
+    "move_1": 0.9731,
+    "move_2": 1.025,
+    "move_3": 1.049
+  },
+  "battle_stats": {
+    "health": 87,
+    "attack": 94,
+    "defense": 74,
+    "speed": 60
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Torrent Chomp",
+      "power": 58
+    },
+    {
+      "slot": 2,
+      "name": "Tidal Bellow",
+      "power": 75
+    },
+    {
+      "slot": 3,
+      "name": "Torrent Blitz",
+      "power": 72
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

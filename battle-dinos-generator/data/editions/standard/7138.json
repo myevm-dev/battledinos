@@ -1,0 +1,53 @@
+{
+  "token_id": 7138,
+  "base_id": 72,
+  "name": "Chromeshard",
+  "edition": 95,
+  "edition_supply": 102,
+  "edition_label": "95/102",
+  "finish": "standard",
+  "species": "Carnotaurus",
+  "rarity": "Common",
+  "element": "Tide",
+  "image": "ipfs://REPLACE/72.png",
+  "genetics": {
+    "health": 0.9778,
+    "attack": 1.0013,
+    "defense": 1.0317,
+    "speed": 0.9741,
+    "move_1": 1.0369,
+    "move_2": 1.0144,
+    "move_3": 1.009
+  },
+  "battle_stats": {
+    "health": 71,
+    "attack": 84,
+    "defense": 61,
+    "speed": 85
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Torrent Horn Strike",
+      "power": 89
+    },
+    {
+      "slot": 2,
+      "name": "Tidal Sprint Strike",
+      "power": 60
+    },
+    {
+      "slot": 3,
+      "name": "Tidal Chomp",
+      "power": 51
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

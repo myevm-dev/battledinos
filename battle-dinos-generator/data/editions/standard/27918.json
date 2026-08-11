@@ -1,0 +1,53 @@
+{
+  "token_id": 27918,
+  "base_id": 281,
+  "name": "Ghostscar",
+  "edition": 23,
+  "edition_supply": 135,
+  "edition_label": "23/135",
+  "finish": "standard",
+  "species": "Spinosaurus",
+  "rarity": "Common",
+  "element": "Stone",
+  "image": "ipfs://REPLACE/281.png",
+  "genetics": {
+    "health": 1.0018,
+    "attack": 1.0117,
+    "defense": 0.976,
+    "speed": 1.0289,
+    "move_1": 1.0014,
+    "move_2": 0.9223,
+    "move_3": 0.9758
+  },
+  "battle_stats": {
+    "health": 82,
+    "attack": 83,
+    "defense": 68,
+    "speed": 74
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Boulder Chomp",
+      "power": 59
+    },
+    {
+      "slot": 2,
+      "name": "Granite Sail Burst",
+      "power": 77
+    },
+    {
+      "slot": 3,
+      "name": "Boulder Crosscut",
+      "power": 93
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

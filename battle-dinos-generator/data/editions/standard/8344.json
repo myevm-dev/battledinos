@@ -1,0 +1,53 @@
+{
+  "token_id": 8344,
+  "base_id": 86,
+  "name": "Vortexguard",
+  "edition": 64,
+  "edition_supply": 71,
+  "edition_label": "64/71",
+  "finish": "standard",
+  "species": "Therizinosaurus",
+  "rarity": "Uncommon",
+  "element": "Primal",
+  "image": "ipfs://REPLACE/86.png",
+  "genetics": {
+    "health": 0.9894,
+    "attack": 0.9981,
+    "defense": 1.0486,
+    "speed": 0.9843,
+    "move_1": 0.9369,
+    "move_2": 1.0738,
+    "move_3": 0.9564
+  },
+  "battle_stats": {
+    "health": 71,
+    "attack": 93,
+    "defense": 66,
+    "speed": 71
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Alpha Rake",
+      "power": 47
+    },
+    {
+      "slot": 2,
+      "name": "Primal Bulwark",
+      "power": 77
+    },
+    {
+      "slot": 3,
+      "name": "Savage Backhand",
+      "power": 83
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

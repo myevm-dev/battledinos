@@ -1,0 +1,53 @@
+{
+  "token_id": 28646,
+  "base_id": 288,
+  "name": "Razorfang",
+  "edition": 68,
+  "edition_supply": 116,
+  "edition_label": "68/116",
+  "finish": "standard",
+  "species": "Allosaurus",
+  "rarity": "Common",
+  "element": "Frost",
+  "image": "ipfs://REPLACE/288.png",
+  "genetics": {
+    "health": 1.0011,
+    "attack": 0.9768,
+    "defense": 0.9615,
+    "speed": 0.9589,
+    "move_1": 0.9903,
+    "move_2": 1.0037,
+    "move_3": 0.9936
+  },
+  "battle_stats": {
+    "health": 78,
+    "attack": 80,
+    "defense": 67,
+    "speed": 70
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Winter Bite",
+      "power": 90
+    },
+    {
+      "slot": 2,
+      "name": "Ice Rake",
+      "power": 83
+    },
+    {
+      "slot": 3,
+      "name": "Winter Rush",
+      "power": 58
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

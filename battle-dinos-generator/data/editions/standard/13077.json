@@ -1,0 +1,53 @@
+{
+  "token_id": 13077,
+  "base_id": 138,
+  "name": "Grimbreaker",
+  "edition": 62,
+  "edition_supply": 69,
+  "edition_label": "62/69",
+  "finish": "standard",
+  "species": "Styracosaurus",
+  "rarity": "Rare",
+  "element": "Ember",
+  "image": "ipfs://REPLACE/138.png",
+  "genetics": {
+    "health": 0.9771,
+    "attack": 0.9757,
+    "defense": 1.032,
+    "speed": 0.9817,
+    "move_1": 1.0611,
+    "move_2": 0.971,
+    "move_3": 1.0216
+  },
+  "battle_stats": {
+    "health": 88,
+    "attack": 74,
+    "defense": 89,
+    "speed": 47
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Flare Horn Strike",
+      "power": 79
+    },
+    {
+      "slot": 2,
+      "name": "Magma Charge",
+      "power": 64
+    },
+    {
+      "slot": 3,
+      "name": "Cinder Bulwark",
+      "power": 67
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

@@ -1,0 +1,53 @@
+{
+  "token_id": 23010,
+  "base_id": 233,
+  "name": "Obsidianstalker",
+  "edition": 64,
+  "edition_supply": 64,
+  "edition_label": "64/64",
+  "finish": "standard",
+  "species": "Baryonyx",
+  "rarity": "Uncommon",
+  "element": "Primal",
+  "image": "ipfs://REPLACE/233.png",
+  "genetics": {
+    "health": 1.0385,
+    "attack": 0.979,
+    "defense": 0.9602,
+    "speed": 0.9592,
+    "move_1": 0.9205,
+    "move_2": 0.9701,
+    "move_3": 1.0635
+  },
+  "battle_stats": {
+    "health": 83,
+    "attack": 78,
+    "defense": 61,
+    "speed": 76
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Primal Rake",
+      "power": 62
+    },
+    {
+      "slot": 2,
+      "name": "Primal Jaw",
+      "power": 62
+    },
+    {
+      "slot": 3,
+      "name": "Alpha Lunge",
+      "power": 81
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

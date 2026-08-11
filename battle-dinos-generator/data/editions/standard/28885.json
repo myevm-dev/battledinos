@@ -1,0 +1,53 @@
+{
+  "token_id": 28885,
+  "base_id": 291,
+  "name": "Azurescar",
+  "edition": 49,
+  "edition_supply": 171,
+  "edition_label": "49/171",
+  "finish": "standard",
+  "species": "Utahraptor",
+  "rarity": "Common",
+  "element": "Ember",
+  "image": "ipfs://REPLACE/291.png",
+  "genetics": {
+    "health": 1.0018,
+    "attack": 0.9524,
+    "defense": 1.032,
+    "speed": 0.9786,
+    "move_1": 0.9335,
+    "move_2": 1.0722,
+    "move_3": 1.0201
+  },
+  "battle_stats": {
+    "health": 73,
+    "attack": 83,
+    "defense": 60,
+    "speed": 84
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Magma Rake",
+      "power": 88
+    },
+    {
+      "slot": 2,
+      "name": "Cinder Pounce",
+      "power": 71
+    },
+    {
+      "slot": 3,
+      "name": "Inferno Sidestep",
+      "power": 95
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

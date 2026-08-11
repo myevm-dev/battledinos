@@ -1,0 +1,53 @@
+{
+  "token_id": 29262,
+  "base_id": 294,
+  "name": "Vortexmauler",
+  "edition": 78,
+  "edition_supply": 95,
+  "edition_label": "78/95",
+  "finish": "standard",
+  "species": "Baryonyx",
+  "rarity": "Common",
+  "element": "Frost",
+  "image": "ipfs://REPLACE/294.png",
+  "genetics": {
+    "health": 1.023,
+    "attack": 0.9644,
+    "defense": 0.9822,
+    "speed": 1.0481,
+    "move_1": 1.062,
+    "move_2": 0.9995,
+    "move_3": 0.9524
+  },
+  "battle_stats": {
+    "health": 80,
+    "attack": 76,
+    "defense": 62,
+    "speed": 84
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Ice Rake",
+      "power": 101
+    },
+    {
+      "slot": 2,
+      "name": "Winter Bite",
+      "power": 53
+    },
+    {
+      "slot": 3,
+      "name": "Winter Snap Lunge",
+      "power": 55
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

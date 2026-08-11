@@ -1,0 +1,53 @@
+{
+  "token_id": 4592,
+  "base_id": 45,
+  "name": "Cindershard",
+  "edition": 63,
+  "edition_supply": 75,
+  "edition_label": "63/75",
+  "finish": "standard",
+  "species": "Baryonyx",
+  "rarity": "Uncommon",
+  "element": "Shadow",
+  "image": "ipfs://REPLACE/45.png",
+  "genetics": {
+    "health": 1.0426,
+    "attack": 0.9919,
+    "defense": 1.035,
+    "speed": 1.0304,
+    "move_1": 0.9774,
+    "move_2": 1.0249,
+    "move_3": 1.0189
+  },
+  "battle_stats": {
+    "health": 83,
+    "attack": 82,
+    "defense": 64,
+    "speed": 77
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Phantom Talon",
+      "power": 55
+    },
+    {
+      "slot": 2,
+      "name": "Phantom Chomp",
+      "power": 56
+    },
+    {
+      "slot": 3,
+      "name": "Shadow Lunge",
+      "power": 77
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

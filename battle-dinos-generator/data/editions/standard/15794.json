@@ -1,0 +1,53 @@
+{
+  "token_id": 15794,
+  "base_id": 163,
+  "name": "Jadecrest",
+  "edition": 139,
+  "edition_supply": 190,
+  "edition_label": "139/190",
+  "finish": "standard",
+  "species": "Allosaurus",
+  "rarity": "Common",
+  "element": "Frost",
+  "image": "ipfs://REPLACE/163.png",
+  "genetics": {
+    "health": 0.9675,
+    "attack": 1.0092,
+    "defense": 1.0431,
+    "speed": 1.0133,
+    "move_1": 1.0531,
+    "move_2": 1.0196,
+    "move_3": 0.95
+  },
+  "battle_stats": {
+    "health": 80,
+    "attack": 87,
+    "defense": 66,
+    "speed": 71
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Ice Bite",
+      "power": 78
+    },
+    {
+      "slot": 2,
+      "name": "Winter Rake",
+      "power": 69
+    },
+    {
+      "slot": 3,
+      "name": "Ice Rush",
+      "power": 70
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

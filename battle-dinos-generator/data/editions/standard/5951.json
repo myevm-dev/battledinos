@@ -1,0 +1,53 @@
+{
+  "token_id": 5951,
+  "base_id": 59,
+  "name": "Emberrunner",
+  "edition": 21,
+  "edition_supply": 102,
+  "edition_label": "21/102",
+  "finish": "standard",
+  "species": "Carnotaurus",
+  "rarity": "Common",
+  "element": "Solar",
+  "image": "ipfs://REPLACE/59.png",
+  "genetics": {
+    "health": 1.0107,
+    "attack": 1.0363,
+    "defense": 1.0275,
+    "speed": 1.0391,
+    "move_1": 0.9264,
+    "move_2": 0.9974,
+    "move_3": 0.9992
+  },
+  "battle_stats": {
+    "health": 78,
+    "attack": 87,
+    "defense": 63,
+    "speed": 85
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Sun Horn Breaker",
+      "power": 83
+    },
+    {
+      "slot": 2,
+      "name": "Sun Sprint Strike",
+      "power": 58
+    },
+    {
+      "slot": 3,
+      "name": "Dawn Chomp",
+      "power": 71
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

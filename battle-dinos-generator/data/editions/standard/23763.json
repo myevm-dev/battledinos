@@ -1,0 +1,53 @@
+{
+  "token_id": 23763,
+  "base_id": 243,
+  "name": "Ivoryreaver",
+  "edition": 5,
+  "edition_supply": 55,
+  "edition_label": "5/55",
+  "finish": "standard",
+  "species": "Triceratops",
+  "rarity": "Rare",
+  "element": "Tide",
+  "image": "ipfs://REPLACE/243.png",
+  "genetics": {
+    "health": 1.015,
+    "attack": 0.9929,
+    "defense": 1.0037,
+    "speed": 0.9503,
+    "move_1": 1.0725,
+    "move_2": 0.9739,
+    "move_3": 1.0141
+  },
+  "battle_stats": {
+    "health": 91,
+    "attack": 73,
+    "defense": 90,
+    "speed": 42
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Tidal Gore",
+      "power": 53
+    },
+    {
+      "slot": 2,
+      "name": "Aqua Rush",
+      "power": 70
+    },
+    {
+      "slot": 3,
+      "name": "Torrent Shell",
+      "power": 76
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

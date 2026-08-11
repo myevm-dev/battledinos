@@ -1,0 +1,53 @@
+{
+  "token_id": 16107,
+  "base_id": 166,
+  "name": "Venomrunner",
+  "edition": 102,
+  "edition_supply": 111,
+  "edition_label": "102/111",
+  "finish": "standard",
+  "species": "Deinonychus",
+  "rarity": "Common",
+  "element": "Venom",
+  "image": "ipfs://REPLACE/166.png",
+  "genetics": {
+    "health": 0.9616,
+    "attack": 0.9572,
+    "defense": 0.9856,
+    "speed": 1.026,
+    "move_1": 0.9828,
+    "move_2": 1.0375,
+    "move_3": 0.974
+  },
+  "battle_stats": {
+    "health": 64,
+    "attack": 77,
+    "defense": 56,
+    "speed": 95
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Toxic Claw",
+      "power": 81
+    },
+    {
+      "slot": 2,
+      "name": "Viper Ambush",
+      "power": 82
+    },
+    {
+      "slot": 3,
+      "name": "Toxic Rush",
+      "power": 71
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

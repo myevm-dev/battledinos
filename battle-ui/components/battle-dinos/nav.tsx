@@ -2,12 +2,19 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { ShoppingBag, Swords, UserRound, WalletCards } from "lucide-react";
+import {
+  BookOpen,
+  ShoppingBag,
+  Swords,
+  UserRound,
+  WalletCards,
+} from "lucide-react";
 
 const nav = [
   { href: "/battle", label: "Battle", icon: Swords },
   { href: "/shop", label: "Shop", icon: ShoppingBag },
   { href: "/profile", label: "Profile", icon: UserRound },
+  { href: "/docs", label: "Docs", icon: BookOpen },
 ];
 
 export function DesktopNav() {
@@ -20,10 +27,12 @@ export function DesktopNav() {
           <div className="grid size-11 place-items-center rounded-full border border-amber-400/40 bg-amber-400/10 text-2xl shadow-[0_0_28px_rgba(242,165,38,0.15)]">
             🦖
           </div>
+
           <div>
             <div className="bd-title text-[22px] font-black text-amber-400">
               Battle Dinos
             </div>
+
             <div className="text-[10px] font-bold uppercase tracking-[0.22em] text-slate-500">
               Genesis Arena
             </div>
@@ -47,6 +56,7 @@ export function DesktopNav() {
               >
                 <Icon size={17} />
                 {item.label}
+
                 {active && (
                   <span className="absolute inset-x-4 bottom-0 h-0.5 rounded-full bg-amber-400 shadow-[0_0_12px_rgba(242,165,38,0.7)]" />
                 )}
@@ -70,6 +80,7 @@ export function MobileHeader() {
       <div className="mx-auto flex max-w-xl items-center justify-between">
         <Link href="/battle" className="flex items-center gap-2">
           <span className="text-2xl">🦖</span>
+
           <span className="bd-title text-lg font-black text-amber-400">
             Battle Dinos
           </span>
@@ -91,7 +102,7 @@ export function MobileBottomNav() {
 
   return (
     <nav className="fixed inset-x-0 bottom-0 z-50 border-t border-white/10 bg-[#050b12]/96 px-3 pb-[max(10px,env(safe-area-inset-bottom))] pt-2 backdrop-blur-xl md:hidden">
-      <div className="mx-auto grid max-w-xl grid-cols-3">
+      <div className="mx-auto grid max-w-xl grid-cols-4">
         {nav.map((item) => {
           const Icon = item.icon;
           const active = pathname.startsWith(item.href);

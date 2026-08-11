@@ -1,0 +1,53 @@
+{
+  "token_id": 18858,
+  "base_id": 192,
+  "name": "Chromecrest",
+  "edition": 19,
+  "edition_supply": 127,
+  "edition_label": "19/127",
+  "finish": "standard",
+  "species": "Deinonychus",
+  "rarity": "Uncommon",
+  "element": "Stone",
+  "image": "ipfs://REPLACE/192.png",
+  "genetics": {
+    "health": 1.0002,
+    "attack": 1.0285,
+    "defense": 1.0444,
+    "speed": 0.9823,
+    "move_1": 0.9249,
+    "move_2": 1.024,
+    "move_3": 0.9293
+  },
+  "battle_stats": {
+    "health": 69,
+    "attack": 77,
+    "defense": 64,
+    "speed": 89
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Stone Talon",
+      "power": 66
+    },
+    {
+      "slot": 2,
+      "name": "Granite Leap",
+      "power": 54
+    },
+    {
+      "slot": 3,
+      "name": "Stone Rush",
+      "power": 75
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

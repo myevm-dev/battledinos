@@ -1,0 +1,53 @@
+{
+  "token_id": 244,
+  "base_id": 3,
+  "name": "Runeshard",
+  "edition": 35,
+  "edition_supply": 97,
+  "edition_label": "35/97",
+  "finish": "standard",
+  "species": "Tyrannosaurus",
+  "rarity": "Common",
+  "element": "Venom",
+  "image": "ipfs://REPLACE/3.png",
+  "genetics": {
+    "health": 0.9743,
+    "attack": 1.0012,
+    "defense": 0.955,
+    "speed": 0.9837,
+    "move_1": 0.9363,
+    "move_2": 0.9472,
+    "move_3": 0.9776
+  },
+  "battle_stats": {
+    "health": 90,
+    "attack": 89,
+    "defense": 74,
+    "speed": 49
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Acid Bite",
+      "power": 77
+    },
+    {
+      "slot": 2,
+      "name": "Acid Bellow",
+      "power": 47
+    },
+    {
+      "slot": 3,
+      "name": "Viper Tail Slam",
+      "power": 49
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

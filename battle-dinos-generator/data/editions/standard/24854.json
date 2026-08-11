@@ -1,0 +1,53 @@
+{
+  "token_id": 24854,
+  "base_id": 252,
+  "name": "Coppermauler",
+  "edition": 37,
+  "edition_supply": 80,
+  "edition_label": "37/80",
+  "finish": "standard",
+  "species": "Triceratops",
+  "rarity": "Common",
+  "element": "Tide",
+  "image": "ipfs://REPLACE/252.png",
+  "genetics": {
+    "health": 0.9986,
+    "attack": 0.9724,
+    "defense": 1.0363,
+    "speed": 1.0074,
+    "move_1": 0.9543,
+    "move_2": 0.9651,
+    "move_3": 1.0615
+  },
+  "battle_stats": {
+    "health": 93,
+    "attack": 73,
+    "defense": 93,
+    "speed": 42
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Aqua Horn Strike",
+      "power": 87
+    },
+    {
+      "slot": 2,
+      "name": "Tidal Charge",
+      "power": 56
+    },
+    {
+      "slot": 3,
+      "name": "Aqua Shell",
+      "power": 59
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

@@ -1,0 +1,53 @@
+{
+  "token_id": 33263,
+  "base_id": 332,
+  "name": "Pyrebreaker",
+  "edition": 88,
+  "edition_supply": 98,
+  "edition_label": "88/98",
+  "finish": "standard",
+  "species": "Spinosaurus",
+  "rarity": "Uncommon",
+  "element": "Venom",
+  "image": "ipfs://REPLACE/332.png",
+  "genetics": {
+    "health": 1.0201,
+    "attack": 0.9692,
+    "defense": 1.0482,
+    "speed": 1.0437,
+    "move_1": 0.9454,
+    "move_2": 1.0043,
+    "move_3": 1.0169
+  },
+  "battle_stats": {
+    "health": 82,
+    "attack": 85,
+    "defense": 71,
+    "speed": 74
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Venom Chomp",
+      "power": 44
+    },
+    {
+      "slot": 2,
+      "name": "Venom Crest Surge",
+      "power": 82
+    },
+    {
+      "slot": 3,
+      "name": "Viper Swipe",
+      "power": 78
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

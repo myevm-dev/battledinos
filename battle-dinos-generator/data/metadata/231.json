@@ -1,28 +1,44 @@
 {
+  "base_id": 231,
   "name": "Ashripper",
-  "description": "Rare Baryonyx from the Battle Dinos Genesis 333 collection.",
-  "image": "ipfs://REPLACE/231.png",
-  "token_id": 231,
+  "description": "Rare Baryonyx Battle Dinos base archetype.",
   "species": "Baryonyx",
   "rarity": "Rare",
+  "element": "Shadow",
+  "image": "ipfs://REPLACE/231.png",
   "visual": {
     "palette": "Rose",
     "description": "Baryonyx with dusty rose scales with burgundy striping, bright dorsal stripe, sleek segmented arena armor, and small arena tag attached to the harness",
     "arena": "sunlit prehistoric jungle clearing"
   },
+  "base_battle_stats": {
+    "health": 79,
+    "attack": 79,
+    "defense": 67,
+    "speed": 78
+  },
   "moves": [
     {
+      "slot": 1,
       "name": "Phantom Talon",
-      "power": 74
+      "base_power": 74
     },
     {
+      "slot": 2,
       "name": "Night Bite",
-      "power": 91
+      "base_power": 91
     },
     {
+      "slot": 3,
       "name": "Shadow Snap Lunge",
-      "power": 57
+      "base_power": 57
     }
   ],
+  "starting_state": {
+    "level": 1,
+    "xp": 0,
+    "evolution_stage": 0,
+    "mutations": []
+  },
   "image_prompt": "Premium stylized 3D battle dinosaur collectible, designed as a consistent character collection. Full-body dinosaur centered in a powerful three-quarter battle stance, entire body visible from head to feet and tail, strong readable silhouette, oversized expressive eyes with fierce personality, chunky stylized anatomy, detailed scales, polished game-cinematic materials, dramatic rim lighting, high-end animated feature-film quality, collectible game character aesthetic, slightly exaggerated proportions, bold armor and accessory shapes when present, rich color contrast, crisp texture detail, atmospheric prehistoric arena environment, shallow cinematic depth of field, dynamic but uncluttered background, no text, no logos, no UI, no frame, no humans, no duplicate dinosaurs, square 1:1 composition. Keep the visual language consistent across the entire collection while making each dinosaur clearly unique. Character: Ashripper, a Baryonyx with dusty rose scales with burgundy striping, bright dorsal stripe, sleek segmented arena armor, and small arena tag attached to the harness. Pose with confident battle-ready personality in a sunlit prehistoric jungle clearing. Do not depict attacks, powers, text, numbers, or other combatants."
 }

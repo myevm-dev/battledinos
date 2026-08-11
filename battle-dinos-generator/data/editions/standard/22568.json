@@ -1,0 +1,53 @@
+{
+  "token_id": 22568,
+  "base_id": 228,
+  "name": "Razorback",
+  "edition": 80,
+  "edition_supply": 124,
+  "edition_label": "80/124",
+  "finish": "standard",
+  "species": "Triceratops",
+  "rarity": "Common",
+  "element": "Solar",
+  "image": "ipfs://REPLACE/228.png",
+  "genetics": {
+    "health": 1.0191,
+    "attack": 0.9654,
+    "defense": 1.0146,
+    "speed": 1.0289,
+    "move_1": 1.0218,
+    "move_2": 0.9527,
+    "move_3": 1.0159
+  },
+  "battle_stats": {
+    "health": 92,
+    "attack": 70,
+    "defense": 89,
+    "speed": 49
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Sun Horn Breaker",
+      "power": 52
+    },
+    {
+      "slot": 2,
+      "name": "Radiant Rush",
+      "power": 55
+    },
+    {
+      "slot": 3,
+      "name": "Dawn Guard",
+      "power": 87
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

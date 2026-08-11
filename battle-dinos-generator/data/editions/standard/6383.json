@@ -1,0 +1,53 @@
+{
+  "token_id": 6383,
+  "base_id": 63,
+  "name": "Apexrage",
+  "edition": 34,
+  "edition_supply": 128,
+  "edition_label": "34/128",
+  "finish": "standard",
+  "species": "Deinonychus",
+  "rarity": "Uncommon",
+  "element": "Solar",
+  "image": "ipfs://REPLACE/63.png",
+  "genetics": {
+    "health": 1.0169,
+    "attack": 1.0471,
+    "defense": 0.9952,
+    "speed": 0.9965,
+    "move_1": 1.0349,
+    "move_2": 0.9259,
+    "move_3": 0.9733
+  },
+  "battle_stats": {
+    "health": 72,
+    "attack": 84,
+    "defense": 55,
+    "speed": 88
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Dawn Rake",
+      "power": 89
+    },
+    {
+      "slot": 2,
+      "name": "Sun Pounce",
+      "power": 61
+    },
+    {
+      "slot": 3,
+      "name": "Sun Rush",
+      "power": 67
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

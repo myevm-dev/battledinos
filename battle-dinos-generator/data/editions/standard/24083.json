@@ -1,0 +1,53 @@
+{
+  "token_id": 24083,
+  "base_id": 246,
+  "name": "Savagecrusher",
+  "edition": 9,
+  "edition_supply": 134,
+  "edition_label": "9/134",
+  "finish": "standard",
+  "species": "Ceratosaurus",
+  "rarity": "Common",
+  "element": "Shadow",
+  "image": "ipfs://REPLACE/246.png",
+  "genetics": {
+    "health": 0.994,
+    "attack": 0.9961,
+    "defense": 1.0154,
+    "speed": 1.0112,
+    "move_1": 0.9595,
+    "move_2": 0.9685,
+    "move_3": 1.0144
+  },
+  "battle_stats": {
+    "health": 76,
+    "attack": 84,
+    "defense": 63,
+    "speed": 78
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Shadow Horn Breaker",
+      "power": 68
+    },
+    {
+      "slot": 2,
+      "name": "Dusk Jaw",
+      "power": 62
+    },
+    {
+      "slot": 3,
+      "name": "Shadow Howl",
+      "power": 93
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

@@ -1,0 +1,53 @@
+{
+  "token_id": 20647,
+  "base_id": 207,
+  "name": "Frostcrest",
+  "edition": 16,
+  "edition_supply": 90,
+  "edition_label": "16/90",
+  "finish": "standard",
+  "species": "Ceratosaurus",
+  "rarity": "Uncommon",
+  "element": "Primal",
+  "image": "ipfs://REPLACE/207.png",
+  "genetics": {
+    "health": 0.9686,
+    "attack": 0.9933,
+    "defense": 0.9554,
+    "speed": 1.0276,
+    "move_1": 0.9911,
+    "move_2": 1.0776,
+    "move_3": 0.9902
+  },
+  "battle_stats": {
+    "health": 71,
+    "attack": 82,
+    "defense": 63,
+    "speed": 80
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Wild Horn Breaker",
+      "power": 49
+    },
+    {
+      "slot": 2,
+      "name": "Alpha Jaw",
+      "power": 58
+    },
+    {
+      "slot": 3,
+      "name": "Primal Roar",
+      "power": 56
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

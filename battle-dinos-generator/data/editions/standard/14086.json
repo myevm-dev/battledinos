@@ -1,0 +1,53 @@
+{
+  "token_id": 14086,
+  "base_id": 146,
+  "name": "Mossroar",
+  "edition": 97,
+  "edition_supply": 130,
+  "edition_label": "97/130",
+  "finish": "standard",
+  "species": "Suchomimus",
+  "rarity": "Common",
+  "element": "Shadow",
+  "image": "ipfs://REPLACE/146.png",
+  "genetics": {
+    "health": 0.9733,
+    "attack": 0.9512,
+    "defense": 1.003,
+    "speed": 1.0094,
+    "move_1": 0.9388,
+    "move_2": 0.9259,
+    "move_3": 0.9591
+  },
+  "battle_stats": {
+    "health": 79,
+    "attack": 76,
+    "defense": 67,
+    "speed": 74
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Shadow Claw",
+      "power": 56
+    },
+    {
+      "slot": 2,
+      "name": "Dusk Bite",
+      "power": 65
+    },
+    {
+      "slot": 3,
+      "name": "Shadow Lunge",
+      "power": 59
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

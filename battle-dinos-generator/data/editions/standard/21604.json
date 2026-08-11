@@ -1,0 +1,53 @@
+{
+  "token_id": 21604,
+  "base_id": 218,
+  "name": "Chromeripper",
+  "edition": 42,
+  "edition_supply": 101,
+  "edition_label": "42/101",
+  "finish": "standard",
+  "species": "Carnotaurus",
+  "rarity": "Common",
+  "element": "Venom",
+  "image": "ipfs://REPLACE/218.png",
+  "genetics": {
+    "health": 0.9862,
+    "attack": 1.0495,
+    "defense": 1.0003,
+    "speed": 1.0422,
+    "move_1": 1.0172,
+    "move_2": 1.0557,
+    "move_3": 0.9232
+  },
+  "battle_stats": {
+    "health": 74,
+    "attack": 90,
+    "defense": 60,
+    "speed": 87
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Toxic Gore",
+      "power": 48
+    },
+    {
+      "slot": 2,
+      "name": "Viper Sprint Strike",
+      "power": 71
+    },
+    {
+      "slot": 3,
+      "name": "Viper Jaw",
+      "power": 56
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

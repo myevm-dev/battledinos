@@ -1,0 +1,53 @@
+{
+  "token_id": 26637,
+  "base_id": 269,
+  "name": "Jadeclaw",
+  "edition": 48,
+  "edition_supply": 132,
+  "edition_label": "48/132",
+  "finish": "standard",
+  "species": "Utahraptor",
+  "rarity": "Common",
+  "element": "Stone",
+  "image": "ipfs://REPLACE/269.png",
+  "genetics": {
+    "health": 0.9552,
+    "attack": 1.0437,
+    "defense": 1.0255,
+    "speed": 0.9942,
+    "move_1": 0.9977,
+    "move_2": 1.0764,
+    "move_3": 0.9239
+  },
+  "battle_stats": {
+    "health": 70,
+    "attack": 91,
+    "defense": 63,
+    "speed": 85
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Granite Claw",
+      "power": 72
+    },
+    {
+      "slot": 2,
+      "name": "Boulder Leap",
+      "power": 48
+    },
+    {
+      "slot": 3,
+      "name": "Stone Fakeout",
+      "power": 48
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

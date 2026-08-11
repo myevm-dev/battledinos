@@ -1,0 +1,53 @@
+{
+  "token_id": 32750,
+  "base_id": 327,
+  "name": "Cinderrush",
+  "edition": 134,
+  "edition_supply": 147,
+  "edition_label": "134/147",
+  "finish": "standard",
+  "species": "Ankylosaurus",
+  "rarity": "Common",
+  "element": "Storm",
+  "image": "ipfs://REPLACE/327.png",
+  "genetics": {
+    "health": 0.9793,
+    "attack": 0.9729,
+    "defense": 1.0223,
+    "speed": 0.9581,
+    "move_1": 0.9397,
+    "move_2": 0.947,
+    "move_3": 0.9346
+  },
+  "battle_stats": {
+    "health": 93,
+    "attack": 62,
+    "defense": 98,
+    "speed": 34
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Static Club Smash",
+      "power": 43
+    },
+    {
+      "slot": 2,
+      "name": "Thunder Bulwark",
+      "power": 45
+    },
+    {
+      "slot": 3,
+      "name": "Tempest Body Check",
+      "power": 47
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

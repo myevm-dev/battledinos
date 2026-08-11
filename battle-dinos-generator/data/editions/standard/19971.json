@@ -1,0 +1,53 @@
+{
+  "token_id": 19971,
+  "base_id": 201,
+  "name": "Mossjaw",
+  "edition": 15,
+  "edition_supply": 171,
+  "edition_label": "15/171",
+  "finish": "standard",
+  "species": "Triceratops",
+  "rarity": "Common",
+  "element": "Void",
+  "image": "ipfs://REPLACE/201.png",
+  "genetics": {
+    "health": 1.0271,
+    "attack": 1.0404,
+    "defense": 0.983,
+    "speed": 0.9618,
+    "move_1": 1.0065,
+    "move_2": 1.0038,
+    "move_3": 1.015
+  },
+  "battle_stats": {
+    "health": 94,
+    "attack": 77,
+    "defense": 87,
+    "speed": 42
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Void Horn Breaker",
+      "power": 64
+    },
+    {
+      "slot": 2,
+      "name": "Abyss Charge",
+      "power": 82
+    },
+    {
+      "slot": 3,
+      "name": "Abyss Shell",
+      "power": 82
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

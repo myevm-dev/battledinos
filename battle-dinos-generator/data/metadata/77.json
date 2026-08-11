@@ -1,28 +1,44 @@
 {
+  "base_id": 77,
   "name": "Suntail",
-  "description": "Uncommon Stegosaurus from the Battle Dinos Genesis 333 collection.",
-  "image": "ipfs://REPLACE/77.png",
-  "token_id": 77,
+  "description": "Uncommon Stegosaurus Battle Dinos base archetype.",
   "species": "Stegosaurus",
   "rarity": "Uncommon",
+  "element": "Venom",
+  "image": "ipfs://REPLACE/77.png",
   "visual": {
     "palette": "Cobalt",
     "description": "Stegosaurus with cobalt blue scales with icy cyan accents, broken dorsal bands, bone-and-leather battle harness, and small battle scars across the snout",
     "arena": "desert fossil basin with windblown dust"
   },
+  "base_battle_stats": {
+    "health": 92,
+    "attack": 65,
+    "defense": 86,
+    "speed": 44
+  },
   "moves": [
     {
+      "slot": 1,
       "name": "Acid Spike Sweep",
-      "power": 71
+      "base_power": 71
     },
     {
+      "slot": 2,
       "name": "Toxic Shell",
-      "power": 68
+      "base_power": 68
     },
     {
+      "slot": 3,
       "name": "Venom Tremor",
-      "power": 79
+      "base_power": 79
     }
   ],
+  "starting_state": {
+    "level": 1,
+    "xp": 0,
+    "evolution_stage": 0,
+    "mutations": []
+  },
   "image_prompt": "Premium stylized 3D battle dinosaur collectible, designed as a consistent character collection. Full-body dinosaur centered in a powerful three-quarter battle stance, entire body visible from head to feet and tail, strong readable silhouette, oversized expressive eyes with fierce personality, chunky stylized anatomy, detailed scales, polished game-cinematic materials, dramatic rim lighting, high-end animated feature-film quality, collectible game character aesthetic, slightly exaggerated proportions, bold armor and accessory shapes when present, rich color contrast, crisp texture detail, atmospheric prehistoric arena environment, shallow cinematic depth of field, dynamic but uncluttered background, no text, no logos, no UI, no frame, no humans, no duplicate dinosaurs, square 1:1 composition. Keep the visual language consistent across the entire collection while making each dinosaur clearly unique. Character: Suntail, a Stegosaurus with cobalt blue scales with icy cyan accents, broken dorsal bands, bone-and-leather battle harness, and small battle scars across the snout. Pose with confident battle-ready personality in a desert fossil basin with windblown dust. Do not depict attacks, powers, text, numbers, or other combatants."
 }

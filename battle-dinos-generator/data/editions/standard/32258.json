@@ -1,0 +1,53 @@
+{
+  "token_id": 32258,
+  "base_id": 322,
+  "name": "Stormstrike",
+  "edition": 36,
+  "edition_supply": 80,
+  "edition_label": "36/80",
+  "finish": "standard",
+  "species": "Triceratops",
+  "rarity": "Common",
+  "element": "Tide",
+  "image": "ipfs://REPLACE/322.png",
+  "genetics": {
+    "health": 0.9739,
+    "attack": 1.0237,
+    "defense": 1.0023,
+    "speed": 1.002,
+    "move_1": 1.0347,
+    "move_2": 0.9245,
+    "move_3": 1.0469
+  },
+  "battle_stats": {
+    "health": 88,
+    "attack": 73,
+    "defense": 93,
+    "speed": 47
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Torrent Horn Breaker",
+      "power": 72
+    },
+    {
+      "slot": 2,
+      "name": "Torrent Stampede",
+      "power": 71
+    },
+    {
+      "slot": 3,
+      "name": "Tidal Shell",
+      "power": 57
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

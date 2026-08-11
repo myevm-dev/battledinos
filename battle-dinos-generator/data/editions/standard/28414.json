@@ -1,0 +1,53 @@
+{
+  "token_id": 28414,
+  "base_id": 286,
+  "name": "Echojaw",
+  "edition": 29,
+  "edition_supply": 113,
+  "edition_label": "29/113",
+  "finish": "standard",
+  "species": "Allosaurus",
+  "rarity": "Uncommon",
+  "element": "Primal",
+  "image": "ipfs://REPLACE/286.png",
+  "genetics": {
+    "health": 0.9571,
+    "attack": 1.0273,
+    "defense": 1.0176,
+    "speed": 0.962,
+    "move_1": 0.9939,
+    "move_2": 0.9476,
+    "move_3": 1.0251
+  },
+  "battle_stats": {
+    "health": 78,
+    "attack": 87,
+    "defense": 63,
+    "speed": 71
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Primal Bite",
+      "power": 65
+    },
+    {
+      "slot": 2,
+      "name": "Wild Claw",
+      "power": 74
+    },
+    {
+      "slot": 3,
+      "name": "Wild Sprint Strike",
+      "power": 56
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

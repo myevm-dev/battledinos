@@ -1,0 +1,53 @@
+{
+  "token_id": 33119,
+  "base_id": 331,
+  "name": "Pyrerush",
+  "edition": 78,
+  "edition_supply": 134,
+  "edition_label": "78/134",
+  "finish": "standard",
+  "species": "Spinosaurus",
+  "rarity": "Uncommon",
+  "element": "Primal",
+  "image": "ipfs://REPLACE/331.png",
+  "genetics": {
+    "health": 1.0191,
+    "attack": 0.9661,
+    "defense": 0.996,
+    "speed": 1.0186,
+    "move_1": 1.0145,
+    "move_2": 0.9982,
+    "move_3": 1.0246
+  },
+  "battle_stats": {
+    "health": 83,
+    "attack": 83,
+    "defense": 69,
+    "speed": 70
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Alpha Bite",
+      "power": 59
+    },
+    {
+      "slot": 2,
+      "name": "Alpha Sail Burst",
+      "power": 48
+    },
+    {
+      "slot": 3,
+      "name": "Alpha Swipe",
+      "power": 80
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

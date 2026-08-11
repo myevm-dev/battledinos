@@ -1,0 +1,2999 @@
+[
+  {
+    "base_id": 1,
+    "name": "Echoguard",
+    "species": "Allosaurus",
+    "rarity": "Common",
+    "element": "Primal",
+    "standard_supply": 99,
+    "image": "ipfs://REPLACE/1.png"
+  },
+  {
+    "base_id": 2,
+    "name": "Jadetooth",
+    "species": "Iguanodon",
+    "rarity": "Common",
+    "element": "Primal",
+    "standard_supply": 110,
+    "image": "ipfs://REPLACE/2.png"
+  },
+  {
+    "base_id": 3,
+    "name": "Runeshard",
+    "species": "Tyrannosaurus",
+    "rarity": "Common",
+    "element": "Venom",
+    "standard_supply": 97,
+    "image": "ipfs://REPLACE/3.png"
+  },
+  {
+    "base_id": 4,
+    "name": "Ashfang",
+    "species": "Ceratosaurus",
+    "rarity": "Uncommon",
+    "element": "Void",
+    "standard_supply": 105,
+    "image": "ipfs://REPLACE/4.png"
+  },
+  {
+    "base_id": 5,
+    "name": "Wildscar",
+    "species": "Velociraptor",
+    "rarity": "Epic",
+    "element": "Void",
+    "standard_supply": 26,
+    "image": "ipfs://REPLACE/5.png"
+  },
+  {
+    "base_id": 6,
+    "name": "Grimcrest",
+    "species": "Velociraptor",
+    "rarity": "Common",
+    "element": "Venom",
+    "standard_supply": 97,
+    "image": "ipfs://REPLACE/6.png"
+  },
+  {
+    "base_id": 7,
+    "name": "Coppertail",
+    "species": "Suchomimus",
+    "rarity": "Rare",
+    "element": "Stone",
+    "standard_supply": 42,
+    "image": "ipfs://REPLACE/7.png"
+  },
+  {
+    "base_id": 8,
+    "name": "Ghosttail",
+    "species": "Suchomimus",
+    "rarity": "Common",
+    "element": "Frost",
+    "standard_supply": 178,
+    "image": "ipfs://REPLACE/8.png"
+  },
+  {
+    "base_id": 9,
+    "name": "Solarbane",
+    "species": "Styracosaurus",
+    "rarity": "Common",
+    "element": "Solar",
+    "standard_supply": 155,
+    "image": "ipfs://REPLACE/9.png"
+  },
+  {
+    "base_id": 10,
+    "name": "Ghosttalon",
+    "species": "Parasaurolophus",
+    "rarity": "Common",
+    "element": "Frost",
+    "standard_supply": 188,
+    "image": "ipfs://REPLACE/10.png"
+  },
+  {
+    "base_id": 11,
+    "name": "Riftrage",
+    "species": "Baryonyx",
+    "rarity": "Uncommon",
+    "element": "Tide",
+    "standard_supply": 135,
+    "image": "ipfs://REPLACE/11.png"
+  },
+  {
+    "base_id": 12,
+    "name": "Copperguard",
+    "species": "Ceratosaurus",
+    "rarity": "Uncommon",
+    "element": "Solar",
+    "standard_supply": 56,
+    "image": "ipfs://REPLACE/12.png"
+  },
+  {
+    "base_id": 13,
+    "name": "Chromeclaw",
+    "species": "Carnotaurus",
+    "rarity": "Common",
+    "element": "Venom",
+    "standard_supply": 77,
+    "image": "ipfs://REPLACE/13.png"
+  },
+  {
+    "base_id": 14,
+    "name": "Voidjaw",
+    "species": "Carnotaurus",
+    "rarity": "Rare",
+    "element": "Ember",
+    "standard_supply": 86,
+    "image": "ipfs://REPLACE/14.png"
+  },
+  {
+    "base_id": 15,
+    "name": "Onyxroar",
+    "species": "Stegosaurus",
+    "rarity": "Common",
+    "element": "Primal",
+    "standard_supply": 143,
+    "image": "ipfs://REPLACE/15.png"
+  },
+  {
+    "base_id": 16,
+    "name": "Titantooth",
+    "species": "Velociraptor",
+    "rarity": "Common",
+    "element": "Shadow",
+    "standard_supply": 81,
+    "image": "ipfs://REPLACE/16.png"
+  },
+  {
+    "base_id": 17,
+    "name": "Scarletshard",
+    "species": "Baryonyx",
+    "rarity": "Common",
+    "element": "Ember",
+    "standard_supply": 189,
+    "image": "ipfs://REPLACE/17.png"
+  },
+  {
+    "base_id": 18,
+    "name": "Nighthunter",
+    "species": "Velociraptor",
+    "rarity": "Common",
+    "element": "Primal",
+    "standard_supply": 82,
+    "image": "ipfs://REPLACE/18.png"
+  },
+  {
+    "base_id": 19,
+    "name": "Stormtail",
+    "species": "Stegosaurus",
+    "rarity": "Common",
+    "element": "Ember",
+    "standard_supply": 118,
+    "image": "ipfs://REPLACE/19.png"
+  },
+  {
+    "base_id": 20,
+    "name": "Cragscar",
+    "species": "Velociraptor",
+    "rarity": "Common",
+    "element": "Venom",
+    "standard_supply": 157,
+    "image": "ipfs://REPLACE/20.png"
+  },
+  {
+    "base_id": 21,
+    "name": "Ironrage",
+    "species": "Ankylosaurus",
+    "rarity": "Common",
+    "element": "Solar",
+    "standard_supply": 112,
+    "image": "ipfs://REPLACE/21.png"
+  },
+  {
+    "base_id": 22,
+    "name": "Emberbreaker",
+    "species": "Ankylosaurus",
+    "rarity": "Epic",
+    "element": "Ember",
+    "standard_supply": 30,
+    "image": "ipfs://REPLACE/22.png"
+  },
+  {
+    "base_id": 23,
+    "name": "Frostreaver",
+    "species": "Stegosaurus",
+    "rarity": "Common",
+    "element": "Shadow",
+    "standard_supply": 185,
+    "image": "ipfs://REPLACE/23.png"
+  },
+  {
+    "base_id": 24,
+    "name": "Razortooth",
+    "species": "Stegosaurus",
+    "rarity": "Common",
+    "element": "Frost",
+    "standard_supply": 110,
+    "image": "ipfs://REPLACE/24.png"
+  },
+  {
+    "base_id": 25,
+    "name": "Venomwarden",
+    "species": "Suchomimus",
+    "rarity": "Rare",
+    "element": "Shadow",
+    "standard_supply": 79,
+    "image": "ipfs://REPLACE/25.png"
+  },
+  {
+    "base_id": 26,
+    "name": "Duskback",
+    "species": "Spinosaurus",
+    "rarity": "Uncommon",
+    "element": "Ember",
+    "standard_supply": 116,
+    "image": "ipfs://REPLACE/26.png"
+  },
+  {
+    "base_id": 27,
+    "name": "Venomspike",
+    "species": "Dilophosaurus",
+    "rarity": "Uncommon",
+    "element": "Solar",
+    "standard_supply": 80,
+    "image": "ipfs://REPLACE/27.png"
+  },
+  {
+    "base_id": 28,
+    "name": "Ashcrest",
+    "species": "Pachycephalosaurus",
+    "rarity": "Common",
+    "element": "Primal",
+    "standard_supply": 175,
+    "image": "ipfs://REPLACE/28.png"
+  },
+  {
+    "base_id": 29,
+    "name": "Scarletmauler",
+    "species": "Carnotaurus",
+    "rarity": "Common",
+    "element": "Solar",
+    "standard_supply": 183,
+    "image": "ipfs://REPLACE/29.png"
+  },
+  {
+    "base_id": 30,
+    "name": "Copperscar",
+    "species": "Tyrannosaurus",
+    "rarity": "Common",
+    "element": "Void",
+    "standard_supply": 110,
+    "image": "ipfs://REPLACE/30.png"
+  },
+  {
+    "base_id": 31,
+    "name": "Savagebreaker",
+    "species": "Velociraptor",
+    "rarity": "Rare",
+    "element": "Storm",
+    "standard_supply": 69,
+    "image": "ipfs://REPLACE/31.png"
+  },
+  {
+    "base_id": 32,
+    "name": "Onyxrush",
+    "species": "Styracosaurus",
+    "rarity": "Common",
+    "element": "Venom",
+    "standard_supply": 149,
+    "image": "ipfs://REPLACE/32.png"
+  },
+  {
+    "base_id": 33,
+    "name": "Voidstalker",
+    "species": "Carnotaurus",
+    "rarity": "Uncommon",
+    "element": "Stone",
+    "standard_supply": 64,
+    "image": "ipfs://REPLACE/33.png"
+  },
+  {
+    "base_id": 34,
+    "name": "Ghostrage",
+    "species": "Pachycephalosaurus",
+    "rarity": "Rare",
+    "element": "Primal",
+    "standard_supply": 59,
+    "image": "ipfs://REPLACE/34.png"
+  },
+  {
+    "base_id": 35,
+    "name": "Irontalon",
+    "species": "Styracosaurus",
+    "rarity": "Uncommon",
+    "element": "Stone",
+    "standard_supply": 79,
+    "image": "ipfs://REPLACE/35.png"
+  },
+  {
+    "base_id": 36,
+    "name": "Grimcrusher",
+    "species": "Ceratosaurus",
+    "rarity": "Common",
+    "element": "Frost",
+    "standard_supply": 90,
+    "image": "ipfs://REPLACE/36.png"
+  },
+  {
+    "base_id": 37,
+    "name": "Grimspike",
+    "species": "Pachycephalosaurus",
+    "rarity": "Rare",
+    "element": "Solar",
+    "standard_supply": 55,
+    "image": "ipfs://REPLACE/37.png"
+  },
+  {
+    "base_id": 38,
+    "name": "Cragtooth",
+    "species": "Iguanodon",
+    "rarity": "Common",
+    "element": "Void",
+    "standard_supply": 82,
+    "image": "ipfs://REPLACE/38.png"
+  },
+  {
+    "base_id": 39,
+    "name": "Sunbane",
+    "species": "Utahraptor",
+    "rarity": "Common",
+    "element": "Venom",
+    "standard_supply": 88,
+    "image": "ipfs://REPLACE/39.png"
+  },
+  {
+    "base_id": 40,
+    "name": "Dustcrusher",
+    "species": "Carnotaurus",
+    "rarity": "Uncommon",
+    "element": "Void",
+    "standard_supply": 82,
+    "image": "ipfs://REPLACE/40.png"
+  },
+  {
+    "base_id": 41,
+    "name": "Riftcrest",
+    "species": "Utahraptor",
+    "rarity": "Rare",
+    "element": "Ember",
+    "standard_supply": 68,
+    "image": "ipfs://REPLACE/41.png"
+  },
+  {
+    "base_id": 42,
+    "name": "Duskstalker",
+    "species": "Allosaurus",
+    "rarity": "Rare",
+    "element": "Tide",
+    "standard_supply": 45,
+    "image": "ipfs://REPLACE/42.png"
+  },
+  {
+    "base_id": 43,
+    "name": "Echowarden",
+    "species": "Allosaurus",
+    "rarity": "Common",
+    "element": "Shadow",
+    "standard_supply": 144,
+    "image": "ipfs://REPLACE/43.png"
+  },
+  {
+    "base_id": 44,
+    "name": "Nightrage",
+    "species": "Therizinosaurus",
+    "rarity": "Rare",
+    "element": "Void",
+    "standard_supply": 54,
+    "image": "ipfs://REPLACE/44.png"
+  },
+  {
+    "base_id": 45,
+    "name": "Cindershard",
+    "species": "Baryonyx",
+    "rarity": "Uncommon",
+    "element": "Shadow",
+    "standard_supply": 75,
+    "image": "ipfs://REPLACE/45.png"
+  },
+  {
+    "base_id": 46,
+    "name": "Chromewarden",
+    "species": "Pachycephalosaurus",
+    "rarity": "Uncommon",
+    "element": "Venom",
+    "standard_supply": 70,
+    "image": "ipfs://REPLACE/46.png"
+  },
+  {
+    "base_id": 47,
+    "name": "Azurewarden",
+    "species": "Therizinosaurus",
+    "rarity": "Common",
+    "element": "Storm",
+    "standard_supply": 132,
+    "image": "ipfs://REPLACE/47.png"
+  },
+  {
+    "base_id": 48,
+    "name": "Savagerunner",
+    "species": "Styracosaurus",
+    "rarity": "Common",
+    "element": "Tide",
+    "standard_supply": 128,
+    "image": "ipfs://REPLACE/48.png"
+  },
+  {
+    "base_id": 49,
+    "name": "Sunroar",
+    "species": "Utahraptor",
+    "rarity": "Uncommon",
+    "element": "Storm",
+    "standard_supply": 73,
+    "image": "ipfs://REPLACE/49.png"
+  },
+  {
+    "base_id": 50,
+    "name": "Stormscar",
+    "species": "Allosaurus",
+    "rarity": "Common",
+    "element": "Frost",
+    "standard_supply": 139,
+    "image": "ipfs://REPLACE/50.png"
+  },
+  {
+    "base_id": 51,
+    "name": "Dusttalon",
+    "species": "Giganotosaurus",
+    "rarity": "Uncommon",
+    "element": "Solar",
+    "standard_supply": 129,
+    "image": "ipfs://REPLACE/51.png"
+  },
+  {
+    "base_id": 52,
+    "name": "Apexscar",
+    "species": "Spinosaurus",
+    "rarity": "Common",
+    "element": "Primal",
+    "standard_supply": 96,
+    "image": "ipfs://REPLACE/52.png"
+  },
+  {
+    "base_id": 53,
+    "name": "Copperclaw",
+    "species": "Utahraptor",
+    "rarity": "Uncommon",
+    "element": "Void",
+    "standard_supply": 88,
+    "image": "ipfs://REPLACE/53.png"
+  },
+  {
+    "base_id": 54,
+    "name": "Pyrecrusher",
+    "species": "Parasaurolophus",
+    "rarity": "Legendary",
+    "element": "Primal",
+    "standard_supply": 5,
+    "image": "ipfs://REPLACE/54.png"
+  },
+  {
+    "base_id": 55,
+    "name": "Embertalon",
+    "species": "Therizinosaurus",
+    "rarity": "Common",
+    "element": "Solar",
+    "standard_supply": 168,
+    "image": "ipfs://REPLACE/55.png"
+  },
+  {
+    "base_id": 56,
+    "name": "Azureroar",
+    "species": "Ankylosaurus",
+    "rarity": "Rare",
+    "element": "Frost",
+    "standard_supply": 43,
+    "image": "ipfs://REPLACE/56.png"
+  },
+  {
+    "base_id": 57,
+    "name": "Cindermaw",
+    "species": "Ankylosaurus",
+    "rarity": "Common",
+    "element": "Frost",
+    "standard_supply": 172,
+    "image": "ipfs://REPLACE/57.png"
+  },
+  {
+    "base_id": 58,
+    "name": "Ivoryback",
+    "species": "Tyrannosaurus",
+    "rarity": "Common",
+    "element": "Void",
+    "standard_supply": 83,
+    "image": "ipfs://REPLACE/58.png"
+  },
+  {
+    "base_id": 59,
+    "name": "Emberrunner",
+    "species": "Carnotaurus",
+    "rarity": "Common",
+    "element": "Solar",
+    "standard_supply": 102,
+    "image": "ipfs://REPLACE/59.png"
+  },
+  {
+    "base_id": 60,
+    "name": "Bouldershard",
+    "species": "Dilophosaurus",
+    "rarity": "Rare",
+    "element": "Void",
+    "standard_supply": 42,
+    "image": "ipfs://REPLACE/60.png"
+  },
+  {
+    "base_id": 61,
+    "name": "Voidbane",
+    "species": "Spinosaurus",
+    "rarity": "Common",
+    "element": "Primal",
+    "standard_supply": 99,
+    "image": "ipfs://REPLACE/61.png"
+  },
+  {
+    "base_id": 62,
+    "name": "Cinderstalker",
+    "species": "Velociraptor",
+    "rarity": "Common",
+    "element": "Tide",
+    "standard_supply": 176,
+    "image": "ipfs://REPLACE/62.png"
+  },
+  {
+    "base_id": 63,
+    "name": "Apexrage",
+    "species": "Deinonychus",
+    "rarity": "Uncommon",
+    "element": "Solar",
+    "standard_supply": 128,
+    "image": "ipfs://REPLACE/63.png"
+  },
+  {
+    "base_id": 64,
+    "name": "Thunderspike",
+    "species": "Tyrannosaurus",
+    "rarity": "Epic",
+    "element": "Venom",
+    "standard_supply": 30,
+    "image": "ipfs://REPLACE/64.png"
+  },
+  {
+    "base_id": 65,
+    "name": "Novacrest",
+    "species": "Spinosaurus",
+    "rarity": "Common",
+    "element": "Shadow",
+    "standard_supply": 79,
+    "image": "ipfs://REPLACE/65.png"
+  },
+  {
+    "base_id": 66,
+    "name": "Boulderwarden",
+    "species": "Parasaurolophus",
+    "rarity": "Uncommon",
+    "element": "Shadow",
+    "standard_supply": 125,
+    "image": "ipfs://REPLACE/66.png"
+  },
+  {
+    "base_id": 67,
+    "name": "Duskmauler",
+    "species": "Therizinosaurus",
+    "rarity": "Uncommon",
+    "element": "Frost",
+    "standard_supply": 81,
+    "image": "ipfs://REPLACE/67.png"
+  },
+  {
+    "base_id": 68,
+    "name": "Novarage",
+    "species": "Spinosaurus",
+    "rarity": "Uncommon",
+    "element": "Venom",
+    "standard_supply": 63,
+    "image": "ipfs://REPLACE/68.png"
+  },
+  {
+    "base_id": 69,
+    "name": "Irontooth",
+    "species": "Ceratosaurus",
+    "rarity": "Epic",
+    "element": "Venom",
+    "standard_supply": 42,
+    "image": "ipfs://REPLACE/69.png"
+  },
+  {
+    "base_id": 70,
+    "name": "Dustbreaker",
+    "species": "Styracosaurus",
+    "rarity": "Epic",
+    "element": "Stone",
+    "standard_supply": 44,
+    "image": "ipfs://REPLACE/70.png"
+  },
+  {
+    "base_id": 71,
+    "name": "Venommauler",
+    "species": "Velociraptor",
+    "rarity": "Uncommon",
+    "element": "Solar",
+    "standard_supply": 102,
+    "image": "ipfs://REPLACE/71.png"
+  },
+  {
+    "base_id": 72,
+    "name": "Chromeshard",
+    "species": "Carnotaurus",
+    "rarity": "Common",
+    "element": "Tide",
+    "standard_supply": 102,
+    "image": "ipfs://REPLACE/72.png"
+  },
+  {
+    "base_id": 73,
+    "name": "Ivorycrest",
+    "species": "Giganotosaurus",
+    "rarity": "Uncommon",
+    "element": "Frost",
+    "standard_supply": 79,
+    "image": "ipfs://REPLACE/73.png"
+  },
+  {
+    "base_id": 74,
+    "name": "Sunreaver",
+    "species": "Stegosaurus",
+    "rarity": "Common",
+    "element": "Ember",
+    "standard_supply": 158,
+    "image": "ipfs://REPLACE/74.png"
+  },
+  {
+    "base_id": 75,
+    "name": "Mossfang",
+    "species": "Dilophosaurus",
+    "rarity": "Legendary",
+    "element": "Void",
+    "standard_supply": 7,
+    "image": "ipfs://REPLACE/75.png"
+  },
+  {
+    "base_id": 76,
+    "name": "Onyxwarden",
+    "species": "Utahraptor",
+    "rarity": "Epic",
+    "element": "Ember",
+    "standard_supply": 14,
+    "image": "ipfs://REPLACE/76.png"
+  },
+  {
+    "base_id": 77,
+    "name": "Suntail",
+    "species": "Stegosaurus",
+    "rarity": "Uncommon",
+    "element": "Venom",
+    "standard_supply": 88,
+    "image": "ipfs://REPLACE/77.png"
+  },
+  {
+    "base_id": 78,
+    "name": "Apexhorn",
+    "species": "Dilophosaurus",
+    "rarity": "Common",
+    "element": "Ember",
+    "standard_supply": 95,
+    "image": "ipfs://REPLACE/78.png"
+  },
+  {
+    "base_id": 79,
+    "name": "Boulderjaw",
+    "species": "Suchomimus",
+    "rarity": "Uncommon",
+    "element": "Storm",
+    "standard_supply": 59,
+    "image": "ipfs://REPLACE/79.png"
+  },
+  {
+    "base_id": 80,
+    "name": "Solarcrest",
+    "species": "Triceratops",
+    "rarity": "Common",
+    "element": "Stone",
+    "standard_supply": 120,
+    "image": "ipfs://REPLACE/80.png"
+  },
+  {
+    "base_id": 81,
+    "name": "Titanbreaker",
+    "species": "Styracosaurus",
+    "rarity": "Rare",
+    "element": "Ember",
+    "standard_supply": 29,
+    "image": "ipfs://REPLACE/81.png"
+  },
+  {
+    "base_id": 82,
+    "name": "Cragback",
+    "species": "Velociraptor",
+    "rarity": "Common",
+    "element": "Void",
+    "standard_supply": 125,
+    "image": "ipfs://REPLACE/82.png"
+  },
+  {
+    "base_id": 83,
+    "name": "Frostclaw",
+    "species": "Giganotosaurus",
+    "rarity": "Common",
+    "element": "Stone",
+    "standard_supply": 130,
+    "image": "ipfs://REPLACE/83.png"
+  },
+  {
+    "base_id": 84,
+    "name": "Solarroar",
+    "species": "Therizinosaurus",
+    "rarity": "Rare",
+    "element": "Venom",
+    "standard_supply": 51,
+    "image": "ipfs://REPLACE/84.png"
+  },
+  {
+    "base_id": 85,
+    "name": "Ivoryhide",
+    "species": "Iguanodon",
+    "rarity": "Common",
+    "element": "Tide",
+    "standard_supply": 180,
+    "image": "ipfs://REPLACE/85.png"
+  },
+  {
+    "base_id": 86,
+    "name": "Vortexguard",
+    "species": "Therizinosaurus",
+    "rarity": "Uncommon",
+    "element": "Primal",
+    "standard_supply": 71,
+    "image": "ipfs://REPLACE/86.png"
+  },
+  {
+    "base_id": 87,
+    "name": "Runeclaw",
+    "species": "Baryonyx",
+    "rarity": "Rare",
+    "element": "Storm",
+    "standard_supply": 55,
+    "image": "ipfs://REPLACE/87.png"
+  },
+  {
+    "base_id": 88,
+    "name": "Mossbreaker",
+    "species": "Allosaurus",
+    "rarity": "Uncommon",
+    "element": "Solar",
+    "standard_supply": 94,
+    "image": "ipfs://REPLACE/88.png"
+  },
+  {
+    "base_id": 89,
+    "name": "Suncrest",
+    "species": "Velociraptor",
+    "rarity": "Uncommon",
+    "element": "Stone",
+    "standard_supply": 106,
+    "image": "ipfs://REPLACE/89.png"
+  },
+  {
+    "base_id": 90,
+    "name": "Titanrage",
+    "species": "Ankylosaurus",
+    "rarity": "Common",
+    "element": "Ember",
+    "standard_supply": 101,
+    "image": "ipfs://REPLACE/90.png"
+  },
+  {
+    "base_id": 91,
+    "name": "Rifttooth",
+    "species": "Ankylosaurus",
+    "rarity": "Common",
+    "element": "Frost",
+    "standard_supply": 96,
+    "image": "ipfs://REPLACE/91.png"
+  },
+  {
+    "base_id": 92,
+    "name": "Duststalker",
+    "species": "Triceratops",
+    "rarity": "Common",
+    "element": "Primal",
+    "standard_supply": 158,
+    "image": "ipfs://REPLACE/92.png"
+  },
+  {
+    "base_id": 93,
+    "name": "Obsidianreaver",
+    "species": "Baryonyx",
+    "rarity": "Epic",
+    "element": "Storm",
+    "standard_supply": 40,
+    "image": "ipfs://REPLACE/93.png"
+  },
+  {
+    "base_id": 94,
+    "name": "Ivorybane",
+    "species": "Utahraptor",
+    "rarity": "Common",
+    "element": "Stone",
+    "standard_supply": 104,
+    "image": "ipfs://REPLACE/94.png"
+  },
+  {
+    "base_id": 95,
+    "name": "Duskhorn",
+    "species": "Iguanodon",
+    "rarity": "Epic",
+    "element": "Primal",
+    "standard_supply": 38,
+    "image": "ipfs://REPLACE/95.png"
+  },
+  {
+    "base_id": 96,
+    "name": "Chromespike",
+    "species": "Deinonychus",
+    "rarity": "Common",
+    "element": "Primal",
+    "standard_supply": 82,
+    "image": "ipfs://REPLACE/96.png"
+  },
+  {
+    "base_id": 97,
+    "name": "Thunderfang",
+    "species": "Stegosaurus",
+    "rarity": "Common",
+    "element": "Void",
+    "standard_supply": 165,
+    "image": "ipfs://REPLACE/97.png"
+  },
+  {
+    "base_id": 98,
+    "name": "Grimrunner",
+    "species": "Carnotaurus",
+    "rarity": "Common",
+    "element": "Tide",
+    "standard_supply": 98,
+    "image": "ipfs://REPLACE/98.png"
+  },
+  {
+    "base_id": 99,
+    "name": "Novamauler",
+    "species": "Parasaurolophus",
+    "rarity": "Uncommon",
+    "element": "Frost",
+    "standard_supply": 106,
+    "image": "ipfs://REPLACE/99.png"
+  },
+  {
+    "base_id": 100,
+    "name": "Titanhunter",
+    "species": "Suchomimus",
+    "rarity": "Uncommon",
+    "element": "Venom",
+    "standard_supply": 93,
+    "image": "ipfs://REPLACE/100.png"
+  },
+  {
+    "base_id": 101,
+    "name": "Copperreaver",
+    "species": "Ceratosaurus",
+    "rarity": "Common",
+    "element": "Storm",
+    "standard_supply": 133,
+    "image": "ipfs://REPLACE/101.png"
+  },
+  {
+    "base_id": 102,
+    "name": "Venomclaw",
+    "species": "Suchomimus",
+    "rarity": "Uncommon",
+    "element": "Solar",
+    "standard_supply": 105,
+    "image": "ipfs://REPLACE/102.png"
+  },
+  {
+    "base_id": 103,
+    "name": "Boulderhorn",
+    "species": "Carnotaurus",
+    "rarity": "Common",
+    "element": "Ember",
+    "standard_supply": 116,
+    "image": "ipfs://REPLACE/103.png"
+  },
+  {
+    "base_id": 104,
+    "name": "Vortexjaw",
+    "species": "Pachycephalosaurus",
+    "rarity": "Uncommon",
+    "element": "Ember",
+    "standard_supply": 89,
+    "image": "ipfs://REPLACE/104.png"
+  },
+  {
+    "base_id": 105,
+    "name": "Flintback",
+    "species": "Spinosaurus",
+    "rarity": "Common",
+    "element": "Venom",
+    "standard_supply": 104,
+    "image": "ipfs://REPLACE/105.png"
+  },
+  {
+    "base_id": 106,
+    "name": "Bouldercrest",
+    "species": "Styracosaurus",
+    "rarity": "Common",
+    "element": "Venom",
+    "standard_supply": 165,
+    "image": "ipfs://REPLACE/106.png"
+  },
+  {
+    "base_id": 107,
+    "name": "Scarletmaw",
+    "species": "Carnotaurus",
+    "rarity": "Common",
+    "element": "Ember",
+    "standard_supply": 162,
+    "image": "ipfs://REPLACE/107.png"
+  },
+  {
+    "base_id": 108,
+    "name": "Vortexwarden",
+    "species": "Velociraptor",
+    "rarity": "Common",
+    "element": "Tide",
+    "standard_supply": 157,
+    "image": "ipfs://REPLACE/108.png"
+  },
+  {
+    "base_id": 109,
+    "name": "Blazeback",
+    "species": "Giganotosaurus",
+    "rarity": "Common",
+    "element": "Tide",
+    "standard_supply": 101,
+    "image": "ipfs://REPLACE/109.png"
+  },
+  {
+    "base_id": 110,
+    "name": "Ironguard",
+    "species": "Styracosaurus",
+    "rarity": "Common",
+    "element": "Tide",
+    "standard_supply": 166,
+    "image": "ipfs://REPLACE/110.png"
+  },
+  {
+    "base_id": 111,
+    "name": "Copperbane",
+    "species": "Stegosaurus",
+    "rarity": "Rare",
+    "element": "Venom",
+    "standard_supply": 39,
+    "image": "ipfs://REPLACE/111.png"
+  },
+  {
+    "base_id": 112,
+    "name": "Dustclaw",
+    "species": "Utahraptor",
+    "rarity": "Epic",
+    "element": "Void",
+    "standard_supply": 31,
+    "image": "ipfs://REPLACE/112.png"
+  },
+  {
+    "base_id": 113,
+    "name": "Emberreaver",
+    "species": "Styracosaurus",
+    "rarity": "Legendary",
+    "element": "Primal",
+    "standard_supply": 3,
+    "image": "ipfs://REPLACE/113.png"
+  },
+  {
+    "base_id": 114,
+    "name": "Nighttooth",
+    "species": "Therizinosaurus",
+    "rarity": "Rare",
+    "element": "Solar",
+    "standard_supply": 33,
+    "image": "ipfs://REPLACE/114.png"
+  },
+  {
+    "base_id": 115,
+    "name": "Chromeback",
+    "species": "Triceratops",
+    "rarity": "Rare",
+    "element": "Tide",
+    "standard_supply": 88,
+    "image": "ipfs://REPLACE/115.png"
+  },
+  {
+    "base_id": 116,
+    "name": "Apexbane",
+    "species": "Pachycephalosaurus",
+    "rarity": "Epic",
+    "element": "Solar",
+    "standard_supply": 21,
+    "image": "ipfs://REPLACE/116.png"
+  },
+  {
+    "base_id": 117,
+    "name": "Riftbane",
+    "species": "Stegosaurus",
+    "rarity": "Common",
+    "element": "Ember",
+    "standard_supply": 84,
+    "image": "ipfs://REPLACE/117.png"
+  },
+  {
+    "base_id": 118,
+    "name": "Mossshard",
+    "species": "Baryonyx",
+    "rarity": "Rare",
+    "element": "Tide",
+    "standard_supply": 50,
+    "image": "ipfs://REPLACE/118.png"
+  },
+  {
+    "base_id": 119,
+    "name": "Irontail",
+    "species": "Ankylosaurus",
+    "rarity": "Uncommon",
+    "element": "Primal",
+    "standard_supply": 58,
+    "image": "ipfs://REPLACE/119.png"
+  },
+  {
+    "base_id": 120,
+    "name": "Solartail",
+    "species": "Stegosaurus",
+    "rarity": "Rare",
+    "element": "Primal",
+    "standard_supply": 81,
+    "image": "ipfs://REPLACE/120.png"
+  },
+  {
+    "base_id": 121,
+    "name": "Thundermaw",
+    "species": "Stegosaurus",
+    "rarity": "Common",
+    "element": "Ember",
+    "standard_supply": 177,
+    "image": "ipfs://REPLACE/121.png"
+  },
+  {
+    "base_id": 122,
+    "name": "Savagetooth",
+    "species": "Carnotaurus",
+    "rarity": "Epic",
+    "element": "Storm",
+    "standard_supply": 32,
+    "image": "ipfs://REPLACE/122.png"
+  },
+  {
+    "base_id": 123,
+    "name": "Emberrush",
+    "species": "Utahraptor",
+    "rarity": "Uncommon",
+    "element": "Tide",
+    "standard_supply": 96,
+    "image": "ipfs://REPLACE/123.png"
+  },
+  {
+    "base_id": 124,
+    "name": "Vortexshard",
+    "species": "Suchomimus",
+    "rarity": "Uncommon",
+    "element": "Storm",
+    "standard_supply": 83,
+    "image": "ipfs://REPLACE/124.png"
+  },
+  {
+    "base_id": 125,
+    "name": "Mossstalker",
+    "species": "Dilophosaurus",
+    "rarity": "Common",
+    "element": "Tide",
+    "standard_supply": 79,
+    "image": "ipfs://REPLACE/125.png"
+  },
+  {
+    "base_id": 126,
+    "name": "Ghostrunner",
+    "species": "Stegosaurus",
+    "rarity": "Epic",
+    "element": "Solar",
+    "standard_supply": 9,
+    "image": "ipfs://REPLACE/126.png"
+  },
+  {
+    "base_id": 127,
+    "name": "Ironripper",
+    "species": "Iguanodon",
+    "rarity": "Common",
+    "element": "Shadow",
+    "standard_supply": 152,
+    "image": "ipfs://REPLACE/127.png"
+  },
+  {
+    "base_id": 128,
+    "name": "Voidspike",
+    "species": "Spinosaurus",
+    "rarity": "Uncommon",
+    "element": "Void",
+    "standard_supply": 112,
+    "image": "ipfs://REPLACE/128.png"
+  },
+  {
+    "base_id": 129,
+    "name": "Riftmauler",
+    "species": "Giganotosaurus",
+    "rarity": "Legendary",
+    "element": "Tide",
+    "standard_supply": 15,
+    "image": "ipfs://REPLACE/129.png"
+  },
+  {
+    "base_id": 130,
+    "name": "Novarush",
+    "species": "Tyrannosaurus",
+    "rarity": "Rare",
+    "element": "Solar",
+    "standard_supply": 32,
+    "image": "ipfs://REPLACE/130.png"
+  },
+  {
+    "base_id": 131,
+    "name": "Emberrage",
+    "species": "Ankylosaurus",
+    "rarity": "Rare",
+    "element": "Ember",
+    "standard_supply": 69,
+    "image": "ipfs://REPLACE/131.png"
+  },
+  {
+    "base_id": 132,
+    "name": "Wildroar",
+    "species": "Styracosaurus",
+    "rarity": "Common",
+    "element": "Solar",
+    "standard_supply": 136,
+    "image": "ipfs://REPLACE/132.png"
+  },
+  {
+    "base_id": 133,
+    "name": "Scarletfang",
+    "species": "Parasaurolophus",
+    "rarity": "Uncommon",
+    "element": "Tide",
+    "standard_supply": 129,
+    "image": "ipfs://REPLACE/133.png"
+  },
+  {
+    "base_id": 134,
+    "name": "Copperhide",
+    "species": "Allosaurus",
+    "rarity": "Uncommon",
+    "element": "Tide",
+    "standard_supply": 85,
+    "image": "ipfs://REPLACE/134.png"
+  },
+  {
+    "base_id": 135,
+    "name": "Ghostreaver",
+    "species": "Parasaurolophus",
+    "rarity": "Common",
+    "element": "Primal",
+    "standard_supply": 182,
+    "image": "ipfs://REPLACE/135.png"
+  },
+  {
+    "base_id": 136,
+    "name": "Cindercrest",
+    "species": "Dilophosaurus",
+    "rarity": "Uncommon",
+    "element": "Frost",
+    "standard_supply": 81,
+    "image": "ipfs://REPLACE/136.png"
+  },
+  {
+    "base_id": 137,
+    "name": "Ashwarden",
+    "species": "Allosaurus",
+    "rarity": "Uncommon",
+    "element": "Storm",
+    "standard_supply": 73,
+    "image": "ipfs://REPLACE/137.png"
+  },
+  {
+    "base_id": 138,
+    "name": "Grimbreaker",
+    "species": "Styracosaurus",
+    "rarity": "Rare",
+    "element": "Ember",
+    "standard_supply": 69,
+    "image": "ipfs://REPLACE/138.png"
+  },
+  {
+    "base_id": 139,
+    "name": "Cragmaw",
+    "species": "Velociraptor",
+    "rarity": "Common",
+    "element": "Solar",
+    "standard_supply": 133,
+    "image": "ipfs://REPLACE/139.png"
+  },
+  {
+    "base_id": 140,
+    "name": "Flinthunter",
+    "species": "Carnotaurus",
+    "rarity": "Common",
+    "element": "Solar",
+    "standard_supply": 157,
+    "image": "ipfs://REPLACE/140.png"
+  },
+  {
+    "base_id": 141,
+    "name": "Novaripper",
+    "species": "Carnotaurus",
+    "rarity": "Common",
+    "element": "Frost",
+    "standard_supply": 176,
+    "image": "ipfs://REPLACE/141.png"
+  },
+  {
+    "base_id": 142,
+    "name": "Apexhunter",
+    "species": "Deinonychus",
+    "rarity": "Common",
+    "element": "Storm",
+    "standard_supply": 111,
+    "image": "ipfs://REPLACE/142.png"
+  },
+  {
+    "base_id": 143,
+    "name": "Cinderspike",
+    "species": "Spinosaurus",
+    "rarity": "Common",
+    "element": "Ember",
+    "standard_supply": 179,
+    "image": "ipfs://REPLACE/143.png"
+  },
+  {
+    "base_id": 144,
+    "name": "Cinderfang",
+    "species": "Parasaurolophus",
+    "rarity": "Uncommon",
+    "element": "Venom",
+    "standard_supply": 71,
+    "image": "ipfs://REPLACE/144.png"
+  },
+  {
+    "base_id": 145,
+    "name": "Onyxscale",
+    "species": "Stegosaurus",
+    "rarity": "Common",
+    "element": "Stone",
+    "standard_supply": 78,
+    "image": "ipfs://REPLACE/145.png"
+  },
+  {
+    "base_id": 146,
+    "name": "Mossroar",
+    "species": "Suchomimus",
+    "rarity": "Common",
+    "element": "Shadow",
+    "standard_supply": 130,
+    "image": "ipfs://REPLACE/146.png"
+  },
+  {
+    "base_id": 147,
+    "name": "Azurefang",
+    "species": "Allosaurus",
+    "rarity": "Uncommon",
+    "element": "Storm",
+    "standard_supply": 58,
+    "image": "ipfs://REPLACE/147.png"
+  },
+  {
+    "base_id": 148,
+    "name": "Razorwarden",
+    "species": "Dilophosaurus",
+    "rarity": "Uncommon",
+    "element": "Shadow",
+    "standard_supply": 129,
+    "image": "ipfs://REPLACE/148.png"
+  },
+  {
+    "base_id": 149,
+    "name": "Ashcrusher",
+    "species": "Deinonychus",
+    "rarity": "Common",
+    "element": "Tide",
+    "standard_supply": 153,
+    "image": "ipfs://REPLACE/149.png"
+  },
+  {
+    "base_id": 150,
+    "name": "Jadehunter",
+    "species": "Deinonychus",
+    "rarity": "Common",
+    "element": "Solar",
+    "standard_supply": 109,
+    "image": "ipfs://REPLACE/150.png"
+  },
+  {
+    "base_id": 151,
+    "name": "Scarletstalker",
+    "species": "Parasaurolophus",
+    "rarity": "Uncommon",
+    "element": "Venom",
+    "standard_supply": 96,
+    "image": "ipfs://REPLACE/151.png"
+  },
+  {
+    "base_id": 152,
+    "name": "Voidfang",
+    "species": "Utahraptor",
+    "rarity": "Common",
+    "element": "Ember",
+    "standard_supply": 78,
+    "image": "ipfs://REPLACE/152.png"
+  },
+  {
+    "base_id": 153,
+    "name": "Ashscar",
+    "species": "Dilophosaurus",
+    "rarity": "Uncommon",
+    "element": "Stone",
+    "standard_supply": 111,
+    "image": "ipfs://REPLACE/153.png"
+  },
+  {
+    "base_id": 154,
+    "name": "Ironback",
+    "species": "Deinonychus",
+    "rarity": "Rare",
+    "element": "Void",
+    "standard_supply": 72,
+    "image": "ipfs://REPLACE/154.png"
+  },
+  {
+    "base_id": 155,
+    "name": "Thunderroar",
+    "species": "Carnotaurus",
+    "rarity": "Rare",
+    "element": "Frost",
+    "standard_supply": 49,
+    "image": "ipfs://REPLACE/155.png"
+  },
+  {
+    "base_id": 156,
+    "name": "Jadeback",
+    "species": "Therizinosaurus",
+    "rarity": "Common",
+    "element": "Primal",
+    "standard_supply": 117,
+    "image": "ipfs://REPLACE/156.png"
+  },
+  {
+    "base_id": 157,
+    "name": "Obsidianscar",
+    "species": "Velociraptor",
+    "rarity": "Common",
+    "element": "Stone",
+    "standard_supply": 128,
+    "image": "ipfs://REPLACE/157.png"
+  },
+  {
+    "base_id": 158,
+    "name": "Dusthorn",
+    "species": "Deinonychus",
+    "rarity": "Common",
+    "element": "Frost",
+    "standard_supply": 159,
+    "image": "ipfs://REPLACE/158.png"
+  },
+  {
+    "base_id": 159,
+    "name": "Boulderrage",
+    "species": "Suchomimus",
+    "rarity": "Uncommon",
+    "element": "Primal",
+    "standard_supply": 71,
+    "image": "ipfs://REPLACE/159.png"
+  },
+  {
+    "base_id": 160,
+    "name": "Wildhorn",
+    "species": "Ceratosaurus",
+    "rarity": "Rare",
+    "element": "Primal",
+    "standard_supply": 62,
+    "image": "ipfs://REPLACE/160.png"
+  },
+  {
+    "base_id": 161,
+    "name": "Onyxtalon",
+    "species": "Styracosaurus",
+    "rarity": "Common",
+    "element": "Stone",
+    "standard_supply": 133,
+    "image": "ipfs://REPLACE/161.png"
+  },
+  {
+    "base_id": 162,
+    "name": "Solarstrike",
+    "species": "Ceratosaurus",
+    "rarity": "Epic",
+    "element": "Tide",
+    "standard_supply": 11,
+    "image": "ipfs://REPLACE/162.png"
+  },
+  {
+    "base_id": 163,
+    "name": "Jadecrest",
+    "species": "Allosaurus",
+    "rarity": "Common",
+    "element": "Frost",
+    "standard_supply": 190,
+    "image": "ipfs://REPLACE/163.png"
+  },
+  {
+    "base_id": 164,
+    "name": "Jadestalker",
+    "species": "Giganotosaurus",
+    "rarity": "Common",
+    "element": "Primal",
+    "standard_supply": 92,
+    "image": "ipfs://REPLACE/164.png"
+  },
+  {
+    "base_id": 165,
+    "name": "Flintmaw",
+    "species": "Deinonychus",
+    "rarity": "Rare",
+    "element": "Frost",
+    "standard_supply": 68,
+    "image": "ipfs://REPLACE/165.png"
+  },
+  {
+    "base_id": 166,
+    "name": "Venomrunner",
+    "species": "Deinonychus",
+    "rarity": "Common",
+    "element": "Venom",
+    "standard_supply": 111,
+    "image": "ipfs://REPLACE/166.png"
+  },
+  {
+    "base_id": 167,
+    "name": "Obsidianrush",
+    "species": "Pachycephalosaurus",
+    "rarity": "Common",
+    "element": "Tide",
+    "standard_supply": 102,
+    "image": "ipfs://REPLACE/167.png"
+  },
+  {
+    "base_id": 168,
+    "name": "Azurestalker",
+    "species": "Deinonychus",
+    "rarity": "Common",
+    "element": "Tide",
+    "standard_supply": 171,
+    "image": "ipfs://REPLACE/168.png"
+  },
+  {
+    "base_id": 169,
+    "name": "Flintripper",
+    "species": "Giganotosaurus",
+    "rarity": "Common",
+    "element": "Solar",
+    "standard_supply": 104,
+    "image": "ipfs://REPLACE/169.png"
+  },
+  {
+    "base_id": 170,
+    "name": "Ivoryrage",
+    "species": "Ankylosaurus",
+    "rarity": "Epic",
+    "element": "Primal",
+    "standard_supply": 26,
+    "image": "ipfs://REPLACE/170.png"
+  },
+  {
+    "base_id": 171,
+    "name": "Stormrage",
+    "species": "Dilophosaurus",
+    "rarity": "Uncommon",
+    "element": "Frost",
+    "standard_supply": 61,
+    "image": "ipfs://REPLACE/171.png"
+  },
+  {
+    "base_id": 172,
+    "name": "Runemaw",
+    "species": "Ankylosaurus",
+    "rarity": "Common",
+    "element": "Void",
+    "standard_supply": 177,
+    "image": "ipfs://REPLACE/172.png"
+  },
+  {
+    "base_id": 173,
+    "name": "Ironbreaker",
+    "species": "Stegosaurus",
+    "rarity": "Rare",
+    "element": "Shadow",
+    "standard_supply": 81,
+    "image": "ipfs://REPLACE/173.png"
+  },
+  {
+    "base_id": 174,
+    "name": "Rifthorn",
+    "species": "Deinonychus",
+    "rarity": "Rare",
+    "element": "Venom",
+    "standard_supply": 52,
+    "image": "ipfs://REPLACE/174.png"
+  },
+  {
+    "base_id": 175,
+    "name": "Sunrush",
+    "species": "Giganotosaurus",
+    "rarity": "Rare",
+    "element": "Frost",
+    "standard_supply": 30,
+    "image": "ipfs://REPLACE/175.png"
+  },
+  {
+    "base_id": 176,
+    "name": "Echoscar",
+    "species": "Spinosaurus",
+    "rarity": "Common",
+    "element": "Frost",
+    "standard_supply": 125,
+    "image": "ipfs://REPLACE/176.png"
+  },
+  {
+    "base_id": 177,
+    "name": "Voidtooth",
+    "species": "Allosaurus",
+    "rarity": "Rare",
+    "element": "Stone",
+    "standard_supply": 43,
+    "image": "ipfs://REPLACE/177.png"
+  },
+  {
+    "base_id": 178,
+    "name": "Pyrehide",
+    "species": "Allosaurus",
+    "rarity": "Common",
+    "element": "Venom",
+    "standard_supply": 130,
+    "image": "ipfs://REPLACE/178.png"
+  },
+  {
+    "base_id": 179,
+    "name": "Razormaw",
+    "species": "Carnotaurus",
+    "rarity": "Common",
+    "element": "Shadow",
+    "standard_supply": 88,
+    "image": "ipfs://REPLACE/179.png"
+  },
+  {
+    "base_id": 180,
+    "name": "Dustroar",
+    "species": "Iguanodon",
+    "rarity": "Common",
+    "element": "Shadow",
+    "standard_supply": 136,
+    "image": "ipfs://REPLACE/180.png"
+  },
+  {
+    "base_id": 181,
+    "name": "Embermaw",
+    "species": "Styracosaurus",
+    "rarity": "Common",
+    "element": "Void",
+    "standard_supply": 147,
+    "image": "ipfs://REPLACE/181.png"
+  },
+  {
+    "base_id": 182,
+    "name": "Thunderclaw",
+    "species": "Spinosaurus",
+    "rarity": "Common",
+    "element": "Storm",
+    "standard_supply": 170,
+    "image": "ipfs://REPLACE/182.png"
+  },
+  {
+    "base_id": 183,
+    "name": "Grimripper",
+    "species": "Tyrannosaurus",
+    "rarity": "Epic",
+    "element": "Venom",
+    "standard_supply": 43,
+    "image": "ipfs://REPLACE/183.png"
+  },
+  {
+    "base_id": 184,
+    "name": "Nightmaw",
+    "species": "Suchomimus",
+    "rarity": "Common",
+    "element": "Void",
+    "standard_supply": 146,
+    "image": "ipfs://REPLACE/184.png"
+  },
+  {
+    "base_id": 185,
+    "name": "Flinttail",
+    "species": "Carnotaurus",
+    "rarity": "Common",
+    "element": "Shadow",
+    "standard_supply": 155,
+    "image": "ipfs://REPLACE/185.png"
+  },
+  {
+    "base_id": 186,
+    "name": "Runespike",
+    "species": "Allosaurus",
+    "rarity": "Uncommon",
+    "element": "Stone",
+    "standard_supply": 105,
+    "image": "ipfs://REPLACE/186.png"
+  },
+  {
+    "base_id": 187,
+    "name": "Emberclaw",
+    "species": "Allosaurus",
+    "rarity": "Uncommon",
+    "element": "Shadow",
+    "standard_supply": 125,
+    "image": "ipfs://REPLACE/187.png"
+  },
+  {
+    "base_id": 188,
+    "name": "Ashscale",
+    "species": "Velociraptor",
+    "rarity": "Common",
+    "element": "Tide",
+    "standard_supply": 174,
+    "image": "ipfs://REPLACE/188.png"
+  },
+  {
+    "base_id": 189,
+    "name": "Vortexhorn",
+    "species": "Tyrannosaurus",
+    "rarity": "Uncommon",
+    "element": "Solar",
+    "standard_supply": 64,
+    "image": "ipfs://REPLACE/189.png"
+  },
+  {
+    "base_id": 190,
+    "name": "Apexripper",
+    "species": "Baryonyx",
+    "rarity": "Common",
+    "element": "Ember",
+    "standard_supply": 137,
+    "image": "ipfs://REPLACE/190.png"
+  },
+  {
+    "base_id": 191,
+    "name": "Copperstalker",
+    "species": "Dilophosaurus",
+    "rarity": "Common",
+    "element": "Shadow",
+    "standard_supply": 131,
+    "image": "ipfs://REPLACE/191.png"
+  },
+  {
+    "base_id": 192,
+    "name": "Chromecrest",
+    "species": "Deinonychus",
+    "rarity": "Uncommon",
+    "element": "Stone",
+    "standard_supply": 127,
+    "image": "ipfs://REPLACE/192.png"
+  },
+  {
+    "base_id": 193,
+    "name": "Runecrest",
+    "species": "Deinonychus",
+    "rarity": "Common",
+    "element": "Storm",
+    "standard_supply": 121,
+    "image": "ipfs://REPLACE/193.png"
+  },
+  {
+    "base_id": 194,
+    "name": "Apextail",
+    "species": "Velociraptor",
+    "rarity": "Uncommon",
+    "element": "Storm",
+    "standard_supply": 93,
+    "image": "ipfs://REPLACE/194.png"
+  },
+  {
+    "base_id": 195,
+    "name": "Pyrescar",
+    "species": "Baryonyx",
+    "rarity": "Common",
+    "element": "Void",
+    "standard_supply": 182,
+    "image": "ipfs://REPLACE/195.png"
+  },
+  {
+    "base_id": 196,
+    "name": "Riftfang",
+    "species": "Velociraptor",
+    "rarity": "Rare",
+    "element": "Venom",
+    "standard_supply": 85,
+    "image": "ipfs://REPLACE/196.png"
+  },
+  {
+    "base_id": 197,
+    "name": "Razorreaver",
+    "species": "Styracosaurus",
+    "rarity": "Common",
+    "element": "Solar",
+    "standard_supply": 143,
+    "image": "ipfs://REPLACE/197.png"
+  },
+  {
+    "base_id": 198,
+    "name": "Wildstrike",
+    "species": "Parasaurolophus",
+    "rarity": "Common",
+    "element": "Shadow",
+    "standard_supply": 119,
+    "image": "ipfs://REPLACE/198.png"
+  },
+  {
+    "base_id": 199,
+    "name": "Vortextalon",
+    "species": "Pachycephalosaurus",
+    "rarity": "Common",
+    "element": "Ember",
+    "standard_supply": 90,
+    "image": "ipfs://REPLACE/199.png"
+  },
+  {
+    "base_id": 200,
+    "name": "Riftshard",
+    "species": "Iguanodon",
+    "rarity": "Common",
+    "element": "Tide",
+    "standard_supply": 157,
+    "image": "ipfs://REPLACE/200.png"
+  },
+  {
+    "base_id": 201,
+    "name": "Mossjaw",
+    "species": "Triceratops",
+    "rarity": "Common",
+    "element": "Void",
+    "standard_supply": 171,
+    "image": "ipfs://REPLACE/201.png"
+  },
+  {
+    "base_id": 202,
+    "name": "Razorstrike",
+    "species": "Stegosaurus",
+    "rarity": "Common",
+    "element": "Tide",
+    "standard_supply": 188,
+    "image": "ipfs://REPLACE/202.png"
+  },
+  {
+    "base_id": 203,
+    "name": "Cragroar",
+    "species": "Carnotaurus",
+    "rarity": "Rare",
+    "element": "Shadow",
+    "standard_supply": 84,
+    "image": "ipfs://REPLACE/203.png"
+  },
+  {
+    "base_id": 204,
+    "name": "Mosstail",
+    "species": "Suchomimus",
+    "rarity": "Rare",
+    "element": "Tide",
+    "standard_supply": 80,
+    "image": "ipfs://REPLACE/204.png"
+  },
+  {
+    "base_id": 205,
+    "name": "Frostripper",
+    "species": "Velociraptor",
+    "rarity": "Common",
+    "element": "Tide",
+    "standard_supply": 105,
+    "image": "ipfs://REPLACE/205.png"
+  },
+  {
+    "base_id": 206,
+    "name": "Duskstrike",
+    "species": "Allosaurus",
+    "rarity": "Rare",
+    "element": "Venom",
+    "standard_supply": 47,
+    "image": "ipfs://REPLACE/206.png"
+  },
+  {
+    "base_id": 207,
+    "name": "Frostcrest",
+    "species": "Ceratosaurus",
+    "rarity": "Uncommon",
+    "element": "Primal",
+    "standard_supply": 90,
+    "image": "ipfs://REPLACE/207.png"
+  },
+  {
+    "base_id": 208,
+    "name": "Grimtail",
+    "species": "Dilophosaurus",
+    "rarity": "Uncommon",
+    "element": "Venom",
+    "standard_supply": 89,
+    "image": "ipfs://REPLACE/208.png"
+  },
+  {
+    "base_id": 209,
+    "name": "Boulderhunter",
+    "species": "Baryonyx",
+    "rarity": "Epic",
+    "element": "Venom",
+    "standard_supply": 10,
+    "image": "ipfs://REPLACE/209.png"
+  },
+  {
+    "base_id": 210,
+    "name": "Pyrestrike",
+    "species": "Ceratosaurus",
+    "rarity": "Uncommon",
+    "element": "Solar",
+    "standard_supply": 86,
+    "image": "ipfs://REPLACE/210.png"
+  },
+  {
+    "base_id": 211,
+    "name": "Voidripper",
+    "species": "Stegosaurus",
+    "rarity": "Common",
+    "element": "Tide",
+    "standard_supply": 173,
+    "image": "ipfs://REPLACE/211.png"
+  },
+  {
+    "base_id": 212,
+    "name": "Novareaver",
+    "species": "Suchomimus",
+    "rarity": "Common",
+    "element": "Ember",
+    "standard_supply": 168,
+    "image": "ipfs://REPLACE/212.png"
+  },
+  {
+    "base_id": 213,
+    "name": "Embertail",
+    "species": "Allosaurus",
+    "rarity": "Common",
+    "element": "Ember",
+    "standard_supply": 76,
+    "image": "ipfs://REPLACE/213.png"
+  },
+  {
+    "base_id": 214,
+    "name": "Ghosthunter",
+    "species": "Carnotaurus",
+    "rarity": "Legendary",
+    "element": "Tide",
+    "standard_supply": 15,
+    "image": "ipfs://REPLACE/214.png"
+  },
+  {
+    "base_id": 215,
+    "name": "Froststrike",
+    "species": "Utahraptor",
+    "rarity": "Epic",
+    "element": "Ember",
+    "standard_supply": 22,
+    "image": "ipfs://REPLACE/215.png"
+  },
+  {
+    "base_id": 216,
+    "name": "Frostback",
+    "species": "Ceratosaurus",
+    "rarity": "Uncommon",
+    "element": "Frost",
+    "standard_supply": 86,
+    "image": "ipfs://REPLACE/216.png"
+  },
+  {
+    "base_id": 217,
+    "name": "Cinderjaw",
+    "species": "Tyrannosaurus",
+    "rarity": "Uncommon",
+    "element": "Void",
+    "standard_supply": 116,
+    "image": "ipfs://REPLACE/217.png"
+  },
+  {
+    "base_id": 218,
+    "name": "Chromeripper",
+    "species": "Carnotaurus",
+    "rarity": "Common",
+    "element": "Venom",
+    "standard_supply": 101,
+    "image": "ipfs://REPLACE/218.png"
+  },
+  {
+    "base_id": 219,
+    "name": "Ashhide",
+    "species": "Baryonyx",
+    "rarity": "Common",
+    "element": "Tide",
+    "standard_supply": 116,
+    "image": "ipfs://REPLACE/219.png"
+  },
+  {
+    "base_id": 220,
+    "name": "Venomscale",
+    "species": "Styracosaurus",
+    "rarity": "Epic",
+    "element": "Void",
+    "standard_supply": 29,
+    "image": "ipfs://REPLACE/220.png"
+  },
+  {
+    "base_id": 221,
+    "name": "Novamaw",
+    "species": "Iguanodon",
+    "rarity": "Uncommon",
+    "element": "Venom",
+    "standard_supply": 115,
+    "image": "ipfs://REPLACE/221.png"
+  },
+  {
+    "base_id": 222,
+    "name": "Flintmauler",
+    "species": "Carnotaurus",
+    "rarity": "Rare",
+    "element": "Frost",
+    "standard_supply": 53,
+    "image": "ipfs://REPLACE/222.png"
+  },
+  {
+    "base_id": 223,
+    "name": "Flintrush",
+    "species": "Dilophosaurus",
+    "rarity": "Common",
+    "element": "Venom",
+    "standard_supply": 87,
+    "image": "ipfs://REPLACE/223.png"
+  },
+  {
+    "base_id": 224,
+    "name": "Flinttalon",
+    "species": "Therizinosaurus",
+    "rarity": "Legendary",
+    "element": "Ember",
+    "standard_supply": 19,
+    "image": "ipfs://REPLACE/224.png"
+  },
+  {
+    "base_id": 225,
+    "name": "Stormmauler",
+    "species": "Carnotaurus",
+    "rarity": "Common",
+    "element": "Stone",
+    "standard_supply": 179,
+    "image": "ipfs://REPLACE/225.png"
+  },
+  {
+    "base_id": 226,
+    "name": "Cragguard",
+    "species": "Utahraptor",
+    "rarity": "Uncommon",
+    "element": "Shadow",
+    "standard_supply": 117,
+    "image": "ipfs://REPLACE/226.png"
+  },
+  {
+    "base_id": 227,
+    "name": "Cindertooth",
+    "species": "Carnotaurus",
+    "rarity": "Uncommon",
+    "element": "Storm",
+    "standard_supply": 110,
+    "image": "ipfs://REPLACE/227.png"
+  },
+  {
+    "base_id": 228,
+    "name": "Razorback",
+    "species": "Triceratops",
+    "rarity": "Common",
+    "element": "Solar",
+    "standard_supply": 124,
+    "image": "ipfs://REPLACE/228.png"
+  },
+  {
+    "base_id": 229,
+    "name": "Embershard",
+    "species": "Carnotaurus",
+    "rarity": "Common",
+    "element": "Tide",
+    "standard_supply": 139,
+    "image": "ipfs://REPLACE/229.png"
+  },
+  {
+    "base_id": 230,
+    "name": "Scarletscar",
+    "species": "Spinosaurus",
+    "rarity": "Rare",
+    "element": "Stone",
+    "standard_supply": 31,
+    "image": "ipfs://REPLACE/230.png"
+  },
+  {
+    "base_id": 231,
+    "name": "Ashripper",
+    "species": "Baryonyx",
+    "rarity": "Rare",
+    "element": "Shadow",
+    "standard_supply": 79,
+    "image": "ipfs://REPLACE/231.png"
+  },
+  {
+    "base_id": 232,
+    "name": "Azuremauler",
+    "species": "Baryonyx",
+    "rarity": "Rare",
+    "element": "Primal",
+    "standard_supply": 85,
+    "image": "ipfs://REPLACE/232.png"
+  },
+  {
+    "base_id": 233,
+    "name": "Obsidianstalker",
+    "species": "Baryonyx",
+    "rarity": "Uncommon",
+    "element": "Primal",
+    "standard_supply": 64,
+    "image": "ipfs://REPLACE/233.png"
+  },
+  {
+    "base_id": 234,
+    "name": "Venomreaver",
+    "species": "Iguanodon",
+    "rarity": "Epic",
+    "element": "Ember",
+    "standard_supply": 39,
+    "image": "ipfs://REPLACE/234.png"
+  },
+  {
+    "base_id": 235,
+    "name": "Razorhide",
+    "species": "Spinosaurus",
+    "rarity": "Common",
+    "element": "Solar",
+    "standard_supply": 124,
+    "image": "ipfs://REPLACE/235.png"
+  },
+  {
+    "base_id": 236,
+    "name": "Razorrunner",
+    "species": "Giganotosaurus",
+    "rarity": "Uncommon",
+    "element": "Tide",
+    "standard_supply": 59,
+    "image": "ipfs://REPLACE/236.png"
+  },
+  {
+    "base_id": 237,
+    "name": "Ivoryscar",
+    "species": "Allosaurus",
+    "rarity": "Common",
+    "element": "Tide",
+    "standard_supply": 142,
+    "image": "ipfs://REPLACE/237.png"
+  },
+  {
+    "base_id": 238,
+    "name": "Grimclaw",
+    "species": "Tyrannosaurus",
+    "rarity": "Epic",
+    "element": "Stone",
+    "standard_supply": 35,
+    "image": "ipfs://REPLACE/238.png"
+  },
+  {
+    "base_id": 239,
+    "name": "Solarreaver",
+    "species": "Carnotaurus",
+    "rarity": "Epic",
+    "element": "Ember",
+    "standard_supply": 22,
+    "image": "ipfs://REPLACE/239.png"
+  },
+  {
+    "base_id": 240,
+    "name": "Blazescale",
+    "species": "Therizinosaurus",
+    "rarity": "Common",
+    "element": "Ember",
+    "standard_supply": 151,
+    "image": "ipfs://REPLACE/240.png"
+  },
+  {
+    "base_id": 241,
+    "name": "Ironhorn",
+    "species": "Styracosaurus",
+    "rarity": "Common",
+    "element": "Primal",
+    "standard_supply": 117,
+    "image": "ipfs://REPLACE/241.png"
+  },
+  {
+    "base_id": 242,
+    "name": "Wildjaw",
+    "species": "Giganotosaurus",
+    "rarity": "Rare",
+    "element": "Void",
+    "standard_supply": 59,
+    "image": "ipfs://REPLACE/242.png"
+  },
+  {
+    "base_id": 243,
+    "name": "Ivoryreaver",
+    "species": "Triceratops",
+    "rarity": "Rare",
+    "element": "Tide",
+    "standard_supply": 55,
+    "image": "ipfs://REPLACE/243.png"
+  },
+  {
+    "base_id": 244,
+    "name": "Duskbreaker",
+    "species": "Triceratops",
+    "rarity": "Uncommon",
+    "element": "Storm",
+    "standard_supply": 128,
+    "image": "ipfs://REPLACE/244.png"
+  },
+  {
+    "base_id": 245,
+    "name": "Venomrage",
+    "species": "Therizinosaurus",
+    "rarity": "Common",
+    "element": "Void",
+    "standard_supply": 133,
+    "image": "ipfs://REPLACE/245.png"
+  },
+  {
+    "base_id": 246,
+    "name": "Savagecrusher",
+    "species": "Ceratosaurus",
+    "rarity": "Common",
+    "element": "Shadow",
+    "standard_supply": 134,
+    "image": "ipfs://REPLACE/246.png"
+  },
+  {
+    "base_id": 247,
+    "name": "Runewarden",
+    "species": "Velociraptor",
+    "rarity": "Common",
+    "element": "Storm",
+    "standard_supply": 100,
+    "image": "ipfs://REPLACE/247.png"
+  },
+  {
+    "base_id": 248,
+    "name": "Jadecrusher",
+    "species": "Carnotaurus",
+    "rarity": "Common",
+    "element": "Solar",
+    "standard_supply": 134,
+    "image": "ipfs://REPLACE/248.png"
+  },
+  {
+    "base_id": 249,
+    "name": "Copperrush",
+    "species": "Carnotaurus",
+    "rarity": "Common",
+    "element": "Frost",
+    "standard_supply": 121,
+    "image": "ipfs://REPLACE/249.png"
+  },
+  {
+    "base_id": 250,
+    "name": "Onyxclaw",
+    "species": "Spinosaurus",
+    "rarity": "Common",
+    "element": "Venom",
+    "standard_supply": 87,
+    "image": "ipfs://REPLACE/250.png"
+  },
+  {
+    "base_id": 251,
+    "name": "Venomstalker",
+    "species": "Therizinosaurus",
+    "rarity": "Common",
+    "element": "Void",
+    "standard_supply": 167,
+    "image": "ipfs://REPLACE/251.png"
+  },
+  {
+    "base_id": 252,
+    "name": "Coppermauler",
+    "species": "Triceratops",
+    "rarity": "Common",
+    "element": "Tide",
+    "standard_supply": 80,
+    "image": "ipfs://REPLACE/252.png"
+  },
+  {
+    "base_id": 253,
+    "name": "Azureback",
+    "species": "Giganotosaurus",
+    "rarity": "Uncommon",
+    "element": "Frost",
+    "standard_supply": 126,
+    "image": "ipfs://REPLACE/253.png"
+  },
+  {
+    "base_id": 254,
+    "name": "Mossmaw",
+    "species": "Ankylosaurus",
+    "rarity": "Rare",
+    "element": "Solar",
+    "standard_supply": 52,
+    "image": "ipfs://REPLACE/254.png"
+  },
+  {
+    "base_id": 255,
+    "name": "Sunclaw",
+    "species": "Velociraptor",
+    "rarity": "Uncommon",
+    "element": "Venom",
+    "standard_supply": 117,
+    "image": "ipfs://REPLACE/255.png"
+  },
+  {
+    "base_id": 256,
+    "name": "Vortexspike",
+    "species": "Carnotaurus",
+    "rarity": "Common",
+    "element": "Void",
+    "standard_supply": 112,
+    "image": "ipfs://REPLACE/256.png"
+  },
+  {
+    "base_id": 257,
+    "name": "Savageshard",
+    "species": "Parasaurolophus",
+    "rarity": "Common",
+    "element": "Solar",
+    "standard_supply": 106,
+    "image": "ipfs://REPLACE/257.png"
+  },
+  {
+    "base_id": 258,
+    "name": "Sunrage",
+    "species": "Deinonychus",
+    "rarity": "Common",
+    "element": "Void",
+    "standard_supply": 161,
+    "image": "ipfs://REPLACE/258.png"
+  },
+  {
+    "base_id": 259,
+    "name": "Nighthorn",
+    "species": "Deinonychus",
+    "rarity": "Common",
+    "element": "Stone",
+    "standard_supply": 86,
+    "image": "ipfs://REPLACE/259.png"
+  },
+  {
+    "base_id": 260,
+    "name": "Voidreaver",
+    "species": "Triceratops",
+    "rarity": "Uncommon",
+    "element": "Frost",
+    "standard_supply": 127,
+    "image": "ipfs://REPLACE/260.png"
+  },
+  {
+    "base_id": 261,
+    "name": "Jadespike",
+    "species": "Parasaurolophus",
+    "rarity": "Common",
+    "element": "Primal",
+    "standard_supply": 124,
+    "image": "ipfs://REPLACE/261.png"
+  },
+  {
+    "base_id": 262,
+    "name": "Apexjaw",
+    "species": "Dilophosaurus",
+    "rarity": "Legendary",
+    "element": "Void",
+    "standard_supply": 18,
+    "image": "ipfs://REPLACE/262.png"
+  },
+  {
+    "base_id": 263,
+    "name": "Nightroar",
+    "species": "Ankylosaurus",
+    "rarity": "Common",
+    "element": "Shadow",
+    "standard_supply": 97,
+    "image": "ipfs://REPLACE/263.png"
+  },
+  {
+    "base_id": 264,
+    "name": "Titanstalker",
+    "species": "Ankylosaurus",
+    "rarity": "Uncommon",
+    "element": "Solar",
+    "standard_supply": 118,
+    "image": "ipfs://REPLACE/264.png"
+  },
+  {
+    "base_id": 265,
+    "name": "Grimtooth",
+    "species": "Ankylosaurus",
+    "rarity": "Common",
+    "element": "Venom",
+    "standard_supply": 149,
+    "image": "ipfs://REPLACE/265.png"
+  },
+  {
+    "base_id": 266,
+    "name": "Chromescar",
+    "species": "Parasaurolophus",
+    "rarity": "Epic",
+    "element": "Ember",
+    "standard_supply": 25,
+    "image": "ipfs://REPLACE/266.png"
+  },
+  {
+    "base_id": 267,
+    "name": "Cinderrunner",
+    "species": "Carnotaurus",
+    "rarity": "Common",
+    "element": "Primal",
+    "standard_supply": 160,
+    "image": "ipfs://REPLACE/267.png"
+  },
+  {
+    "base_id": 268,
+    "name": "Copperstrike",
+    "species": "Ceratosaurus",
+    "rarity": "Common",
+    "element": "Solar",
+    "standard_supply": 114,
+    "image": "ipfs://REPLACE/268.png"
+  },
+  {
+    "base_id": 269,
+    "name": "Jadeclaw",
+    "species": "Utahraptor",
+    "rarity": "Common",
+    "element": "Stone",
+    "standard_supply": 132,
+    "image": "ipfs://REPLACE/269.png"
+  },
+  {
+    "base_id": 270,
+    "name": "Grimroar",
+    "species": "Carnotaurus",
+    "rarity": "Rare",
+    "element": "Primal",
+    "standard_supply": 88,
+    "image": "ipfs://REPLACE/270.png"
+  },
+  {
+    "base_id": 271,
+    "name": "Stormhorn",
+    "species": "Iguanodon",
+    "rarity": "Common",
+    "element": "Primal",
+    "standard_supply": 118,
+    "image": "ipfs://REPLACE/271.png"
+  },
+  {
+    "base_id": 272,
+    "name": "Ashrush",
+    "species": "Spinosaurus",
+    "rarity": "Rare",
+    "element": "Void",
+    "standard_supply": 71,
+    "image": "ipfs://REPLACE/272.png"
+  },
+  {
+    "base_id": 273,
+    "name": "Duskcrest",
+    "species": "Utahraptor",
+    "rarity": "Common",
+    "element": "Venom",
+    "standard_supply": 189,
+    "image": "ipfs://REPLACE/273.png"
+  },
+  {
+    "base_id": 274,
+    "name": "Azurebane",
+    "species": "Dilophosaurus",
+    "rarity": "Rare",
+    "element": "Stone",
+    "standard_supply": 57,
+    "image": "ipfs://REPLACE/274.png"
+  },
+  {
+    "base_id": 275,
+    "name": "Ivoryfang",
+    "species": "Dilophosaurus",
+    "rarity": "Common",
+    "element": "Solar",
+    "standard_supply": 174,
+    "image": "ipfs://REPLACE/275.png"
+  },
+  {
+    "base_id": 276,
+    "name": "Pyrewarden",
+    "species": "Deinonychus",
+    "rarity": "Common",
+    "element": "Tide",
+    "standard_supply": 85,
+    "image": "ipfs://REPLACE/276.png"
+  },
+  {
+    "base_id": 277,
+    "name": "Savagescale",
+    "species": "Suchomimus",
+    "rarity": "Rare",
+    "element": "Frost",
+    "standard_supply": 69,
+    "image": "ipfs://REPLACE/277.png"
+  },
+  {
+    "base_id": 278,
+    "name": "Coppertalon",
+    "species": "Baryonyx",
+    "rarity": "Common",
+    "element": "Stone",
+    "standard_supply": 147,
+    "image": "ipfs://REPLACE/278.png"
+  },
+  {
+    "base_id": 279,
+    "name": "Dustrunner",
+    "species": "Suchomimus",
+    "rarity": "Uncommon",
+    "element": "Shadow",
+    "standard_supply": 72,
+    "image": "ipfs://REPLACE/279.png"
+  },
+  {
+    "base_id": 280,
+    "name": "Scarletcrest",
+    "species": "Giganotosaurus",
+    "rarity": "Uncommon",
+    "element": "Ember",
+    "standard_supply": 104,
+    "image": "ipfs://REPLACE/280.png"
+  },
+  {
+    "base_id": 281,
+    "name": "Ghostscar",
+    "species": "Spinosaurus",
+    "rarity": "Common",
+    "element": "Stone",
+    "standard_supply": 135,
+    "image": "ipfs://REPLACE/281.png"
+  },
+  {
+    "base_id": 282,
+    "name": "Boulderstalker",
+    "species": "Spinosaurus",
+    "rarity": "Uncommon",
+    "element": "Tide",
+    "standard_supply": 112,
+    "image": "ipfs://REPLACE/282.png"
+  },
+  {
+    "base_id": 283,
+    "name": "Savagetalon",
+    "species": "Spinosaurus",
+    "rarity": "Uncommon",
+    "element": "Storm",
+    "standard_supply": 89,
+    "image": "ipfs://REPLACE/283.png"
+  },
+  {
+    "base_id": 284,
+    "name": "Emberscale",
+    "species": "Therizinosaurus",
+    "rarity": "Uncommon",
+    "element": "Tide",
+    "standard_supply": 77,
+    "image": "ipfs://REPLACE/284.png"
+  },
+  {
+    "base_id": 285,
+    "name": "Blazeroar",
+    "species": "Tyrannosaurus",
+    "rarity": "Uncommon",
+    "element": "Tide",
+    "standard_supply": 77,
+    "image": "ipfs://REPLACE/285.png"
+  },
+  {
+    "base_id": 286,
+    "name": "Echojaw",
+    "species": "Allosaurus",
+    "rarity": "Uncommon",
+    "element": "Primal",
+    "standard_supply": 113,
+    "image": "ipfs://REPLACE/286.png"
+  },
+  {
+    "base_id": 287,
+    "name": "Thundertalon",
+    "species": "Tyrannosaurus",
+    "rarity": "Common",
+    "element": "Shadow",
+    "standard_supply": 80,
+    "image": "ipfs://REPLACE/287.png"
+  },
+  {
+    "base_id": 288,
+    "name": "Razorfang",
+    "species": "Allosaurus",
+    "rarity": "Common",
+    "element": "Frost",
+    "standard_supply": 116,
+    "image": "ipfs://REPLACE/288.png"
+  },
+  {
+    "base_id": 289,
+    "name": "Titanrunner",
+    "species": "Utahraptor",
+    "rarity": "Common",
+    "element": "Ember",
+    "standard_supply": 107,
+    "image": "ipfs://REPLACE/289.png"
+  },
+  {
+    "base_id": 290,
+    "name": "Runerunner",
+    "species": "Deinonychus",
+    "rarity": "Epic",
+    "element": "Stone",
+    "standard_supply": 35,
+    "image": "ipfs://REPLACE/290.png"
+  },
+  {
+    "base_id": 291,
+    "name": "Azurescar",
+    "species": "Utahraptor",
+    "rarity": "Common",
+    "element": "Ember",
+    "standard_supply": 171,
+    "image": "ipfs://REPLACE/291.png"
+  },
+  {
+    "base_id": 292,
+    "name": "Ivorywarden",
+    "species": "Pachycephalosaurus",
+    "rarity": "Uncommon",
+    "element": "Stone",
+    "standard_supply": 128,
+    "image": "ipfs://REPLACE/292.png"
+  },
+  {
+    "base_id": 293,
+    "name": "Solarmauler",
+    "species": "Baryonyx",
+    "rarity": "Rare",
+    "element": "Venom",
+    "standard_supply": 49,
+    "image": "ipfs://REPLACE/293.png"
+  },
+  {
+    "base_id": 294,
+    "name": "Vortexmauler",
+    "species": "Baryonyx",
+    "rarity": "Common",
+    "element": "Frost",
+    "standard_supply": 95,
+    "image": "ipfs://REPLACE/294.png"
+  },
+  {
+    "base_id": 295,
+    "name": "Sunguard",
+    "species": "Suchomimus",
+    "rarity": "Common",
+    "element": "Solar",
+    "standard_supply": 139,
+    "image": "ipfs://REPLACE/295.png"
+  },
+  {
+    "base_id": 296,
+    "name": "Savagestrike",
+    "species": "Utahraptor",
+    "rarity": "Common",
+    "element": "Frost",
+    "standard_supply": 157,
+    "image": "ipfs://REPLACE/296.png"
+  },
+  {
+    "base_id": 297,
+    "name": "Frostbreaker",
+    "species": "Ceratosaurus",
+    "rarity": "Common",
+    "element": "Solar",
+    "standard_supply": 98,
+    "image": "ipfs://REPLACE/297.png"
+  },
+  {
+    "base_id": 298,
+    "name": "Frosttalon",
+    "species": "Utahraptor",
+    "rarity": "Common",
+    "element": "Tide",
+    "standard_supply": 176,
+    "image": "ipfs://REPLACE/298.png"
+  },
+  {
+    "base_id": 299,
+    "name": "Riftspike",
+    "species": "Stegosaurus",
+    "rarity": "Common",
+    "element": "Venom",
+    "standard_supply": 79,
+    "image": "ipfs://REPLACE/299.png"
+  },
+  {
+    "base_id": 300,
+    "name": "Ghostspike",
+    "species": "Parasaurolophus",
+    "rarity": "Uncommon",
+    "element": "Solar",
+    "standard_supply": 101,
+    "image": "ipfs://REPLACE/300.png"
+  },
+  {
+    "base_id": 301,
+    "name": "Novascar",
+    "species": "Giganotosaurus",
+    "rarity": "Common",
+    "element": "Primal",
+    "standard_supply": 153,
+    "image": "ipfs://REPLACE/301.png"
+  },
+  {
+    "base_id": 302,
+    "name": "Venomshard",
+    "species": "Ceratosaurus",
+    "rarity": "Common",
+    "element": "Storm",
+    "standard_supply": 105,
+    "image": "ipfs://REPLACE/302.png"
+  },
+  {
+    "base_id": 303,
+    "name": "Titanhorn",
+    "species": "Giganotosaurus",
+    "rarity": "Common",
+    "element": "Venom",
+    "standard_supply": 130,
+    "image": "ipfs://REPLACE/303.png"
+  },
+  {
+    "base_id": 304,
+    "name": "Ironrush",
+    "species": "Styracosaurus",
+    "rarity": "Common",
+    "element": "Primal",
+    "standard_supply": 118,
+    "image": "ipfs://REPLACE/304.png"
+  },
+  {
+    "base_id": 305,
+    "name": "Titanmauler",
+    "species": "Baryonyx",
+    "rarity": "Rare",
+    "element": "Primal",
+    "standard_supply": 64,
+    "image": "ipfs://REPLACE/305.png"
+  },
+  {
+    "base_id": 306,
+    "name": "Sunwarden",
+    "species": "Iguanodon",
+    "rarity": "Epic",
+    "element": "Shadow",
+    "standard_supply": 9,
+    "image": "ipfs://REPLACE/306.png"
+  },
+  {
+    "base_id": 307,
+    "name": "Dustrush",
+    "species": "Carnotaurus",
+    "rarity": "Common",
+    "element": "Shadow",
+    "standard_supply": 113,
+    "image": "ipfs://REPLACE/307.png"
+  },
+  {
+    "base_id": 308,
+    "name": "Vortexclaw",
+    "species": "Triceratops",
+    "rarity": "Uncommon",
+    "element": "Ember",
+    "standard_supply": 111,
+    "image": "ipfs://REPLACE/308.png"
+  },
+  {
+    "base_id": 309,
+    "name": "Ghostbane",
+    "species": "Giganotosaurus",
+    "rarity": "Common",
+    "element": "Primal",
+    "standard_supply": 106,
+    "image": "ipfs://REPLACE/309.png"
+  },
+  {
+    "base_id": 310,
+    "name": "Vortexrush",
+    "species": "Velociraptor",
+    "rarity": "Epic",
+    "element": "Frost",
+    "standard_supply": 45,
+    "image": "ipfs://REPLACE/310.png"
+  },
+  {
+    "base_id": 311,
+    "name": "Razorbane",
+    "species": "Iguanodon",
+    "rarity": "Uncommon",
+    "element": "Tide",
+    "standard_supply": 100,
+    "image": "ipfs://REPLACE/311.png"
+  },
+  {
+    "base_id": 312,
+    "name": "Sunjaw",
+    "species": "Baryonyx",
+    "rarity": "Uncommon",
+    "element": "Shadow",
+    "standard_supply": 75,
+    "image": "ipfs://REPLACE/312.png"
+  },
+  {
+    "base_id": 313,
+    "name": "Coppertooth",
+    "species": "Carnotaurus",
+    "rarity": "Common",
+    "element": "Shadow",
+    "standard_supply": 179,
+    "image": "ipfs://REPLACE/313.png"
+  },
+  {
+    "base_id": 314,
+    "name": "Scarlethorn",
+    "species": "Tyrannosaurus",
+    "rarity": "Common",
+    "element": "Shadow",
+    "standard_supply": 156,
+    "image": "ipfs://REPLACE/314.png"
+  },
+  {
+    "base_id": 315,
+    "name": "Obsidianrage",
+    "species": "Therizinosaurus",
+    "rarity": "Uncommon",
+    "element": "Ember",
+    "standard_supply": 87,
+    "image": "ipfs://REPLACE/315.png"
+  },
+  {
+    "base_id": 316,
+    "name": "Coppercrest",
+    "species": "Ceratosaurus",
+    "rarity": "Common",
+    "element": "Tide",
+    "standard_supply": 103,
+    "image": "ipfs://REPLACE/316.png"
+  },
+  {
+    "base_id": 317,
+    "name": "Razorrage",
+    "species": "Velociraptor",
+    "rarity": "Uncommon",
+    "element": "Void",
+    "standard_supply": 89,
+    "image": "ipfs://REPLACE/317.png"
+  },
+  {
+    "base_id": 318,
+    "name": "Echocrest",
+    "species": "Carnotaurus",
+    "rarity": "Common",
+    "element": "Stone",
+    "standard_supply": 130,
+    "image": "ipfs://REPLACE/318.png"
+  },
+  {
+    "base_id": 319,
+    "name": "Ironcrusher",
+    "species": "Carnotaurus",
+    "rarity": "Rare",
+    "element": "Void",
+    "standard_supply": 40,
+    "image": "ipfs://REPLACE/319.png"
+  },
+  {
+    "base_id": 320,
+    "name": "Novajaw",
+    "species": "Iguanodon",
+    "rarity": "Uncommon",
+    "element": "Primal",
+    "standard_supply": 131,
+    "image": "ipfs://REPLACE/320.png"
+  },
+  {
+    "base_id": 321,
+    "name": "Azuretalon",
+    "species": "Carnotaurus",
+    "rarity": "Common",
+    "element": "Shadow",
+    "standard_supply": 149,
+    "image": "ipfs://REPLACE/321.png"
+  },
+  {
+    "base_id": 322,
+    "name": "Stormstrike",
+    "species": "Triceratops",
+    "rarity": "Common",
+    "element": "Tide",
+    "standard_supply": 80,
+    "image": "ipfs://REPLACE/322.png"
+  },
+  {
+    "base_id": 323,
+    "name": "Riftstrike",
+    "species": "Tyrannosaurus",
+    "rarity": "Uncommon",
+    "element": "Stone",
+    "standard_supply": 106,
+    "image": "ipfs://REPLACE/323.png"
+  },
+  {
+    "base_id": 324,
+    "name": "Nightguard",
+    "species": "Velociraptor",
+    "rarity": "Uncommon",
+    "element": "Venom",
+    "standard_supply": 117,
+    "image": "ipfs://REPLACE/324.png"
+  },
+  {
+    "base_id": 325,
+    "name": "Azurejaw",
+    "species": "Ankylosaurus",
+    "rarity": "Legendary",
+    "element": "Ember",
+    "standard_supply": 19,
+    "image": "ipfs://REPLACE/325.png"
+  },
+  {
+    "base_id": 326,
+    "name": "Mosswarden",
+    "species": "Parasaurolophus",
+    "rarity": "Rare",
+    "element": "Solar",
+    "standard_supply": 72,
+    "image": "ipfs://REPLACE/326.png"
+  },
+  {
+    "base_id": 327,
+    "name": "Cinderrush",
+    "species": "Ankylosaurus",
+    "rarity": "Common",
+    "element": "Storm",
+    "standard_supply": 147,
+    "image": "ipfs://REPLACE/327.png"
+  },
+  {
+    "base_id": 328,
+    "name": "Titanfang",
+    "species": "Baryonyx",
+    "rarity": "Common",
+    "element": "Storm",
+    "standard_supply": 129,
+    "image": "ipfs://REPLACE/328.png"
+  },
+  {
+    "base_id": 329,
+    "name": "Titanhide",
+    "species": "Allosaurus",
+    "rarity": "Uncommon",
+    "element": "Storm",
+    "standard_supply": 65,
+    "image": "ipfs://REPLACE/329.png"
+  },
+  {
+    "base_id": 330,
+    "name": "Blazejaw",
+    "species": "Dilophosaurus",
+    "rarity": "Common",
+    "element": "Primal",
+    "standard_supply": 84,
+    "image": "ipfs://REPLACE/330.png"
+  },
+  {
+    "base_id": 331,
+    "name": "Pyrerush",
+    "species": "Spinosaurus",
+    "rarity": "Uncommon",
+    "element": "Primal",
+    "standard_supply": 134,
+    "image": "ipfs://REPLACE/331.png"
+  },
+  {
+    "base_id": 332,
+    "name": "Pyrebreaker",
+    "species": "Spinosaurus",
+    "rarity": "Uncommon",
+    "element": "Venom",
+    "standard_supply": 98,
+    "image": "ipfs://REPLACE/332.png"
+  },
+  {
+    "base_id": 333,
+    "name": "Obsidianstrike",
+    "species": "Therizinosaurus",
+    "rarity": "Rare",
+    "element": "Storm",
+    "standard_supply": 27,
+    "image": "ipfs://REPLACE/333.png"
+  }
+]

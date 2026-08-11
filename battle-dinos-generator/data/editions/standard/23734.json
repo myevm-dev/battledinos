@@ -1,0 +1,53 @@
+{
+  "token_id": 23734,
+  "base_id": 242,
+  "name": "Wildjaw",
+  "edition": 35,
+  "edition_supply": 59,
+  "edition_label": "35/59",
+  "finish": "standard",
+  "species": "Giganotosaurus",
+  "rarity": "Rare",
+  "element": "Void",
+  "image": "ipfs://REPLACE/242.png",
+  "genetics": {
+    "health": 1.0132,
+    "attack": 1.041,
+    "defense": 0.9947,
+    "speed": 0.9813,
+    "move_1": 1.0361,
+    "move_2": 1.0135,
+    "move_3": 1.0311
+  },
+  "battle_stats": {
+    "health": 86,
+    "attack": 97,
+    "defense": 71,
+    "speed": 62
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Null Bite",
+      "power": 90
+    },
+    {
+      "slot": 2,
+      "name": "Void Howl",
+      "power": 96
+    },
+    {
+      "slot": 3,
+      "name": "Rift Sprint Strike",
+      "power": 72
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

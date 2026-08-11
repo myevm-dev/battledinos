@@ -1,0 +1,53 @@
+{
+  "token_id": 3793,
+  "base_id": 35,
+  "name": "Irontalon",
+  "edition": 51,
+  "edition_supply": 79,
+  "edition_label": "51/79",
+  "finish": "standard",
+  "species": "Styracosaurus",
+  "rarity": "Uncommon",
+  "element": "Stone",
+  "image": "ipfs://REPLACE/35.png",
+  "genetics": {
+    "health": 1.0393,
+    "attack": 0.9589,
+    "defense": 1.0435,
+    "speed": 0.9505,
+    "move_1": 0.9233,
+    "move_2": 0.9367,
+    "move_3": 1.053
+  },
+  "battle_stats": {
+    "health": 92,
+    "attack": 75,
+    "defense": 91,
+    "speed": 45
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Quake Horn Breaker",
+      "power": 85
+    },
+    {
+      "slot": 2,
+      "name": "Quake Rush",
+      "power": 42
+    },
+    {
+      "slot": 3,
+      "name": "Boulder Shell",
+      "power": 91
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

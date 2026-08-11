@@ -1,0 +1,53 @@
+{
+  "token_id": 2930,
+  "base_id": 27,
+  "name": "Venomspike",
+  "edition": 77,
+  "edition_supply": 80,
+  "edition_label": "77/80",
+  "finish": "standard",
+  "species": "Dilophosaurus",
+  "rarity": "Uncommon",
+  "element": "Solar",
+  "image": "ipfs://REPLACE/27.png",
+  "genetics": {
+    "health": 0.9815,
+    "attack": 1.0079,
+    "defense": 0.974,
+    "speed": 0.9541,
+    "move_1": 1.0507,
+    "move_2": 1.0406,
+    "move_3": 0.9222
+  },
+  "battle_stats": {
+    "health": 64,
+    "attack": 77,
+    "defense": 52,
+    "speed": 90
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Dawn Crest Call",
+      "power": 74
+    },
+    {
+      "slot": 2,
+      "name": "Radiant Fakeout",
+      "power": 89
+    },
+    {
+      "slot": 3,
+      "name": "Dawn Bite",
+      "power": 46
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

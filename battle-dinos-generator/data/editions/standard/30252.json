@@ -1,0 +1,53 @@
+{
+  "token_id": 30252,
+  "base_id": 302,
+  "name": "Venomshard",
+  "edition": 70,
+  "edition_supply": 105,
+  "edition_label": "70/105",
+  "finish": "standard",
+  "species": "Ceratosaurus",
+  "rarity": "Common",
+  "element": "Storm",
+  "image": "ipfs://REPLACE/302.png",
+  "genetics": {
+    "health": 0.9894,
+    "attack": 1.0029,
+    "defense": 0.9591,
+    "speed": 0.9853,
+    "move_1": 0.9816,
+    "move_2": 0.9958,
+    "move_3": 0.9852
+  },
+  "battle_stats": {
+    "health": 73,
+    "attack": 86,
+    "defense": 60,
+    "speed": 76
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Static Horn Strike",
+      "power": 62
+    },
+    {
+      "slot": 2,
+      "name": "Static Chomp",
+      "power": 54
+    },
+    {
+      "slot": 3,
+      "name": "Static Roar",
+      "power": 93
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

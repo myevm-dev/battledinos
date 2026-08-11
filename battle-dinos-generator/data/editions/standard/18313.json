@@ -1,0 +1,53 @@
+{
+  "token_id": 18313,
+  "base_id": 187,
+  "name": "Emberclaw",
+  "edition": 105,
+  "edition_supply": 125,
+  "edition_label": "105/125",
+  "finish": "standard",
+  "species": "Allosaurus",
+  "rarity": "Uncommon",
+  "element": "Shadow",
+  "image": "ipfs://REPLACE/187.png",
+  "genetics": {
+    "health": 0.9858,
+    "attack": 0.9828,
+    "defense": 1.045,
+    "speed": 0.9532,
+    "move_1": 1.0512,
+    "move_2": 1.0666,
+    "move_3": 0.9216
+  },
+  "battle_stats": {
+    "health": 81,
+    "attack": 79,
+    "defense": 72,
+    "speed": 71
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Shadow Jaw",
+      "power": 95
+    },
+    {
+      "slot": 2,
+      "name": "Shadow Talon",
+      "power": 77
+    },
+    {
+      "slot": 3,
+      "name": "Night Sprint Strike",
+      "power": 87
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

@@ -1,0 +1,53 @@
+{
+  "token_id": 28803,
+  "base_id": 290,
+  "name": "Runerunner",
+  "edition": 2,
+  "edition_supply": 35,
+  "edition_label": "2/35",
+  "finish": "standard",
+  "species": "Deinonychus",
+  "rarity": "Epic",
+  "element": "Stone",
+  "image": "ipfs://REPLACE/290.png",
+  "genetics": {
+    "health": 0.9558,
+    "attack": 1.0197,
+    "defense": 1.0191,
+    "speed": 1.0305,
+    "move_1": 0.9779,
+    "move_2": 1.0669,
+    "move_3": 1.0603
+  },
+  "battle_stats": {
+    "health": 67,
+    "attack": 82,
+    "defense": 55,
+    "speed": 92
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Granite Claw",
+      "power": 79
+    },
+    {
+      "slot": 2,
+      "name": "Boulder Leap",
+      "power": 61
+    },
+    {
+      "slot": 3,
+      "name": "Stone Sprint Strike",
+      "power": 88
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

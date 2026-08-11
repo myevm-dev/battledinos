@@ -1,0 +1,53 @@
+{
+  "token_id": 16965,
+  "base_id": 176,
+  "name": "Echoscar",
+  "edition": 45,
+  "edition_supply": 125,
+  "edition_label": "45/125",
+  "finish": "standard",
+  "species": "Spinosaurus",
+  "rarity": "Common",
+  "element": "Frost",
+  "image": "ipfs://REPLACE/176.png",
+  "genetics": {
+    "health": 0.9812,
+    "attack": 0.9619,
+    "defense": 1.0282,
+    "speed": 0.9505,
+    "move_1": 1.0665,
+    "move_2": 0.9391,
+    "move_3": 0.9582
+  },
+  "battle_stats": {
+    "health": 79,
+    "attack": 83,
+    "defense": 71,
+    "speed": 67
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Frost Jaw",
+      "power": 53
+    },
+    {
+      "slot": 2,
+      "name": "Frost Sail Burst",
+      "power": 78
+    },
+    {
+      "slot": 3,
+      "name": "Glacier Crosscut",
+      "power": 46
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

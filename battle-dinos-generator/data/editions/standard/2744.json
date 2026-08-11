@@ -1,0 +1,53 @@
+{
+  "token_id": 2744,
+  "base_id": 26,
+  "name": "Duskback",
+  "edition": 7,
+  "edition_supply": 116,
+  "edition_label": "7/116",
+  "finish": "standard",
+  "species": "Spinosaurus",
+  "rarity": "Uncommon",
+  "element": "Ember",
+  "image": "ipfs://REPLACE/26.png",
+  "genetics": {
+    "health": 0.9692,
+    "attack": 1.0205,
+    "defense": 0.9839,
+    "speed": 0.9508,
+    "move_1": 1.0437,
+    "move_2": 1.0733,
+    "move_3": 1.043
+  },
+  "battle_stats": {
+    "health": 80,
+    "attack": 88,
+    "defense": 66,
+    "speed": 66
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Magma Jaw",
+      "power": 76
+    },
+    {
+      "slot": 2,
+      "name": "Inferno Crest Surge",
+      "power": 78
+    },
+    {
+      "slot": 3,
+      "name": "Magma Backhand",
+      "power": 49
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

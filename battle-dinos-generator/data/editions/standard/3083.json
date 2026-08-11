@@ -1,0 +1,53 @@
+{
+  "token_id": 3083,
+  "base_id": 28,
+  "name": "Ashcrest",
+  "edition": 150,
+  "edition_supply": 175,
+  "edition_label": "150/175",
+  "finish": "standard",
+  "species": "Pachycephalosaurus",
+  "rarity": "Common",
+  "element": "Primal",
+  "image": "ipfs://REPLACE/28.png",
+  "genetics": {
+    "health": 0.9746,
+    "attack": 0.9663,
+    "defense": 0.9621,
+    "speed": 1.0144,
+    "move_1": 1.0776,
+    "move_2": 0.9391,
+    "move_3": 1.0775
+  },
+  "battle_stats": {
+    "health": 76,
+    "attack": 75,
+    "defense": 74,
+    "speed": 71
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Savage Dome Crash",
+      "power": 51
+    },
+    {
+      "slot": 2,
+      "name": "Primal Rush",
+      "power": 64
+    },
+    {
+      "slot": 3,
+      "name": "Primal Tremor",
+      "power": 74
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

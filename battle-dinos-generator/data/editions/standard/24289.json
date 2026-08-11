@@ -1,0 +1,53 @@
+{
+  "token_id": 24289,
+  "base_id": 247,
+  "name": "Runewarden",
+  "edition": 81,
+  "edition_supply": 100,
+  "edition_label": "81/100",
+  "finish": "standard",
+  "species": "Velociraptor",
+  "rarity": "Common",
+  "element": "Storm",
+  "image": "ipfs://REPLACE/247.png",
+  "genetics": {
+    "health": 0.9669,
+    "attack": 1.0347,
+    "defense": 0.9944,
+    "speed": 0.9919,
+    "move_1": 1.0521,
+    "move_2": 0.9257,
+    "move_3": 1.0187
+  },
+  "battle_stats": {
+    "health": 66,
+    "attack": 76,
+    "defense": 54,
+    "speed": 95
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Static Talon",
+      "power": 69
+    },
+    {
+      "slot": 2,
+      "name": "Lightning Ambush",
+      "power": 68
+    },
+    {
+      "slot": 3,
+      "name": "Tempest Fakeout",
+      "power": 65
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

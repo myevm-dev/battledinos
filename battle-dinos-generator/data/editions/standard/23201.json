@@ -1,0 +1,53 @@
+{
+  "token_id": 23201,
+  "base_id": 236,
+  "name": "Razorrunner",
+  "edition": 28,
+  "edition_supply": 59,
+  "edition_label": "28/59",
+  "finish": "standard",
+  "species": "Giganotosaurus",
+  "rarity": "Uncommon",
+  "element": "Tide",
+  "image": "ipfs://REPLACE/236.png",
+  "genetics": {
+    "health": 1.0249,
+    "attack": 0.9687,
+    "defense": 1.0401,
+    "speed": 0.9524,
+    "move_1": 1.0308,
+    "move_2": 1.0001,
+    "move_3": 0.9976
+  },
+  "battle_stats": {
+    "health": 86,
+    "attack": 90,
+    "defense": 72,
+    "speed": 64
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Tidal Bite",
+      "power": 56
+    },
+    {
+      "slot": 2,
+      "name": "Aqua Bellow",
+      "power": 85
+    },
+    {
+      "slot": 3,
+      "name": "Tidal Sprint Strike",
+      "power": 61
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

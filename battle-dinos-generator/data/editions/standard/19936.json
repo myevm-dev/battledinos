@@ -1,0 +1,53 @@
+{
+  "token_id": 19936,
+  "base_id": 200,
+  "name": "Riftshard",
+  "edition": 137,
+  "edition_supply": 157,
+  "edition_label": "137/157",
+  "finish": "standard",
+  "species": "Iguanodon",
+  "rarity": "Common",
+  "element": "Tide",
+  "image": "ipfs://REPLACE/200.png",
+  "genetics": {
+    "health": 1.0008,
+    "attack": 1.0354,
+    "defense": 1.0218,
+    "speed": 0.9999,
+    "move_1": 0.9644,
+    "move_2": 1.0645,
+    "move_3": 1.0369
+  },
+  "battle_stats": {
+    "health": 88,
+    "attack": 71,
+    "defense": 77,
+    "speed": 63
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Torrent Spike Jab",
+      "power": 48
+    },
+    {
+      "slot": 2,
+      "name": "Tidal Rush",
+      "power": 75
+    },
+    {
+      "slot": 3,
+      "name": "Aqua Bulwark",
+      "power": 63
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

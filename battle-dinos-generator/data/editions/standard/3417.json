@@ -1,0 +1,53 @@
+{
+  "token_id": 3417,
+  "base_id": 31,
+  "name": "Savagebreaker",
+  "edition": 16,
+  "edition_supply": 69,
+  "edition_label": "16/69",
+  "finish": "standard",
+  "species": "Velociraptor",
+  "rarity": "Rare",
+  "element": "Storm",
+  "image": "ipfs://REPLACE/31.png",
+  "genetics": {
+    "health": 1.0388,
+    "attack": 0.983,
+    "defense": 0.9885,
+    "speed": 1.0259,
+    "move_1": 1.0285,
+    "move_2": 1.0733,
+    "move_3": 1.0754
+  },
+  "battle_stats": {
+    "health": 66,
+    "attack": 75,
+    "defense": 56,
+    "speed": 95
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Thunder Claw",
+      "power": 77
+    },
+    {
+      "slot": 2,
+      "name": "Lightning Ambush",
+      "power": 58
+    },
+    {
+      "slot": 3,
+      "name": "Static Sidestep",
+      "power": 61
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

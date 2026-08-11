@@ -1,0 +1,53 @@
+{
+  "token_id": 17537,
+  "base_id": 181,
+  "name": "Embermaw",
+  "edition": 95,
+  "edition_supply": 147,
+  "edition_label": "95/147",
+  "finish": "standard",
+  "species": "Styracosaurus",
+  "rarity": "Common",
+  "element": "Void",
+  "image": "ipfs://REPLACE/181.png",
+  "genetics": {
+    "health": 1.0102,
+    "attack": 0.9771,
+    "defense": 1.0142,
+    "speed": 0.9585,
+    "move_1": 1.0535,
+    "move_2": 1.0261,
+    "move_3": 0.9209
+  },
+  "battle_stats": {
+    "health": 92,
+    "attack": 71,
+    "defense": 87,
+    "speed": 48
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Null Horn Breaker",
+      "power": 88
+    },
+    {
+      "slot": 2,
+      "name": "Void Stampede",
+      "power": 97
+    },
+    {
+      "slot": 3,
+      "name": "Void Shell",
+      "power": 53
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

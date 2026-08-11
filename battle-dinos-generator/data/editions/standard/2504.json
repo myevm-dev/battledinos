@@ -1,0 +1,53 @@
+{
+  "token_id": 2504,
+  "base_id": 23,
+  "name": "Frostreaver",
+  "edition": 141,
+  "edition_supply": 185,
+  "edition_label": "141/185",
+  "finish": "standard",
+  "species": "Stegosaurus",
+  "rarity": "Common",
+  "element": "Shadow",
+  "image": "ipfs://REPLACE/23.png",
+  "genetics": {
+    "health": 0.9831,
+    "attack": 0.9539,
+    "defense": 0.9742,
+    "speed": 0.9801,
+    "move_1": 0.9675,
+    "move_2": 1.0577,
+    "move_3": 1.0375
+  },
+  "battle_stats": {
+    "health": 89,
+    "attack": 66,
+    "defense": 89,
+    "speed": 37
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Dusk Spike Sweep",
+      "power": 74
+    },
+    {
+      "slot": 2,
+      "name": "Shadow Guard",
+      "power": 54
+    },
+    {
+      "slot": 3,
+      "name": "Night Stomp",
+      "power": 99
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

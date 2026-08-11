@@ -1,0 +1,53 @@
+{
+  "token_id": 16827,
+  "base_id": 173,
+  "name": "Ironbreaker",
+  "edition": 70,
+  "edition_supply": 81,
+  "edition_label": "70/81",
+  "finish": "standard",
+  "species": "Stegosaurus",
+  "rarity": "Rare",
+  "element": "Shadow",
+  "image": "ipfs://REPLACE/173.png",
+  "genetics": {
+    "health": 0.9659,
+    "attack": 1.0367,
+    "defense": 1.0243,
+    "speed": 0.9618,
+    "move_1": 0.9391,
+    "move_2": 0.933,
+    "move_3": 0.9861
+  },
+  "battle_stats": {
+    "health": 83,
+    "attack": 72,
+    "defense": 89,
+    "speed": 43
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Night Tail Spike",
+      "power": 61
+    },
+    {
+      "slot": 2,
+      "name": "Night Shell",
+      "power": 63
+    },
+    {
+      "slot": 3,
+      "name": "Night Groundbreak",
+      "power": 93
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

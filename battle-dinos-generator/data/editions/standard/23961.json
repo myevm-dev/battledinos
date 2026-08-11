@@ -1,0 +1,53 @@
+{
+  "token_id": 23961,
+  "base_id": 245,
+  "name": "Venomrage",
+  "edition": 20,
+  "edition_supply": 133,
+  "edition_label": "20/133",
+  "finish": "standard",
+  "species": "Therizinosaurus",
+  "rarity": "Common",
+  "element": "Void",
+  "image": "ipfs://REPLACE/245.png",
+  "genetics": {
+    "health": 0.9772,
+    "attack": 0.9805,
+    "defense": 1.002,
+    "speed": 0.9857,
+    "move_1": 0.9442,
+    "move_2": 0.9343,
+    "move_3": 1.0234
+  },
+  "battle_stats": {
+    "health": 72,
+    "attack": 88,
+    "defense": 66,
+    "speed": 73
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Abyss Rake",
+      "power": 48
+    },
+    {
+      "slot": 2,
+      "name": "Abyss Bulwark",
+      "power": 65
+    },
+    {
+      "slot": 3,
+      "name": "Rift Backhand",
+      "power": 67
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

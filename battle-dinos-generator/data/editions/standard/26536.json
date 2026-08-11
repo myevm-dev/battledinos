@@ -1,0 +1,53 @@
+{
+  "token_id": 26536,
+  "base_id": 268,
+  "name": "Copperstrike",
+  "edition": 61,
+  "edition_supply": 114,
+  "edition_label": "61/114",
+  "finish": "standard",
+  "species": "Ceratosaurus",
+  "rarity": "Common",
+  "element": "Solar",
+  "image": "ipfs://REPLACE/268.png",
+  "genetics": {
+    "health": 0.9584,
+    "attack": 1.0197,
+    "defense": 0.9702,
+    "speed": 1.0074,
+    "move_1": 1.0381,
+    "move_2": 1.0429,
+    "move_3": 0.9756
+  },
+  "battle_stats": {
+    "health": 72,
+    "attack": 90,
+    "defense": 62,
+    "speed": 74
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Radiant Horn Strike",
+      "power": 88
+    },
+    {
+      "slot": 2,
+      "name": "Radiant Jaw",
+      "power": 78
+    },
+    {
+      "slot": 3,
+      "name": "Dawn Bellow",
+      "power": 57
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

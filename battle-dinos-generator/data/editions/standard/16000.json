@@ -1,0 +1,53 @@
+{
+  "token_id": 16000,
+  "base_id": 165,
+  "name": "Flintmaw",
+  "edition": 63,
+  "edition_supply": 68,
+  "edition_label": "63/68",
+  "finish": "standard",
+  "species": "Deinonychus",
+  "rarity": "Rare",
+  "element": "Frost",
+  "image": "ipfs://REPLACE/165.png",
+  "genetics": {
+    "health": 1.0053,
+    "attack": 1.0286,
+    "defense": 0.9759,
+    "speed": 0.9737,
+    "move_1": 1.0772,
+    "move_2": 0.9942,
+    "move_3": 0.9538
+  },
+  "battle_stats": {
+    "health": 70,
+    "attack": 80,
+    "defense": 58,
+    "speed": 87
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Frost Rake",
+      "power": 94
+    },
+    {
+      "slot": 2,
+      "name": "Ice Ambush",
+      "power": 56
+    },
+    {
+      "slot": 3,
+      "name": "Glacier Rush",
+      "power": 65
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

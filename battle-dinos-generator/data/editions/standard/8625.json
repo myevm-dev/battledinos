@@ -1,0 +1,53 @@
+{
+  "token_id": 8625,
+  "base_id": 90,
+  "name": "Titanrage",
+  "edition": 19,
+  "edition_supply": 101,
+  "edition_label": "19/101",
+  "finish": "standard",
+  "species": "Ankylosaurus",
+  "rarity": "Common",
+  "element": "Ember",
+  "image": "ipfs://REPLACE/90.png",
+  "genetics": {
+    "health": 1.0049,
+    "attack": 1.0206,
+    "defense": 0.9577,
+    "speed": 1.0489,
+    "move_1": 1.0237,
+    "move_2": 1.0177,
+    "move_3": 1.0675
+  },
+  "battle_stats": {
+    "health": 98,
+    "attack": 65,
+    "defense": 89,
+    "speed": 36
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Magma Club Smash",
+      "power": 82
+    },
+    {
+      "slot": 2,
+      "name": "Cinder Guard",
+      "power": 63
+    },
+    {
+      "slot": 3,
+      "name": "Cinder Ram",
+      "power": 82
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

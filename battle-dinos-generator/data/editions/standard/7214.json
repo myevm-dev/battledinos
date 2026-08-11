@@ -1,0 +1,53 @@
+{
+  "token_id": 7214,
+  "base_id": 73,
+  "name": "Ivorycrest",
+  "edition": 69,
+  "edition_supply": 79,
+  "edition_label": "69/79",
+  "finish": "standard",
+  "species": "Giganotosaurus",
+  "rarity": "Uncommon",
+  "element": "Frost",
+  "image": "ipfs://REPLACE/73.png",
+  "genetics": {
+    "health": 0.9853,
+    "attack": 0.9756,
+    "defense": 0.9726,
+    "speed": 1.0144,
+    "move_1": 1.0183,
+    "move_2": 1.0204,
+    "move_3": 0.9305
+  },
+  "battle_stats": {
+    "health": 87,
+    "attack": 93,
+    "defense": 70,
+    "speed": 60
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Winter Bite",
+      "power": 73
+    },
+    {
+      "slot": 2,
+      "name": "Ice Howl",
+      "power": 68
+    },
+    {
+      "slot": 3,
+      "name": "Ice Blitz",
+      "power": 49
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

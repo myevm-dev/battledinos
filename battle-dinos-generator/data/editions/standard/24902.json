@@ -1,0 +1,53 @@
+{
+  "token_id": 24902,
+  "base_id": 253,
+  "name": "Azureback",
+  "edition": 5,
+  "edition_supply": 126,
+  "edition_label": "5/126",
+  "finish": "standard",
+  "species": "Giganotosaurus",
+  "rarity": "Uncommon",
+  "element": "Frost",
+  "image": "ipfs://REPLACE/253.png",
+  "genetics": {
+    "health": 0.9932,
+    "attack": 0.9607,
+    "defense": 1.0338,
+    "speed": 1.0291,
+    "move_1": 1.0692,
+    "move_2": 1.0542,
+    "move_3": 1.0709
+  },
+  "battle_stats": {
+    "health": 84,
+    "attack": 89,
+    "defense": 70,
+    "speed": 66
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Ice Chomp",
+      "power": 99
+    },
+    {
+      "slot": 2,
+      "name": "Winter Roar",
+      "power": 85
+    },
+    {
+      "slot": 3,
+      "name": "Ice Blitz",
+      "power": 50
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

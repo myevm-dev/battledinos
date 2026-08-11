@@ -1,0 +1,53 @@
+{
+  "token_id": 5421,
+  "base_id": 53,
+  "name": "Copperclaw",
+  "edition": 50,
+  "edition_supply": 88,
+  "edition_label": "50/88",
+  "finish": "standard",
+  "species": "Utahraptor",
+  "rarity": "Uncommon",
+  "element": "Void",
+  "image": "ipfs://REPLACE/53.png",
+  "genetics": {
+    "health": 0.9887,
+    "attack": 0.9776,
+    "defense": 0.9615,
+    "speed": 1.0172,
+    "move_1": 1.0145,
+    "move_2": 0.9786,
+    "move_3": 1.0368
+  },
+  "battle_stats": {
+    "health": 74,
+    "attack": 83,
+    "defense": 57,
+    "speed": 90
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Rift Rake",
+      "power": 72
+    },
+    {
+      "slot": 2,
+      "name": "Rift Ambush",
+      "power": 87
+    },
+    {
+      "slot": 3,
+      "name": "Abyss Fakeout",
+      "power": 59
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

@@ -1,0 +1,53 @@
+{
+  "token_id": 526,
+  "base_id": 6,
+  "name": "Grimcrest",
+  "edition": 89,
+  "edition_supply": 97,
+  "edition_label": "89/97",
+  "finish": "standard",
+  "species": "Velociraptor",
+  "rarity": "Common",
+  "element": "Venom",
+  "image": "ipfs://REPLACE/6.png",
+  "genetics": {
+    "health": 0.9759,
+    "attack": 1.0493,
+    "defense": 0.9917,
+    "speed": 0.9794,
+    "move_1": 1.0601,
+    "move_2": 1.0395,
+    "move_3": 1.0206
+  },
+  "battle_stats": {
+    "health": 59,
+    "attack": 82,
+    "defense": 55,
+    "speed": 94
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Toxic Rake",
+      "power": 66
+    },
+    {
+      "slot": 2,
+      "name": "Toxic Leap",
+      "power": 49
+    },
+    {
+      "slot": 3,
+      "name": "Viper Sidestep",
+      "power": 53
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

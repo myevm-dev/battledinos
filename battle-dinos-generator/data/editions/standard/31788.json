@@ -1,0 +1,53 @@
+{
+  "token_id": 31788,
+  "base_id": 318,
+  "name": "Echocrest",
+  "edition": 16,
+  "edition_supply": 130,
+  "edition_label": "16/130",
+  "finish": "standard",
+  "species": "Carnotaurus",
+  "rarity": "Common",
+  "element": "Stone",
+  "image": "ipfs://REPLACE/318.png",
+  "genetics": {
+    "health": 0.9868,
+    "attack": 1.0428,
+    "defense": 1.0407,
+    "speed": 0.9561,
+    "move_1": 0.9684,
+    "move_2": 1.0361,
+    "move_3": 1.0417
+  },
+  "battle_stats": {
+    "health": 77,
+    "attack": 86,
+    "defense": 61,
+    "speed": 80
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Quake Gore",
+      "power": 52
+    },
+    {
+      "slot": 2,
+      "name": "Boulder Sprint Strike",
+      "power": 84
+    },
+    {
+      "slot": 3,
+      "name": "Quake Jaw",
+      "power": 80
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

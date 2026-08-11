@@ -1,0 +1,53 @@
+{
+  "token_id": 5879,
+  "base_id": 58,
+  "name": "Ivoryback",
+  "edition": 32,
+  "edition_supply": 83,
+  "edition_label": "32/83",
+  "finish": "standard",
+  "species": "Tyrannosaurus",
+  "rarity": "Common",
+  "element": "Void",
+  "image": "ipfs://REPLACE/58.png",
+  "genetics": {
+    "health": 1.0194,
+    "attack": 0.9703,
+    "defense": 1.0376,
+    "speed": 0.9625,
+    "move_1": 0.9627,
+    "move_2": 1.0244,
+    "move_3": 1.0646
+  },
+  "battle_stats": {
+    "health": 93,
+    "attack": 84,
+    "defense": 78,
+    "speed": 53
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Null Bite",
+      "power": 52
+    },
+    {
+      "slot": 2,
+      "name": "Rift Bellow",
+      "power": 61
+    },
+    {
+      "slot": 3,
+      "name": "Void Tail Sweep",
+      "power": 83
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

@@ -1,0 +1,53 @@
+{
+  "token_id": 29836,
+  "base_id": 298,
+  "name": "Frosttalon",
+  "edition": 163,
+  "edition_supply": 176,
+  "edition_label": "163/176",
+  "finish": "standard",
+  "species": "Utahraptor",
+  "rarity": "Common",
+  "element": "Tide",
+  "image": "ipfs://REPLACE/298.png",
+  "genetics": {
+    "health": 0.9621,
+    "attack": 1.0284,
+    "defense": 0.9754,
+    "speed": 0.9777,
+    "move_1": 0.9741,
+    "move_2": 1.0412,
+    "move_3": 1.0363
+  },
+  "battle_stats": {
+    "health": 69,
+    "attack": 87,
+    "defense": 60,
+    "speed": 86
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Riptide Claw",
+      "power": 68
+    },
+    {
+      "slot": 2,
+      "name": "Riptide Pounce",
+      "power": 81
+    },
+    {
+      "slot": 3,
+      "name": "Riptide Fakeout",
+      "power": 67
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

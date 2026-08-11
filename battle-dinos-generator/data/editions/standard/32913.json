@@ -1,0 +1,53 @@
+{
+  "token_id": 32913,
+  "base_id": 329,
+  "name": "Titanhide",
+  "edition": 21,
+  "edition_supply": 65,
+  "edition_label": "21/65",
+  "finish": "standard",
+  "species": "Allosaurus",
+  "rarity": "Uncommon",
+  "element": "Storm",
+  "image": "ipfs://REPLACE/329.png",
+  "genetics": {
+    "health": 0.9729,
+    "attack": 1.0469,
+    "defense": 1.0443,
+    "speed": 1.0144,
+    "move_1": 0.9634,
+    "move_2": 1.0273,
+    "move_3": 0.9622
+  },
+  "battle_stats": {
+    "health": 80,
+    "attack": 88,
+    "defense": 70,
+    "speed": 72
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Thunder Bite",
+      "power": 92
+    },
+    {
+      "slot": 2,
+      "name": "Tempest Talon",
+      "power": 90
+    },
+    {
+      "slot": 3,
+      "name": "Tempest Sprint Strike",
+      "power": 82
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

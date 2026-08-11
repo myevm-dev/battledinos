@@ -1,0 +1,53 @@
+{
+  "token_id": 25913,
+  "base_id": 262,
+  "name": "Apexjaw",
+  "edition": 5,
+  "edition_supply": 18,
+  "edition_label": "5/18",
+  "finish": "standard",
+  "species": "Dilophosaurus",
+  "rarity": "Legendary",
+  "element": "Void",
+  "image": "ipfs://REPLACE/262.png",
+  "genetics": {
+    "health": 0.9771,
+    "attack": 0.9671,
+    "defense": 0.9686,
+    "speed": 0.9893,
+    "move_1": 0.9261,
+    "move_2": 0.944,
+    "move_3": 0.9492
+  },
+  "battle_stats": {
+    "health": 64,
+    "attack": 73,
+    "defense": 52,
+    "speed": 90
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Null Resonance",
+      "power": 57
+    },
+    {
+      "slot": 2,
+      "name": "Abyss Sidestep",
+      "power": 69
+    },
+    {
+      "slot": 3,
+      "name": "Null Chomp",
+      "power": 71
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

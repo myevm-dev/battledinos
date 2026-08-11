@@ -1,0 +1,53 @@
+{
+  "token_id": 25417,
+  "base_id": 258,
+  "name": "Sunrage",
+  "edition": 7,
+  "edition_supply": 161,
+  "edition_label": "7/161",
+  "finish": "standard",
+  "species": "Deinonychus",
+  "rarity": "Common",
+  "element": "Void",
+  "image": "ipfs://REPLACE/258.png",
+  "genetics": {
+    "health": 0.9562,
+    "attack": 0.9895,
+    "defense": 0.9523,
+    "speed": 1.0259,
+    "move_1": 1.0137,
+    "move_2": 0.9987,
+    "move_3": 1.0115
+  },
+  "battle_stats": {
+    "health": 69,
+    "attack": 77,
+    "defense": 52,
+    "speed": 91
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Abyss Rake",
+      "power": 47
+    },
+    {
+      "slot": 2,
+      "name": "Void Pounce",
+      "power": 79
+    },
+    {
+      "slot": 3,
+      "name": "Void Blitz",
+      "power": 47
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

@@ -1,0 +1,53 @@
+{
+  "token_id": 4248,
+  "base_id": 41,
+  "name": "Riftcrest",
+  "edition": 30,
+  "edition_supply": 68,
+  "edition_label": "30/68",
+  "finish": "standard",
+  "species": "Utahraptor",
+  "rarity": "Rare",
+  "element": "Ember",
+  "image": "ipfs://REPLACE/41.png",
+  "genetics": {
+    "health": 1.0363,
+    "attack": 0.99,
+    "defense": 0.9739,
+    "speed": 1.0321,
+    "move_1": 1.0206,
+    "move_2": 0.9991,
+    "move_3": 0.9256
+  },
+  "battle_stats": {
+    "health": 72,
+    "attack": 87,
+    "defense": 61,
+    "speed": 89
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Magma Talon",
+      "power": 52
+    },
+    {
+      "slot": 2,
+      "name": "Magma Ambush",
+      "power": 46
+    },
+    {
+      "slot": 3,
+      "name": "Cinder Fakeout",
+      "power": 51
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

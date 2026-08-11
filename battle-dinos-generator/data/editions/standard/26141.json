@@ -1,0 +1,53 @@
+{
+  "token_id": 26141,
+  "base_id": 264,
+  "name": "Titanstalker",
+  "edition": 118,
+  "edition_supply": 118,
+  "edition_label": "118/118",
+  "finish": "standard",
+  "species": "Ankylosaurus",
+  "rarity": "Uncommon",
+  "element": "Solar",
+  "image": "ipfs://REPLACE/264.png",
+  "genetics": {
+    "health": 0.9574,
+    "attack": 0.9769,
+    "defense": 1.0419,
+    "speed": 0.9569,
+    "move_1": 1.0368,
+    "move_2": 0.9439,
+    "move_3": 0.946
+  },
+  "battle_stats": {
+    "health": 94,
+    "attack": 60,
+    "defense": 101,
+    "speed": 33
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Solar Club Smash",
+      "power": 81
+    },
+    {
+      "slot": 2,
+      "name": "Radiant Guard",
+      "power": 71
+    },
+    {
+      "slot": 3,
+      "name": "Sun Iron Rush",
+      "power": 74
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

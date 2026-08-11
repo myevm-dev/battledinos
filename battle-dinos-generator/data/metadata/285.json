@@ -1,28 +1,44 @@
 {
+  "base_id": 285,
   "name": "Blazeroar",
-  "description": "Uncommon Tyrannosaurus from the Battle Dinos Genesis 333 collection.",
-  "image": "ipfs://REPLACE/285.png",
-  "token_id": 285,
+  "description": "Uncommon Tyrannosaurus Battle Dinos base archetype.",
   "species": "Tyrannosaurus",
   "rarity": "Uncommon",
+  "element": "Tide",
+  "image": "ipfs://REPLACE/285.png",
   "visual": {
     "palette": "Abyss",
     "description": "Tyrannosaurus with midnight navy scales with luminous blue accents, ringed tail markings, bronze gladiator harness, and metal collar with a simple round emblem",
     "arena": "sunlit prehistoric jungle clearing"
   },
+  "base_battle_stats": {
+    "health": 90,
+    "attack": 89,
+    "defense": 71,
+    "speed": 58
+  },
   "moves": [
     {
+      "slot": 1,
       "name": "Aqua Jaw",
-      "power": 56
+      "base_power": 56
     },
     {
+      "slot": 2,
       "name": "Aqua Bellow",
-      "power": 75
+      "base_power": 75
     },
     {
+      "slot": 3,
       "name": "Torrent Tail Crash",
-      "power": 62
+      "base_power": 62
     }
   ],
+  "starting_state": {
+    "level": 1,
+    "xp": 0,
+    "evolution_stage": 0,
+    "mutations": []
+  },
   "image_prompt": "Premium stylized 3D battle dinosaur collectible, designed as a consistent character collection. Full-body dinosaur centered in a powerful three-quarter battle stance, entire body visible from head to feet and tail, strong readable silhouette, oversized expressive eyes with fierce personality, chunky stylized anatomy, detailed scales, polished game-cinematic materials, dramatic rim lighting, high-end animated feature-film quality, collectible game character aesthetic, slightly exaggerated proportions, bold armor and accessory shapes when present, rich color contrast, crisp texture detail, atmospheric prehistoric arena environment, shallow cinematic depth of field, dynamic but uncluttered background, no text, no logos, no UI, no frame, no humans, no duplicate dinosaurs, square 1:1 composition. Keep the visual language consistent across the entire collection while making each dinosaur clearly unique. Character: Blazeroar, a Tyrannosaurus with midnight navy scales with luminous blue accents, ringed tail markings, bronze gladiator harness, and metal collar with a simple round emblem. Pose with confident battle-ready personality in a sunlit prehistoric jungle clearing. Do not depict attacks, powers, text, numbers, or other combatants."
 }

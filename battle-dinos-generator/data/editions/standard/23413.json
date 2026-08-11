@@ -1,0 +1,53 @@
+{
+  "token_id": 23413,
+  "base_id": 239,
+  "name": "Solarreaver",
+  "edition": 4,
+  "edition_supply": 22,
+  "edition_label": "4/22",
+  "finish": "standard",
+  "species": "Carnotaurus",
+  "rarity": "Epic",
+  "element": "Ember",
+  "image": "ipfs://REPLACE/239.png",
+  "genetics": {
+    "health": 1.0489,
+    "attack": 1.0095,
+    "defense": 0.954,
+    "speed": 1.025,
+    "move_1": 0.9491,
+    "move_2": 0.9378,
+    "move_3": 1.0479
+  },
+  "battle_stats": {
+    "health": 78,
+    "attack": 85,
+    "defense": 61,
+    "speed": 86
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Inferno Horn Strike",
+      "power": 72
+    },
+    {
+      "slot": 2,
+      "name": "Inferno Sprint Strike",
+      "power": 43
+    },
+    {
+      "slot": 3,
+      "name": "Magma Chomp",
+      "power": 81
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

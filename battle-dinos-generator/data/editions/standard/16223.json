@@ -1,0 +1,53 @@
+{
+  "token_id": 16223,
+  "base_id": 168,
+  "name": "Azurestalker",
+  "edition": 5,
+  "edition_supply": 171,
+  "edition_label": "5/171",
+  "finish": "standard",
+  "species": "Deinonychus",
+  "rarity": "Common",
+  "element": "Tide",
+  "image": "ipfs://REPLACE/168.png",
+  "genetics": {
+    "health": 1.0319,
+    "attack": 1.041,
+    "defense": 0.9961,
+    "speed": 1.0056,
+    "move_1": 0.9966,
+    "move_2": 0.9385,
+    "move_3": 1.0155
+  },
+  "battle_stats": {
+    "health": 72,
+    "attack": 78,
+    "defense": 60,
+    "speed": 91
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Torrent Rake",
+      "power": 63
+    },
+    {
+      "slot": 2,
+      "name": "Riptide Pounce",
+      "power": 69
+    },
+    {
+      "slot": 3,
+      "name": "Torrent Rush",
+      "power": 84
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

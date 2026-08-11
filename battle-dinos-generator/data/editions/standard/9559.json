@@ -1,0 +1,53 @@
+{
+  "token_id": 9559,
+  "base_id": 99,
+  "name": "Novamauler",
+  "edition": 71,
+  "edition_supply": 106,
+  "edition_label": "71/106",
+  "finish": "standard",
+  "species": "Parasaurolophus",
+  "rarity": "Uncommon",
+  "element": "Frost",
+  "image": "ipfs://REPLACE/99.png",
+  "genetics": {
+    "health": 0.9683,
+    "attack": 1.0123,
+    "defense": 1.0352,
+    "speed": 0.9608,
+    "move_1": 0.9703,
+    "move_2": 1.0494,
+    "move_3": 0.935
+  },
+  "battle_stats": {
+    "health": 83,
+    "attack": 59,
+    "defense": 76,
+    "speed": 66
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Frost Crest Pulse",
+      "power": 63
+    },
+    {
+      "slot": 2,
+      "name": "Frost Sprint Strike",
+      "power": 65
+    },
+    {
+      "slot": 3,
+      "name": "Frost Tail Slam",
+      "power": 78
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

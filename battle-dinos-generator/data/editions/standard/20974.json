@@ -1,0 +1,53 @@
+{
+  "token_id": 20974,
+  "base_id": 211,
+  "name": "Voidripper",
+  "edition": 68,
+  "edition_supply": 173,
+  "edition_label": "68/173",
+  "finish": "standard",
+  "species": "Stegosaurus",
+  "rarity": "Common",
+  "element": "Tide",
+  "image": "ipfs://REPLACE/211.png",
+  "genetics": {
+    "health": 1.0377,
+    "attack": 1.0414,
+    "defense": 0.9896,
+    "speed": 0.9622,
+    "move_1": 1.0262,
+    "move_2": 0.9598,
+    "move_3": 0.9405
+  },
+  "battle_stats": {
+    "health": 92,
+    "attack": 69,
+    "defense": 91,
+    "speed": 38
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Torrent Thagomizer",
+      "power": 63
+    },
+    {
+      "slot": 2,
+      "name": "Tidal Guard",
+      "power": 83
+    },
+    {
+      "slot": 3,
+      "name": "Riptide Stomp",
+      "power": 58
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

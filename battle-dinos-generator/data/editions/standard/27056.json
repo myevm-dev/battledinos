@@ -1,0 +1,53 @@
+{
+  "token_id": 27056,
+  "base_id": 273,
+  "name": "Duskcrest",
+  "edition": 58,
+  "edition_supply": 189,
+  "edition_label": "58/189",
+  "finish": "standard",
+  "species": "Utahraptor",
+  "rarity": "Common",
+  "element": "Venom",
+  "image": "ipfs://REPLACE/273.png",
+  "genetics": {
+    "health": 0.9949,
+    "attack": 1.0147,
+    "defense": 1.0345,
+    "speed": 0.9988,
+    "move_1": 0.9439,
+    "move_2": 1.0333,
+    "move_3": 1.0415
+  },
+  "battle_stats": {
+    "health": 72,
+    "attack": 85,
+    "defense": 65,
+    "speed": 85
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Viper Talon",
+      "power": 75
+    },
+    {
+      "slot": 2,
+      "name": "Venom Ambush",
+      "power": 77
+    },
+    {
+      "slot": 3,
+      "name": "Toxic Sidestep",
+      "power": 79
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

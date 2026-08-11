@@ -1,0 +1,53 @@
+{
+  "token_id": 10749,
+  "base_id": 109,
+  "name": "Blazeback",
+  "edition": 31,
+  "edition_supply": 101,
+  "edition_label": "31/101",
+  "finish": "standard",
+  "species": "Giganotosaurus",
+  "rarity": "Common",
+  "element": "Tide",
+  "image": "ipfs://REPLACE/109.png",
+  "genetics": {
+    "health": 0.974,
+    "attack": 1.016,
+    "defense": 0.9774,
+    "speed": 0.9774,
+    "move_1": 0.9931,
+    "move_2": 0.9995,
+    "move_3": 0.9867
+  },
+  "battle_stats": {
+    "health": 84,
+    "attack": 93,
+    "defense": 72,
+    "speed": 57
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Aqua Chomp",
+      "power": 85
+    },
+    {
+      "slot": 2,
+      "name": "Torrent Roar",
+      "power": 77
+    },
+    {
+      "slot": 3,
+      "name": "Aqua Blitz",
+      "power": 92
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

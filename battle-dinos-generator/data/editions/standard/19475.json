@@ -1,0 +1,53 @@
+{
+  "token_id": 19475,
+  "base_id": 197,
+  "name": "Razorreaver",
+  "edition": 28,
+  "edition_supply": 143,
+  "edition_label": "28/143",
+  "finish": "standard",
+  "species": "Styracosaurus",
+  "rarity": "Common",
+  "element": "Solar",
+  "image": "ipfs://REPLACE/197.png",
+  "genetics": {
+    "health": 0.9776,
+    "attack": 0.9627,
+    "defense": 0.974,
+    "speed": 1.0439,
+    "move_1": 1.0616,
+    "move_2": 1.0629,
+    "move_3": 0.9845
+  },
+  "battle_stats": {
+    "health": 84,
+    "attack": 74,
+    "defense": 84,
+    "speed": 55
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Sun Horn Breaker",
+      "power": 89
+    },
+    {
+      "slot": 2,
+      "name": "Dawn Charge",
+      "power": 81
+    },
+    {
+      "slot": 3,
+      "name": "Sun Bulwark",
+      "power": 63
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

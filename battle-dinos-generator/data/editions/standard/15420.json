@@ -1,0 +1,53 @@
+{
+  "token_id": 15420,
+  "base_id": 159,
+  "name": "Boulderrage",
+  "edition": 42,
+  "edition_supply": 71,
+  "edition_label": "42/71",
+  "finish": "standard",
+  "species": "Suchomimus",
+  "rarity": "Uncommon",
+  "element": "Primal",
+  "image": "ipfs://REPLACE/159.png",
+  "genetics": {
+    "health": 1.0313,
+    "attack": 1.0239,
+    "defense": 1.0136,
+    "speed": 1.0135,
+    "move_1": 0.9682,
+    "move_2": 1.0458,
+    "move_3": 1.0426
+  },
+  "battle_stats": {
+    "health": 80,
+    "attack": 81,
+    "defense": 68,
+    "speed": 78
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Savage Talon",
+      "power": 88
+    },
+    {
+      "slot": 2,
+      "name": "Primal Chomp",
+      "power": 71
+    },
+    {
+      "slot": 3,
+      "name": "Wild River Rush",
+      "power": 98
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

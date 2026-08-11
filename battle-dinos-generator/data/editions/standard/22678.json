@@ -1,0 +1,53 @@
+{
+  "token_id": 22678,
+  "base_id": 229,
+  "name": "Embershard",
+  "edition": 66,
+  "edition_supply": 139,
+  "edition_label": "66/139",
+  "finish": "standard",
+  "species": "Carnotaurus",
+  "rarity": "Common",
+  "element": "Tide",
+  "image": "ipfs://REPLACE/229.png",
+  "genetics": {
+    "health": 1.0498,
+    "attack": 1.0171,
+    "defense": 0.9539,
+    "speed": 1.0427,
+    "move_1": 1.0461,
+    "move_2": 0.9403,
+    "move_3": 0.9881
+  },
+  "battle_stats": {
+    "health": 79,
+    "attack": 84,
+    "defense": 54,
+    "speed": 93
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Riptide Gore",
+      "power": 66
+    },
+    {
+      "slot": 2,
+      "name": "Riptide Blitz",
+      "power": 72
+    },
+    {
+      "slot": 3,
+      "name": "Aqua Bite",
+      "power": 88
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

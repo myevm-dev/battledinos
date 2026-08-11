@@ -1,0 +1,53 @@
+{
+  "token_id": 22931,
+  "base_id": 232,
+  "name": "Azuremauler",
+  "edition": 70,
+  "edition_supply": 85,
+  "edition_label": "70/85",
+  "finish": "standard",
+  "species": "Baryonyx",
+  "rarity": "Rare",
+  "element": "Primal",
+  "image": "ipfs://REPLACE/232.png",
+  "genetics": {
+    "health": 1.0335,
+    "attack": 0.996,
+    "defense": 0.9806,
+    "speed": 0.9966,
+    "move_1": 0.9566,
+    "move_2": 0.9449,
+    "move_3": 1.0646
+  },
+  "battle_stats": {
+    "health": 84,
+    "attack": 78,
+    "defense": 68,
+    "speed": 74
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Primal Talon",
+      "power": 73
+    },
+    {
+      "slot": 2,
+      "name": "Savage Chomp",
+      "power": 50
+    },
+    {
+      "slot": 3,
+      "name": "Primal River Rush",
+      "power": 66
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

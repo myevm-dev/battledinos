@@ -1,0 +1,53 @@
+{
+  "token_id": 12242,
+  "base_id": 130,
+  "name": "Novarush",
+  "edition": 14,
+  "edition_supply": 32,
+  "edition_label": "14/32",
+  "finish": "standard",
+  "species": "Tyrannosaurus",
+  "rarity": "Rare",
+  "element": "Solar",
+  "image": "ipfs://REPLACE/130.png",
+  "genetics": {
+    "health": 1.0497,
+    "attack": 0.974,
+    "defense": 0.9573,
+    "speed": 0.9934,
+    "move_1": 0.9838,
+    "move_2": 1.0486,
+    "move_3": 1.042
+  },
+  "battle_stats": {
+    "health": 91,
+    "attack": 91,
+    "defense": 71,
+    "speed": 54
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Dawn Chomp",
+      "power": 84
+    },
+    {
+      "slot": 2,
+      "name": "Solar Howl",
+      "power": 57
+    },
+    {
+      "slot": 3,
+      "name": "Radiant Tail Slam",
+      "power": 78
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

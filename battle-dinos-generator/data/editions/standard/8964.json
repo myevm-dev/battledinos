@@ -1,0 +1,53 @@
+{
+  "token_id": 8964,
+  "base_id": 93,
+  "name": "Obsidianreaver",
+  "edition": 3,
+  "edition_supply": 40,
+  "edition_label": "3/40",
+  "finish": "standard",
+  "species": "Baryonyx",
+  "rarity": "Epic",
+  "element": "Storm",
+  "image": "ipfs://REPLACE/93.png",
+  "genetics": {
+    "health": 0.9847,
+    "attack": 0.96,
+    "defense": 1.0357,
+    "speed": 0.9501,
+    "move_1": 1.0752,
+    "move_2": 0.9748,
+    "move_3": 0.9516
+  },
+  "battle_stats": {
+    "health": 77,
+    "attack": 78,
+    "defense": 66,
+    "speed": 72
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Tempest Rake",
+      "power": 94
+    },
+    {
+      "slot": 2,
+      "name": "Lightning Jaw",
+      "power": 60
+    },
+    {
+      "slot": 3,
+      "name": "Lightning River Rush",
+      "power": 43
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

@@ -1,0 +1,53 @@
+{
+  "token_id": 23235,
+  "base_id": 237,
+  "name": "Ivoryscar",
+  "edition": 3,
+  "edition_supply": 142,
+  "edition_label": "3/142",
+  "finish": "standard",
+  "species": "Allosaurus",
+  "rarity": "Common",
+  "element": "Tide",
+  "image": "ipfs://REPLACE/237.png",
+  "genetics": {
+    "health": 0.9918,
+    "attack": 0.9531,
+    "defense": 0.9824,
+    "speed": 0.9898,
+    "move_1": 0.9213,
+    "move_2": 0.9645,
+    "move_3": 1.0143
+  },
+  "battle_stats": {
+    "health": 79,
+    "attack": 81,
+    "defense": 67,
+    "speed": 68
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Aqua Bite",
+      "power": 69
+    },
+    {
+      "slot": 2,
+      "name": "Torrent Rake",
+      "power": 71
+    },
+    {
+      "slot": 3,
+      "name": "Tidal Blitz",
+      "power": 46
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

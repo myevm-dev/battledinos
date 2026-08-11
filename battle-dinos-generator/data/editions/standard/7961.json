@@ -1,0 +1,53 @@
+{
+  "token_id": 7961,
+  "base_id": 83,
+  "name": "Frostclaw",
+  "edition": 42,
+  "edition_supply": 130,
+  "edition_label": "42/130",
+  "finish": "standard",
+  "species": "Giganotosaurus",
+  "rarity": "Common",
+  "element": "Stone",
+  "image": "ipfs://REPLACE/83.png",
+  "genetics": {
+    "health": 1.0428,
+    "attack": 0.9993,
+    "defense": 0.9653,
+    "speed": 1.0108,
+    "move_1": 0.9285,
+    "move_2": 0.946,
+    "move_3": 1.0106
+  },
+  "battle_stats": {
+    "health": 91,
+    "attack": 92,
+    "defense": 68,
+    "speed": 62
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Quake Jaw",
+      "power": 84
+    },
+    {
+      "slot": 2,
+      "name": "Quake Roar",
+      "power": 51
+    },
+    {
+      "slot": 3,
+      "name": "Granite Sprint Strike",
+      "power": 74
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

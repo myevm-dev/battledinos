@@ -1,0 +1,53 @@
+{
+  "token_id": 2163,
+  "base_id": 20,
+  "name": "Cragscar",
+  "edition": 99,
+  "edition_supply": 157,
+  "edition_label": "99/157",
+  "finish": "standard",
+  "species": "Velociraptor",
+  "rarity": "Common",
+  "element": "Venom",
+  "image": "ipfs://REPLACE/20.png",
+  "genetics": {
+    "health": 1.0326,
+    "attack": 1.0347,
+    "defense": 0.9852,
+    "speed": 0.9903,
+    "move_1": 1.0334,
+    "move_2": 0.9936,
+    "move_3": 0.9766
+  },
+  "battle_stats": {
+    "health": 64,
+    "attack": 77,
+    "defense": 57,
+    "speed": 94
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Viper Rake",
+      "power": 53
+    },
+    {
+      "slot": 2,
+      "name": "Viper Ambush",
+      "power": 53
+    },
+    {
+      "slot": 3,
+      "name": "Acid Sidestep",
+      "power": 55
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

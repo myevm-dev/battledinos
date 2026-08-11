@@ -1,0 +1,53 @@
+{
+  "token_id": 17064,
+  "base_id": 177,
+  "name": "Voidtooth",
+  "edition": 19,
+  "edition_supply": 43,
+  "edition_label": "19/43",
+  "finish": "standard",
+  "species": "Allosaurus",
+  "rarity": "Rare",
+  "element": "Stone",
+  "image": "ipfs://REPLACE/177.png",
+  "genetics": {
+    "health": 1.0298,
+    "attack": 0.9864,
+    "defense": 1.0348,
+    "speed": 0.9504,
+    "move_1": 1.0008,
+    "move_2": 0.9991,
+    "move_3": 1.015
+  },
+  "battle_stats": {
+    "health": 83,
+    "attack": 82,
+    "defense": 69,
+    "speed": 68
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Granite Bite",
+      "power": 85
+    },
+    {
+      "slot": 2,
+      "name": "Granite Talon",
+      "power": 92
+    },
+    {
+      "slot": 3,
+      "name": "Boulder Rush",
+      "power": 54
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

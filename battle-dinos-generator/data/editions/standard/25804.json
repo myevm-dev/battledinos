@@ -1,0 +1,53 @@
+{
+  "token_id": 25804,
+  "base_id": 261,
+  "name": "Jadespike",
+  "edition": 20,
+  "edition_supply": 124,
+  "edition_label": "20/124",
+  "finish": "standard",
+  "species": "Parasaurolophus",
+  "rarity": "Common",
+  "element": "Primal",
+  "image": "ipfs://REPLACE/261.png",
+  "genetics": {
+    "health": 0.9511,
+    "attack": 0.9817,
+    "defense": 0.9739,
+    "speed": 0.9532,
+    "move_1": 0.9729,
+    "move_2": 0.9272,
+    "move_3": 1.0124
+  },
+  "battle_stats": {
+    "health": 80,
+    "attack": 59,
+    "defense": 72,
+    "speed": 67
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Savage Resonance",
+      "power": 54
+    },
+    {
+      "slot": 2,
+      "name": "Primal Blitz",
+      "power": 73
+    },
+    {
+      "slot": 3,
+      "name": "Savage Tail Slam",
+      "power": 95
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

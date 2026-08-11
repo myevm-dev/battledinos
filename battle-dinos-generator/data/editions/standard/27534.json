@@ -1,0 +1,53 @@
+{
+  "token_id": 27534,
+  "base_id": 277,
+  "name": "Savagescale",
+  "edition": 31,
+  "edition_supply": 69,
+  "edition_label": "31/69",
+  "finish": "standard",
+  "species": "Suchomimus",
+  "rarity": "Rare",
+  "element": "Frost",
+  "image": "ipfs://REPLACE/277.png",
+  "genetics": {
+    "health": 0.9616,
+    "attack": 0.9565,
+    "defense": 0.9757,
+    "speed": 0.9697,
+    "move_1": 0.9339,
+    "move_2": 0.9668,
+    "move_3": 0.9261
+  },
+  "battle_stats": {
+    "health": 78,
+    "attack": 76,
+    "defense": 66,
+    "speed": 74
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Winter Claw",
+      "power": 78
+    },
+    {
+      "slot": 2,
+      "name": "Frost Jaw",
+      "power": 78
+    },
+    {
+      "slot": 3,
+      "name": "Frost Lunge",
+      "power": 64
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

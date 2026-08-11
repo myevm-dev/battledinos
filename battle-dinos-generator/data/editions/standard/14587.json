@@ -1,0 +1,53 @@
+{
+  "token_id": 14587,
+  "base_id": 151,
+  "name": "Scarletstalker",
+  "edition": 19,
+  "edition_supply": 96,
+  "edition_label": "19/96",
+  "finish": "standard",
+  "species": "Parasaurolophus",
+  "rarity": "Uncommon",
+  "element": "Venom",
+  "image": "ipfs://REPLACE/151.png",
+  "genetics": {
+    "health": 0.9851,
+    "attack": 0.9976,
+    "defense": 1.024,
+    "speed": 1.0459,
+    "move_1": 1.0524,
+    "move_2": 1.0565,
+    "move_3": 0.93
+  },
+  "battle_stats": {
+    "health": 85,
+    "attack": 58,
+    "defense": 73,
+    "speed": 75
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Toxic Resonance",
+      "power": 86
+    },
+    {
+      "slot": 2,
+      "name": "Toxic Sprint Strike",
+      "power": 80
+    },
+    {
+      "slot": 3,
+      "name": "Toxic Tail Slam",
+      "power": 53
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

@@ -1,0 +1,53 @@
+{
+  "token_id": 20816,
+  "base_id": 209,
+  "name": "Boulderhunter",
+  "edition": 6,
+  "edition_supply": 10,
+  "edition_label": "6/10",
+  "finish": "standard",
+  "species": "Baryonyx",
+  "rarity": "Epic",
+  "element": "Venom",
+  "image": "ipfs://REPLACE/209.png",
+  "genetics": {
+    "health": 0.9898,
+    "attack": 1.0105,
+    "defense": 1.0205,
+    "speed": 0.9691,
+    "move_1": 1.0709,
+    "move_2": 0.9465,
+    "move_3": 0.9518
+  },
+  "battle_stats": {
+    "health": 81,
+    "attack": 83,
+    "defense": 62,
+    "speed": 74
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Acid Rake",
+      "power": 74
+    },
+    {
+      "slot": 2,
+      "name": "Acid Jaw",
+      "power": 90
+    },
+    {
+      "slot": 3,
+      "name": "Toxic River Rush",
+      "power": 87
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

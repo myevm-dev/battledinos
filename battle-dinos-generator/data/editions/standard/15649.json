@@ -1,0 +1,53 @@
+{
+  "token_id": 15649,
+  "base_id": 162,
+  "name": "Solarstrike",
+  "edition": 5,
+  "edition_supply": 11,
+  "edition_label": "5/11",
+  "finish": "standard",
+  "species": "Ceratosaurus",
+  "rarity": "Epic",
+  "element": "Tide",
+  "image": "ipfs://REPLACE/162.png",
+  "genetics": {
+    "health": 0.9796,
+    "attack": 0.9513,
+    "defense": 1.0395,
+    "speed": 1.0496,
+    "move_1": 1.0601,
+    "move_2": 1.0385,
+    "move_3": 0.9939
+  },
+  "battle_stats": {
+    "health": 73,
+    "attack": 80,
+    "defense": 70,
+    "speed": 79
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Riptide Horn Breaker",
+      "power": 78
+    },
+    {
+      "slot": 2,
+      "name": "Tidal Chomp",
+      "power": 92
+    },
+    {
+      "slot": 3,
+      "name": "Riptide Roar",
+      "power": 45
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

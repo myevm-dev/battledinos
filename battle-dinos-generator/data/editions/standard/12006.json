@@ -1,0 +1,53 @@
+{
+  "token_id": 12006,
+  "base_id": 127,
+  "name": "Ironripper",
+  "edition": 57,
+  "edition_supply": 152,
+  "edition_label": "57/152",
+  "finish": "standard",
+  "species": "Iguanodon",
+  "rarity": "Common",
+  "element": "Shadow",
+  "image": "ipfs://REPLACE/127.png",
+  "genetics": {
+    "health": 1.0197,
+    "attack": 0.9649,
+    "defense": 1.0303,
+    "speed": 0.9805,
+    "move_1": 1.0021,
+    "move_2": 1.0147,
+    "move_3": 1.0154
+  },
+  "battle_stats": {
+    "health": 88,
+    "attack": 65,
+    "defense": 73,
+    "speed": 68
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Shadow Thumb Spike",
+      "power": 86
+    },
+    {
+      "slot": 2,
+      "name": "Dusk Rush",
+      "power": 48
+    },
+    {
+      "slot": 3,
+      "name": "Shadow Bulwark",
+      "power": 94
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

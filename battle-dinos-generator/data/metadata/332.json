@@ -1,28 +1,44 @@
 {
+  "base_id": 332,
   "name": "Pyrebreaker",
-  "description": "Uncommon Spinosaurus from the Battle Dinos Genesis 333 collection.",
-  "image": "ipfs://REPLACE/332.png",
-  "token_id": 332,
+  "description": "Uncommon Spinosaurus Battle Dinos base archetype.",
   "species": "Spinosaurus",
   "rarity": "Uncommon",
+  "element": "Venom",
+  "image": "ipfs://REPLACE/332.png",
   "visual": {
     "palette": "Cobalt",
     "description": "Spinosaurus with cobalt blue scales with icy cyan accents, mottled camouflage, bronze gladiator harness, and no accessory",
     "arena": "desert fossil basin with windblown dust"
   },
+  "base_battle_stats": {
+    "health": 80,
+    "attack": 88,
+    "defense": 68,
+    "speed": 71
+  },
   "moves": [
     {
+      "slot": 1,
       "name": "Venom Chomp",
-      "power": 47
+      "base_power": 47
     },
     {
+      "slot": 2,
       "name": "Venom Crest Surge",
-      "power": 82
+      "base_power": 82
     },
     {
+      "slot": 3,
       "name": "Viper Swipe",
-      "power": 77
+      "base_power": 77
     }
   ],
+  "starting_state": {
+    "level": 1,
+    "xp": 0,
+    "evolution_stage": 0,
+    "mutations": []
+  },
   "image_prompt": "Premium stylized 3D battle dinosaur collectible, designed as a consistent character collection. Full-body dinosaur centered in a powerful three-quarter battle stance, entire body visible from head to feet and tail, strong readable silhouette, oversized expressive eyes with fierce personality, chunky stylized anatomy, detailed scales, polished game-cinematic materials, dramatic rim lighting, high-end animated feature-film quality, collectible game character aesthetic, slightly exaggerated proportions, bold armor and accessory shapes when present, rich color contrast, crisp texture detail, atmospheric prehistoric arena environment, shallow cinematic depth of field, dynamic but uncluttered background, no text, no logos, no UI, no frame, no humans, no duplicate dinosaurs, square 1:1 composition. Keep the visual language consistent across the entire collection while making each dinosaur clearly unique. Character: Pyrebreaker, a Spinosaurus with cobalt blue scales with icy cyan accents, mottled camouflage, bronze gladiator harness, and no accessory. Pose with confident battle-ready personality in a desert fossil basin with windblown dust. Do not depict attacks, powers, text, numbers, or other combatants."
 }

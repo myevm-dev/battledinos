@@ -1,0 +1,53 @@
+{
+  "token_id": 14839,
+  "base_id": 153,
+  "name": "Ashscar",
+  "edition": 97,
+  "edition_supply": 111,
+  "edition_label": "97/111",
+  "finish": "standard",
+  "species": "Dilophosaurus",
+  "rarity": "Uncommon",
+  "element": "Stone",
+  "image": "ipfs://REPLACE/153.png",
+  "genetics": {
+    "health": 1.0026,
+    "attack": 0.9707,
+    "defense": 1.0109,
+    "speed": 0.9572,
+    "move_1": 1.0122,
+    "move_2": 1.0701,
+    "move_3": 1.0011
+  },
+  "battle_stats": {
+    "health": 69,
+    "attack": 71,
+    "defense": 53,
+    "speed": 88
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Quake Crest Call",
+      "power": 55
+    },
+    {
+      "slot": 2,
+      "name": "Quake Feint",
+      "power": 87
+    },
+    {
+      "slot": 3,
+      "name": "Stone Jaw",
+      "power": 76
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

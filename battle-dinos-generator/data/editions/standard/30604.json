@@ -1,0 +1,53 @@
+{
+  "token_id": 30604,
+  "base_id": 306,
+  "name": "Sunwarden",
+  "edition": 5,
+  "edition_supply": 9,
+  "edition_label": "5/9",
+  "finish": "standard",
+  "species": "Iguanodon",
+  "rarity": "Epic",
+  "element": "Shadow",
+  "image": "ipfs://REPLACE/306.png",
+  "genetics": {
+    "health": 1.0426,
+    "attack": 0.9802,
+    "defense": 0.95,
+    "speed": 1.0123,
+    "move_1": 0.95,
+    "move_2": 0.9511,
+    "move_3": 0.9244
+  },
+  "battle_stats": {
+    "health": 89,
+    "attack": 65,
+    "defense": 69,
+    "speed": 70
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Shadow Hand Spear",
+      "power": 73
+    },
+    {
+      "slot": 2,
+      "name": "Night Rush",
+      "power": 79
+    },
+    {
+      "slot": 3,
+      "name": "Phantom Bulwark",
+      "power": 81
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

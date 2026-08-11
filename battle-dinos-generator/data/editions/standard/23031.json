@@ -1,0 +1,53 @@
+{
+  "token_id": 23031,
+  "base_id": 234,
+  "name": "Venomreaver",
+  "edition": 21,
+  "edition_supply": 39,
+  "edition_label": "21/39",
+  "finish": "standard",
+  "species": "Iguanodon",
+  "rarity": "Epic",
+  "element": "Ember",
+  "image": "ipfs://REPLACE/234.png",
+  "genetics": {
+    "health": 1.0082,
+    "attack": 0.9673,
+    "defense": 0.9573,
+    "speed": 1.0039,
+    "move_1": 0.9546,
+    "move_2": 1.0297,
+    "move_3": 0.9794
+  },
+  "battle_stats": {
+    "health": 83,
+    "attack": 63,
+    "defense": 75,
+    "speed": 70
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Cinder Hand Spear",
+      "power": 59
+    },
+    {
+      "slot": 2,
+      "name": "Inferno Rush",
+      "power": 97
+    },
+    {
+      "slot": 3,
+      "name": "Flare Bulwark",
+      "power": 67
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

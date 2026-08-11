@@ -1,0 +1,53 @@
+{
+  "token_id": 1771,
+  "base_id": 17,
+  "name": "Scarletshard",
+  "edition": 96,
+  "edition_supply": 189,
+  "edition_label": "96/189",
+  "finish": "standard",
+  "species": "Baryonyx",
+  "rarity": "Common",
+  "element": "Ember",
+  "image": "ipfs://REPLACE/17.png",
+  "genetics": {
+    "health": 1.0232,
+    "attack": 0.9683,
+    "defense": 1.0091,
+    "speed": 0.9602,
+    "move_1": 0.9885,
+    "move_2": 1.0495,
+    "move_3": 1.0755
+  },
+  "battle_stats": {
+    "health": 81,
+    "attack": 81,
+    "defense": 63,
+    "speed": 73
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Inferno Talon",
+      "power": 50
+    },
+    {
+      "slot": 2,
+      "name": "Inferno Chomp",
+      "power": 76
+    },
+    {
+      "slot": 3,
+      "name": "Inferno River Rush",
+      "power": 83
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

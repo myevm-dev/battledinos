@@ -1,0 +1,53 @@
+{
+  "token_id": 7384,
+  "base_id": 75,
+  "name": "Mossfang",
+  "edition": 2,
+  "edition_supply": 7,
+  "edition_label": "2/7",
+  "finish": "standard",
+  "species": "Dilophosaurus",
+  "rarity": "Legendary",
+  "element": "Void",
+  "image": "ipfs://REPLACE/75.png",
+  "genetics": {
+    "health": 0.9512,
+    "attack": 1.0061,
+    "defense": 1.0091,
+    "speed": 1.0383,
+    "move_1": 1.0299,
+    "move_2": 0.9353,
+    "move_3": 0.9622
+  },
+  "battle_stats": {
+    "health": 66,
+    "attack": 71,
+    "defense": 56,
+    "speed": 94
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Rift Resonance",
+      "power": 66
+    },
+    {
+      "slot": 2,
+      "name": "Abyss Sidestep",
+      "power": 66
+    },
+    {
+      "slot": 3,
+      "name": "Null Chomp",
+      "power": 70
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

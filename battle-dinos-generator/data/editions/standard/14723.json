@@ -1,0 +1,53 @@
+{
+  "token_id": 14723,
+  "base_id": 152,
+  "name": "Voidfang",
+  "edition": 59,
+  "edition_supply": 78,
+  "edition_label": "59/78",
+  "finish": "standard",
+  "species": "Utahraptor",
+  "rarity": "Common",
+  "element": "Ember",
+  "image": "ipfs://REPLACE/152.png",
+  "genetics": {
+    "health": 0.9631,
+    "attack": 1.0112,
+    "defense": 1.0035,
+    "speed": 1.0342,
+    "move_1": 1.0619,
+    "move_2": 1.0596,
+    "move_3": 1.0389
+  },
+  "battle_stats": {
+    "health": 70,
+    "attack": 85,
+    "defense": 60,
+    "speed": 91
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Inferno Talon",
+      "power": 68
+    },
+    {
+      "slot": 2,
+      "name": "Cinder Ambush",
+      "power": 55
+    },
+    {
+      "slot": 3,
+      "name": "Cinder Fakeout",
+      "power": 57
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

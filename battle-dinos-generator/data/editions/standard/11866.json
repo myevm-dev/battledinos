@@ -1,0 +1,53 @@
+{
+  "token_id": 11866,
+  "base_id": 125,
+  "name": "Mossstalker",
+  "edition": 5,
+  "edition_supply": 79,
+  "edition_label": "5/79",
+  "finish": "standard",
+  "species": "Dilophosaurus",
+  "rarity": "Common",
+  "element": "Tide",
+  "image": "ipfs://REPLACE/125.png",
+  "genetics": {
+    "health": 0.9584,
+    "attack": 0.9848,
+    "defense": 1.0363,
+    "speed": 1.0407,
+    "move_1": 1.0128,
+    "move_2": 0.9463,
+    "move_3": 1.0426
+  },
+  "battle_stats": {
+    "health": 60,
+    "attack": 71,
+    "defense": 59,
+    "speed": 98
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Aqua Crest Call",
+      "power": 55
+    },
+    {
+      "slot": 2,
+      "name": "Torrent Fakeout",
+      "power": 65
+    },
+    {
+      "slot": 3,
+      "name": "Torrent Bite",
+      "power": 63
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

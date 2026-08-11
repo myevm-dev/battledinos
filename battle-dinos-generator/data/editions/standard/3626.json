@@ -1,0 +1,53 @@
+{
+  "token_id": 3626,
+  "base_id": 33,
+  "name": "Voidstalker",
+  "edition": 7,
+  "edition_supply": 64,
+  "edition_label": "7/64",
+  "finish": "standard",
+  "species": "Carnotaurus",
+  "rarity": "Uncommon",
+  "element": "Stone",
+  "image": "ipfs://REPLACE/33.png",
+  "genetics": {
+    "health": 1.0342,
+    "attack": 0.9504,
+    "defense": 0.965,
+    "speed": 0.993,
+    "move_1": 1.0634,
+    "move_2": 1.0238,
+    "move_3": 0.924
+  },
+  "battle_stats": {
+    "health": 79,
+    "attack": 83,
+    "defense": 55,
+    "speed": 83
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Stone Horn Strike",
+      "power": 95
+    },
+    {
+      "slot": 2,
+      "name": "Stone Blitz",
+      "power": 47
+    },
+    {
+      "slot": 3,
+      "name": "Boulder Jaw",
+      "power": 48
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

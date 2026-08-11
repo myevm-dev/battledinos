@@ -1,28 +1,44 @@
 {
+  "base_id": 48,
   "name": "Savagerunner",
-  "description": "Common Styracosaurus from the Battle Dinos Genesis 333 collection.",
-  "image": "ipfs://REPLACE/48.png",
-  "token_id": 48,
+  "description": "Common Styracosaurus Battle Dinos base archetype.",
   "species": "Styracosaurus",
   "rarity": "Common",
+  "element": "Tide",
+  "image": "ipfs://REPLACE/48.png",
   "visual": {
     "palette": "Abyss",
     "description": "Styracosaurus with midnight navy scales with luminous blue accents, high-contrast facial mask, dark iron shoulder plates, and small battle scars across the snout",
     "arena": "lush waterfall arena surrounded by giant ferns"
   },
+  "base_battle_stats": {
+    "health": 91,
+    "attack": 76,
+    "defense": 90,
+    "speed": 46
+  },
   "moves": [
     {
+      "slot": 1,
       "name": "Riptide Gore",
-      "power": 57
+      "base_power": 57
     },
     {
+      "slot": 2,
       "name": "Torrent Charge",
-      "power": 68
+      "base_power": 68
     },
     {
+      "slot": 3,
       "name": "Torrent Bulwark",
-      "power": 76
+      "base_power": 76
     }
   ],
+  "starting_state": {
+    "level": 1,
+    "xp": 0,
+    "evolution_stage": 0,
+    "mutations": []
+  },
   "image_prompt": "Premium stylized 3D battle dinosaur collectible, designed as a consistent character collection. Full-body dinosaur centered in a powerful three-quarter battle stance, entire body visible from head to feet and tail, strong readable silhouette, oversized expressive eyes with fierce personality, chunky stylized anatomy, detailed scales, polished game-cinematic materials, dramatic rim lighting, high-end animated feature-film quality, collectible game character aesthetic, slightly exaggerated proportions, bold armor and accessory shapes when present, rich color contrast, crisp texture detail, atmospheric prehistoric arena environment, shallow cinematic depth of field, dynamic but uncluttered background, no text, no logos, no UI, no frame, no humans, no duplicate dinosaurs, square 1:1 composition. Keep the visual language consistent across the entire collection while making each dinosaur clearly unique. Character: Savagerunner, a Styracosaurus with midnight navy scales with luminous blue accents, high-contrast facial mask, dark iron shoulder plates, and small battle scars across the snout. Pose with confident battle-ready personality in a lush waterfall arena surrounded by giant ferns. Do not depict attacks, powers, text, numbers, or other combatants."
 }

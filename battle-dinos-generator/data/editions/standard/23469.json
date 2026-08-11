@@ -1,0 +1,53 @@
+{
+  "token_id": 23469,
+  "base_id": 240,
+  "name": "Blazescale",
+  "edition": 38,
+  "edition_supply": 151,
+  "edition_label": "38/151",
+  "finish": "standard",
+  "species": "Therizinosaurus",
+  "rarity": "Common",
+  "element": "Ember",
+  "image": "ipfs://REPLACE/240.png",
+  "genetics": {
+    "health": 0.9722,
+    "attack": 0.994,
+    "defense": 1.0439,
+    "speed": 1.0011,
+    "move_1": 1.0128,
+    "move_2": 0.9723,
+    "move_3": 1.0026
+  },
+  "battle_stats": {
+    "health": 72,
+    "attack": 88,
+    "defense": 68,
+    "speed": 76
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Magma Talon",
+      "power": 79
+    },
+    {
+      "slot": 2,
+      "name": "Magma Guard",
+      "power": 82
+    },
+    {
+      "slot": 3,
+      "name": "Inferno Crosscut",
+      "power": 68
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

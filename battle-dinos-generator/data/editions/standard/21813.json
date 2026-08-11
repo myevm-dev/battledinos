@@ -1,0 +1,53 @@
+{
+  "token_id": 21813,
+  "base_id": 221,
+  "name": "Novamaw",
+  "edition": 5,
+  "edition_supply": 115,
+  "edition_label": "5/115",
+  "finish": "standard",
+  "species": "Iguanodon",
+  "rarity": "Uncommon",
+  "element": "Venom",
+  "image": "ipfs://REPLACE/221.png",
+  "genetics": {
+    "health": 0.9666,
+    "attack": 0.9581,
+    "defense": 1.0182,
+    "speed": 1.0498,
+    "move_1": 1.0549,
+    "move_2": 1.0483,
+    "move_3": 0.9973
+  },
+  "battle_stats": {
+    "health": 78,
+    "attack": 67,
+    "defense": 75,
+    "speed": 71
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Venom Spike Jab",
+      "power": 57
+    },
+    {
+      "slot": 2,
+      "name": "Viper Rush",
+      "power": 62
+    },
+    {
+      "slot": 3,
+      "name": "Venom Shell",
+      "power": 83
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

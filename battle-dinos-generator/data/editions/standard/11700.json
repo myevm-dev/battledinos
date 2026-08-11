@@ -1,0 +1,53 @@
+{
+  "token_id": 11700,
+  "base_id": 123,
+  "name": "Emberrush",
+  "edition": 18,
+  "edition_supply": 96,
+  "edition_label": "18/96",
+  "finish": "standard",
+  "species": "Utahraptor",
+  "rarity": "Uncommon",
+  "element": "Tide",
+  "image": "ipfs://REPLACE/123.png",
+  "genetics": {
+    "health": 1.0137,
+    "attack": 1.0226,
+    "defense": 1.0292,
+    "speed": 1.0497,
+    "move_1": 0.972,
+    "move_2": 1.018,
+    "move_3": 1.0447
+  },
+  "battle_stats": {
+    "health": 74,
+    "attack": 84,
+    "defense": 65,
+    "speed": 93
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Torrent Claw",
+      "power": 50
+    },
+    {
+      "slot": 2,
+      "name": "Riptide Pounce",
+      "power": 51
+    },
+    {
+      "slot": 3,
+      "name": "Riptide Fakeout",
+      "power": 59
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

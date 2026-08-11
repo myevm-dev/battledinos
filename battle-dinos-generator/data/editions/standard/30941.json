@@ -1,0 +1,53 @@
+{
+  "token_id": 30941,
+  "base_id": 310,
+  "name": "Vortexrush",
+  "edition": 3,
+  "edition_supply": 45,
+  "edition_label": "3/45",
+  "finish": "standard",
+  "species": "Velociraptor",
+  "rarity": "Epic",
+  "element": "Frost",
+  "image": "ipfs://REPLACE/310.png",
+  "genetics": {
+    "health": 0.9552,
+    "attack": 1.0027,
+    "defense": 1.0123,
+    "speed": 0.9903,
+    "move_1": 1.0303,
+    "move_2": 1.0718,
+    "move_3": 1.0693
+  },
+  "battle_stats": {
+    "health": 61,
+    "attack": 76,
+    "defense": 54,
+    "speed": 95
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Frost Talon",
+      "power": 74
+    },
+    {
+      "slot": 2,
+      "name": "Glacier Pounce",
+      "power": 95
+    },
+    {
+      "slot": 3,
+      "name": "Winter Feint",
+      "power": 75
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

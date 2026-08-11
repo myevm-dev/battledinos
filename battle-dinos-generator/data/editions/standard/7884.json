@@ -1,0 +1,53 @@
+{
+  "token_id": 7884,
+  "base_id": 82,
+  "name": "Cragback",
+  "edition": 90,
+  "edition_supply": 125,
+  "edition_label": "90/125",
+  "finish": "standard",
+  "species": "Velociraptor",
+  "rarity": "Common",
+  "element": "Void",
+  "image": "ipfs://REPLACE/82.png",
+  "genetics": {
+    "health": 1.0384,
+    "attack": 0.9761,
+    "defense": 1.0432,
+    "speed": 0.9998,
+    "move_1": 1.0106,
+    "move_2": 1.0309,
+    "move_3": 1.0073
+  },
+  "battle_stats": {
+    "health": 71,
+    "attack": 70,
+    "defense": 54,
+    "speed": 96
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Void Rake",
+      "power": 76
+    },
+    {
+      "slot": 2,
+      "name": "Rift Ambush",
+      "power": 92
+    },
+    {
+      "slot": 3,
+      "name": "Abyss Sidestep",
+      "power": 90
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

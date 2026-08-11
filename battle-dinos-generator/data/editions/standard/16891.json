@@ -1,0 +1,53 @@
+{
+  "token_id": 16891,
+  "base_id": 175,
+  "name": "Sunrush",
+  "edition": 1,
+  "edition_supply": 30,
+  "edition_label": "1/30",
+  "finish": "standard",
+  "species": "Giganotosaurus",
+  "rarity": "Rare",
+  "element": "Frost",
+  "image": "ipfs://REPLACE/175.png",
+  "genetics": {
+    "health": 0.9812,
+    "attack": 1.0028,
+    "defense": 0.9811,
+    "speed": 0.9861,
+    "move_1": 0.9496,
+    "move_2": 0.9529,
+    "move_3": 0.9519
+  },
+  "battle_stats": {
+    "health": 86,
+    "attack": 89,
+    "defense": 71,
+    "speed": 63
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Frost Bite",
+      "power": 51
+    },
+    {
+      "slot": 2,
+      "name": "Winter Roar",
+      "power": 69
+    },
+    {
+      "slot": 3,
+      "name": "Frost Blitz",
+      "power": 49
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

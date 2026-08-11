@@ -1,0 +1,53 @@
+{
+  "token_id": 9615,
+  "base_id": 100,
+  "name": "Titanhunter",
+  "edition": 21,
+  "edition_supply": 93,
+  "edition_label": "21/93",
+  "finish": "standard",
+  "species": "Suchomimus",
+  "rarity": "Uncommon",
+  "element": "Venom",
+  "image": "ipfs://REPLACE/100.png",
+  "genetics": {
+    "health": 0.9653,
+    "attack": 0.9988,
+    "defense": 0.9627,
+    "speed": 0.9735,
+    "move_1": 1.0059,
+    "move_2": 0.9373,
+    "move_3": 0.9384
+  },
+  "battle_stats": {
+    "health": 76,
+    "attack": 78,
+    "defense": 62,
+    "speed": 79
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Venom Claw",
+      "power": 77
+    },
+    {
+      "slot": 2,
+      "name": "Venom Jaw",
+      "power": 69
+    },
+    {
+      "slot": 3,
+      "name": "Venom Snap Lunge",
+      "power": 46
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

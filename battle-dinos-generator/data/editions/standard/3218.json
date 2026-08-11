@@ -1,0 +1,53 @@
+{
+  "token_id": 3218,
+  "base_id": 29,
+  "name": "Scarletmauler",
+  "edition": 110,
+  "edition_supply": 183,
+  "edition_label": "110/183",
+  "finish": "standard",
+  "species": "Carnotaurus",
+  "rarity": "Common",
+  "element": "Solar",
+  "image": "ipfs://REPLACE/29.png",
+  "genetics": {
+    "health": 1.0249,
+    "attack": 0.9733,
+    "defense": 1.0399,
+    "speed": 1.0249,
+    "move_1": 1.0643,
+    "move_2": 0.924,
+    "move_3": 1.0739
+  },
+  "battle_stats": {
+    "health": 74,
+    "attack": 82,
+    "defense": 67,
+    "speed": 86
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Radiant Horn Breaker",
+      "power": 62
+    },
+    {
+      "slot": 2,
+      "name": "Radiant Blitz",
+      "power": 49
+    },
+    {
+      "slot": 3,
+      "name": "Radiant Bite",
+      "power": 59
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

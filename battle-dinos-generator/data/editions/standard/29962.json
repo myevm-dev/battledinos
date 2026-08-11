@@ -1,0 +1,53 @@
+{
+  "token_id": 29962,
+  "base_id": 300,
+  "name": "Ghostspike",
+  "edition": 34,
+  "edition_supply": 101,
+  "edition_label": "34/101",
+  "finish": "standard",
+  "species": "Parasaurolophus",
+  "rarity": "Uncommon",
+  "element": "Solar",
+  "image": "ipfs://REPLACE/300.png",
+  "genetics": {
+    "health": 0.9529,
+    "attack": 1.0369,
+    "defense": 0.9724,
+    "speed": 0.9775,
+    "move_1": 0.9926,
+    "move_2": 1.0706,
+    "move_3": 1.0444
+  },
+  "battle_stats": {
+    "health": 77,
+    "attack": 62,
+    "defense": 68,
+    "speed": 73
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Sun Crest Call",
+      "power": 83
+    },
+    {
+      "slot": 2,
+      "name": "Radiant Sprint Strike",
+      "power": 49
+    },
+    {
+      "slot": 3,
+      "name": "Solar Tail Crash",
+      "power": 80
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

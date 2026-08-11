@@ -1,0 +1,53 @@
+{
+  "token_id": 31307,
+  "base_id": 313,
+  "name": "Coppertooth",
+  "edition": 149,
+  "edition_supply": 179,
+  "edition_label": "149/179",
+  "finish": "standard",
+  "species": "Carnotaurus",
+  "rarity": "Common",
+  "element": "Shadow",
+  "image": "ipfs://REPLACE/313.png",
+  "genetics": {
+    "health": 0.9798,
+    "attack": 1.0427,
+    "defense": 1.0471,
+    "speed": 1.0021,
+    "move_1": 1.0066,
+    "move_2": 1.0436,
+    "move_3": 1.0581
+  },
+  "battle_stats": {
+    "health": 73,
+    "attack": 89,
+    "defense": 64,
+    "speed": 83
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Phantom Gore",
+      "power": 51
+    },
+    {
+      "slot": 2,
+      "name": "Night Rush",
+      "power": 86
+    },
+    {
+      "slot": 3,
+      "name": "Phantom Chomp",
+      "power": 98
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

@@ -1,0 +1,53 @@
+{
+  "token_id": 4043,
+  "base_id": 38,
+  "name": "Cragtooth",
+  "edition": 77,
+  "edition_supply": 82,
+  "edition_label": "77/82",
+  "finish": "standard",
+  "species": "Iguanodon",
+  "rarity": "Common",
+  "element": "Void",
+  "image": "ipfs://REPLACE/38.png",
+  "genetics": {
+    "health": 1.027,
+    "attack": 1.0419,
+    "defense": 0.9551,
+    "speed": 0.991,
+    "move_1": 0.9225,
+    "move_2": 1.0299,
+    "move_3": 1.0644
+  },
+  "battle_stats": {
+    "health": 84,
+    "attack": 74,
+    "defense": 70,
+    "speed": 69
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Void Thumb Spike",
+      "power": 72
+    },
+    {
+      "slot": 2,
+      "name": "Void Blitz",
+      "power": 55
+    },
+    {
+      "slot": 3,
+      "name": "Rift Shell",
+      "power": 77
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

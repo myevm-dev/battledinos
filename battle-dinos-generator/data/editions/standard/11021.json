@@ -1,0 +1,53 @@
+{
+  "token_id": 11021,
+  "base_id": 111,
+  "name": "Copperbane",
+  "edition": 36,
+  "edition_supply": 39,
+  "edition_label": "36/39",
+  "finish": "standard",
+  "species": "Stegosaurus",
+  "rarity": "Rare",
+  "element": "Venom",
+  "image": "ipfs://REPLACE/111.png",
+  "genetics": {
+    "health": 1.0285,
+    "attack": 0.9905,
+    "defense": 0.9788,
+    "speed": 1.0055,
+    "move_1": 0.931,
+    "move_2": 1.0497,
+    "move_3": 1.0771
+  },
+  "battle_stats": {
+    "health": 96,
+    "attack": 66,
+    "defense": 84,
+    "speed": 42
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Venom Spike Sweep",
+      "power": 45
+    },
+    {
+      "slot": 2,
+      "name": "Viper Shell",
+      "power": 83
+    },
+    {
+      "slot": 3,
+      "name": "Venom Groundbreak",
+      "power": 85
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

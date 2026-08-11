@@ -1,0 +1,53 @@
+{
+  "token_id": 17939,
+  "base_id": 184,
+  "name": "Nightmaw",
+  "edition": 137,
+  "edition_supply": 146,
+  "edition_label": "137/146",
+  "finish": "standard",
+  "species": "Suchomimus",
+  "rarity": "Common",
+  "element": "Void",
+  "image": "ipfs://REPLACE/184.png",
+  "genetics": {
+    "health": 0.9989,
+    "attack": 1.011,
+    "defense": 0.9622,
+    "speed": 0.9642,
+    "move_1": 0.9587,
+    "move_2": 0.9936,
+    "move_3": 1.0465
+  },
+  "battle_stats": {
+    "health": 81,
+    "attack": 82,
+    "defense": 62,
+    "speed": 71
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Abyss Claw",
+      "power": 81
+    },
+    {
+      "slot": 2,
+      "name": "Rift Jaw",
+      "power": 74
+    },
+    {
+      "slot": 3,
+      "name": "Rift Lunge",
+      "power": 98
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

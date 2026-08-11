@@ -1,0 +1,53 @@
+{
+  "token_id": 21367,
+  "base_id": 216,
+  "name": "Frostback",
+  "edition": 7,
+  "edition_supply": 86,
+  "edition_label": "7/86",
+  "finish": "standard",
+  "species": "Ceratosaurus",
+  "rarity": "Uncommon",
+  "element": "Frost",
+  "image": "ipfs://REPLACE/216.png",
+  "genetics": {
+    "health": 1.0036,
+    "attack": 0.9624,
+    "defense": 1.0014,
+    "speed": 0.9689,
+    "move_1": 1.0129,
+    "move_2": 0.9692,
+    "move_3": 0.9361
+  },
+  "battle_stats": {
+    "health": 79,
+    "attack": 78,
+    "defense": 63,
+    "speed": 72
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Frost Horn Breaker",
+      "power": 59
+    },
+    {
+      "slot": 2,
+      "name": "Winter Chomp",
+      "power": 85
+    },
+    {
+      "slot": 3,
+      "name": "Frost Roar",
+      "power": 84
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

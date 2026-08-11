@@ -1,0 +1,53 @@
+{
+  "token_id": 29441,
+  "base_id": 296,
+  "name": "Savagestrike",
+  "edition": 23,
+  "edition_supply": 157,
+  "edition_label": "23/157",
+  "finish": "standard",
+  "species": "Utahraptor",
+  "rarity": "Common",
+  "element": "Frost",
+  "image": "ipfs://REPLACE/296.png",
+  "genetics": {
+    "health": 0.9892,
+    "attack": 1.0288,
+    "defense": 1.0051,
+    "speed": 0.995,
+    "move_1": 0.9588,
+    "move_2": 1.0144,
+    "move_3": 1.0403
+  },
+  "battle_stats": {
+    "health": 69,
+    "attack": 87,
+    "defense": 58,
+    "speed": 92
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Ice Talon",
+      "power": 59
+    },
+    {
+      "slot": 2,
+      "name": "Ice Leap",
+      "power": 93
+    },
+    {
+      "slot": 3,
+      "name": "Ice Sidestep",
+      "power": 57
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

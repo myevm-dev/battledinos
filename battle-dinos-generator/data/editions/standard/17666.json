@@ -1,0 +1,53 @@
+{
+  "token_id": 17666,
+  "base_id": 182,
+  "name": "Thunderclaw",
+  "edition": 77,
+  "edition_supply": 170,
+  "edition_label": "77/170",
+  "finish": "standard",
+  "species": "Spinosaurus",
+  "rarity": "Common",
+  "element": "Storm",
+  "image": "ipfs://REPLACE/182.png",
+  "genetics": {
+    "health": 1.012,
+    "attack": 1.0468,
+    "defense": 0.9731,
+    "speed": 0.9639,
+    "move_1": 1.0675,
+    "move_2": 0.9459,
+    "move_3": 1.0156
+  },
+  "battle_stats": {
+    "health": 82,
+    "attack": 91,
+    "defense": 66,
+    "speed": 67
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Tempest Bite",
+      "power": 75
+    },
+    {
+      "slot": 2,
+      "name": "Tempest Crest Surge",
+      "power": 71
+    },
+    {
+      "slot": 3,
+      "name": "Lightning Backhand",
+      "power": 60
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

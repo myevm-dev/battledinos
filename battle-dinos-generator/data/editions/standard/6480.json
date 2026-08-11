@@ -1,0 +1,53 @@
+{
+  "token_id": 6480,
+  "base_id": 64,
+  "name": "Thunderspike",
+  "edition": 3,
+  "edition_supply": 30,
+  "edition_label": "3/30",
+  "finish": "standard",
+  "species": "Tyrannosaurus",
+  "rarity": "Epic",
+  "element": "Venom",
+  "image": "ipfs://REPLACE/64.png",
+  "genetics": {
+    "health": 1.0485,
+    "attack": 0.9523,
+    "defense": 1.0008,
+    "speed": 0.9935,
+    "move_1": 1.0139,
+    "move_2": 0.9827,
+    "move_3": 0.9312
+  },
+  "battle_stats": {
+    "health": 88,
+    "attack": 89,
+    "defense": 72,
+    "speed": 57
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Toxic Bite",
+      "power": 80
+    },
+    {
+      "slot": 2,
+      "name": "Viper Bellow",
+      "power": 88
+    },
+    {
+      "slot": 3,
+      "name": "Venom Tail Sweep",
+      "power": 65
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

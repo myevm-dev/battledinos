@@ -1,0 +1,53 @@
+{
+  "token_id": 31704,
+  "base_id": 317,
+  "name": "Razorrage",
+  "edition": 21,
+  "edition_supply": 89,
+  "edition_label": "21/89",
+  "finish": "standard",
+  "species": "Velociraptor",
+  "rarity": "Uncommon",
+  "element": "Void",
+  "image": "ipfs://REPLACE/317.png",
+  "genetics": {
+    "health": 1.0315,
+    "attack": 1.022,
+    "defense": 0.952,
+    "speed": 1.0389,
+    "move_1": 1.0732,
+    "move_2": 0.9729,
+    "move_3": 1.026
+  },
+  "battle_stats": {
+    "health": 71,
+    "attack": 75,
+    "defense": 52,
+    "speed": 98
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Null Claw",
+      "power": 64
+    },
+    {
+      "slot": 2,
+      "name": "Null Pounce",
+      "power": 67
+    },
+    {
+      "slot": 3,
+      "name": "Rift Fakeout",
+      "power": 46
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

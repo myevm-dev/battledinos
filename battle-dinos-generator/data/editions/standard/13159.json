@@ -1,0 +1,53 @@
+{
+  "token_id": 13159,
+  "base_id": 139,
+  "name": "Cragmaw",
+  "edition": 75,
+  "edition_supply": 133,
+  "edition_label": "75/133",
+  "finish": "standard",
+  "species": "Velociraptor",
+  "rarity": "Common",
+  "element": "Solar",
+  "image": "ipfs://REPLACE/139.png",
+  "genetics": {
+    "health": 1.0389,
+    "attack": 0.9674,
+    "defense": 0.9519,
+    "speed": 1.0341,
+    "move_1": 1.035,
+    "move_2": 1.0578,
+    "move_3": 1.0138
+  },
+  "battle_stats": {
+    "health": 73,
+    "attack": 72,
+    "defense": 50,
+    "speed": 95
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Sun Rake",
+      "power": 50
+    },
+    {
+      "slot": 2,
+      "name": "Radiant Ambush",
+      "power": 81
+    },
+    {
+      "slot": 3,
+      "name": "Radiant Feint",
+      "power": 77
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

@@ -1,0 +1,53 @@
+{
+  "token_id": 7398,
+  "base_id": 76,
+  "name": "Onyxwarden",
+  "edition": 9,
+  "edition_supply": 14,
+  "edition_label": "9/14",
+  "finish": "standard",
+  "species": "Utahraptor",
+  "rarity": "Epic",
+  "element": "Ember",
+  "image": "ipfs://REPLACE/76.png",
+  "genetics": {
+    "health": 0.9593,
+    "attack": 1.0429,
+    "defense": 0.9731,
+    "speed": 0.9553,
+    "move_1": 0.9477,
+    "move_2": 0.9995,
+    "move_3": 1.0277
+  },
+  "battle_stats": {
+    "health": 65,
+    "attack": 92,
+    "defense": 57,
+    "speed": 87
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Cinder Talon",
+      "power": 48
+    },
+    {
+      "slot": 2,
+      "name": "Cinder Ambush",
+      "power": 52
+    },
+    {
+      "slot": 3,
+      "name": "Magma Feint",
+      "power": 72
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

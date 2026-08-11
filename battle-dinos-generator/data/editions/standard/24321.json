@@ -1,0 +1,53 @@
+{
+  "token_id": 24321,
+  "base_id": 248,
+  "name": "Jadecrusher",
+  "edition": 13,
+  "edition_supply": 134,
+  "edition_label": "13/134",
+  "finish": "standard",
+  "species": "Carnotaurus",
+  "rarity": "Common",
+  "element": "Solar",
+  "image": "ipfs://REPLACE/248.png",
+  "genetics": {
+    "health": 1.016,
+    "attack": 1.0385,
+    "defense": 1.0154,
+    "speed": 1.0433,
+    "move_1": 0.9535,
+    "move_2": 0.9335,
+    "move_3": 1.0299
+  },
+  "battle_stats": {
+    "health": 75,
+    "attack": 90,
+    "defense": 63,
+    "speed": 85
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Solar Horn Breaker",
+      "power": 63
+    },
+    {
+      "slot": 2,
+      "name": "Dawn Blitz",
+      "power": 86
+    },
+    {
+      "slot": 3,
+      "name": "Dawn Bite",
+      "power": 97
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

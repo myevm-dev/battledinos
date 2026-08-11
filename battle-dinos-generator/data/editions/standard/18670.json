@@ -1,0 +1,53 @@
+{
+  "token_id": 18670,
+  "base_id": 190,
+  "name": "Apexripper",
+  "edition": 99,
+  "edition_supply": 137,
+  "edition_label": "99/137",
+  "finish": "standard",
+  "species": "Baryonyx",
+  "rarity": "Common",
+  "element": "Ember",
+  "image": "ipfs://REPLACE/190.png",
+  "genetics": {
+    "health": 0.9543,
+    "attack": 0.9886,
+    "defense": 0.9605,
+    "speed": 0.9758,
+    "move_1": 1.0086,
+    "move_2": 0.996,
+    "move_3": 0.9641
+  },
+  "battle_stats": {
+    "health": 72,
+    "attack": 83,
+    "defense": 61,
+    "speed": 77
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Magma Talon",
+      "power": 46
+    },
+    {
+      "slot": 2,
+      "name": "Flare Bite",
+      "power": 46
+    },
+    {
+      "slot": 3,
+      "name": "Inferno Lunge",
+      "power": 53
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

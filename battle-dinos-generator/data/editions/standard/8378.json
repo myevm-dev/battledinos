@@ -1,0 +1,53 @@
+{
+  "token_id": 8378,
+  "base_id": 87,
+  "name": "Runeclaw",
+  "edition": 27,
+  "edition_supply": 55,
+  "edition_label": "27/55",
+  "finish": "standard",
+  "species": "Baryonyx",
+  "rarity": "Rare",
+  "element": "Storm",
+  "image": "ipfs://REPLACE/87.png",
+  "genetics": {
+    "health": 0.9984,
+    "attack": 0.9902,
+    "defense": 0.9706,
+    "speed": 0.9541,
+    "move_1": 0.9524,
+    "move_2": 0.9385,
+    "move_3": 1.023
+  },
+  "battle_stats": {
+    "health": 76,
+    "attack": 79,
+    "defense": 62,
+    "speed": 77
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Tempest Claw",
+      "power": 72
+    },
+    {
+      "slot": 2,
+      "name": "Thunder Jaw",
+      "power": 65
+    },
+    {
+      "slot": 3,
+      "name": "Static River Rush",
+      "power": 97
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

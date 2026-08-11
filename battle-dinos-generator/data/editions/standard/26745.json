@@ -1,0 +1,53 @@
+{
+  "token_id": 26745,
+  "base_id": 270,
+  "name": "Grimroar",
+  "edition": 24,
+  "edition_supply": 88,
+  "edition_label": "24/88",
+  "finish": "standard",
+  "species": "Carnotaurus",
+  "rarity": "Rare",
+  "element": "Primal",
+  "image": "ipfs://REPLACE/270.png",
+  "genetics": {
+    "health": 1.0256,
+    "attack": 0.9808,
+    "defense": 0.9536,
+    "speed": 1.0264,
+    "move_1": 1.0315,
+    "move_2": 0.9461,
+    "move_3": 0.9817
+  },
+  "battle_stats": {
+    "health": 78,
+    "attack": 84,
+    "defense": 53,
+    "speed": 89
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Savage Horn Breaker",
+      "power": 46
+    },
+    {
+      "slot": 2,
+      "name": "Alpha Sprint Strike",
+      "power": 83
+    },
+    {
+      "slot": 3,
+      "name": "Primal Jaw",
+      "power": 93
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

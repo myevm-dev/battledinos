@@ -1,0 +1,53 @@
+{
+  "token_id": 29157,
+  "base_id": 293,
+  "name": "Solarmauler",
+  "edition": 22,
+  "edition_supply": 49,
+  "edition_label": "22/49",
+  "finish": "standard",
+  "species": "Baryonyx",
+  "rarity": "Rare",
+  "element": "Venom",
+  "image": "ipfs://REPLACE/293.png",
+  "genetics": {
+    "health": 0.9927,
+    "attack": 1.015,
+    "defense": 1.0266,
+    "speed": 1.025,
+    "move_1": 1.0666,
+    "move_2": 1.0679,
+    "move_3": 1.0451
+  },
+  "battle_stats": {
+    "health": 79,
+    "attack": 81,
+    "defense": 66,
+    "speed": 79
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Toxic Claw",
+      "power": 58
+    },
+    {
+      "slot": 2,
+      "name": "Viper Bite",
+      "power": 95
+    },
+    {
+      "slot": 3,
+      "name": "Viper Lunge",
+      "power": 77
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

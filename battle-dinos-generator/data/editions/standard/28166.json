@@ -1,0 +1,53 @@
+{
+  "token_id": 28166,
+  "base_id": 283,
+  "name": "Savagetalon",
+  "edition": 24,
+  "edition_supply": 89,
+  "edition_label": "24/89",
+  "finish": "standard",
+  "species": "Spinosaurus",
+  "rarity": "Uncommon",
+  "element": "Storm",
+  "image": "ipfs://REPLACE/283.png",
+  "genetics": {
+    "health": 0.9725,
+    "attack": 0.9946,
+    "defense": 1.0388,
+    "speed": 0.95,
+    "move_1": 0.9487,
+    "move_2": 0.972,
+    "move_3": 1.0429
+  },
+  "battle_stats": {
+    "health": 78,
+    "attack": 86,
+    "defense": 72,
+    "speed": 67
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Lightning Chomp",
+      "power": 50
+    },
+    {
+      "slot": 2,
+      "name": "Tempest Sail Burst",
+      "power": 69
+    },
+    {
+      "slot": 3,
+      "name": "Tempest Backhand",
+      "power": 84
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

@@ -1,0 +1,53 @@
+{
+  "token_id": 6817,
+  "base_id": 68,
+  "name": "Novarage",
+  "edition": 25,
+  "edition_supply": 63,
+  "edition_label": "25/63",
+  "finish": "standard",
+  "species": "Spinosaurus",
+  "rarity": "Uncommon",
+  "element": "Venom",
+  "image": "ipfs://REPLACE/68.png",
+  "genetics": {
+    "health": 1.0461,
+    "attack": 0.987,
+    "defense": 0.9808,
+    "speed": 1.0317,
+    "move_1": 1.0276,
+    "move_2": 0.9883,
+    "move_3": 0.9616
+  },
+  "battle_stats": {
+    "health": 83,
+    "attack": 83,
+    "defense": 70,
+    "speed": 74
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Venom Bite",
+      "power": 63
+    },
+    {
+      "slot": 2,
+      "name": "Viper Sail Burst",
+      "power": 84
+    },
+    {
+      "slot": 3,
+      "name": "Toxic Backhand",
+      "power": 76
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

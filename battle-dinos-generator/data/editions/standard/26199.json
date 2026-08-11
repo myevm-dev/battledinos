@@ -1,0 +1,53 @@
+{
+  "token_id": 26199,
+  "base_id": 265,
+  "name": "Grimtooth",
+  "edition": 58,
+  "edition_supply": 149,
+  "edition_label": "58/149",
+  "finish": "standard",
+  "species": "Ankylosaurus",
+  "rarity": "Common",
+  "element": "Venom",
+  "image": "ipfs://REPLACE/265.png",
+  "genetics": {
+    "health": 0.9934,
+    "attack": 0.95,
+    "defense": 1.0081,
+    "speed": 0.9559,
+    "move_1": 1.0589,
+    "move_2": 0.9697,
+    "move_3": 1.0401
+  },
+  "battle_stats": {
+    "health": 96,
+    "attack": 63,
+    "defense": 97,
+    "speed": 31
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Toxic Hammer Tail",
+      "power": 92
+    },
+    {
+      "slot": 2,
+      "name": "Viper Guard",
+      "power": 65
+    },
+    {
+      "slot": 3,
+      "name": "Venom Body Check",
+      "power": 86
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

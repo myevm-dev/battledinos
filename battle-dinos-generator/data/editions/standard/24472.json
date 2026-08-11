@@ -1,0 +1,53 @@
+{
+  "token_id": 24472,
+  "base_id": 249,
+  "name": "Copperrush",
+  "edition": 30,
+  "edition_supply": 121,
+  "edition_label": "30/121",
+  "finish": "standard",
+  "species": "Carnotaurus",
+  "rarity": "Common",
+  "element": "Frost",
+  "image": "ipfs://REPLACE/249.png",
+  "genetics": {
+    "health": 1.0057,
+    "attack": 1.0471,
+    "defense": 1.0336,
+    "speed": 1.0073,
+    "move_1": 0.938,
+    "move_2": 0.9745,
+    "move_3": 1.0282
+  },
+  "battle_stats": {
+    "health": 70,
+    "attack": 89,
+    "defense": 63,
+    "speed": 90
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Ice Gore",
+      "power": 61
+    },
+    {
+      "slot": 2,
+      "name": "Winter Rush",
+      "power": 57
+    },
+    {
+      "slot": 3,
+      "name": "Winter Jaw",
+      "power": 54
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

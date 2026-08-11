@@ -1,0 +1,53 @@
+{
+  "token_id": 5592,
+  "base_id": 55,
+  "name": "Embertalon",
+  "edition": 128,
+  "edition_supply": 168,
+  "edition_label": "128/168",
+  "finish": "standard",
+  "species": "Therizinosaurus",
+  "rarity": "Common",
+  "element": "Solar",
+  "image": "ipfs://REPLACE/55.png",
+  "genetics": {
+    "health": 1.0496,
+    "attack": 1.031,
+    "defense": 0.9503,
+    "speed": 1.0457,
+    "move_1": 1.0318,
+    "move_2": 0.9506,
+    "move_3": 0.964
+  },
+  "battle_stats": {
+    "health": 82,
+    "attack": 91,
+    "defense": 60,
+    "speed": 75
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Solar Talon",
+      "power": 62
+    },
+    {
+      "slot": 2,
+      "name": "Sun Guard",
+      "power": 47
+    },
+    {
+      "slot": 3,
+      "name": "Dawn Crosscut",
+      "power": 48
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

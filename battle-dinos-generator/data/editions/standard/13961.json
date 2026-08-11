@@ -1,0 +1,53 @@
+{
+  "token_id": 13961,
+  "base_id": 145,
+  "name": "Onyxscale",
+  "edition": 50,
+  "edition_supply": 78,
+  "edition_label": "50/78",
+  "finish": "standard",
+  "species": "Stegosaurus",
+  "rarity": "Common",
+  "element": "Stone",
+  "image": "ipfs://REPLACE/145.png",
+  "genetics": {
+    "health": 0.9872,
+    "attack": 1.01,
+    "defense": 0.9567,
+    "speed": 0.9939,
+    "move_1": 0.9979,
+    "move_2": 0.9615,
+    "move_3": 1.0433
+  },
+  "battle_stats": {
+    "health": 85,
+    "attack": 71,
+    "defense": 87,
+    "speed": 42
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Quake Spike Sweep",
+      "power": 48
+    },
+    {
+      "slot": 2,
+      "name": "Stone Bulwark",
+      "power": 43
+    },
+    {
+      "slot": 3,
+      "name": "Stone Tremor",
+      "power": 67
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

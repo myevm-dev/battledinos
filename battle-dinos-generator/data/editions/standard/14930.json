@@ -1,0 +1,53 @@
+{
+  "token_id": 14930,
+  "base_id": 155,
+  "name": "Thunderroar",
+  "edition": 5,
+  "edition_supply": 49,
+  "edition_label": "5/49",
+  "finish": "standard",
+  "species": "Carnotaurus",
+  "rarity": "Rare",
+  "element": "Frost",
+  "image": "ipfs://REPLACE/155.png",
+  "genetics": {
+    "health": 1.0272,
+    "attack": 1.009,
+    "defense": 0.9839,
+    "speed": 1.0184,
+    "move_1": 0.9926,
+    "move_2": 0.9669,
+    "move_3": 0.941
+  },
+  "battle_stats": {
+    "health": 80,
+    "attack": 89,
+    "defense": 59,
+    "speed": 82
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Frost Horn Breaker",
+      "power": 64
+    },
+    {
+      "slot": 2,
+      "name": "Glacier Rush",
+      "power": 65
+    },
+    {
+      "slot": 3,
+      "name": "Frost Chomp",
+      "power": 81
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

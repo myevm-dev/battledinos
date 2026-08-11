@@ -1,0 +1,53 @@
+{
+  "token_id": 4508,
+  "base_id": 44,
+  "name": "Nightrage",
+  "edition": 33,
+  "edition_supply": 54,
+  "edition_label": "33/54",
+  "finish": "standard",
+  "species": "Therizinosaurus",
+  "rarity": "Rare",
+  "element": "Void",
+  "image": "ipfs://REPLACE/44.png",
+  "genetics": {
+    "health": 1.0154,
+    "attack": 1.0482,
+    "defense": 0.9621,
+    "speed": 0.9855,
+    "move_1": 1.041,
+    "move_2": 0.9496,
+    "move_3": 0.9579
+  },
+  "battle_stats": {
+    "health": 80,
+    "attack": 91,
+    "defense": 59,
+    "speed": 74
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Null Talon",
+      "power": 57
+    },
+    {
+      "slot": 2,
+      "name": "Abyss Guard",
+      "power": 51
+    },
+    {
+      "slot": 3,
+      "name": "Null Swipe",
+      "power": 52
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

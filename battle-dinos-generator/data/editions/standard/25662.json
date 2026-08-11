@@ -1,0 +1,53 @@
+{
+  "token_id": 25662,
+  "base_id": 260,
+  "name": "Voidreaver",
+  "edition": 5,
+  "edition_supply": 127,
+  "edition_label": "5/127",
+  "finish": "standard",
+  "species": "Triceratops",
+  "rarity": "Uncommon",
+  "element": "Frost",
+  "image": "ipfs://REPLACE/260.png",
+  "genetics": {
+    "health": 0.961,
+    "attack": 1.0083,
+    "defense": 0.9773,
+    "speed": 0.9688,
+    "move_1": 1.0732,
+    "move_2": 1.0167,
+    "move_3": 0.9662
+  },
+  "battle_stats": {
+    "health": 87,
+    "attack": 78,
+    "defense": 88,
+    "speed": 41
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Winter Horn Breaker",
+      "power": 65
+    },
+    {
+      "slot": 2,
+      "name": "Glacier Rush",
+      "power": 70
+    },
+    {
+      "slot": 3,
+      "name": "Frost Shell",
+      "power": 50
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

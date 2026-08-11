@@ -1,0 +1,53 @@
+{
+  "token_id": 32058,
+  "base_id": 320,
+  "name": "Novajaw",
+  "edition": 116,
+  "edition_supply": 131,
+  "edition_label": "116/131",
+  "finish": "standard",
+  "species": "Iguanodon",
+  "rarity": "Uncommon",
+  "element": "Primal",
+  "image": "ipfs://REPLACE/320.png",
+  "genetics": {
+    "health": 1.0124,
+    "attack": 0.9874,
+    "defense": 0.9813,
+    "speed": 1.0324,
+    "move_1": 0.9362,
+    "move_2": 0.965,
+    "move_3": 0.9709
+  },
+  "battle_stats": {
+    "health": 84,
+    "attack": 65,
+    "defense": 79,
+    "speed": 67
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Savage Thumb Spike",
+      "power": 86
+    },
+    {
+      "slot": 2,
+      "name": "Wild Blitz",
+      "power": 45
+    },
+    {
+      "slot": 3,
+      "name": "Alpha Guard",
+      "power": 77
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

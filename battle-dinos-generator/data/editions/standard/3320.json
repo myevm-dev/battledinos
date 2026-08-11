@@ -1,0 +1,53 @@
+{
+  "token_id": 3320,
+  "base_id": 30,
+  "name": "Copperscar",
+  "edition": 29,
+  "edition_supply": 110,
+  "edition_label": "29/110",
+  "finish": "standard",
+  "species": "Tyrannosaurus",
+  "rarity": "Common",
+  "element": "Void",
+  "image": "ipfs://REPLACE/30.png",
+  "genetics": {
+    "health": 1.0286,
+    "attack": 0.9525,
+    "defense": 0.958,
+    "speed": 0.9621,
+    "move_1": 0.9709,
+    "move_2": 1.0699,
+    "move_3": 0.9295
+  },
+  "battle_stats": {
+    "health": 91,
+    "attack": 86,
+    "defense": 74,
+    "speed": 50
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Rift Chomp",
+      "power": 48
+    },
+    {
+      "slot": 2,
+      "name": "Abyss Bellow",
+      "power": 101
+    },
+    {
+      "slot": 3,
+      "name": "Void Tail Crash",
+      "power": 86
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

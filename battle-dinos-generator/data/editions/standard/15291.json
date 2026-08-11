@@ -1,0 +1,53 @@
+{
+  "token_id": 15291,
+  "base_id": 158,
+  "name": "Dusthorn",
+  "edition": 72,
+  "edition_supply": 159,
+  "edition_label": "72/159",
+  "finish": "standard",
+  "species": "Deinonychus",
+  "rarity": "Common",
+  "element": "Frost",
+  "image": "ipfs://REPLACE/158.png",
+  "genetics": {
+    "health": 0.9955,
+    "attack": 0.9579,
+    "defense": 0.9547,
+    "speed": 0.9746,
+    "move_1": 1.0484,
+    "move_2": 1.0461,
+    "move_3": 1.0458
+  },
+  "battle_stats": {
+    "health": 67,
+    "attack": 75,
+    "defense": 52,
+    "speed": 94
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Winter Rake",
+      "power": 99
+    },
+    {
+      "slot": 2,
+      "name": "Frost Pounce",
+      "power": 87
+    },
+    {
+      "slot": 3,
+      "name": "Ice Rush",
+      "power": 74
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

@@ -1,0 +1,53 @@
+{
+  "token_id": 7471,
+  "base_id": 77,
+  "name": "Suntail",
+  "edition": 68,
+  "edition_supply": 88,
+  "edition_label": "68/88",
+  "finish": "standard",
+  "species": "Stegosaurus",
+  "rarity": "Uncommon",
+  "element": "Venom",
+  "image": "ipfs://REPLACE/77.png",
+  "genetics": {
+    "health": 1.0344,
+    "attack": 0.9895,
+    "defense": 0.9978,
+    "speed": 0.994,
+    "move_1": 1.0144,
+    "move_2": 0.9647,
+    "move_3": 1.0314
+  },
+  "battle_stats": {
+    "health": 95,
+    "attack": 64,
+    "defense": 86,
+    "speed": 44
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Acid Spike Sweep",
+      "power": 72
+    },
+    {
+      "slot": 2,
+      "name": "Toxic Shell",
+      "power": 66
+    },
+    {
+      "slot": 3,
+      "name": "Venom Tremor",
+      "power": 81
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

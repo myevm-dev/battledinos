@@ -1,0 +1,53 @@
+{
+  "token_id": 11065,
+  "base_id": 114,
+  "name": "Nighttooth",
+  "edition": 7,
+  "edition_supply": 33,
+  "edition_label": "7/33",
+  "finish": "standard",
+  "species": "Therizinosaurus",
+  "rarity": "Rare",
+  "element": "Solar",
+  "image": "ipfs://REPLACE/114.png",
+  "genetics": {
+    "health": 0.9659,
+    "attack": 0.9936,
+    "defense": 1.0477,
+    "speed": 1.001,
+    "move_1": 1.0666,
+    "move_2": 1.0034,
+    "move_3": 0.988
+  },
+  "battle_stats": {
+    "health": 71,
+    "attack": 89,
+    "defense": 69,
+    "speed": 73
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Sun Claw",
+      "power": 66
+    },
+    {
+      "slot": 2,
+      "name": "Sun Guard",
+      "power": 65
+    },
+    {
+      "slot": 3,
+      "name": "Radiant Swipe",
+      "power": 56
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

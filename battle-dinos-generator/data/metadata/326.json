@@ -1,28 +1,44 @@
 {
+  "base_id": 326,
   "name": "Mosswarden",
-  "description": "Rare Parasaurolophus from the Battle Dinos Genesis 333 collection.",
-  "image": "ipfs://REPLACE/326.png",
-  "token_id": 326,
+  "description": "Rare Parasaurolophus Battle Dinos base archetype.",
   "species": "Parasaurolophus",
   "rarity": "Rare",
+  "element": "Solar",
+  "image": "ipfs://REPLACE/326.png",
   "visual": {
     "palette": "Amber",
     "description": "Parasaurolophus with amber-gold scales with dark brown striping, angular shoulder markings, obsidian-colored ceremonial armor, and metal collar with a simple round emblem",
     "arena": "desert fossil basin with windblown dust"
   },
+  "base_battle_stats": {
+    "health": 86,
+    "attack": 60,
+    "defense": 71,
+    "speed": 70
+  },
   "moves": [
     {
+      "slot": 1,
       "name": "Radiant Resonance",
-      "power": 87
+      "base_power": 87
     },
     {
+      "slot": 2,
       "name": "Radiant Blitz",
-      "power": 78
+      "base_power": 78
     },
     {
+      "slot": 3,
       "name": "Dawn Tail Slam",
-      "power": 94
+      "base_power": 94
     }
   ],
+  "starting_state": {
+    "level": 1,
+    "xp": 0,
+    "evolution_stage": 0,
+    "mutations": []
+  },
   "image_prompt": "Premium stylized 3D battle dinosaur collectible, designed as a consistent character collection. Full-body dinosaur centered in a powerful three-quarter battle stance, entire body visible from head to feet and tail, strong readable silhouette, oversized expressive eyes with fierce personality, chunky stylized anatomy, detailed scales, polished game-cinematic materials, dramatic rim lighting, high-end animated feature-film quality, collectible game character aesthetic, slightly exaggerated proportions, bold armor and accessory shapes when present, rich color contrast, crisp texture detail, atmospheric prehistoric arena environment, shallow cinematic depth of field, dynamic but uncluttered background, no text, no logos, no UI, no frame, no humans, no duplicate dinosaurs, square 1:1 composition. Keep the visual language consistent across the entire collection while making each dinosaur clearly unique. Character: Mosswarden, a Parasaurolophus with amber-gold scales with dark brown striping, angular shoulder markings, obsidian-colored ceremonial armor, and metal collar with a simple round emblem. Pose with confident battle-ready personality in a desert fossil basin with windblown dust. Do not depict attacks, powers, text, numbers, or other combatants."
 }

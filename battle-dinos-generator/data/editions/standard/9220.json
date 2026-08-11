@@ -1,0 +1,53 @@
+{
+  "token_id": 9220,
+  "base_id": 96,
+  "name": "Chromespike",
+  "edition": 77,
+  "edition_supply": 82,
+  "edition_label": "77/82",
+  "finish": "standard",
+  "species": "Deinonychus",
+  "rarity": "Common",
+  "element": "Primal",
+  "image": "ipfs://REPLACE/96.png",
+  "genetics": {
+    "health": 0.9635,
+    "attack": 1.0365,
+    "defense": 0.9675,
+    "speed": 0.9965,
+    "move_1": 1.0075,
+    "move_2": 1.0583,
+    "move_3": 0.9651
+  },
+  "battle_stats": {
+    "health": 66,
+    "attack": 81,
+    "defense": 56,
+    "speed": 88
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Savage Talon",
+      "power": 64
+    },
+    {
+      "slot": 2,
+      "name": "Primal Pounce",
+      "power": 84
+    },
+    {
+      "slot": 3,
+      "name": "Savage Sprint Strike",
+      "power": 63
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

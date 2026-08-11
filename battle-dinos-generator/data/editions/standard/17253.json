@@ -1,0 +1,53 @@
+{
+  "token_id": 17253,
+  "base_id": 179,
+  "name": "Razormaw",
+  "edition": 35,
+  "edition_supply": 88,
+  "edition_label": "35/88",
+  "finish": "standard",
+  "species": "Carnotaurus",
+  "rarity": "Common",
+  "element": "Shadow",
+  "image": "ipfs://REPLACE/179.png",
+  "genetics": {
+    "health": 0.9571,
+    "attack": 0.9891,
+    "defense": 0.9766,
+    "speed": 0.9787,
+    "move_1": 1.0455,
+    "move_2": 1.0358,
+    "move_3": 0.9963
+  },
+  "battle_stats": {
+    "health": 75,
+    "attack": 83,
+    "defense": 57,
+    "speed": 81
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Shadow Horn Strike",
+      "power": 55
+    },
+    {
+      "slot": 2,
+      "name": "Phantom Rush",
+      "power": 49
+    },
+    {
+      "slot": 3,
+      "name": "Shadow Chomp",
+      "power": 95
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

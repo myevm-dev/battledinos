@@ -1,0 +1,53 @@
+{
+  "token_id": 15853,
+  "base_id": 164,
+  "name": "Jadestalker",
+  "edition": 8,
+  "edition_supply": 92,
+  "edition_label": "8/92",
+  "finish": "standard",
+  "species": "Giganotosaurus",
+  "rarity": "Common",
+  "element": "Primal",
+  "image": "ipfs://REPLACE/164.png",
+  "genetics": {
+    "health": 0.9957,
+    "attack": 0.9669,
+    "defense": 1.0472,
+    "speed": 0.9765,
+    "move_1": 1.0148,
+    "move_2": 1.0528,
+    "move_3": 1.0438
+  },
+  "battle_stats": {
+    "health": 83,
+    "attack": 88,
+    "defense": 77,
+    "speed": 62
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Primal Jaw",
+      "power": 66
+    },
+    {
+      "slot": 2,
+      "name": "Primal Howl",
+      "power": 84
+    },
+    {
+      "slot": 3,
+      "name": "Savage Blitz",
+      "power": 85
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

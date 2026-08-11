@@ -1,0 +1,53 @@
+{
+  "token_id": 32078,
+  "base_id": 321,
+  "name": "Azuretalon",
+  "edition": 5,
+  "edition_supply": 149,
+  "edition_label": "5/149",
+  "finish": "standard",
+  "species": "Carnotaurus",
+  "rarity": "Common",
+  "element": "Shadow",
+  "image": "ipfs://REPLACE/321.png",
+  "genetics": {
+    "health": 1.0264,
+    "attack": 1.004,
+    "defense": 1.0407,
+    "speed": 0.9644,
+    "move_1": 1.0026,
+    "move_2": 0.9582,
+    "move_3": 0.9589
+  },
+  "battle_stats": {
+    "health": 78,
+    "attack": 80,
+    "defense": 65,
+    "speed": 83
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Dusk Horn Strike",
+      "power": 92
+    },
+    {
+      "slot": 2,
+      "name": "Dusk Rush",
+      "power": 86
+    },
+    {
+      "slot": 3,
+      "name": "Phantom Jaw",
+      "power": 65
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

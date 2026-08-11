@@ -1,0 +1,53 @@
+{
+  "token_id": 29378,
+  "base_id": 295,
+  "name": "Sunguard",
+  "edition": 99,
+  "edition_supply": 139,
+  "edition_label": "99/139",
+  "finish": "standard",
+  "species": "Suchomimus",
+  "rarity": "Common",
+  "element": "Solar",
+  "image": "ipfs://REPLACE/295.png",
+  "genetics": {
+    "health": 0.9645,
+    "attack": 1.0305,
+    "defense": 1.0281,
+    "speed": 0.9875,
+    "move_1": 0.9756,
+    "move_2": 0.9243,
+    "move_3": 0.9591
+  },
+  "battle_stats": {
+    "health": 79,
+    "attack": 80,
+    "defense": 64,
+    "speed": 78
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Dawn Claw",
+      "power": 85
+    },
+    {
+      "slot": 2,
+      "name": "Radiant Chomp",
+      "power": 75
+    },
+    {
+      "slot": 3,
+      "name": "Solar Lunge",
+      "power": 51
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

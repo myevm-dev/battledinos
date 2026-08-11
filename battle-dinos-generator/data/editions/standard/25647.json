@@ -1,0 +1,53 @@
+{
+  "token_id": 25647,
+  "base_id": 259,
+  "name": "Nighthorn",
+  "edition": 76,
+  "edition_supply": 86,
+  "edition_label": "76/86",
+  "finish": "standard",
+  "species": "Deinonychus",
+  "rarity": "Common",
+  "element": "Stone",
+  "image": "ipfs://REPLACE/259.png",
+  "genetics": {
+    "health": 1.0273,
+    "attack": 0.9603,
+    "defense": 1.0473,
+    "speed": 1.0322,
+    "move_1": 1.031,
+    "move_2": 1.0183,
+    "move_3": 1.0017
+  },
+  "battle_stats": {
+    "health": 71,
+    "attack": 76,
+    "defense": 62,
+    "speed": 93
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Stone Rake",
+      "power": 63
+    },
+    {
+      "slot": 2,
+      "name": "Stone Leap",
+      "power": 49
+    },
+    {
+      "slot": 3,
+      "name": "Boulder Blitz",
+      "power": 64
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

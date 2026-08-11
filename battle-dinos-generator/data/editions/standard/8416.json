@@ -1,0 +1,53 @@
+{
+  "token_id": 8416,
+  "base_id": 88,
+  "name": "Mossbreaker",
+  "edition": 10,
+  "edition_supply": 94,
+  "edition_label": "10/94",
+  "finish": "standard",
+  "species": "Allosaurus",
+  "rarity": "Uncommon",
+  "element": "Solar",
+  "image": "ipfs://REPLACE/88.png",
+  "genetics": {
+    "health": 0.9529,
+    "attack": 0.9989,
+    "defense": 1.0319,
+    "speed": 1.0294,
+    "move_1": 1.0783,
+    "move_2": 0.9918,
+    "move_3": 1.069
+  },
+  "battle_stats": {
+    "health": 79,
+    "attack": 84,
+    "defense": 65,
+    "speed": 75
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Solar Bite",
+      "power": 92
+    },
+    {
+      "slot": 2,
+      "name": "Dawn Rake",
+      "power": 56
+    },
+    {
+      "slot": 3,
+      "name": "Solar Rush",
+      "power": 66
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

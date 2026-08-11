@@ -1,28 +1,44 @@
 {
+  "base_id": 299,
   "name": "Riftspike",
-  "description": "Common Stegosaurus from the Battle Dinos Genesis 333 collection.",
-  "image": "ipfs://REPLACE/299.png",
-  "token_id": 299,
+  "description": "Common Stegosaurus Battle Dinos base archetype.",
   "species": "Stegosaurus",
   "rarity": "Common",
+  "element": "Venom",
+  "image": "ipfs://REPLACE/299.png",
   "visual": {
     "palette": "Toxic",
     "description": "Stegosaurus with dark olive scales with luminous chartreuse accents, broken dorsal bands, bronze gladiator harness, and small battle scars across the snout",
     "arena": "icy prehistoric valley with blue glacier cliffs"
   },
+  "base_battle_stats": {
+    "health": 90,
+    "attack": 69,
+    "defense": 85,
+    "speed": 44
+  },
   "moves": [
     {
+      "slot": 1,
       "name": "Acid Tail Spike",
-      "power": 84
+      "base_power": 84
     },
     {
+      "slot": 2,
       "name": "Venom Guard",
-      "power": 65
+      "base_power": 65
     },
     {
+      "slot": 3,
       "name": "Toxic Tremor",
-      "power": 69
+      "base_power": 69
     }
   ],
+  "starting_state": {
+    "level": 1,
+    "xp": 0,
+    "evolution_stage": 0,
+    "mutations": []
+  },
   "image_prompt": "Premium stylized 3D battle dinosaur collectible, designed as a consistent character collection. Full-body dinosaur centered in a powerful three-quarter battle stance, entire body visible from head to feet and tail, strong readable silhouette, oversized expressive eyes with fierce personality, chunky stylized anatomy, detailed scales, polished game-cinematic materials, dramatic rim lighting, high-end animated feature-film quality, collectible game character aesthetic, slightly exaggerated proportions, bold armor and accessory shapes when present, rich color contrast, crisp texture detail, atmospheric prehistoric arena environment, shallow cinematic depth of field, dynamic but uncluttered background, no text, no logos, no UI, no frame, no humans, no duplicate dinosaurs, square 1:1 composition. Keep the visual language consistent across the entire collection while making each dinosaur clearly unique. Character: Riftspike, a Stegosaurus with dark olive scales with luminous chartreuse accents, broken dorsal bands, bronze gladiator harness, and small battle scars across the snout. Pose with confident battle-ready personality in a icy prehistoric valley with blue glacier cliffs. Do not depict attacks, powers, text, numbers, or other combatants."
 }

@@ -1,0 +1,53 @@
+{
+  "token_id": 22011,
+  "base_id": 223,
+  "name": "Flintrush",
+  "edition": 35,
+  "edition_supply": 87,
+  "edition_label": "35/87",
+  "finish": "standard",
+  "species": "Dilophosaurus",
+  "rarity": "Common",
+  "element": "Venom",
+  "image": "ipfs://REPLACE/223.png",
+  "genetics": {
+    "health": 1.0007,
+    "attack": 1.0343,
+    "defense": 0.9708,
+    "speed": 1.0161,
+    "move_1": 1.068,
+    "move_2": 0.9927,
+    "move_3": 0.9358
+  },
+  "battle_stats": {
+    "health": 65,
+    "attack": 78,
+    "defense": 55,
+    "speed": 91
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Toxic Crest Call",
+      "power": 100
+    },
+    {
+      "slot": 2,
+      "name": "Viper Feint",
+      "power": 46
+    },
+    {
+      "slot": 3,
+      "name": "Venom Bite",
+      "power": 75
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

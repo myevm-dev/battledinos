@@ -1,0 +1,53 @@
+{
+  "token_id": 31921,
+  "base_id": 319,
+  "name": "Ironcrusher",
+  "edition": 19,
+  "edition_supply": 40,
+  "edition_label": "19/40",
+  "finish": "standard",
+  "species": "Carnotaurus",
+  "rarity": "Rare",
+  "element": "Void",
+  "image": "ipfs://REPLACE/319.png",
+  "genetics": {
+    "health": 0.9979,
+    "attack": 1.019,
+    "defense": 0.9965,
+    "speed": 1.0425,
+    "move_1": 0.9369,
+    "move_2": 0.9298,
+    "move_3": 0.9718
+  },
+  "battle_stats": {
+    "health": 73,
+    "attack": 89,
+    "defense": 58,
+    "speed": 90
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Abyss Horn Strike",
+      "power": 77
+    },
+    {
+      "slot": 2,
+      "name": "Null Blitz",
+      "power": 82
+    },
+    {
+      "slot": 3,
+      "name": "Rift Bite",
+      "power": 81
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

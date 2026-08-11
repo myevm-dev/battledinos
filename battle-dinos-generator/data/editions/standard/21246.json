@@ -1,0 +1,53 @@
+{
+  "token_id": 21246,
+  "base_id": 212,
+  "name": "Novareaver",
+  "edition": 167,
+  "edition_supply": 168,
+  "edition_label": "167/168",
+  "finish": "standard",
+  "species": "Suchomimus",
+  "rarity": "Common",
+  "element": "Ember",
+  "image": "ipfs://REPLACE/212.png",
+  "genetics": {
+    "health": 0.9641,
+    "attack": 1.0364,
+    "defense": 0.9562,
+    "speed": 0.9785,
+    "move_1": 1.0489,
+    "move_2": 1.071,
+    "move_3": 0.9765
+  },
+  "battle_stats": {
+    "health": 72,
+    "attack": 87,
+    "defense": 62,
+    "speed": 78
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Inferno Talon",
+      "power": 80
+    },
+    {
+      "slot": 2,
+      "name": "Magma Chomp",
+      "power": 62
+    },
+    {
+      "slot": 3,
+      "name": "Inferno River Rush",
+      "power": 62
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

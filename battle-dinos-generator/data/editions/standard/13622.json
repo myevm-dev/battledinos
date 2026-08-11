@@ -1,0 +1,53 @@
+{
+  "token_id": 13622,
+  "base_id": 142,
+  "name": "Apexhunter",
+  "edition": 72,
+  "edition_supply": 111,
+  "edition_label": "72/111",
+  "finish": "standard",
+  "species": "Deinonychus",
+  "rarity": "Common",
+  "element": "Storm",
+  "image": "ipfs://REPLACE/142.png",
+  "genetics": {
+    "health": 1.0314,
+    "attack": 0.9631,
+    "defense": 0.9725,
+    "speed": 1.009,
+    "move_1": 1.0682,
+    "move_2": 1.0061,
+    "move_3": 0.9946
+  },
+  "battle_stats": {
+    "health": 69,
+    "attack": 79,
+    "defense": 54,
+    "speed": 89
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Thunder Rake",
+      "power": 91
+    },
+    {
+      "slot": 2,
+      "name": "Lightning Pounce",
+      "power": 89
+    },
+    {
+      "slot": 3,
+      "name": "Lightning Rush",
+      "power": 88
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

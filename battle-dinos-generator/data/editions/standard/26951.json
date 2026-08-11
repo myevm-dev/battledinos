@@ -1,0 +1,53 @@
+{
+  "token_id": 26951,
+  "base_id": 272,
+  "name": "Ashrush",
+  "edition": 24,
+  "edition_supply": 71,
+  "edition_label": "24/71",
+  "finish": "standard",
+  "species": "Spinosaurus",
+  "rarity": "Rare",
+  "element": "Void",
+  "image": "ipfs://REPLACE/272.png",
+  "genetics": {
+    "health": 1.0407,
+    "attack": 0.9809,
+    "defense": 1.023,
+    "speed": 1.0459,
+    "move_1": 1.0319,
+    "move_2": 0.9585,
+    "move_3": 0.9219
+  },
+  "battle_stats": {
+    "health": 82,
+    "attack": 83,
+    "defense": 75,
+    "speed": 71
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Null Chomp",
+      "power": 51
+    },
+    {
+      "slot": 2,
+      "name": "Abyss Sail Flash",
+      "power": 88
+    },
+    {
+      "slot": 3,
+      "name": "Abyss Crosscut",
+      "power": 57
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

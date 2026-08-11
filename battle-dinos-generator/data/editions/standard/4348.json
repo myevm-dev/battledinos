@@ -1,0 +1,53 @@
+{
+  "token_id": 4348,
+  "base_id": 43,
+  "name": "Echowarden",
+  "edition": 17,
+  "edition_supply": 144,
+  "edition_label": "17/144",
+  "finish": "standard",
+  "species": "Allosaurus",
+  "rarity": "Common",
+  "element": "Shadow",
+  "image": "ipfs://REPLACE/43.png",
+  "genetics": {
+    "health": 1.0384,
+    "attack": 1.0109,
+    "defense": 1.0161,
+    "speed": 0.9685,
+    "move_1": 0.9485,
+    "move_2": 1.0039,
+    "move_3": 1.0406
+  },
+  "battle_stats": {
+    "health": 86,
+    "attack": 83,
+    "defense": 70,
+    "speed": 66
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Night Chomp",
+      "power": 51
+    },
+    {
+      "slot": 2,
+      "name": "Shadow Claw",
+      "power": 79
+    },
+    {
+      "slot": 3,
+      "name": "Shadow Rush",
+      "power": 63
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

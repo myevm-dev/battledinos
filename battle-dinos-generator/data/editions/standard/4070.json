@@ -1,0 +1,53 @@
+{
+  "token_id": 4070,
+  "base_id": 39,
+  "name": "Sunbane",
+  "edition": 22,
+  "edition_supply": 88,
+  "edition_label": "22/88",
+  "finish": "standard",
+  "species": "Utahraptor",
+  "rarity": "Common",
+  "element": "Venom",
+  "image": "ipfs://REPLACE/39.png",
+  "genetics": {
+    "health": 1.0383,
+    "attack": 1.0479,
+    "defense": 1.0195,
+    "speed": 0.994,
+    "move_1": 0.9439,
+    "move_2": 0.9287,
+    "move_3": 0.9578
+  },
+  "battle_stats": {
+    "health": 72,
+    "attack": 92,
+    "defense": 61,
+    "speed": 88
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Acid Rake",
+      "power": 65
+    },
+    {
+      "slot": 2,
+      "name": "Venom Ambush",
+      "power": 67
+    },
+    {
+      "slot": 3,
+      "name": "Acid Sidestep",
+      "power": 81
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

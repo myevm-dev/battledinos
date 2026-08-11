@@ -1,28 +1,44 @@
 {
+  "base_id": 18,
   "name": "Nighthunter",
-  "description": "Common Velociraptor from the Battle Dinos Genesis 333 collection.",
-  "image": "ipfs://REPLACE/18.png",
-  "token_id": 18,
+  "description": "Common Velociraptor Battle Dinos base archetype.",
   "species": "Velociraptor",
   "rarity": "Common",
+  "element": "Primal",
+  "image": "ipfs://REPLACE/18.png",
   "visual": {
     "palette": "Emerald",
     "description": "Velociraptor with emerald green scales with lime highlights, ringed tail markings, bronze gladiator harness, and small battle scars across the snout",
     "arena": "ancient stone-ring arena reclaimed by jungle"
   },
+  "base_battle_stats": {
+    "health": 68,
+    "attack": 71,
+    "defense": 59,
+    "speed": 93
+  },
   "moves": [
     {
+      "slot": 1,
       "name": "Savage Rake",
-      "power": 83
+      "base_power": 83
     },
     {
+      "slot": 2,
       "name": "Alpha Leap",
-      "power": 93
+      "base_power": 93
     },
     {
+      "slot": 3,
       "name": "Primal Feint",
-      "power": 83
+      "base_power": 83
     }
   ],
+  "starting_state": {
+    "level": 1,
+    "xp": 0,
+    "evolution_stage": 0,
+    "mutations": []
+  },
   "image_prompt": "Premium stylized 3D battle dinosaur collectible, designed as a consistent character collection. Full-body dinosaur centered in a powerful three-quarter battle stance, entire body visible from head to feet and tail, strong readable silhouette, oversized expressive eyes with fierce personality, chunky stylized anatomy, detailed scales, polished game-cinematic materials, dramatic rim lighting, high-end animated feature-film quality, collectible game character aesthetic, slightly exaggerated proportions, bold armor and accessory shapes when present, rich color contrast, crisp texture detail, atmospheric prehistoric arena environment, shallow cinematic depth of field, dynamic but uncluttered background, no text, no logos, no UI, no frame, no humans, no duplicate dinosaurs, square 1:1 composition. Keep the visual language consistent across the entire collection while making each dinosaur clearly unique. Character: Nighthunter, a Velociraptor with emerald green scales with lime highlights, ringed tail markings, bronze gladiator harness, and small battle scars across the snout. Pose with confident battle-ready personality in a ancient stone-ring arena reclaimed by jungle. Do not depict attacks, powers, text, numbers, or other combatants."
 }

@@ -1,0 +1,53 @@
+{
+  "token_id": 957,
+  "base_id": 10,
+  "name": "Ghosttalon",
+  "edition": 48,
+  "edition_supply": 188,
+  "edition_label": "48/188",
+  "finish": "standard",
+  "species": "Parasaurolophus",
+  "rarity": "Common",
+  "element": "Frost",
+  "image": "ipfs://REPLACE/10.png",
+  "genetics": {
+    "health": 1.0132,
+    "attack": 1.0015,
+    "defense": 0.9963,
+    "speed": 0.9874,
+    "move_1": 0.9961,
+    "move_2": 1.0796,
+    "move_3": 0.9527
+  },
+  "battle_stats": {
+    "health": 81,
+    "attack": 58,
+    "defense": 74,
+    "speed": 71
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Winter Crest Call",
+      "power": 57
+    },
+    {
+      "slot": 2,
+      "name": "Winter Sprint Strike",
+      "power": 53
+    },
+    {
+      "slot": 3,
+      "name": "Frost Tail Crash",
+      "power": 49
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

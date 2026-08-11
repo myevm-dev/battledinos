@@ -1,0 +1,53 @@
+{
+  "token_id": 13297,
+  "base_id": 140,
+  "name": "Flinthunter",
+  "edition": 80,
+  "edition_supply": 157,
+  "edition_label": "80/157",
+  "finish": "standard",
+  "species": "Carnotaurus",
+  "rarity": "Common",
+  "element": "Solar",
+  "image": "ipfs://REPLACE/140.png",
+  "genetics": {
+    "health": 1.0113,
+    "attack": 0.9711,
+    "defense": 1.0213,
+    "speed": 0.9572,
+    "move_1": 1.0106,
+    "move_2": 1.0522,
+    "move_3": 1.0539
+  },
+  "battle_stats": {
+    "health": 77,
+    "attack": 83,
+    "defense": 62,
+    "speed": 78
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Sun Gore",
+      "power": 62
+    },
+    {
+      "slot": 2,
+      "name": "Dawn Rush",
+      "power": 70
+    },
+    {
+      "slot": 3,
+      "name": "Sun Jaw",
+      "power": 91
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

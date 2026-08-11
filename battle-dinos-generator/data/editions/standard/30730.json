@@ -1,0 +1,53 @@
+{
+  "token_id": 30730,
+  "base_id": 308,
+  "name": "Vortexclaw",
+  "edition": 9,
+  "edition_supply": 111,
+  "edition_label": "9/111",
+  "finish": "standard",
+  "species": "Triceratops",
+  "rarity": "Uncommon",
+  "element": "Ember",
+  "image": "ipfs://REPLACE/308.png",
+  "genetics": {
+    "health": 1.038,
+    "attack": 0.9641,
+    "defense": 0.9979,
+    "speed": 0.965,
+    "move_1": 0.9734,
+    "move_2": 0.9256,
+    "move_3": 0.9892
+  },
+  "battle_stats": {
+    "health": 92,
+    "attack": 74,
+    "defense": 89,
+    "speed": 44
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Cinder Horn Breaker",
+      "power": 55
+    },
+    {
+      "slot": 2,
+      "name": "Magma Rush",
+      "power": 42
+    },
+    {
+      "slot": 3,
+      "name": "Cinder Guard",
+      "power": 52
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

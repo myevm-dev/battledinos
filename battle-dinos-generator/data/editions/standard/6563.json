@@ -1,0 +1,53 @@
+{
+  "token_id": 6563,
+  "base_id": 65,
+  "name": "Novacrest",
+  "edition": 56,
+  "edition_supply": 79,
+  "edition_label": "56/79",
+  "finish": "standard",
+  "species": "Spinosaurus",
+  "rarity": "Common",
+  "element": "Shadow",
+  "image": "ipfs://REPLACE/65.png",
+  "genetics": {
+    "health": 0.951,
+    "attack": 0.9883,
+    "defense": 1.0281,
+    "speed": 0.9972,
+    "move_1": 1.0138,
+    "move_2": 1.0489,
+    "move_3": 1.0519
+  },
+  "battle_stats": {
+    "health": 81,
+    "attack": 85,
+    "defense": 65,
+    "speed": 70
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Night Bite",
+      "power": 70
+    },
+    {
+      "slot": 2,
+      "name": "Shadow Crest Surge",
+      "power": 59
+    },
+    {
+      "slot": 3,
+      "name": "Dusk Crosscut",
+      "power": 70
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

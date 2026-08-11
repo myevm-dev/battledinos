@@ -1,0 +1,53 @@
+{
+  "token_id": 9814,
+  "base_id": 101,
+  "name": "Copperreaver",
+  "edition": 127,
+  "edition_supply": 133,
+  "edition_label": "127/133",
+  "finish": "standard",
+  "species": "Ceratosaurus",
+  "rarity": "Common",
+  "element": "Storm",
+  "image": "ipfs://REPLACE/101.png",
+  "genetics": {
+    "health": 1.0052,
+    "attack": 0.9597,
+    "defense": 1.0145,
+    "speed": 0.9587,
+    "move_1": 1.0111,
+    "move_2": 0.9963,
+    "move_3": 0.9603
+  },
+  "battle_stats": {
+    "health": 73,
+    "attack": 83,
+    "defense": 62,
+    "speed": 74
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Tempest Horn Breaker",
+      "power": 49
+    },
+    {
+      "slot": 2,
+      "name": "Lightning Chomp",
+      "power": 86
+    },
+    {
+      "slot": 3,
+      "name": "Tempest Roar",
+      "power": 54
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

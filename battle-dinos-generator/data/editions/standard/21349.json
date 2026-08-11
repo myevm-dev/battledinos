@@ -1,0 +1,53 @@
+{
+  "token_id": 21349,
+  "base_id": 215,
+  "name": "Froststrike",
+  "edition": 11,
+  "edition_supply": 22,
+  "edition_label": "11/22",
+  "finish": "standard",
+  "species": "Utahraptor",
+  "rarity": "Epic",
+  "element": "Ember",
+  "image": "ipfs://REPLACE/215.png",
+  "genetics": {
+    "health": 0.9662,
+    "attack": 0.9831,
+    "defense": 1.0083,
+    "speed": 0.9718,
+    "move_1": 0.9241,
+    "move_2": 0.9204,
+    "move_3": 1.0084
+  },
+  "battle_stats": {
+    "health": 68,
+    "attack": 83,
+    "defense": 62,
+    "speed": 86
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Inferno Talon",
+      "power": 65
+    },
+    {
+      "slot": 2,
+      "name": "Cinder Ambush",
+      "power": 57
+    },
+    {
+      "slot": 3,
+      "name": "Cinder Fakeout",
+      "power": 64
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

@@ -1,0 +1,53 @@
+{
+  "token_id": 4987,
+  "base_id": 49,
+  "name": "Sunroar",
+  "edition": 53,
+  "edition_supply": 73,
+  "edition_label": "53/73",
+  "finish": "standard",
+  "species": "Utahraptor",
+  "rarity": "Uncommon",
+  "element": "Storm",
+  "image": "ipfs://REPLACE/49.png",
+  "genetics": {
+    "health": 0.9732,
+    "attack": 0.9959,
+    "defense": 1.0072,
+    "speed": 1.039,
+    "move_1": 1.0153,
+    "move_2": 1.0007,
+    "move_3": 0.9983
+  },
+  "battle_stats": {
+    "health": 71,
+    "attack": 88,
+    "defense": 58,
+    "speed": 91
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Thunder Claw",
+      "power": 96
+    },
+    {
+      "slot": 2,
+      "name": "Tempest Ambush",
+      "power": 72
+    },
+    {
+      "slot": 3,
+      "name": "Tempest Fakeout",
+      "power": 80
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

@@ -1,0 +1,53 @@
+{
+  "token_id": 21473,
+  "base_id": 217,
+  "name": "Cinderjaw",
+  "edition": 27,
+  "edition_supply": 116,
+  "edition_label": "27/116",
+  "finish": "standard",
+  "species": "Tyrannosaurus",
+  "rarity": "Uncommon",
+  "element": "Void",
+  "image": "ipfs://REPLACE/217.png",
+  "genetics": {
+    "health": 0.9751,
+    "attack": 1.0002,
+    "defense": 1.0052,
+    "speed": 0.9723,
+    "move_1": 0.9525,
+    "move_2": 1.0479,
+    "move_3": 1.0483
+  },
+  "battle_stats": {
+    "health": 87,
+    "attack": 93,
+    "defense": 77,
+    "speed": 48
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Abyss Bite",
+      "power": 78
+    },
+    {
+      "slot": 2,
+      "name": "Rift Roar",
+      "power": 90
+    },
+    {
+      "slot": 3,
+      "name": "Abyss Tail Slam",
+      "power": 78
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

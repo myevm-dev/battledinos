@@ -1,0 +1,53 @@
+{
+  "token_id": 18197,
+  "base_id": 186,
+  "name": "Runespike",
+  "edition": 94,
+  "edition_supply": 105,
+  "edition_label": "94/105",
+  "finish": "standard",
+  "species": "Allosaurus",
+  "rarity": "Uncommon",
+  "element": "Stone",
+  "image": "ipfs://REPLACE/186.png",
+  "genetics": {
+    "health": 1.0429,
+    "attack": 0.9675,
+    "defense": 1.0499,
+    "speed": 0.9871,
+    "move_1": 1.0759,
+    "move_2": 0.9251,
+    "move_3": 1.0285
+  },
+  "battle_stats": {
+    "health": 81,
+    "attack": 85,
+    "defense": 71,
+    "speed": 70
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Stone Jaw",
+      "power": 62
+    },
+    {
+      "slot": 2,
+      "name": "Boulder Rake",
+      "power": 76
+    },
+    {
+      "slot": 3,
+      "name": "Granite Blitz",
+      "power": 87
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

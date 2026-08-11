@@ -1,0 +1,53 @@
+{
+  "token_id": 11317,
+  "base_id": 118,
+  "name": "Mossshard",
+  "edition": 33,
+  "edition_supply": 50,
+  "edition_label": "33/50",
+  "finish": "standard",
+  "species": "Baryonyx",
+  "rarity": "Rare",
+  "element": "Tide",
+  "image": "ipfs://REPLACE/118.png",
+  "genetics": {
+    "health": 1.0404,
+    "attack": 1.0233,
+    "defense": 1.007,
+    "speed": 1.0062,
+    "move_1": 1.0341,
+    "move_2": 1.0602,
+    "move_3": 1.033
+  },
+  "battle_stats": {
+    "health": 79,
+    "attack": 86,
+    "defense": 66,
+    "speed": 76
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Torrent Talon",
+      "power": 82
+    },
+    {
+      "slot": 2,
+      "name": "Tidal Chomp",
+      "power": 59
+    },
+    {
+      "slot": 3,
+      "name": "Torrent River Rush",
+      "power": 74
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

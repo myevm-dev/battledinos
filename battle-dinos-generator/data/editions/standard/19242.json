@@ -1,0 +1,53 @@
+{
+  "token_id": 19242,
+  "base_id": 195,
+  "name": "Pyrescar",
+  "edition": 62,
+  "edition_supply": 182,
+  "edition_label": "62/182",
+  "finish": "standard",
+  "species": "Baryonyx",
+  "rarity": "Common",
+  "element": "Void",
+  "image": "ipfs://REPLACE/195.png",
+  "genetics": {
+    "health": 1.0353,
+    "attack": 0.9669,
+    "defense": 1.0377,
+    "speed": 0.994,
+    "move_1": 0.9489,
+    "move_2": 0.9239,
+    "move_3": 1.0684
+  },
+  "battle_stats": {
+    "health": 84,
+    "attack": 78,
+    "defense": 66,
+    "speed": 77
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Abyss Talon",
+      "power": 46
+    },
+    {
+      "slot": 2,
+      "name": "Abyss Chomp",
+      "power": 56
+    },
+    {
+      "slot": 3,
+      "name": "Void River Rush",
+      "power": 63
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

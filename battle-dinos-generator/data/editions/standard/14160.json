@@ -1,0 +1,53 @@
+{
+  "token_id": 14160,
+  "base_id": 147,
+  "name": "Azurefang",
+  "edition": 41,
+  "edition_supply": 58,
+  "edition_label": "41/58",
+  "finish": "standard",
+  "species": "Allosaurus",
+  "rarity": "Uncommon",
+  "element": "Storm",
+  "image": "ipfs://REPLACE/147.png",
+  "genetics": {
+    "health": 0.9852,
+    "attack": 0.9979,
+    "defense": 1.0092,
+    "speed": 0.9702,
+    "move_1": 1.0486,
+    "move_2": 0.9594,
+    "move_3": 0.9645
+  },
+  "battle_stats": {
+    "health": 76,
+    "attack": 86,
+    "defense": 65,
+    "speed": 72
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Thunder Bite",
+      "power": 72
+    },
+    {
+      "slot": 2,
+      "name": "Thunder Rake",
+      "power": 59
+    },
+    {
+      "slot": 3,
+      "name": "Lightning Rush",
+      "power": 62
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

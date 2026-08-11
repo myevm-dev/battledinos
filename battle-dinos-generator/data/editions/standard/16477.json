@@ -1,0 +1,53 @@
+{
+  "token_id": 16477,
+  "base_id": 169,
+  "name": "Flintripper",
+  "edition": 88,
+  "edition_supply": 104,
+  "edition_label": "88/104",
+  "finish": "standard",
+  "species": "Giganotosaurus",
+  "rarity": "Common",
+  "element": "Solar",
+  "image": "ipfs://REPLACE/169.png",
+  "genetics": {
+    "health": 1.0351,
+    "attack": 1.0002,
+    "defense": 0.9868,
+    "speed": 0.9778,
+    "move_1": 0.957,
+    "move_2": 1.0064,
+    "move_3": 0.9742
+  },
+  "battle_stats": {
+    "health": 87,
+    "attack": 96,
+    "defense": 69,
+    "speed": 61
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Radiant Jaw",
+      "power": 85
+    },
+    {
+      "slot": 2,
+      "name": "Solar Bellow",
+      "power": 78
+    },
+    {
+      "slot": 3,
+      "name": "Radiant Blitz",
+      "power": 44
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

@@ -1,0 +1,53 @@
+{
+  "token_id": 14396,
+  "base_id": 149,
+  "name": "Ashcrusher",
+  "edition": 90,
+  "edition_supply": 153,
+  "edition_label": "90/153",
+  "finish": "standard",
+  "species": "Deinonychus",
+  "rarity": "Common",
+  "element": "Tide",
+  "image": "ipfs://REPLACE/149.png",
+  "genetics": {
+    "health": 0.963,
+    "attack": 0.9743,
+    "defense": 0.9712,
+    "speed": 1.0251,
+    "move_1": 0.9511,
+    "move_2": 0.9727,
+    "move_3": 1.008
+  },
+  "battle_stats": {
+    "health": 65,
+    "attack": 77,
+    "defense": 52,
+    "speed": 94
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Aqua Claw",
+      "power": 76
+    },
+    {
+      "slot": 2,
+      "name": "Tidal Pounce",
+      "power": 88
+    },
+    {
+      "slot": 3,
+      "name": "Torrent Blitz",
+      "power": 57
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

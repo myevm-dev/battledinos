@@ -1,0 +1,53 @@
+{
+  "token_id": 32404,
+  "base_id": 323,
+  "name": "Riftstrike",
+  "edition": 102,
+  "edition_supply": 106,
+  "edition_label": "102/106",
+  "finish": "standard",
+  "species": "Tyrannosaurus",
+  "rarity": "Uncommon",
+  "element": "Stone",
+  "image": "ipfs://REPLACE/323.png",
+  "genetics": {
+    "health": 1.0055,
+    "attack": 0.9716,
+    "defense": 0.9669,
+    "speed": 1.0429,
+    "move_1": 0.9576,
+    "move_2": 1.0478,
+    "move_3": 1.0762
+  },
+  "battle_stats": {
+    "health": 86,
+    "attack": 91,
+    "defense": 70,
+    "speed": 57
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Quake Chomp",
+      "power": 79
+    },
+    {
+      "slot": 2,
+      "name": "Quake Bellow",
+      "power": 81
+    },
+    {
+      "slot": 3,
+      "name": "Granite Tail Sweep",
+      "power": 57
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

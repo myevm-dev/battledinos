@@ -1,0 +1,53 @@
+{
+  "token_id": 16863,
+  "base_id": 174,
+  "name": "Rifthorn",
+  "edition": 25,
+  "edition_supply": 52,
+  "edition_label": "25/52",
+  "finish": "standard",
+  "species": "Deinonychus",
+  "rarity": "Rare",
+  "element": "Venom",
+  "image": "ipfs://REPLACE/174.png",
+  "genetics": {
+    "health": 0.9523,
+    "attack": 0.9675,
+    "defense": 0.9809,
+    "speed": 1.0134,
+    "move_1": 1.0479,
+    "move_2": 1.033,
+    "move_3": 1.0676
+  },
+  "battle_stats": {
+    "health": 64,
+    "attack": 74,
+    "defense": 57,
+    "speed": 95
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Toxic Talon",
+      "power": 75
+    },
+    {
+      "slot": 2,
+      "name": "Toxic Ambush",
+      "power": 82
+    },
+    {
+      "slot": 3,
+      "name": "Venom Rush",
+      "power": 96
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

@@ -1,0 +1,53 @@
+{
+  "token_id": 23396,
+  "base_id": 238,
+  "name": "Grimclaw",
+  "edition": 22,
+  "edition_supply": 35,
+  "edition_label": "22/35",
+  "finish": "standard",
+  "species": "Tyrannosaurus",
+  "rarity": "Epic",
+  "element": "Stone",
+  "image": "ipfs://REPLACE/238.png",
+  "genetics": {
+    "health": 1.0041,
+    "attack": 0.9816,
+    "defense": 1.0284,
+    "speed": 0.9985,
+    "move_1": 1.0587,
+    "move_2": 0.9633,
+    "move_3": 0.9314
+  },
+  "battle_stats": {
+    "health": 86,
+    "attack": 89,
+    "defense": 77,
+    "speed": 54
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Stone Chomp",
+      "power": 73
+    },
+    {
+      "slot": 2,
+      "name": "Granite Bellow",
+      "power": 75
+    },
+    {
+      "slot": 3,
+      "name": "Boulder Tail Crash",
+      "power": 61
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

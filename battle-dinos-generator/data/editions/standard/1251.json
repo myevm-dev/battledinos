@@ -1,0 +1,53 @@
+{
+  "token_id": 1251,
+  "base_id": 12,
+  "name": "Copperguard",
+  "edition": 19,
+  "edition_supply": 56,
+  "edition_label": "19/56",
+  "finish": "standard",
+  "species": "Ceratosaurus",
+  "rarity": "Uncommon",
+  "element": "Solar",
+  "image": "ipfs://REPLACE/12.png",
+  "genetics": {
+    "health": 0.9793,
+    "attack": 1.0093,
+    "defense": 1.0014,
+    "speed": 0.9658,
+    "move_1": 0.9252,
+    "move_2": 0.9353,
+    "move_3": 0.9945
+  },
+  "battle_stats": {
+    "health": 79,
+    "attack": 81,
+    "defense": 64,
+    "speed": 71
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Solar Horn Strike",
+      "power": 86
+    },
+    {
+      "slot": 2,
+      "name": "Radiant Jaw",
+      "power": 51
+    },
+    {
+      "slot": 3,
+      "name": "Solar Roar",
+      "power": 91
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

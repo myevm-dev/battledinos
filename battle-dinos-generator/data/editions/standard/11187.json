@@ -1,0 +1,53 @@
+{
+  "token_id": 11187,
+  "base_id": 116,
+  "name": "Apexbane",
+  "edition": 8,
+  "edition_supply": 21,
+  "edition_label": "8/21",
+  "finish": "standard",
+  "species": "Pachycephalosaurus",
+  "rarity": "Epic",
+  "element": "Solar",
+  "image": "ipfs://REPLACE/116.png",
+  "genetics": {
+    "health": 1.0048,
+    "attack": 1.0396,
+    "defense": 1.0206,
+    "speed": 1.0458,
+    "move_1": 0.9739,
+    "move_2": 0.9438,
+    "move_3": 1.0602
+  },
+  "battle_stats": {
+    "health": 78,
+    "attack": 79,
+    "defense": 82,
+    "speed": 72
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Radiant Dome Crash",
+      "power": 87
+    },
+    {
+      "slot": 2,
+      "name": "Solar Sprint Strike",
+      "power": 65
+    },
+    {
+      "slot": 3,
+      "name": "Solar Tremor",
+      "power": 69
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

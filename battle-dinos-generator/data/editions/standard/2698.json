@@ -1,0 +1,53 @@
+{
+  "token_id": 2698,
+  "base_id": 25,
+  "name": "Venomwarden",
+  "edition": 40,
+  "edition_supply": 79,
+  "edition_label": "40/79",
+  "finish": "standard",
+  "species": "Suchomimus",
+  "rarity": "Rare",
+  "element": "Shadow",
+  "image": "ipfs://REPLACE/25.png",
+  "genetics": {
+    "health": 1.016,
+    "attack": 0.99,
+    "defense": 0.9581,
+    "speed": 0.9536,
+    "move_1": 1.0269,
+    "move_2": 1.0601,
+    "move_3": 0.9719
+  },
+  "battle_stats": {
+    "health": 83,
+    "attack": 75,
+    "defense": 63,
+    "speed": 75
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Phantom Rake",
+      "power": 67
+    },
+    {
+      "slot": 2,
+      "name": "Phantom Jaw",
+      "power": 51
+    },
+    {
+      "slot": 3,
+      "name": "Phantom Lunge",
+      "power": 47
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

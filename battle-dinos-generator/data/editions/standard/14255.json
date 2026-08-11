@@ -1,0 +1,53 @@
+{
+  "token_id": 14255,
+  "base_id": 148,
+  "name": "Razorwarden",
+  "edition": 78,
+  "edition_supply": 129,
+  "edition_label": "78/129",
+  "finish": "standard",
+  "species": "Dilophosaurus",
+  "rarity": "Uncommon",
+  "element": "Shadow",
+  "image": "ipfs://REPLACE/148.png",
+  "genetics": {
+    "health": 1.001,
+    "attack": 1.0211,
+    "defense": 1.036,
+    "speed": 0.9724,
+    "move_1": 0.9482,
+    "move_2": 0.9836,
+    "move_3": 1.0356
+  },
+  "battle_stats": {
+    "health": 65,
+    "attack": 79,
+    "defense": 60,
+    "speed": 83
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Shadow Crest Pulse",
+      "power": 76
+    },
+    {
+      "slot": 2,
+      "name": "Shadow Feint",
+      "power": 68
+    },
+    {
+      "slot": 3,
+      "name": "Night Chomp",
+      "power": 69
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

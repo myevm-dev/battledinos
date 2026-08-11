@@ -1,0 +1,53 @@
+{
+  "token_id": 26462,
+  "base_id": 267,
+  "name": "Cinderrunner",
+  "edition": 147,
+  "edition_supply": 160,
+  "edition_label": "147/160",
+  "finish": "standard",
+  "species": "Carnotaurus",
+  "rarity": "Common",
+  "element": "Primal",
+  "image": "ipfs://REPLACE/267.png",
+  "genetics": {
+    "health": 0.9802,
+    "attack": 1.0061,
+    "defense": 0.9846,
+    "speed": 0.9668,
+    "move_1": 1.0474,
+    "move_2": 1.0674,
+    "move_3": 0.9795
+  },
+  "battle_stats": {
+    "health": 74,
+    "attack": 89,
+    "defense": 59,
+    "speed": 78
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Wild Gore",
+      "power": 80
+    },
+    {
+      "slot": 2,
+      "name": "Primal Rush",
+      "power": 67
+    },
+    {
+      "slot": 3,
+      "name": "Wild Jaw",
+      "power": 58
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

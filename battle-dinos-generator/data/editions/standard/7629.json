@@ -1,0 +1,53 @@
+{
+  "token_id": 7629,
+  "base_id": 79,
+  "name": "Boulderjaw",
+  "edition": 43,
+  "edition_supply": 59,
+  "edition_label": "43/59",
+  "finish": "standard",
+  "species": "Suchomimus",
+  "rarity": "Uncommon",
+  "element": "Storm",
+  "image": "ipfs://REPLACE/79.png",
+  "genetics": {
+    "health": 1.0455,
+    "attack": 0.9571,
+    "defense": 1.0004,
+    "speed": 0.9697,
+    "move_1": 0.9248,
+    "move_2": 1.0265,
+    "move_3": 0.9805
+  },
+  "battle_stats": {
+    "health": 79,
+    "attack": 78,
+    "defense": 66,
+    "speed": 77
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Tempest Talon",
+      "power": 48
+    },
+    {
+      "slot": 2,
+      "name": "Tempest Bite",
+      "power": 57
+    },
+    {
+      "slot": 3,
+      "name": "Lightning Snap Lunge",
+      "power": 56
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

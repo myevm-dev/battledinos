@@ -1,28 +1,44 @@
 {
+  "base_id": 317,
   "name": "Razorrage",
-  "description": "Uncommon Velociraptor from the Battle Dinos Genesis 333 collection.",
-  "image": "ipfs://REPLACE/317.png",
-  "token_id": 317,
+  "description": "Uncommon Velociraptor Battle Dinos base archetype.",
   "species": "Velociraptor",
   "rarity": "Uncommon",
+  "element": "Void",
+  "image": "ipfs://REPLACE/317.png",
   "visual": {
     "palette": "Arctic",
     "description": "Velociraptor with pale blue-white scales with slate markings, marbled scale pattern, blackened steel leg guards, and wrapped forelimb bands",
     "arena": "desert fossil basin with windblown dust"
   },
+  "base_battle_stats": {
+    "health": 69,
+    "attack": 73,
+    "defense": 55,
+    "speed": 94
+  },
   "moves": [
     {
+      "slot": 1,
       "name": "Null Claw",
-      "power": 60
+      "base_power": 60
     },
     {
+      "slot": 2,
       "name": "Null Pounce",
-      "power": 69
+      "base_power": 69
     },
     {
+      "slot": 3,
       "name": "Rift Fakeout",
-      "power": 45
+      "base_power": 45
     }
   ],
+  "starting_state": {
+    "level": 1,
+    "xp": 0,
+    "evolution_stage": 0,
+    "mutations": []
+  },
   "image_prompt": "Premium stylized 3D battle dinosaur collectible, designed as a consistent character collection. Full-body dinosaur centered in a powerful three-quarter battle stance, entire body visible from head to feet and tail, strong readable silhouette, oversized expressive eyes with fierce personality, chunky stylized anatomy, detailed scales, polished game-cinematic materials, dramatic rim lighting, high-end animated feature-film quality, collectible game character aesthetic, slightly exaggerated proportions, bold armor and accessory shapes when present, rich color contrast, crisp texture detail, atmospheric prehistoric arena environment, shallow cinematic depth of field, dynamic but uncluttered background, no text, no logos, no UI, no frame, no humans, no duplicate dinosaurs, square 1:1 composition. Keep the visual language consistent across the entire collection while making each dinosaur clearly unique. Character: Razorrage, a Velociraptor with pale blue-white scales with slate markings, marbled scale pattern, blackened steel leg guards, and wrapped forelimb bands. Pose with confident battle-ready personality in a desert fossil basin with windblown dust. Do not depict attacks, powers, text, numbers, or other combatants."
 }

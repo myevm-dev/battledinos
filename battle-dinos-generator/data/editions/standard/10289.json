@@ -1,0 +1,53 @@
+{
+  "token_id": 10289,
+  "base_id": 106,
+  "name": "Bouldercrest",
+  "edition": 55,
+  "edition_supply": 165,
+  "edition_label": "55/165",
+  "finish": "standard",
+  "species": "Styracosaurus",
+  "rarity": "Common",
+  "element": "Venom",
+  "image": "ipfs://REPLACE/106.png",
+  "genetics": {
+    "health": 1.047,
+    "attack": 1.0066,
+    "defense": 1.0229,
+    "speed": 0.9768,
+    "move_1": 1.0759,
+    "move_2": 0.954,
+    "move_3": 0.9742
+  },
+  "battle_stats": {
+    "health": 93,
+    "attack": 77,
+    "defense": 90,
+    "speed": 49
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Acid Horn Breaker",
+      "power": 102
+    },
+    {
+      "slot": 2,
+      "name": "Acid Charge",
+      "power": 88
+    },
+    {
+      "slot": 3,
+      "name": "Venom Bulwark",
+      "power": 67
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

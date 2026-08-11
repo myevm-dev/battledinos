@@ -1,0 +1,53 @@
+{
+  "token_id": 10635,
+  "base_id": 108,
+  "name": "Vortexwarden",
+  "edition": 74,
+  "edition_supply": 157,
+  "edition_label": "74/157",
+  "finish": "standard",
+  "species": "Velociraptor",
+  "rarity": "Common",
+  "element": "Tide",
+  "image": "ipfs://REPLACE/108.png",
+  "genetics": {
+    "health": 1.0113,
+    "attack": 1.01,
+    "defense": 1.0163,
+    "speed": 1.0328,
+    "move_1": 0.9276,
+    "move_2": 0.9259,
+    "move_3": 0.962
+  },
+  "battle_stats": {
+    "health": 67,
+    "attack": 72,
+    "defense": 58,
+    "speed": 99
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Riptide Talon",
+      "power": 44
+    },
+    {
+      "slot": 2,
+      "name": "Torrent Leap",
+      "power": 72
+    },
+    {
+      "slot": 3,
+      "name": "Tidal Fakeout",
+      "power": 63
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

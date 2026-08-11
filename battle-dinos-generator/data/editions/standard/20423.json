@@ -1,0 +1,53 @@
+{
+  "token_id": 20423,
+  "base_id": 204,
+  "name": "Mosstail",
+  "edition": 24,
+  "edition_supply": 80,
+  "edition_label": "24/80",
+  "finish": "standard",
+  "species": "Suchomimus",
+  "rarity": "Rare",
+  "element": "Tide",
+  "image": "ipfs://REPLACE/204.png",
+  "genetics": {
+    "health": 0.9671,
+    "attack": 1.0004,
+    "defense": 1.0258,
+    "speed": 1.001,
+    "move_1": 1.0144,
+    "move_2": 0.9823,
+    "move_3": 1.0799
+  },
+  "battle_stats": {
+    "health": 72,
+    "attack": 80,
+    "defense": 71,
+    "speed": 79
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Tidal Talon",
+      "power": 57
+    },
+    {
+      "slot": 2,
+      "name": "Tidal Jaw",
+      "power": 50
+    },
+    {
+      "slot": 3,
+      "name": "Tidal River Rush",
+      "power": 55
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

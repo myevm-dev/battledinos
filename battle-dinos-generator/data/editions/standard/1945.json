@@ -1,0 +1,53 @@
+{
+  "token_id": 1945,
+  "base_id": 18,
+  "name": "Nighthunter",
+  "edition": 81,
+  "edition_supply": 82,
+  "edition_label": "81/82",
+  "finish": "standard",
+  "species": "Velociraptor",
+  "rarity": "Common",
+  "element": "Primal",
+  "image": "ipfs://REPLACE/18.png",
+  "genetics": {
+    "health": 1.0312,
+    "attack": 1.0424,
+    "defense": 1.0483,
+    "speed": 1.043,
+    "move_1": 0.9979,
+    "move_2": 0.9214,
+    "move_3": 1.0025
+  },
+  "battle_stats": {
+    "health": 70,
+    "attack": 74,
+    "defense": 62,
+    "speed": 97
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Savage Rake",
+      "power": 83
+    },
+    {
+      "slot": 2,
+      "name": "Alpha Leap",
+      "power": 86
+    },
+    {
+      "slot": 3,
+      "name": "Primal Feint",
+      "power": 83
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

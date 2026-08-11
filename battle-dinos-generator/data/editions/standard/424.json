@@ -1,0 +1,53 @@
+{
+  "token_id": 424,
+  "base_id": 5,
+  "name": "Wildscar",
+  "edition": 13,
+  "edition_supply": 26,
+  "edition_label": "13/26",
+  "finish": "standard",
+  "species": "Velociraptor",
+  "rarity": "Epic",
+  "element": "Void",
+  "image": "ipfs://REPLACE/5.png",
+  "genetics": {
+    "health": 1.0415,
+    "attack": 1.0335,
+    "defense": 0.9656,
+    "speed": 0.9559,
+    "move_1": 1.0744,
+    "move_2": 0.9676,
+    "move_3": 0.9744
+  },
+  "battle_stats": {
+    "health": 71,
+    "attack": 76,
+    "defense": 49,
+    "speed": 94
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Null Rake",
+      "power": 91
+    },
+    {
+      "slot": 2,
+      "name": "Null Pounce",
+      "power": 84
+    },
+    {
+      "slot": 3,
+      "name": "Void Sidestep",
+      "power": 90
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

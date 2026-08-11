@@ -1,0 +1,53 @@
+{
+  "token_id": 11422,
+  "base_id": 120,
+  "name": "Solartail",
+  "edition": 30,
+  "edition_supply": 81,
+  "edition_label": "30/81",
+  "finish": "standard",
+  "species": "Stegosaurus",
+  "rarity": "Rare",
+  "element": "Primal",
+  "image": "ipfs://REPLACE/120.png",
+  "genetics": {
+    "health": 1.0298,
+    "attack": 1.0058,
+    "defense": 0.9612,
+    "speed": 1.0062,
+    "move_1": 0.9223,
+    "move_2": 1.065,
+    "move_3": 1.0712
+  },
+  "battle_stats": {
+    "health": 92,
+    "attack": 67,
+    "defense": 86,
+    "speed": 43
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Primal Tail Spike",
+      "power": 73
+    },
+    {
+      "slot": 2,
+      "name": "Wild Bulwark",
+      "power": 81
+    },
+    {
+      "slot": 3,
+      "name": "Alpha Tremor",
+      "power": 86
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

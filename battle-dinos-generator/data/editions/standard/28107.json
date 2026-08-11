@@ -1,0 +1,53 @@
+{
+  "token_id": 28107,
+  "base_id": 282,
+  "name": "Boulderstalker",
+  "edition": 77,
+  "edition_supply": 112,
+  "edition_label": "77/112",
+  "finish": "standard",
+  "species": "Spinosaurus",
+  "rarity": "Uncommon",
+  "element": "Tide",
+  "image": "ipfs://REPLACE/282.png",
+  "genetics": {
+    "health": 1.0055,
+    "attack": 1.039,
+    "defense": 0.9815,
+    "speed": 1.0258,
+    "move_1": 1.0701,
+    "move_2": 1.01,
+    "move_3": 0.9401
+  },
+  "battle_stats": {
+    "health": 79,
+    "attack": 87,
+    "defense": 72,
+    "speed": 71
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Tidal Jaw",
+      "power": 73
+    },
+    {
+      "slot": 2,
+      "name": "Aqua Sail Flash",
+      "power": 72
+    },
+    {
+      "slot": 3,
+      "name": "Riptide Crosscut",
+      "power": 81
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

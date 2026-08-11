@@ -1,0 +1,53 @@
+{
+  "token_id": 3955,
+  "base_id": 37,
+  "name": "Grimspike",
+  "edition": 44,
+  "edition_supply": 55,
+  "edition_label": "44/55",
+  "finish": "standard",
+  "species": "Pachycephalosaurus",
+  "rarity": "Rare",
+  "element": "Solar",
+  "image": "ipfs://REPLACE/37.png",
+  "genetics": {
+    "health": 1.0375,
+    "attack": 1.0008,
+    "defense": 1.0452,
+    "speed": 1.04,
+    "move_1": 0.9321,
+    "move_2": 0.9764,
+    "move_3": 0.9353
+  },
+  "battle_stats": {
+    "health": 85,
+    "attack": 76,
+    "defense": 77,
+    "speed": 73
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Dawn Skull Bash",
+      "power": 55
+    },
+    {
+      "slot": 2,
+      "name": "Solar Sprint Strike",
+      "power": 74
+    },
+    {
+      "slot": 3,
+      "name": "Dawn Tremor",
+      "power": 81
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

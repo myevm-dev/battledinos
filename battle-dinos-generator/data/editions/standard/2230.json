@@ -1,0 +1,53 @@
+{
+  "token_id": 2230,
+  "base_id": 21,
+  "name": "Ironrage",
+  "edition": 9,
+  "edition_supply": 112,
+  "edition_label": "9/112",
+  "finish": "standard",
+  "species": "Ankylosaurus",
+  "rarity": "Common",
+  "element": "Solar",
+  "image": "ipfs://REPLACE/21.png",
+  "genetics": {
+    "health": 1.0497,
+    "attack": 0.9507,
+    "defense": 1.0473,
+    "speed": 0.9756,
+    "move_1": 0.9813,
+    "move_2": 0.9468,
+    "move_3": 0.9946
+  },
+  "battle_stats": {
+    "health": 100,
+    "attack": 63,
+    "defense": 99,
+    "speed": 32
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Radiant Tail Club",
+      "power": 72
+    },
+    {
+      "slot": 2,
+      "name": "Radiant Shell",
+      "power": 85
+    },
+    {
+      "slot": 3,
+      "name": "Solar Ram",
+      "power": 61
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

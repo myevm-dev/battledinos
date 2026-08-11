@@ -1,0 +1,53 @@
+{
+  "token_id": 23936,
+  "base_id": 244,
+  "name": "Duskbreaker",
+  "edition": 123,
+  "edition_supply": 128,
+  "edition_label": "123/128",
+  "finish": "standard",
+  "species": "Triceratops",
+  "rarity": "Uncommon",
+  "element": "Storm",
+  "image": "ipfs://REPLACE/244.png",
+  "genetics": {
+    "health": 1.0178,
+    "attack": 1.0047,
+    "defense": 1.0102,
+    "speed": 1.0066,
+    "move_1": 0.9232,
+    "move_2": 0.9849,
+    "move_3": 0.9593
+  },
+  "battle_stats": {
+    "health": 90,
+    "attack": 76,
+    "defense": 89,
+    "speed": 47
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Lightning Gore",
+      "power": 80
+    },
+    {
+      "slot": 2,
+      "name": "Static Rush",
+      "power": 49
+    },
+    {
+      "slot": 3,
+      "name": "Lightning Bulwark",
+      "power": 57
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

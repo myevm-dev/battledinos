@@ -1,0 +1,53 @@
+{
+  "token_id": 33038,
+  "base_id": 330,
+  "name": "Blazejaw",
+  "edition": 81,
+  "edition_supply": 84,
+  "edition_label": "81/84",
+  "finish": "standard",
+  "species": "Dilophosaurus",
+  "rarity": "Common",
+  "element": "Primal",
+  "image": "ipfs://REPLACE/330.png",
+  "genetics": {
+    "health": 1.0301,
+    "attack": 1.0389,
+    "defense": 1.0418,
+    "speed": 1.0424,
+    "move_1": 0.9828,
+    "move_2": 0.9295,
+    "move_3": 1.0188
+  },
+  "battle_stats": {
+    "health": 67,
+    "attack": 76,
+    "defense": 60,
+    "speed": 93
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Alpha Resonance",
+      "power": 86
+    },
+    {
+      "slot": 2,
+      "name": "Primal Fakeout",
+      "power": 86
+    },
+    {
+      "slot": 3,
+      "name": "Alpha Bite",
+      "power": 78
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

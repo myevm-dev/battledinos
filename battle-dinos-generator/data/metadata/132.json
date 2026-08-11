@@ -1,28 +1,44 @@
 {
+  "base_id": 132,
   "name": "Wildroar",
-  "description": "Common Styracosaurus from the Battle Dinos Genesis 333 collection.",
-  "image": "ipfs://REPLACE/132.png",
-  "token_id": 132,
+  "description": "Common Styracosaurus Battle Dinos base archetype.",
   "species": "Styracosaurus",
   "rarity": "Common",
+  "element": "Solar",
+  "image": "ipfs://REPLACE/132.png",
   "visual": {
     "palette": "Toxic",
     "description": "Styracosaurus with dark olive scales with luminous chartreuse accents, freckled snout and cheeks, no armor, natural battle-hardened look, and one chipped horn or crest edge",
     "arena": "misty fern canyon with towering stone walls"
   },
+  "base_battle_stats": {
+    "health": 86,
+    "attack": 82,
+    "defense": 85,
+    "speed": 50
+  },
   "moves": [
     {
+      "slot": 1,
       "name": "Sun Gore",
-      "power": 55
+      "base_power": 55
     },
     {
+      "slot": 2,
       "name": "Sun Stampede",
-      "power": 69
+      "base_power": 69
     },
     {
+      "slot": 3,
       "name": "Radiant Bulwark",
-      "power": 89
+      "base_power": 89
     }
   ],
+  "starting_state": {
+    "level": 1,
+    "xp": 0,
+    "evolution_stage": 0,
+    "mutations": []
+  },
   "image_prompt": "Premium stylized 3D battle dinosaur collectible, designed as a consistent character collection. Full-body dinosaur centered in a powerful three-quarter battle stance, entire body visible from head to feet and tail, strong readable silhouette, oversized expressive eyes with fierce personality, chunky stylized anatomy, detailed scales, polished game-cinematic materials, dramatic rim lighting, high-end animated feature-film quality, collectible game character aesthetic, slightly exaggerated proportions, bold armor and accessory shapes when present, rich color contrast, crisp texture detail, atmospheric prehistoric arena environment, shallow cinematic depth of field, dynamic but uncluttered background, no text, no logos, no UI, no frame, no humans, no duplicate dinosaurs, square 1:1 composition. Keep the visual language consistent across the entire collection while making each dinosaur clearly unique. Character: Wildroar, a Styracosaurus with dark olive scales with luminous chartreuse accents, freckled snout and cheeks, no armor, natural battle-hardened look, and one chipped horn or crest edge. Pose with confident battle-ready personality in a misty fern canyon with towering stone walls. Do not depict attacks, powers, text, numbers, or other combatants."
 }

@@ -1,0 +1,53 @@
+{
+  "token_id": 5343,
+  "base_id": 52,
+  "name": "Apexscar",
+  "edition": 68,
+  "edition_supply": 96,
+  "edition_label": "68/96",
+  "finish": "standard",
+  "species": "Spinosaurus",
+  "rarity": "Common",
+  "element": "Primal",
+  "image": "ipfs://REPLACE/52.png",
+  "genetics": {
+    "health": 0.9531,
+    "attack": 1.0302,
+    "defense": 0.9999,
+    "speed": 0.9658,
+    "move_1": 0.979,
+    "move_2": 0.9854,
+    "move_3": 0.9975
+  },
+  "battle_stats": {
+    "health": 78,
+    "attack": 89,
+    "defense": 69,
+    "speed": 65
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Savage Bite",
+      "power": 93
+    },
+    {
+      "slot": 2,
+      "name": "Wild Sail Flash",
+      "power": 51
+    },
+    {
+      "slot": 3,
+      "name": "Wild Crosscut",
+      "power": 82
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

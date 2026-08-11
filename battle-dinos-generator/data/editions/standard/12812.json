@@ -1,0 +1,53 @@
+{
+  "token_id": 12812,
+  "base_id": 135,
+  "name": "Ghostreaver",
+  "edition": 133,
+  "edition_supply": 182,
+  "edition_label": "133/182",
+  "finish": "standard",
+  "species": "Parasaurolophus",
+  "rarity": "Common",
+  "element": "Primal",
+  "image": "ipfs://REPLACE/135.png",
+  "genetics": {
+    "health": 0.9514,
+    "attack": 0.9684,
+    "defense": 0.9748,
+    "speed": 0.999,
+    "move_1": 1.0043,
+    "move_2": 1.0785,
+    "move_3": 1.0662
+  },
+  "battle_stats": {
+    "health": 79,
+    "attack": 54,
+    "defense": 69,
+    "speed": 74
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Primal Crest Pulse",
+      "power": 69
+    },
+    {
+      "slot": 2,
+      "name": "Alpha Rush",
+      "power": 78
+    },
+    {
+      "slot": 3,
+      "name": "Savage Tail Sweep",
+      "power": 71
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

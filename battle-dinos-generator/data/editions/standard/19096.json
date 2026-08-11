@@ -1,0 +1,53 @@
+{
+  "token_id": 19096,
+  "base_id": 194,
+  "name": "Apextail",
+  "edition": 9,
+  "edition_supply": 93,
+  "edition_label": "9/93",
+  "finish": "standard",
+  "species": "Velociraptor",
+  "rarity": "Uncommon",
+  "element": "Storm",
+  "image": "ipfs://REPLACE/194.png",
+  "genetics": {
+    "health": 1.0302,
+    "attack": 1.035,
+    "defense": 0.9927,
+    "speed": 1.0144,
+    "move_1": 1.0621,
+    "move_2": 0.9794,
+    "move_3": 1.0748
+  },
+  "battle_stats": {
+    "health": 70,
+    "attack": 77,
+    "defense": 54,
+    "speed": 97
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Lightning Talon",
+      "power": 56
+    },
+    {
+      "slot": 2,
+      "name": "Tempest Pounce",
+      "power": 54
+    },
+    {
+      "slot": 3,
+      "name": "Tempest Fakeout",
+      "power": 62
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

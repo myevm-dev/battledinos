@@ -1,0 +1,53 @@
+{
+  "token_id": 27330,
+  "base_id": 275,
+  "name": "Ivoryfang",
+  "edition": 86,
+  "edition_supply": 174,
+  "edition_label": "86/174",
+  "finish": "standard",
+  "species": "Dilophosaurus",
+  "rarity": "Common",
+  "element": "Solar",
+  "image": "ipfs://REPLACE/275.png",
+  "genetics": {
+    "health": 1.0408,
+    "attack": 1.0375,
+    "defense": 0.9804,
+    "speed": 1.0415,
+    "move_1": 0.9296,
+    "move_2": 0.9732,
+    "move_3": 0.988
+  },
+  "battle_stats": {
+    "health": 66,
+    "attack": 79,
+    "defense": 56,
+    "speed": 95
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Radiant Crest Call",
+      "power": 59
+    },
+    {
+      "slot": 2,
+      "name": "Solar Feint",
+      "power": 92
+    },
+    {
+      "slot": 3,
+      "name": "Dawn Chomp",
+      "power": 62
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

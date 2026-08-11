@@ -1,0 +1,53 @@
+{
+  "token_id": 11942,
+  "base_id": 126,
+  "name": "Ghostrunner",
+  "edition": 2,
+  "edition_supply": 9,
+  "edition_label": "2/9",
+  "finish": "standard",
+  "species": "Stegosaurus",
+  "rarity": "Epic",
+  "element": "Solar",
+  "image": "ipfs://REPLACE/126.png",
+  "genetics": {
+    "health": 0.9574,
+    "attack": 1.0293,
+    "defense": 0.9847,
+    "speed": 1.0167,
+    "move_1": 0.9774,
+    "move_2": 0.9207,
+    "move_3": 1.0167
+  },
+  "battle_stats": {
+    "health": 83,
+    "attack": 70,
+    "defense": 91,
+    "speed": 42
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Sun Spike Sweep",
+      "power": 63
+    },
+    {
+      "slot": 2,
+      "name": "Sun Bulwark",
+      "power": 57
+    },
+    {
+      "slot": 3,
+      "name": "Solar Stomp",
+      "power": 84
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

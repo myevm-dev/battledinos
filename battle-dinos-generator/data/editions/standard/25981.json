@@ -1,0 +1,53 @@
+{
+  "token_id": 25981,
+  "base_id": 263,
+  "name": "Nightroar",
+  "edition": 55,
+  "edition_supply": 97,
+  "edition_label": "55/97",
+  "finish": "standard",
+  "species": "Ankylosaurus",
+  "rarity": "Common",
+  "element": "Shadow",
+  "image": "ipfs://REPLACE/263.png",
+  "genetics": {
+    "health": 1.0085,
+    "attack": 0.9897,
+    "defense": 1.0109,
+    "speed": 0.9517,
+    "move_1": 0.9599,
+    "move_2": 1.0032,
+    "move_3": 0.9856
+  },
+  "battle_stats": {
+    "health": 98,
+    "attack": 61,
+    "defense": 99,
+    "speed": 31
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Night Hammer Tail",
+      "power": 73
+    },
+    {
+      "slot": 2,
+      "name": "Dusk Bulwark",
+      "power": 86
+    },
+    {
+      "slot": 3,
+      "name": "Phantom Iron Rush",
+      "power": 59
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

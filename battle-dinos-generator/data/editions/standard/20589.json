@@ -1,0 +1,53 @@
+{
+  "token_id": 20589,
+  "base_id": 206,
+  "name": "Duskstrike",
+  "edition": 5,
+  "edition_supply": 47,
+  "edition_label": "5/47",
+  "finish": "standard",
+  "species": "Allosaurus",
+  "rarity": "Rare",
+  "element": "Venom",
+  "image": "ipfs://REPLACE/206.png",
+  "genetics": {
+    "health": 1.0099,
+    "attack": 1.0162,
+    "defense": 1.0007,
+    "speed": 0.9627,
+    "move_1": 1.0224,
+    "move_2": 0.9813,
+    "move_3": 0.9947
+  },
+  "battle_stats": {
+    "health": 80,
+    "attack": 84,
+    "defense": 71,
+    "speed": 68
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Viper Bite",
+      "power": 96
+    },
+    {
+      "slot": 2,
+      "name": "Acid Rake",
+      "power": 52
+    },
+    {
+      "slot": 3,
+      "name": "Venom Blitz",
+      "power": 80
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

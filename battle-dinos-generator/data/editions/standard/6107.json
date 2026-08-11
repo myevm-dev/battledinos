@@ -1,0 +1,53 @@
+{
+  "token_id": 6107,
+  "base_id": 61,
+  "name": "Voidbane",
+  "edition": 33,
+  "edition_supply": 99,
+  "edition_label": "33/99",
+  "finish": "standard",
+  "species": "Spinosaurus",
+  "rarity": "Common",
+  "element": "Primal",
+  "image": "ipfs://REPLACE/61.png",
+  "genetics": {
+    "health": 0.9909,
+    "attack": 0.9564,
+    "defense": 1.0436,
+    "speed": 1.0332,
+    "move_1": 1.0323,
+    "move_2": 1.008,
+    "move_3": 0.9981
+  },
+  "battle_stats": {
+    "health": 79,
+    "attack": 79,
+    "defense": 72,
+    "speed": 74
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Primal Chomp",
+      "power": 76
+    },
+    {
+      "slot": 2,
+      "name": "Primal Sail Flash",
+      "power": 86
+    },
+    {
+      "slot": 3,
+      "name": "Primal Swipe",
+      "power": 84
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

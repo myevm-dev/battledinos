@@ -1,0 +1,53 @@
+{
+  "token_id": 24629,
+  "base_id": 250,
+  "name": "Onyxclaw",
+  "edition": 66,
+  "edition_supply": 87,
+  "edition_label": "66/87",
+  "finish": "standard",
+  "species": "Spinosaurus",
+  "rarity": "Common",
+  "element": "Venom",
+  "image": "ipfs://REPLACE/250.png",
+  "genetics": {
+    "health": 0.9854,
+    "attack": 0.952,
+    "defense": 1.0436,
+    "speed": 0.9652,
+    "move_1": 0.9274,
+    "move_2": 0.9974,
+    "move_3": 0.9719
+  },
+  "battle_stats": {
+    "health": 80,
+    "attack": 80,
+    "defense": 73,
+    "speed": 67
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Acid Bite",
+      "power": 51
+    },
+    {
+      "slot": 2,
+      "name": "Toxic Crest Surge",
+      "power": 87
+    },
+    {
+      "slot": 3,
+      "name": "Acid Crosscut",
+      "power": 61
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

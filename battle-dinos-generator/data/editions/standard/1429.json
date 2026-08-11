@@ -1,0 +1,53 @@
+{
+  "token_id": 1429,
+  "base_id": 14,
+  "name": "Voidjaw",
+  "edition": 64,
+  "edition_supply": 86,
+  "edition_label": "64/86",
+  "finish": "standard",
+  "species": "Carnotaurus",
+  "rarity": "Rare",
+  "element": "Ember",
+  "image": "ipfs://REPLACE/14.png",
+  "genetics": {
+    "health": 1.0191,
+    "attack": 1.0292,
+    "defense": 1.0262,
+    "speed": 1.0144,
+    "move_1": 0.9798,
+    "move_2": 1.0751,
+    "move_3": 0.9659
+  },
+  "battle_stats": {
+    "health": 76,
+    "attack": 91,
+    "defense": 58,
+    "speed": 86
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Flare Gore",
+      "power": 52
+    },
+    {
+      "slot": 2,
+      "name": "Cinder Rush",
+      "power": 72
+    },
+    {
+      "slot": 3,
+      "name": "Inferno Chomp",
+      "power": 74
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

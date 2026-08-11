@@ -1,0 +1,53 @@
+{
+  "token_id": 31030,
+  "base_id": 311,
+  "name": "Razorbane",
+  "edition": 47,
+  "edition_supply": 100,
+  "edition_label": "47/100",
+  "finish": "standard",
+  "species": "Iguanodon",
+  "rarity": "Uncommon",
+  "element": "Tide",
+  "image": "ipfs://REPLACE/311.png",
+  "genetics": {
+    "health": 1.004,
+    "attack": 0.9684,
+    "defense": 0.9563,
+    "speed": 1.0234,
+    "move_1": 1.0042,
+    "move_2": 1.0209,
+    "move_3": 0.9888
+  },
+  "battle_stats": {
+    "health": 87,
+    "attack": 65,
+    "defense": 73,
+    "speed": 67
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Riptide Spike Jab",
+      "power": 92
+    },
+    {
+      "slot": 2,
+      "name": "Torrent Blitz",
+      "power": 63
+    },
+    {
+      "slot": 3,
+      "name": "Riptide Guard",
+      "power": 94
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

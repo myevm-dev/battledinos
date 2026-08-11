@@ -1,0 +1,53 @@
+{
+  "token_id": 28574,
+  "base_id": 287,
+  "name": "Thundertalon",
+  "edition": 76,
+  "edition_supply": 80,
+  "edition_label": "76/80",
+  "finish": "standard",
+  "species": "Tyrannosaurus",
+  "rarity": "Common",
+  "element": "Shadow",
+  "image": "ipfs://REPLACE/287.png",
+  "genetics": {
+    "health": 1.0215,
+    "attack": 1.0024,
+    "defense": 0.9857,
+    "speed": 0.9867,
+    "move_1": 0.977,
+    "move_2": 1.0067,
+    "move_3": 0.9652
+  },
+  "battle_stats": {
+    "health": 89,
+    "attack": 91,
+    "defense": 76,
+    "speed": 52
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Shadow Bite",
+      "power": 61
+    },
+    {
+      "slot": 2,
+      "name": "Phantom Howl",
+      "power": 66
+    },
+    {
+      "slot": 3,
+      "name": "Shadow Tail Sweep",
+      "power": 82
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

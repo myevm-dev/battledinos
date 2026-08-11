@@ -1,0 +1,53 @@
+{
+  "token_id": 6916,
+  "base_id": 70,
+  "name": "Dustbreaker",
+  "edition": 19,
+  "edition_supply": 44,
+  "edition_label": "19/44",
+  "finish": "standard",
+  "species": "Styracosaurus",
+  "rarity": "Epic",
+  "element": "Stone",
+  "image": "ipfs://REPLACE/70.png",
+  "genetics": {
+    "health": 0.9684,
+    "attack": 1.0061,
+    "defense": 0.9882,
+    "speed": 0.9761,
+    "move_1": 1.0244,
+    "move_2": 1.0138,
+    "move_3": 0.97
+  },
+  "battle_stats": {
+    "health": 81,
+    "attack": 80,
+    "defense": 88,
+    "speed": 47
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Granite Horn Strike",
+      "power": 60
+    },
+    {
+      "slot": 2,
+      "name": "Stone Charge",
+      "power": 77
+    },
+    {
+      "slot": 3,
+      "name": "Boulder Bulwark",
+      "power": 92
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

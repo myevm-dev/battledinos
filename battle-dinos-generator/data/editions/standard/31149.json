@@ -1,0 +1,53 @@
+{
+  "token_id": 31149,
+  "base_id": 312,
+  "name": "Sunjaw",
+  "edition": 66,
+  "edition_supply": 75,
+  "edition_label": "66/75",
+  "finish": "standard",
+  "species": "Baryonyx",
+  "rarity": "Uncommon",
+  "element": "Shadow",
+  "image": "ipfs://REPLACE/312.png",
+  "genetics": {
+    "health": 1.0357,
+    "attack": 0.9935,
+    "defense": 1.0419,
+    "speed": 1.0488,
+    "move_1": 0.9981,
+    "move_2": 0.9465,
+    "move_3": 1.0478
+  },
+  "battle_stats": {
+    "health": 79,
+    "attack": 81,
+    "defense": 68,
+    "speed": 82
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Night Claw",
+      "power": 90
+    },
+    {
+      "slot": 2,
+      "name": "Shadow Bite",
+      "power": 63
+    },
+    {
+      "slot": 3,
+      "name": "Dusk River Rush",
+      "power": 78
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

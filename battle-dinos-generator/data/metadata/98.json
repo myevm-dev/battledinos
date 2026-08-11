@@ -1,28 +1,44 @@
 {
+  "base_id": 98,
   "name": "Grimrunner",
-  "description": "Common Carnotaurus from the Battle Dinos Genesis 333 collection.",
-  "image": "ipfs://REPLACE/98.png",
-  "token_id": 98,
+  "description": "Common Carnotaurus Battle Dinos base archetype.",
   "species": "Carnotaurus",
   "rarity": "Common",
+  "element": "Tide",
+  "image": "ipfs://REPLACE/98.png",
   "visual": {
     "palette": "Ivory",
     "description": "Carnotaurus with warm ivory scales with charcoal markings, faint bioluminescent-looking lines, dark iron shoulder plates, and small battle scars across the snout",
     "arena": "desert fossil basin with windblown dust"
   },
+  "base_battle_stats": {
+    "health": 73,
+    "attack": 89,
+    "defense": 61,
+    "speed": 83
+  },
   "moves": [
     {
+      "slot": 1,
       "name": "Aqua Horn Strike",
-      "power": 78
+      "base_power": 78
     },
     {
+      "slot": 2,
       "name": "Riptide Sprint Strike",
-      "power": 48
+      "base_power": 48
     },
     {
+      "slot": 3,
       "name": "Tidal Chomp",
-      "power": 49
+      "base_power": 49
     }
   ],
+  "starting_state": {
+    "level": 1,
+    "xp": 0,
+    "evolution_stage": 0,
+    "mutations": []
+  },
   "image_prompt": "Premium stylized 3D battle dinosaur collectible, designed as a consistent character collection. Full-body dinosaur centered in a powerful three-quarter battle stance, entire body visible from head to feet and tail, strong readable silhouette, oversized expressive eyes with fierce personality, chunky stylized anatomy, detailed scales, polished game-cinematic materials, dramatic rim lighting, high-end animated feature-film quality, collectible game character aesthetic, slightly exaggerated proportions, bold armor and accessory shapes when present, rich color contrast, crisp texture detail, atmospheric prehistoric arena environment, shallow cinematic depth of field, dynamic but uncluttered background, no text, no logos, no UI, no frame, no humans, no duplicate dinosaurs, square 1:1 composition. Keep the visual language consistent across the entire collection while making each dinosaur clearly unique. Character: Grimrunner, a Carnotaurus with warm ivory scales with charcoal markings, faint bioluminescent-looking lines, dark iron shoulder plates, and small battle scars across the snout. Pose with confident battle-ready personality in a desert fossil basin with windblown dust. Do not depict attacks, powers, text, numbers, or other combatants."
 }

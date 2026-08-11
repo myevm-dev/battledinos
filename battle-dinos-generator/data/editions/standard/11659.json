@@ -1,0 +1,53 @@
+{
+  "token_id": 11659,
+  "base_id": 122,
+  "name": "Savagetooth",
+  "edition": 9,
+  "edition_supply": 32,
+  "edition_label": "9/32",
+  "finish": "standard",
+  "species": "Carnotaurus",
+  "rarity": "Epic",
+  "element": "Storm",
+  "image": "ipfs://REPLACE/122.png",
+  "genetics": {
+    "health": 0.9676,
+    "attack": 1.0029,
+    "defense": 1.0164,
+    "speed": 1.0282,
+    "move_1": 0.9645,
+    "move_2": 0.9334,
+    "move_3": 1.0052
+  },
+  "battle_stats": {
+    "health": 73,
+    "attack": 89,
+    "defense": 62,
+    "speed": 82
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Thunder Horn Breaker",
+      "power": 61
+    },
+    {
+      "slot": 2,
+      "name": "Static Sprint Strike",
+      "power": 47
+    },
+    {
+      "slot": 3,
+      "name": "Static Jaw",
+      "power": 51
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

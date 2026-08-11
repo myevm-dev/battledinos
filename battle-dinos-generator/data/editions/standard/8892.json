@@ -1,0 +1,53 @@
+{
+  "token_id": 8892,
+  "base_id": 92,
+  "name": "Duststalker",
+  "edition": 89,
+  "edition_supply": 158,
+  "edition_label": "89/158",
+  "finish": "standard",
+  "species": "Triceratops",
+  "rarity": "Common",
+  "element": "Primal",
+  "image": "ipfs://REPLACE/92.png",
+  "genetics": {
+    "health": 1.0291,
+    "attack": 1.0321,
+    "defense": 1.0301,
+    "speed": 1.0145,
+    "move_1": 0.9719,
+    "move_2": 1.0757,
+    "move_3": 0.9594
+  },
+  "battle_stats": {
+    "health": 94,
+    "attack": 76,
+    "defense": 95,
+    "speed": 45
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Savage Horn Breaker",
+      "power": 47
+    },
+    {
+      "slot": 2,
+      "name": "Primal Charge",
+      "power": 68
+    },
+    {
+      "slot": 3,
+      "name": "Primal Guard",
+      "power": 50
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

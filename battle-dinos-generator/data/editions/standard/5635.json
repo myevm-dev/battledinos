@@ -1,0 +1,53 @@
+{
+  "token_id": 5635,
+  "base_id": 56,
+  "name": "Azureroar",
+  "edition": 3,
+  "edition_supply": 43,
+  "edition_label": "3/43",
+  "finish": "standard",
+  "species": "Ankylosaurus",
+  "rarity": "Rare",
+  "element": "Frost",
+  "image": "ipfs://REPLACE/56.png",
+  "genetics": {
+    "health": 0.9654,
+    "attack": 1.0373,
+    "defense": 0.999,
+    "speed": 0.9543,
+    "move_1": 0.9383,
+    "move_2": 1.0311,
+    "move_3": 1.0561
+  },
+  "battle_stats": {
+    "health": 90,
+    "attack": 68,
+    "defense": 98,
+    "speed": 31
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Frost Club Smash",
+      "power": 53
+    },
+    {
+      "slot": 2,
+      "name": "Ice Guard",
+      "power": 80
+    },
+    {
+      "slot": 3,
+      "name": "Glacier Ram",
+      "power": 93
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

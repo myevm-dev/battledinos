@@ -1,0 +1,53 @@
+{
+  "token_id": 27609,
+  "base_id": 278,
+  "name": "Coppertalon",
+  "edition": 37,
+  "edition_supply": 147,
+  "edition_label": "37/147",
+  "finish": "standard",
+  "species": "Baryonyx",
+  "rarity": "Common",
+  "element": "Stone",
+  "image": "ipfs://REPLACE/278.png",
+  "genetics": {
+    "health": 0.9628,
+    "attack": 1.049,
+    "defense": 1.022,
+    "speed": 1.0001,
+    "move_1": 1.0715,
+    "move_2": 1.0625,
+    "move_3": 1.0101
+  },
+  "battle_stats": {
+    "health": 71,
+    "attack": 85,
+    "defense": 65,
+    "speed": 80
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Boulder Rake",
+      "power": 73
+    },
+    {
+      "slot": 2,
+      "name": "Boulder Bite",
+      "power": 78
+    },
+    {
+      "slot": 3,
+      "name": "Boulder Snap Lunge",
+      "power": 55
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

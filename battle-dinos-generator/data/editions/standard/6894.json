@@ -1,0 +1,53 @@
+{
+  "token_id": 6894,
+  "base_id": 69,
+  "name": "Irontooth",
+  "edition": 39,
+  "edition_supply": 42,
+  "edition_label": "39/42",
+  "finish": "standard",
+  "species": "Ceratosaurus",
+  "rarity": "Epic",
+  "element": "Venom",
+  "image": "ipfs://REPLACE/69.png",
+  "genetics": {
+    "health": 1.0352,
+    "attack": 0.9839,
+    "defense": 1.0091,
+    "speed": 1.0213,
+    "move_1": 0.9885,
+    "move_2": 1.0142,
+    "move_3": 0.9338
+  },
+  "battle_stats": {
+    "health": 82,
+    "attack": 81,
+    "defense": 69,
+    "speed": 70
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Venom Horn Strike",
+      "power": 89
+    },
+    {
+      "slot": 2,
+      "name": "Toxic Bite",
+      "power": 88
+    },
+    {
+      "slot": 3,
+      "name": "Venom Howl",
+      "power": 85
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

@@ -1,0 +1,53 @@
+{
+  "token_id": 31671,
+  "base_id": 316,
+  "name": "Coppercrest",
+  "edition": 91,
+  "edition_supply": 103,
+  "edition_label": "91/103",
+  "finish": "standard",
+  "species": "Ceratosaurus",
+  "rarity": "Common",
+  "element": "Tide",
+  "image": "ipfs://REPLACE/316.png",
+  "genetics": {
+    "health": 0.9988,
+    "attack": 1.0213,
+    "defense": 1.0252,
+    "speed": 1.0337,
+    "move_1": 0.9923,
+    "move_2": 0.9491,
+    "move_3": 0.9588
+  },
+  "battle_stats": {
+    "health": 78,
+    "attack": 81,
+    "defense": 70,
+    "speed": 78
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Riptide Horn Breaker",
+      "power": 77
+    },
+    {
+      "slot": 2,
+      "name": "Tidal Chomp",
+      "power": 76
+    },
+    {
+      "slot": 3,
+      "name": "Tidal Roar",
+      "power": 63
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

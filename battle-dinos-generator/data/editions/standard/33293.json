@@ -1,0 +1,53 @@
+{
+  "token_id": 33293,
+  "base_id": 333,
+  "name": "Obsidianstrike",
+  "edition": 20,
+  "edition_supply": 27,
+  "edition_label": "20/27",
+  "finish": "standard",
+  "species": "Therizinosaurus",
+  "rarity": "Rare",
+  "element": "Storm",
+  "image": "ipfs://REPLACE/333.png",
+  "genetics": {
+    "health": 0.9678,
+    "attack": 1.0,
+    "defense": 0.9723,
+    "speed": 1.0251,
+    "move_1": 0.999,
+    "move_2": 1.0646,
+    "move_3": 0.9584
+  },
+  "battle_stats": {
+    "health": 76,
+    "attack": 90,
+    "defense": 59,
+    "speed": 75
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Lightning Talon",
+      "power": 85
+    },
+    {
+      "slot": 2,
+      "name": "Tempest Shell",
+      "power": 90
+    },
+    {
+      "slot": 3,
+      "name": "Lightning Crosscut",
+      "power": 82
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

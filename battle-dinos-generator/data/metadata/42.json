@@ -1,28 +1,44 @@
 {
+  "base_id": 42,
   "name": "Duskstalker",
-  "description": "Rare Allosaurus from the Battle Dinos Genesis 333 collection.",
-  "image": "ipfs://REPLACE/42.png",
-  "token_id": 42,
+  "description": "Rare Allosaurus Battle Dinos base archetype.",
   "species": "Allosaurus",
   "rarity": "Rare",
+  "element": "Tide",
+  "image": "ipfs://REPLACE/42.png",
   "visual": {
     "palette": "Abyss",
     "description": "Allosaurus with midnight navy scales with luminous blue accents, dark limb gradients, weathered copper armor plates, and metal collar with a simple round emblem",
     "arena": "desert fossil basin with windblown dust"
   },
+  "base_battle_stats": {
+    "health": 79,
+    "attack": 80,
+    "defense": 70,
+    "speed": 73
+  },
   "moves": [
     {
+      "slot": 1,
       "name": "Torrent Bite",
-      "power": 91
+      "base_power": 91
     },
     {
+      "slot": 2,
       "name": "Torrent Claw",
-      "power": 65
+      "base_power": 65
     },
     {
+      "slot": 3,
       "name": "Tidal Sprint Strike",
-      "power": 64
+      "base_power": 64
     }
   ],
+  "starting_state": {
+    "level": 1,
+    "xp": 0,
+    "evolution_stage": 0,
+    "mutations": []
+  },
   "image_prompt": "Premium stylized 3D battle dinosaur collectible, designed as a consistent character collection. Full-body dinosaur centered in a powerful three-quarter battle stance, entire body visible from head to feet and tail, strong readable silhouette, oversized expressive eyes with fierce personality, chunky stylized anatomy, detailed scales, polished game-cinematic materials, dramatic rim lighting, high-end animated feature-film quality, collectible game character aesthetic, slightly exaggerated proportions, bold armor and accessory shapes when present, rich color contrast, crisp texture detail, atmospheric prehistoric arena environment, shallow cinematic depth of field, dynamic but uncluttered background, no text, no logos, no UI, no frame, no humans, no duplicate dinosaurs, square 1:1 composition. Keep the visual language consistent across the entire collection while making each dinosaur clearly unique. Character: Duskstalker, a Allosaurus with midnight navy scales with luminous blue accents, dark limb gradients, weathered copper armor plates, and metal collar with a simple round emblem. Pose with confident battle-ready personality in a desert fossil basin with windblown dust. Do not depict attacks, powers, text, numbers, or other combatants."
 }

@@ -1,0 +1,53 @@
+{
+  "token_id": 16712,
+  "base_id": 172,
+  "name": "Runemaw",
+  "edition": 132,
+  "edition_supply": 177,
+  "edition_label": "132/177",
+  "finish": "standard",
+  "species": "Ankylosaurus",
+  "rarity": "Common",
+  "element": "Void",
+  "image": "ipfs://REPLACE/172.png",
+  "genetics": {
+    "health": 1.0283,
+    "attack": 0.9949,
+    "defense": 1.028,
+    "speed": 0.978,
+    "move_1": 0.9999,
+    "move_2": 0.9249,
+    "move_3": 0.9551
+  },
+  "battle_stats": {
+    "health": 99,
+    "attack": 63,
+    "defense": 100,
+    "speed": 32
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Rift Tail Club",
+      "power": 83
+    },
+    {
+      "slot": 2,
+      "name": "Rift Shell",
+      "power": 71
+    },
+    {
+      "slot": 3,
+      "name": "Null Ram",
+      "power": 83
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

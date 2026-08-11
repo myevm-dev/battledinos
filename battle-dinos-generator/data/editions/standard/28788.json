@@ -1,0 +1,53 @@
+{
+  "token_id": 28788,
+  "base_id": 289,
+  "name": "Titanrunner",
+  "edition": 94,
+  "edition_supply": 107,
+  "edition_label": "94/107",
+  "finish": "standard",
+  "species": "Utahraptor",
+  "rarity": "Common",
+  "element": "Ember",
+  "image": "ipfs://REPLACE/289.png",
+  "genetics": {
+    "health": 1.0329,
+    "attack": 0.9544,
+    "defense": 1.0093,
+    "speed": 0.9657,
+    "move_1": 1.0518,
+    "move_2": 1.0512,
+    "move_3": 0.9324
+  },
+  "battle_stats": {
+    "health": 74,
+    "attack": 80,
+    "defense": 63,
+    "speed": 85
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Magma Talon",
+      "power": 83
+    },
+    {
+      "slot": 2,
+      "name": "Cinder Pounce",
+      "power": 59
+    },
+    {
+      "slot": 3,
+      "name": "Inferno Fakeout",
+      "power": 65
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

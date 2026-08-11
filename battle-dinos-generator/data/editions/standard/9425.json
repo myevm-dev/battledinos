@@ -1,0 +1,53 @@
+{
+  "token_id": 9425,
+  "base_id": 98,
+  "name": "Grimrunner",
+  "edition": 35,
+  "edition_supply": 98,
+  "edition_label": "35/98",
+  "finish": "standard",
+  "species": "Carnotaurus",
+  "rarity": "Common",
+  "element": "Tide",
+  "image": "ipfs://REPLACE/98.png",
+  "genetics": {
+    "health": 0.9952,
+    "attack": 1.0447,
+    "defense": 0.9662,
+    "speed": 0.994,
+    "move_1": 1.063,
+    "move_2": 0.996,
+    "move_3": 0.9293
+  },
+  "battle_stats": {
+    "health": 73,
+    "attack": 93,
+    "defense": 59,
+    "speed": 83
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Aqua Horn Strike",
+      "power": 83
+    },
+    {
+      "slot": 2,
+      "name": "Riptide Sprint Strike",
+      "power": 48
+    },
+    {
+      "slot": 3,
+      "name": "Tidal Chomp",
+      "power": 46
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

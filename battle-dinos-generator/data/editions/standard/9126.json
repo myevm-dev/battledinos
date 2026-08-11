@@ -1,0 +1,53 @@
+{
+  "token_id": 9126,
+  "base_id": 95,
+  "name": "Duskhorn",
+  "edition": 21,
+  "edition_supply": 38,
+  "edition_label": "21/38",
+  "finish": "standard",
+  "species": "Iguanodon",
+  "rarity": "Epic",
+  "element": "Primal",
+  "image": "ipfs://REPLACE/95.png",
+  "genetics": {
+    "health": 0.9555,
+    "attack": 1.0431,
+    "defense": 1.037,
+    "speed": 0.9894,
+    "move_1": 0.9444,
+    "move_2": 0.9321,
+    "move_3": 1.0446
+  },
+  "battle_stats": {
+    "health": 78,
+    "attack": 71,
+    "defense": 80,
+    "speed": 65
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Savage Spike Jab",
+      "power": 45
+    },
+    {
+      "slot": 2,
+      "name": "Alpha Rush",
+      "power": 57
+    },
+    {
+      "slot": 3,
+      "name": "Primal Guard",
+      "power": 53
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

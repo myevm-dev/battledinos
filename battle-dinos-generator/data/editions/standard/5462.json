@@ -1,0 +1,53 @@
+{
+  "token_id": 5462,
+  "base_id": 54,
+  "name": "Pyrecrusher",
+  "edition": 3,
+  "edition_supply": 5,
+  "edition_label": "3/5",
+  "finish": "standard",
+  "species": "Parasaurolophus",
+  "rarity": "Legendary",
+  "element": "Primal",
+  "image": "ipfs://REPLACE/54.png",
+  "genetics": {
+    "health": 1.0144,
+    "attack": 0.9539,
+    "defense": 0.9765,
+    "speed": 0.9696,
+    "move_1": 1.0125,
+    "move_2": 0.9583,
+    "move_3": 0.967
+  },
+  "battle_stats": {
+    "health": 82,
+    "attack": 54,
+    "defense": 73,
+    "speed": 73
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Alpha Crest Call",
+      "power": 61
+    },
+    {
+      "slot": 2,
+      "name": "Wild Sprint Strike",
+      "power": 48
+    },
+    {
+      "slot": 3,
+      "name": "Primal Tail Slam",
+      "power": 44
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

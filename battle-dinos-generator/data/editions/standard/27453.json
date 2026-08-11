@@ -1,0 +1,53 @@
+{
+  "token_id": 27453,
+  "base_id": 276,
+  "name": "Pyrewarden",
+  "edition": 35,
+  "edition_supply": 85,
+  "edition_label": "35/85",
+  "finish": "standard",
+  "species": "Deinonychus",
+  "rarity": "Common",
+  "element": "Tide",
+  "image": "ipfs://REPLACE/276.png",
+  "genetics": {
+    "health": 1.0093,
+    "attack": 1.0224,
+    "defense": 0.9733,
+    "speed": 0.9963,
+    "move_1": 1.0006,
+    "move_2": 0.9384,
+    "move_3": 1.0333
+  },
+  "battle_stats": {
+    "health": 68,
+    "attack": 80,
+    "defense": 55,
+    "speed": 93
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Aqua Talon",
+      "power": 83
+    },
+    {
+      "slot": 2,
+      "name": "Tidal Ambush",
+      "power": 44
+    },
+    {
+      "slot": 3,
+      "name": "Torrent Blitz",
+      "power": 50
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

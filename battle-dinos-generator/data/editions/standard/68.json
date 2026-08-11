@@ -1,0 +1,53 @@
+{
+  "token_id": 68,
+  "base_id": 1,
+  "name": "Echoguard",
+  "edition": 68,
+  "edition_supply": 99,
+  "edition_label": "68/99",
+  "finish": "standard",
+  "species": "Allosaurus",
+  "rarity": "Common",
+  "element": "Primal",
+  "image": "ipfs://REPLACE/1.png",
+  "genetics": {
+    "health": 0.9845,
+    "attack": 1.0182,
+    "defense": 1.0201,
+    "speed": 1.0191,
+    "move_1": 1.0386,
+    "move_2": 0.9918,
+    "move_3": 1.0678
+  },
+  "battle_stats": {
+    "health": 79,
+    "attack": 82,
+    "defense": 71,
+    "speed": 73
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Primal Chomp",
+      "power": 81
+    },
+    {
+      "slot": 2,
+      "name": "Wild Claw",
+      "power": 45
+    },
+    {
+      "slot": 3,
+      "name": "Primal Rush",
+      "power": 67
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

@@ -1,0 +1,53 @@
+{
+  "token_id": 15506,
+  "base_id": 160,
+  "name": "Wildhorn",
+  "edition": 57,
+  "edition_supply": 62,
+  "edition_label": "57/62",
+  "finish": "standard",
+  "species": "Ceratosaurus",
+  "rarity": "Rare",
+  "element": "Primal",
+  "image": "ipfs://REPLACE/160.png",
+  "genetics": {
+    "health": 1.0201,
+    "attack": 1.0312,
+    "defense": 1.0304,
+    "speed": 1.0106,
+    "move_1": 1.0615,
+    "move_2": 1.0011,
+    "move_3": 0.9446
+  },
+  "battle_stats": {
+    "health": 81,
+    "attack": 82,
+    "defense": 69,
+    "speed": 73
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Alpha Horn Breaker",
+      "power": 63
+    },
+    {
+      "slot": 2,
+      "name": "Wild Bite",
+      "power": 73
+    },
+    {
+      "slot": 3,
+      "name": "Wild Bellow",
+      "power": 72
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

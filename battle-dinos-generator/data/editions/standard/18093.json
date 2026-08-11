@@ -1,0 +1,53 @@
+{
+  "token_id": 18093,
+  "base_id": 185,
+  "name": "Flinttail",
+  "edition": 145,
+  "edition_supply": 155,
+  "edition_label": "145/155",
+  "finish": "standard",
+  "species": "Carnotaurus",
+  "rarity": "Common",
+  "element": "Shadow",
+  "image": "ipfs://REPLACE/185.png",
+  "genetics": {
+    "health": 0.9918,
+    "attack": 1.0062,
+    "defense": 1.0312,
+    "speed": 1.0062,
+    "move_1": 1.072,
+    "move_2": 0.9776,
+    "move_3": 0.9564
+  },
+  "battle_stats": {
+    "health": 76,
+    "attack": 89,
+    "defense": 58,
+    "speed": 86
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Dusk Horn Breaker",
+      "power": 48
+    },
+    {
+      "slot": 2,
+      "name": "Shadow Blitz",
+      "power": 65
+    },
+    {
+      "slot": 3,
+      "name": "Shadow Bite",
+      "power": 73
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

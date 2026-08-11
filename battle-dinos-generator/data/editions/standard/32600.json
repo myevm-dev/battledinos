@@ -1,0 +1,53 @@
+{
+  "token_id": 32600,
+  "base_id": 326,
+  "name": "Mosswarden",
+  "edition": 56,
+  "edition_supply": 72,
+  "edition_label": "56/72",
+  "finish": "standard",
+  "species": "Parasaurolophus",
+  "rarity": "Rare",
+  "element": "Solar",
+  "image": "ipfs://REPLACE/326.png",
+  "genetics": {
+    "health": 1.0069,
+    "attack": 1.0362,
+    "defense": 1.0082,
+    "speed": 0.9567,
+    "move_1": 0.9368,
+    "move_2": 0.9716,
+    "move_3": 0.9734
+  },
+  "battle_stats": {
+    "health": 87,
+    "attack": 62,
+    "defense": 72,
+    "speed": 67
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Radiant Resonance",
+      "power": 82
+    },
+    {
+      "slot": 2,
+      "name": "Radiant Blitz",
+      "power": 76
+    },
+    {
+      "slot": 3,
+      "name": "Dawn Tail Slam",
+      "power": 91
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

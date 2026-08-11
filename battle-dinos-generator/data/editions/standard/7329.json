@@ -1,0 +1,53 @@
+{
+  "token_id": 7329,
+  "base_id": 74,
+  "name": "Sunreaver",
+  "edition": 105,
+  "edition_supply": 158,
+  "edition_label": "105/158",
+  "finish": "standard",
+  "species": "Stegosaurus",
+  "rarity": "Common",
+  "element": "Ember",
+  "image": "ipfs://REPLACE/74.png",
+  "genetics": {
+    "health": 1.0452,
+    "attack": 0.9987,
+    "defense": 1.012,
+    "speed": 1.008,
+    "move_1": 0.9549,
+    "move_2": 0.9336,
+    "move_3": 0.9523
+  },
+  "battle_stats": {
+    "health": 98,
+    "attack": 69,
+    "defense": 88,
+    "speed": 38
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Inferno Thagomizer",
+      "power": 69
+    },
+    {
+      "slot": 2,
+      "name": "Cinder Shell",
+      "power": 70
+    },
+    {
+      "slot": 3,
+      "name": "Inferno Tremor",
+      "power": 47
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

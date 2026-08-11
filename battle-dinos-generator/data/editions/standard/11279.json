@@ -1,0 +1,53 @@
+{
+  "token_id": 11279,
+  "base_id": 117,
+  "name": "Riftbane",
+  "edition": 79,
+  "edition_supply": 84,
+  "edition_label": "79/84",
+  "finish": "standard",
+  "species": "Stegosaurus",
+  "rarity": "Common",
+  "element": "Ember",
+  "image": "ipfs://REPLACE/117.png",
+  "genetics": {
+    "health": 0.9628,
+    "attack": 1.0402,
+    "defense": 1.0307,
+    "speed": 0.9916,
+    "move_1": 1.0333,
+    "move_2": 0.9762,
+    "move_3": 1.0052
+  },
+  "battle_stats": {
+    "health": 89,
+    "attack": 68,
+    "defense": 91,
+    "speed": 42
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Inferno Thagomizer",
+      "power": 59
+    },
+    {
+      "slot": 2,
+      "name": "Flare Shell",
+      "power": 62
+    },
+    {
+      "slot": 3,
+      "name": "Flare Groundbreak",
+      "power": 63
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

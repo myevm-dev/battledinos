@@ -1,0 +1,53 @@
+{
+  "token_id": 14879,
+  "base_id": 154,
+  "name": "Ironback",
+  "edition": 26,
+  "edition_supply": 72,
+  "edition_label": "26/72",
+  "finish": "standard",
+  "species": "Deinonychus",
+  "rarity": "Rare",
+  "element": "Void",
+  "image": "ipfs://REPLACE/154.png",
+  "genetics": {
+    "health": 0.9606,
+    "attack": 1.0425,
+    "defense": 0.9575,
+    "speed": 1.0202,
+    "move_1": 1.0668,
+    "move_2": 1.0566,
+    "move_3": 1.0718
+  },
+  "battle_stats": {
+    "health": 64,
+    "attack": 79,
+    "defense": 56,
+    "speed": 95
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Abyss Rake",
+      "power": 59
+    },
+    {
+      "slot": 2,
+      "name": "Abyss Pounce",
+      "power": 49
+    },
+    {
+      "slot": 3,
+      "name": "Void Sprint Strike",
+      "power": 99
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

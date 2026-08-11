@@ -1,0 +1,53 @@
+{
+  "token_id": 12576,
+  "base_id": 133,
+  "name": "Scarletfang",
+  "edition": 111,
+  "edition_supply": 129,
+  "edition_label": "111/129",
+  "finish": "standard",
+  "species": "Parasaurolophus",
+  "rarity": "Uncommon",
+  "element": "Tide",
+  "image": "ipfs://REPLACE/133.png",
+  "genetics": {
+    "health": 0.9949,
+    "attack": 1.0392,
+    "defense": 1.0133,
+    "speed": 0.9885,
+    "move_1": 0.9997,
+    "move_2": 0.9518,
+    "move_3": 0.995
+  },
+  "battle_stats": {
+    "health": 80,
+    "attack": 59,
+    "defense": 73,
+    "speed": 75
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Tidal Crest Call",
+      "power": 85
+    },
+    {
+      "slot": 2,
+      "name": "Torrent Rush",
+      "power": 73
+    },
+    {
+      "slot": 3,
+      "name": "Riptide Tail Crash",
+      "power": 77
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

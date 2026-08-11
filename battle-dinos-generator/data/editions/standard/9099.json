@@ -1,0 +1,53 @@
+{
+  "token_id": 9099,
+  "base_id": 94,
+  "name": "Ivorybane",
+  "edition": 98,
+  "edition_supply": 104,
+  "edition_label": "98/104",
+  "finish": "standard",
+  "species": "Utahraptor",
+  "rarity": "Common",
+  "element": "Stone",
+  "image": "ipfs://REPLACE/94.png",
+  "genetics": {
+    "health": 1.0089,
+    "attack": 1.0396,
+    "defense": 1.0458,
+    "speed": 0.9914,
+    "move_1": 0.9759,
+    "move_2": 0.9485,
+    "move_3": 1.0416
+  },
+  "battle_stats": {
+    "health": 70,
+    "attack": 90,
+    "defense": 62,
+    "speed": 89
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Granite Claw",
+      "power": 64
+    },
+    {
+      "slot": 2,
+      "name": "Stone Leap",
+      "power": 88
+    },
+    {
+      "slot": 3,
+      "name": "Quake Sidestep",
+      "power": 50
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

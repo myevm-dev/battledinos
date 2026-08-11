@@ -1,0 +1,53 @@
+{
+  "token_id": 22073,
+  "base_id": 224,
+  "name": "Flinttalon",
+  "edition": 10,
+  "edition_supply": 19,
+  "edition_label": "10/19",
+  "finish": "standard",
+  "species": "Therizinosaurus",
+  "rarity": "Legendary",
+  "element": "Ember",
+  "image": "ipfs://REPLACE/224.png",
+  "genetics": {
+    "health": 0.9624,
+    "attack": 1.0153,
+    "defense": 1.0451,
+    "speed": 1.0207,
+    "move_1": 0.9555,
+    "move_2": 1.0512,
+    "move_3": 1.0318
+  },
+  "battle_stats": {
+    "health": 74,
+    "attack": 88,
+    "defense": 71,
+    "speed": 72
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Flare Rake",
+      "power": 71
+    },
+    {
+      "slot": 2,
+      "name": "Flare Shell",
+      "power": 88
+    },
+    {
+      "slot": 3,
+      "name": "Cinder Crosscut",
+      "power": 55
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

@@ -1,0 +1,53 @@
+{
+  "token_id": 8119,
+  "base_id": 85,
+  "name": "Ivoryhide",
+  "edition": 19,
+  "edition_supply": 180,
+  "edition_label": "19/180",
+  "finish": "standard",
+  "species": "Iguanodon",
+  "rarity": "Common",
+  "element": "Tide",
+  "image": "ipfs://REPLACE/85.png",
+  "genetics": {
+    "health": 1.0161,
+    "attack": 1.0228,
+    "defense": 1.0103,
+    "speed": 0.9733,
+    "move_1": 1.0387,
+    "move_2": 1.0698,
+    "move_3": 0.9396
+  },
+  "battle_stats": {
+    "health": 81,
+    "attack": 72,
+    "defense": 78,
+    "speed": 64
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Tidal Thumb Spike",
+      "power": 84
+    },
+    {
+      "slot": 2,
+      "name": "Aqua Sprint Strike",
+      "power": 61
+    },
+    {
+      "slot": 3,
+      "name": "Riptide Guard",
+      "power": 86
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

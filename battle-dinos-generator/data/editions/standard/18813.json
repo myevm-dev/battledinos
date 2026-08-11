@@ -1,0 +1,53 @@
+{
+  "token_id": 18813,
+  "base_id": 191,
+  "name": "Copperstalker",
+  "edition": 105,
+  "edition_supply": 131,
+  "edition_label": "105/131",
+  "finish": "standard",
+  "species": "Dilophosaurus",
+  "rarity": "Common",
+  "element": "Shadow",
+  "image": "ipfs://REPLACE/191.png",
+  "genetics": {
+    "health": 0.9649,
+    "attack": 0.9831,
+    "defense": 0.9755,
+    "speed": 0.9987,
+    "move_1": 1.0789,
+    "move_2": 0.9823,
+    "move_3": 0.9273
+  },
+  "battle_stats": {
+    "health": 64,
+    "attack": 72,
+    "defense": 54,
+    "speed": 91
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Phantom Crest Call",
+      "power": 101
+    },
+    {
+      "slot": 2,
+      "name": "Dusk Feint",
+      "power": 91
+    },
+    {
+      "slot": 3,
+      "name": "Phantom Jaw",
+      "power": 50
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

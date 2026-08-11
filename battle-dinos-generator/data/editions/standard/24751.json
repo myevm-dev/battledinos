@@ -1,0 +1,53 @@
+{
+  "token_id": 24751,
+  "base_id": 251,
+  "name": "Venomstalker",
+  "edition": 101,
+  "edition_supply": 167,
+  "edition_label": "101/167",
+  "finish": "standard",
+  "species": "Therizinosaurus",
+  "rarity": "Common",
+  "element": "Void",
+  "image": "ipfs://REPLACE/251.png",
+  "genetics": {
+    "health": 1.0336,
+    "attack": 0.9619,
+    "defense": 1.0402,
+    "speed": 1.005,
+    "move_1": 1.0425,
+    "move_2": 0.9982,
+    "move_3": 1.0208
+  },
+  "battle_stats": {
+    "health": 80,
+    "attack": 83,
+    "defense": 68,
+    "speed": 75
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Rift Claw",
+      "power": 70
+    },
+    {
+      "slot": 2,
+      "name": "Abyss Bulwark",
+      "power": 56
+    },
+    {
+      "slot": 3,
+      "name": "Rift Backhand",
+      "power": 48
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

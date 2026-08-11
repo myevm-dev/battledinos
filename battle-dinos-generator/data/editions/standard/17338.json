@@ -1,0 +1,53 @@
+{
+  "token_id": 17338,
+  "base_id": 180,
+  "name": "Dustroar",
+  "edition": 32,
+  "edition_supply": 136,
+  "edition_label": "32/136",
+  "finish": "standard",
+  "species": "Iguanodon",
+  "rarity": "Common",
+  "element": "Shadow",
+  "image": "ipfs://REPLACE/180.png",
+  "genetics": {
+    "health": 0.9953,
+    "attack": 1.0497,
+    "defense": 0.9732,
+    "speed": 0.9547,
+    "move_1": 0.9228,
+    "move_2": 1.024,
+    "move_3": 0.9408
+  },
+  "battle_stats": {
+    "health": 84,
+    "attack": 71,
+    "defense": 76,
+    "speed": 62
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Shadow Spike Jab",
+      "power": 63
+    },
+    {
+      "slot": 2,
+      "name": "Dusk Blitz",
+      "power": 75
+    },
+    {
+      "slot": 3,
+      "name": "Night Bulwark",
+      "power": 89
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

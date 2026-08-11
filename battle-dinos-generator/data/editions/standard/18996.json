@@ -1,0 +1,53 @@
+{
+  "token_id": 18996,
+  "base_id": 193,
+  "name": "Runecrest",
+  "edition": 30,
+  "edition_supply": 121,
+  "edition_label": "30/121",
+  "finish": "standard",
+  "species": "Deinonychus",
+  "rarity": "Common",
+  "element": "Storm",
+  "image": "ipfs://REPLACE/193.png",
+  "genetics": {
+    "health": 0.9725,
+    "attack": 0.9665,
+    "defense": 1.0123,
+    "speed": 1.0157,
+    "move_1": 1.0238,
+    "move_2": 1.0281,
+    "move_3": 0.9749
+  },
+  "battle_stats": {
+    "health": 67,
+    "attack": 74,
+    "defense": 61,
+    "speed": 91
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Lightning Claw",
+      "power": 59
+    },
+    {
+      "slot": 2,
+      "name": "Static Leap",
+      "power": 71
+    },
+    {
+      "slot": 3,
+      "name": "Tempest Sprint Strike",
+      "power": 61
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

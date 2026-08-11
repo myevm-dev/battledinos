@@ -1,28 +1,44 @@
 {
+  "base_id": 176,
   "name": "Echoscar",
-  "description": "Common Spinosaurus from the Battle Dinos Genesis 333 collection.",
-  "image": "ipfs://REPLACE/176.png",
-  "token_id": 176,
+  "description": "Common Spinosaurus Battle Dinos base archetype.",
   "species": "Spinosaurus",
   "rarity": "Common",
+  "element": "Frost",
+  "image": "ipfs://REPLACE/176.png",
   "visual": {
     "palette": "Toxic",
     "description": "Spinosaurus with dark olive scales with luminous chartreuse accents, tiger-like flank stripes, bronze gladiator harness, and leather neck wrap",
     "arena": "ancient stone-ring arena reclaimed by jungle"
   },
+  "base_battle_stats": {
+    "health": 81,
+    "attack": 86,
+    "defense": 69,
+    "speed": 70
+  },
   "moves": [
     {
+      "slot": 1,
       "name": "Frost Jaw",
-      "power": 50
+      "base_power": 50
     },
     {
+      "slot": 2,
       "name": "Frost Sail Burst",
-      "power": 83
+      "base_power": 83
     },
     {
+      "slot": 3,
       "name": "Glacier Crosscut",
-      "power": 48
+      "base_power": 48
     }
   ],
+  "starting_state": {
+    "level": 1,
+    "xp": 0,
+    "evolution_stage": 0,
+    "mutations": []
+  },
   "image_prompt": "Premium stylized 3D battle dinosaur collectible, designed as a consistent character collection. Full-body dinosaur centered in a powerful three-quarter battle stance, entire body visible from head to feet and tail, strong readable silhouette, oversized expressive eyes with fierce personality, chunky stylized anatomy, detailed scales, polished game-cinematic materials, dramatic rim lighting, high-end animated feature-film quality, collectible game character aesthetic, slightly exaggerated proportions, bold armor and accessory shapes when present, rich color contrast, crisp texture detail, atmospheric prehistoric arena environment, shallow cinematic depth of field, dynamic but uncluttered background, no text, no logos, no UI, no frame, no humans, no duplicate dinosaurs, square 1:1 composition. Keep the visual language consistent across the entire collection while making each dinosaur clearly unique. Character: Echoscar, a Spinosaurus with dark olive scales with luminous chartreuse accents, tiger-like flank stripes, bronze gladiator harness, and leather neck wrap. Pose with confident battle-ready personality in a ancient stone-ring arena reclaimed by jungle. Do not depict attacks, powers, text, numbers, or other combatants."
 }

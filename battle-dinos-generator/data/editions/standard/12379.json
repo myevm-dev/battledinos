@@ -1,0 +1,53 @@
+{
+  "token_id": 12379,
+  "base_id": 132,
+  "name": "Wildroar",
+  "edition": 50,
+  "edition_supply": 136,
+  "edition_label": "50/136",
+  "finish": "standard",
+  "species": "Styracosaurus",
+  "rarity": "Common",
+  "element": "Solar",
+  "image": "ipfs://REPLACE/132.png",
+  "genetics": {
+    "health": 0.9667,
+    "attack": 1.0474,
+    "defense": 0.96,
+    "speed": 0.9634,
+    "move_1": 0.9358,
+    "move_2": 1.0573,
+    "move_3": 1.0086
+  },
+  "battle_stats": {
+    "health": 83,
+    "attack": 86,
+    "defense": 82,
+    "speed": 48
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Sun Gore",
+      "power": 51
+    },
+    {
+      "slot": 2,
+      "name": "Sun Stampede",
+      "power": 73
+    },
+    {
+      "slot": 3,
+      "name": "Radiant Bulwark",
+      "power": 90
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

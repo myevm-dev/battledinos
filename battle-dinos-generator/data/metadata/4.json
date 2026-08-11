@@ -1,28 +1,44 @@
 {
+  "base_id": 4,
   "name": "Ashfang",
-  "description": "Uncommon Ceratosaurus from the Battle Dinos Genesis 333 collection.",
-  "image": "ipfs://REPLACE/4.png",
-  "token_id": 4,
+  "description": "Uncommon Ceratosaurus Battle Dinos base archetype.",
   "species": "Ceratosaurus",
   "rarity": "Uncommon",
+  "element": "Void",
+  "image": "ipfs://REPLACE/4.png",
   "visual": {
     "palette": "Arctic",
     "description": "Ceratosaurus with pale blue-white scales with slate markings, high-contrast facial mask, bone-and-leather battle harness, and metal collar with a simple round emblem",
     "arena": "swamp arena with cypress roots and drifting mist"
   },
+  "base_battle_stats": {
+    "health": 80,
+    "attack": 81,
+    "defense": 63,
+    "speed": 76
+  },
   "moves": [
     {
+      "slot": 1,
       "name": "Null Horn Breaker",
-      "power": 89
+      "base_power": 89
     },
     {
+      "slot": 2,
       "name": "Rift Jaw",
-      "power": 50
+      "base_power": 50
     },
     {
+      "slot": 3,
       "name": "Abyss Bellow",
-      "power": 49
+      "base_power": 49
     }
   ],
+  "starting_state": {
+    "level": 1,
+    "xp": 0,
+    "evolution_stage": 0,
+    "mutations": []
+  },
   "image_prompt": "Premium stylized 3D battle dinosaur collectible, designed as a consistent character collection. Full-body dinosaur centered in a powerful three-quarter battle stance, entire body visible from head to feet and tail, strong readable silhouette, oversized expressive eyes with fierce personality, chunky stylized anatomy, detailed scales, polished game-cinematic materials, dramatic rim lighting, high-end animated feature-film quality, collectible game character aesthetic, slightly exaggerated proportions, bold armor and accessory shapes when present, rich color contrast, crisp texture detail, atmospheric prehistoric arena environment, shallow cinematic depth of field, dynamic but uncluttered background, no text, no logos, no UI, no frame, no humans, no duplicate dinosaurs, square 1:1 composition. Keep the visual language consistent across the entire collection while making each dinosaur clearly unique. Character: Ashfang, a Ceratosaurus with pale blue-white scales with slate markings, high-contrast facial mask, bone-and-leather battle harness, and metal collar with a simple round emblem. Pose with confident battle-ready personality in a swamp arena with cypress roots and drifting mist. Do not depict attacks, powers, text, numbers, or other combatants."
 }

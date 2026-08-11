@@ -1,0 +1,53 @@
+{
+  "token_id": 5166,
+  "base_id": 51,
+  "name": "Dusttalon",
+  "edition": 20,
+  "edition_supply": 129,
+  "edition_label": "20/129",
+  "finish": "standard",
+  "species": "Giganotosaurus",
+  "rarity": "Uncommon",
+  "element": "Solar",
+  "image": "ipfs://REPLACE/51.png",
+  "genetics": {
+    "health": 0.9754,
+    "attack": 0.9596,
+    "defense": 1.0237,
+    "speed": 1.0487,
+    "move_1": 0.9969,
+    "move_2": 0.9236,
+    "move_3": 0.9304
+  },
+  "battle_stats": {
+    "health": 83,
+    "attack": 90,
+    "defense": 73,
+    "speed": 65
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Dawn Bite",
+      "power": 92
+    },
+    {
+      "slot": 2,
+      "name": "Dawn Roar",
+      "power": 60
+    },
+    {
+      "slot": 3,
+      "name": "Solar Rush",
+      "power": 60
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

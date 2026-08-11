@@ -1,0 +1,53 @@
+{
+  "token_id": 13446,
+  "base_id": 141,
+  "name": "Novaripper",
+  "edition": 72,
+  "edition_supply": 176,
+  "edition_label": "72/176",
+  "finish": "standard",
+  "species": "Carnotaurus",
+  "rarity": "Common",
+  "element": "Frost",
+  "image": "ipfs://REPLACE/141.png",
+  "genetics": {
+    "health": 1.0033,
+    "attack": 0.9676,
+    "defense": 1.0265,
+    "speed": 1.0097,
+    "move_1": 1.0632,
+    "move_2": 1.0301,
+    "move_3": 1.0744
+  },
+  "battle_stats": {
+    "health": 74,
+    "attack": 82,
+    "defense": 62,
+    "speed": 87
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Winter Horn Breaker",
+      "power": 50
+    },
+    {
+      "slot": 2,
+      "name": "Ice Blitz",
+      "power": 97
+    },
+    {
+      "slot": 3,
+      "name": "Glacier Jaw",
+      "power": 58
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

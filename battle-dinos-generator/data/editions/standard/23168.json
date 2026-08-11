@@ -1,0 +1,53 @@
+{
+  "token_id": 23168,
+  "base_id": 235,
+  "name": "Razorhide",
+  "edition": 119,
+  "edition_supply": 124,
+  "edition_label": "119/124",
+  "finish": "standard",
+  "species": "Spinosaurus",
+  "rarity": "Common",
+  "element": "Solar",
+  "image": "ipfs://REPLACE/235.png",
+  "genetics": {
+    "health": 0.9594,
+    "attack": 1.0183,
+    "defense": 0.961,
+    "speed": 1.0367,
+    "move_1": 0.9691,
+    "move_2": 0.9584,
+    "move_3": 0.922
+  },
+  "battle_stats": {
+    "health": 77,
+    "attack": 85,
+    "defense": 66,
+    "speed": 74
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Sun Bite",
+      "power": 46
+    },
+    {
+      "slot": 2,
+      "name": "Dawn Sail Burst",
+      "power": 56
+    },
+    {
+      "slot": 3,
+      "name": "Dawn Backhand",
+      "power": 53
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

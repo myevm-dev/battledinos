@@ -1,0 +1,53 @@
+{
+  "token_id": 9826,
+  "base_id": 102,
+  "name": "Venomclaw",
+  "edition": 6,
+  "edition_supply": 105,
+  "edition_label": "6/105",
+  "finish": "standard",
+  "species": "Suchomimus",
+  "rarity": "Uncommon",
+  "element": "Solar",
+  "image": "ipfs://REPLACE/102.png",
+  "genetics": {
+    "health": 1.0474,
+    "attack": 1.022,
+    "defense": 1.0485,
+    "speed": 0.9747,
+    "move_1": 0.9515,
+    "move_2": 1.0361,
+    "move_3": 1.0721
+  },
+  "battle_stats": {
+    "health": 84,
+    "attack": 87,
+    "defense": 68,
+    "speed": 70
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Radiant Rake",
+      "power": 75
+    },
+    {
+      "slot": 2,
+      "name": "Dawn Chomp",
+      "power": 88
+    },
+    {
+      "slot": 3,
+      "name": "Dawn Lunge",
+      "power": 48
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

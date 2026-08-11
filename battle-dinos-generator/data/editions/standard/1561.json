@@ -1,0 +1,53 @@
+{
+  "token_id": 1561,
+  "base_id": 15,
+  "name": "Onyxroar",
+  "edition": 110,
+  "edition_supply": 143,
+  "edition_label": "110/143",
+  "finish": "standard",
+  "species": "Stegosaurus",
+  "rarity": "Common",
+  "element": "Primal",
+  "image": "ipfs://REPLACE/15.png",
+  "genetics": {
+    "health": 0.9613,
+    "attack": 1.004,
+    "defense": 0.9994,
+    "speed": 0.9547,
+    "move_1": 1.0405,
+    "move_2": 1.0349,
+    "move_3": 1.0212
+  },
+  "battle_stats": {
+    "health": 86,
+    "attack": 70,
+    "defense": 87,
+    "speed": 41
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Wild Tail Spike",
+      "power": 83
+    },
+    {
+      "slot": 2,
+      "name": "Wild Bulwark",
+      "power": 82
+    },
+    {
+      "slot": 3,
+      "name": "Alpha Groundbreak",
+      "power": 65
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

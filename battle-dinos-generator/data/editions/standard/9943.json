@@ -1,0 +1,53 @@
+{
+  "token_id": 9943,
+  "base_id": 103,
+  "name": "Boulderhorn",
+  "edition": 18,
+  "edition_supply": 116,
+  "edition_label": "18/116",
+  "finish": "standard",
+  "species": "Carnotaurus",
+  "rarity": "Common",
+  "element": "Ember",
+  "image": "ipfs://REPLACE/103.png",
+  "genetics": {
+    "health": 0.9814,
+    "attack": 1.0455,
+    "defense": 0.9638,
+    "speed": 0.9723,
+    "move_1": 1.0353,
+    "move_2": 1.0043,
+    "move_3": 0.9286
+  },
+  "battle_stats": {
+    "health": 73,
+    "attack": 89,
+    "defense": 57,
+    "speed": 86
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Cinder Horn Strike",
+      "power": 84
+    },
+    {
+      "slot": 2,
+      "name": "Cinder Sprint Strike",
+      "power": 66
+    },
+    {
+      "slot": 3,
+      "name": "Inferno Chomp",
+      "power": 48
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

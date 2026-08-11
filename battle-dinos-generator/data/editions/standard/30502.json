@@ -1,0 +1,53 @@
+{
+  "token_id": 30502,
+  "base_id": 304,
+  "name": "Ironrush",
+  "edition": 85,
+  "edition_supply": 118,
+  "edition_label": "85/118",
+  "finish": "standard",
+  "species": "Styracosaurus",
+  "rarity": "Common",
+  "element": "Primal",
+  "image": "ipfs://REPLACE/304.png",
+  "genetics": {
+    "health": 0.9743,
+    "attack": 1.0424,
+    "defense": 0.9522,
+    "speed": 1.0184,
+    "move_1": 1.021,
+    "move_2": 1.0111,
+    "move_3": 0.979
+  },
+  "battle_stats": {
+    "health": 85,
+    "attack": 83,
+    "defense": 83,
+    "speed": 49
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Savage Horn Strike",
+      "power": 55
+    },
+    {
+      "slot": 2,
+      "name": "Savage Stampede",
+      "power": 69
+    },
+    {
+      "slot": 3,
+      "name": "Alpha Shell",
+      "power": 91
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

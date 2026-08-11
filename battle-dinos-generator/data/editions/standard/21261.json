@@ -1,0 +1,53 @@
+{
+  "token_id": 21261,
+  "base_id": 213,
+  "name": "Embertail",
+  "edition": 14,
+  "edition_supply": 76,
+  "edition_label": "14/76",
+  "finish": "standard",
+  "species": "Allosaurus",
+  "rarity": "Common",
+  "element": "Ember",
+  "image": "ipfs://REPLACE/213.png",
+  "genetics": {
+    "health": 1.0077,
+    "attack": 1.0389,
+    "defense": 0.9807,
+    "speed": 1.0017,
+    "move_1": 0.9448,
+    "move_2": 0.9838,
+    "move_3": 1.0758
+  },
+  "battle_stats": {
+    "health": 78,
+    "attack": 90,
+    "defense": 63,
+    "speed": 76
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Cinder Jaw",
+      "power": 72
+    },
+    {
+      "slot": 2,
+      "name": "Magma Claw",
+      "power": 62
+    },
+    {
+      "slot": 3,
+      "name": "Cinder Blitz",
+      "power": 68
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

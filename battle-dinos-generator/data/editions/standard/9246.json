@@ -1,0 +1,53 @@
+{
+  "token_id": 9246,
+  "base_id": 97,
+  "name": "Thunderfang",
+  "edition": 21,
+  "edition_supply": 165,
+  "edition_label": "21/165",
+  "finish": "standard",
+  "species": "Stegosaurus",
+  "rarity": "Common",
+  "element": "Void",
+  "image": "ipfs://REPLACE/97.png",
+  "genetics": {
+    "health": 0.9661,
+    "attack": 1.0098,
+    "defense": 1.0487,
+    "speed": 1.0099,
+    "move_1": 0.9622,
+    "move_2": 0.9241,
+    "move_3": 0.9259
+  },
+  "battle_stats": {
+    "health": 88,
+    "attack": 73,
+    "defense": 89,
+    "speed": 38
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Abyss Tail Spike",
+      "power": 75
+    },
+    {
+      "slot": 2,
+      "name": "Void Guard",
+      "power": 69
+    },
+    {
+      "slot": 3,
+      "name": "Void Tremor",
+      "power": 79
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

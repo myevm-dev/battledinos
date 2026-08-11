@@ -1,0 +1,53 @@
+{
+  "token_id": 7543,
+  "base_id": 78,
+  "name": "Apexhorn",
+  "edition": 52,
+  "edition_supply": 95,
+  "edition_label": "52/95",
+  "finish": "standard",
+  "species": "Dilophosaurus",
+  "rarity": "Common",
+  "element": "Ember",
+  "image": "ipfs://REPLACE/78.png",
+  "genetics": {
+    "health": 0.9607,
+    "attack": 0.9844,
+    "defense": 1.0312,
+    "speed": 0.9832,
+    "move_1": 0.9205,
+    "move_2": 0.9497,
+    "move_3": 1.0655
+  },
+  "battle_stats": {
+    "health": 65,
+    "attack": 74,
+    "defense": 56,
+    "speed": 86
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Inferno Crest Call",
+      "power": 55
+    },
+    {
+      "slot": 2,
+      "name": "Flare Sidestep",
+      "power": 89
+    },
+    {
+      "slot": 3,
+      "name": "Flare Jaw",
+      "power": 94
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

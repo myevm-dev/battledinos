@@ -1,0 +1,53 @@
+{
+  "token_id": 8530,
+  "base_id": 89,
+  "name": "Suncrest",
+  "edition": 30,
+  "edition_supply": 106,
+  "edition_label": "30/106",
+  "finish": "standard",
+  "species": "Velociraptor",
+  "rarity": "Uncommon",
+  "element": "Stone",
+  "image": "ipfs://REPLACE/89.png",
+  "genetics": {
+    "health": 0.9778,
+    "attack": 0.9909,
+    "defense": 0.9986,
+    "speed": 1.0037,
+    "move_1": 0.9644,
+    "move_2": 0.974,
+    "move_3": 0.9722
+  },
+  "battle_stats": {
+    "health": 64,
+    "attack": 73,
+    "defense": 53,
+    "speed": 96
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Granite Talon",
+      "power": 50
+    },
+    {
+      "slot": 2,
+      "name": "Granite Ambush",
+      "power": 46
+    },
+    {
+      "slot": 3,
+      "name": "Stone Fakeout",
+      "power": 80
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

@@ -1,0 +1,53 @@
+{
+  "token_id": 16123,
+  "base_id": 167,
+  "name": "Obsidianrush",
+  "edition": 7,
+  "edition_supply": 102,
+  "edition_label": "7/102",
+  "finish": "standard",
+  "species": "Pachycephalosaurus",
+  "rarity": "Common",
+  "element": "Tide",
+  "image": "ipfs://REPLACE/167.png",
+  "genetics": {
+    "health": 0.9942,
+    "attack": 1.0445,
+    "defense": 0.992,
+    "speed": 1.0006,
+    "move_1": 0.9516,
+    "move_2": 1.0458,
+    "move_3": 0.9447
+  },
+  "battle_stats": {
+    "health": 84,
+    "attack": 77,
+    "defense": 71,
+    "speed": 70
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Riptide Headbutt",
+      "power": 59
+    },
+    {
+      "slot": 2,
+      "name": "Torrent Sprint Strike",
+      "power": 66
+    },
+    {
+      "slot": 3,
+      "name": "Aqua Groundbreak",
+      "power": 70
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

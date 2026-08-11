@@ -1,0 +1,53 @@
+{
+  "token_id": 1612,
+  "base_id": 16,
+  "name": "Titantooth",
+  "edition": 18,
+  "edition_supply": 81,
+  "edition_label": "18/81",
+  "finish": "standard",
+  "species": "Velociraptor",
+  "rarity": "Common",
+  "element": "Shadow",
+  "image": "ipfs://REPLACE/16.png",
+  "genetics": {
+    "health": 1.0392,
+    "attack": 1.0373,
+    "defense": 1.0162,
+    "speed": 0.9524,
+    "move_1": 1.0285,
+    "move_2": 1.0376,
+    "move_3": 1.0603
+  },
+  "battle_stats": {
+    "health": 70,
+    "attack": 82,
+    "defense": 52,
+    "speed": 87
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Phantom Rake",
+      "power": 53
+    },
+    {
+      "slot": 2,
+      "name": "Shadow Leap",
+      "power": 90
+    },
+    {
+      "slot": 3,
+      "name": "Phantom Sidestep",
+      "power": 94
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

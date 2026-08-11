@@ -1,0 +1,53 @@
+{
+  "token_id": 16577,
+  "base_id": 171,
+  "name": "Stormrage",
+  "edition": 58,
+  "edition_supply": 61,
+  "edition_label": "58/61",
+  "finish": "standard",
+  "species": "Dilophosaurus",
+  "rarity": "Uncommon",
+  "element": "Frost",
+  "image": "ipfs://REPLACE/171.png",
+  "genetics": {
+    "health": 0.974,
+    "attack": 1.0136,
+    "defense": 1.0178,
+    "speed": 1.0121,
+    "move_1": 1.0679,
+    "move_2": 0.9566,
+    "move_3": 1.0583
+  },
+  "battle_stats": {
+    "health": 67,
+    "attack": 74,
+    "defense": 55,
+    "speed": 89
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Winter Resonance",
+      "power": 72
+    },
+    {
+      "slot": 2,
+      "name": "Winter Sidestep",
+      "power": 62
+    },
+    {
+      "slot": 3,
+      "name": "Winter Chomp",
+      "power": 86
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

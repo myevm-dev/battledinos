@@ -1,0 +1,53 @@
+{
+  "token_id": 26310,
+  "base_id": 266,
+  "name": "Chromescar",
+  "edition": 20,
+  "edition_supply": 25,
+  "edition_label": "20/25",
+  "finish": "standard",
+  "species": "Parasaurolophus",
+  "rarity": "Epic",
+  "element": "Ember",
+  "image": "ipfs://REPLACE/266.png",
+  "genetics": {
+    "health": 1.0342,
+    "attack": 0.9599,
+    "defense": 1.0021,
+    "speed": 0.9537,
+    "move_1": 0.9547,
+    "move_2": 1.0001,
+    "move_3": 1.0367
+  },
+  "battle_stats": {
+    "health": 85,
+    "attack": 58,
+    "defense": 70,
+    "speed": 71
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Flare Resonance",
+      "power": 73
+    },
+    {
+      "slot": 2,
+      "name": "Cinder Blitz",
+      "power": 46
+    },
+    {
+      "slot": 3,
+      "name": "Inferno Tail Sweep",
+      "power": 76
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

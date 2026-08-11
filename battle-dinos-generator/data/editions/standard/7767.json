@@ -1,0 +1,53 @@
+{
+  "token_id": 7767,
+  "base_id": 81,
+  "name": "Titanbreaker",
+  "edition": 2,
+  "edition_supply": 29,
+  "edition_label": "2/29",
+  "finish": "standard",
+  "species": "Styracosaurus",
+  "rarity": "Rare",
+  "element": "Ember",
+  "image": "ipfs://REPLACE/81.png",
+  "genetics": {
+    "health": 1.0255,
+    "attack": 1.0492,
+    "defense": 0.9832,
+    "speed": 0.9746,
+    "move_1": 0.9536,
+    "move_2": 0.9482,
+    "move_3": 1.0421
+  },
+  "battle_stats": {
+    "health": 92,
+    "attack": 82,
+    "defense": 84,
+    "speed": 48
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Flare Horn Breaker",
+      "power": 88
+    },
+    {
+      "slot": 2,
+      "name": "Inferno Charge",
+      "power": 60
+    },
+    {
+      "slot": 3,
+      "name": "Flare Guard",
+      "power": 50
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

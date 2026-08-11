@@ -1,0 +1,53 @@
+{
+  "token_id": 31423,
+  "base_id": 314,
+  "name": "Scarlethorn",
+  "edition": 86,
+  "edition_supply": 156,
+  "edition_label": "86/156",
+  "finish": "standard",
+  "species": "Tyrannosaurus",
+  "rarity": "Common",
+  "element": "Shadow",
+  "image": "ipfs://REPLACE/314.png",
+  "genetics": {
+    "health": 0.9717,
+    "attack": 0.9806,
+    "defense": 0.9887,
+    "speed": 1.036,
+    "move_1": 1.0099,
+    "move_2": 1.0644,
+    "move_3": 1.0381
+  },
+  "battle_stats": {
+    "health": 87,
+    "attack": 87,
+    "defense": 75,
+    "speed": 53
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Dusk Bite",
+      "power": 96
+    },
+    {
+      "slot": 2,
+      "name": "Dusk Bellow",
+      "power": 64
+    },
+    {
+      "slot": 3,
+      "name": "Phantom Tail Crash",
+      "power": 79
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

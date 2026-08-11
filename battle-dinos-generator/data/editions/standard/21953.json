@@ -1,0 +1,53 @@
+{
+  "token_id": 21953,
+  "base_id": 222,
+  "name": "Flintmauler",
+  "edition": 30,
+  "edition_supply": 53,
+  "edition_label": "30/53",
+  "finish": "standard",
+  "species": "Carnotaurus",
+  "rarity": "Rare",
+  "element": "Frost",
+  "image": "ipfs://REPLACE/222.png",
+  "genetics": {
+    "health": 1.0426,
+    "attack": 0.9715,
+    "defense": 1.002,
+    "speed": 1.0347,
+    "move_1": 0.9307,
+    "move_2": 1.036,
+    "move_3": 1.0161
+  },
+  "battle_stats": {
+    "health": 80,
+    "attack": 87,
+    "defense": 57,
+    "speed": 85
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Glacier Horn Breaker",
+      "power": 60
+    },
+    {
+      "slot": 2,
+      "name": "Glacier Blitz",
+      "power": 74
+    },
+    {
+      "slot": 3,
+      "name": "Ice Bite",
+      "power": 70
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

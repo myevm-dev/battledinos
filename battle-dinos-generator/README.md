@@ -1,123 +1,65 @@
-# Battle Dinos Generator
+# Battle Dinos Metadata v2
 
-## 1. Put your metadata here
+This package upgrades the original 333 generated dinos into reusable base archetypes.
 
-Place the master metadata file at:
+## What changed
 
-data/battle_dinos_333.json
+Each base dino now has:
 
-The generator expects the JSON to contain:
+- `base_id`
+- `element`
+- `base_battle_stats`
+- exactly 3 moves using `base_power`
+- `starting_state`
+  - level 1
+  - XP 0
+  - evolution stage 0
+  - no mutations
 
-- `collection.style_prompt`
-- `dinos`
-- each dino's `token_id`, `name`, and `image_prompt`
+The original image, visual data, rarity, species, and image prompt are preserved.
 
-The existing Battle Dinos master JSON already has this structure.
+## Important architecture choice
 
-## 2. Install dependencies
+The 333 files are now BASE ARCHETYPES.
 
-```bash
-npm install
-```
+Do not store a player's live level, XP, evolution, or mutations directly on these shared files.
 
-## 3. Set your API key
-
-Copy `.env.example` to `.env`.
-
-Windows PowerShell:
-
-```powershell
-Copy-Item .env.example .env
-```
-
-Mac/Linux:
-
-```bash
-cp .env.example .env
-```
-
-Then open `.env` and replace:
+Future collectible editions will inherit from a base archetype:
 
 ```text
-OPENAI_API_KEY=replace_with_your_api_key
+Echoguard base #1
+  -> Echoguard 1/78
+  -> Echoguard 2/78
+  -> ...
+  -> Echoguard 78/78
 ```
 
-with your real OpenAI API key.
+Each edition will get:
 
-Do not commit `.env`.
+- its own token ID
+- its own genetics roll
+- slightly different battle stats
+- the same 3 move names
+- slightly different move powers
+- independent XP
+- independent evolution history
+- independent mutations
 
-## 4. Test only the first 5 dinos
+## Element reconstruction
 
-```bash
-npm run test:5
-```
+Elements were reconstructed from the elemental vocabulary already used when the original move names were generated.
 
-Generated files appear in:
+Examples:
 
-```text
-output/
-  1.png
-  2.png
-  3.png
-  4.png
-  5.png
-```
+- Primal / Wild / Savage / Alpha -> Primal
+- Riptide / Torrent / Tidal / Aqua -> Tide
+- Magma / Inferno / Cinder / Flare -> Ember
+- Thunder / Static / Tempest / Lightning -> Storm
 
-## 5. Generate all 333
+No new random element was assigned.
 
-```bash
-npm run generate
-```
+## Next step
 
-The default range is 1 through 333.
+Generate an edition manifest with varied supply by base archetype and a target standard-edition supply around 33,300.
 
-## Generate a custom range
-
-```bash
-node scripts/generate-images.mjs --start=100 --end=120
-```
-
-## Resume after stopping
-
-Run the same command again.
-
-Existing PNGs are skipped automatically, so the generator only creates missing images.
-
-## Regenerate existing images
-
-Set this in `.env`:
-
-```text
-OVERWRITE=true
-```
-
-Change it back to `false` when finished.
-
-## Quality
-
-The default is:
-
-```text
-IMAGE_QUALITY=medium
-```
-
-You can change it in `.env` to:
-
-```text
-IMAGE_QUALITY=low
-```
-
-or:
-
-```text
-IMAGE_QUALITY=high
-```
-
-## Logs
-
-Generation records are written to:
-
-```text
-logs/results.json
-logs/failures.json
-```
+Foils should be generated as a separate supply layer afterward.

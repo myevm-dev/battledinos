@@ -1,0 +1,53 @@
+{
+  "token_id": 30635,
+  "base_id": 307,
+  "name": "Dustrush",
+  "edition": 27,
+  "edition_supply": 113,
+  "edition_label": "27/113",
+  "finish": "standard",
+  "species": "Carnotaurus",
+  "rarity": "Common",
+  "element": "Shadow",
+  "image": "ipfs://REPLACE/307.png",
+  "genetics": {
+    "health": 1.0035,
+    "attack": 1.0164,
+    "defense": 1.0203,
+    "speed": 1.0408,
+    "move_1": 0.948,
+    "move_2": 0.9291,
+    "move_3": 1.0491
+  },
+  "battle_stats": {
+    "health": 74,
+    "attack": 87,
+    "defense": 62,
+    "speed": 88
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Night Horn Strike",
+      "power": 61
+    },
+    {
+      "slot": 2,
+      "name": "Shadow Blitz",
+      "power": 83
+    },
+    {
+      "slot": 3,
+      "name": "Night Bite",
+      "power": 83
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

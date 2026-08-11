@@ -1,0 +1,53 @@
+{
+  "token_id": 4615,
+  "base_id": 46,
+  "name": "Chromewarden",
+  "edition": 11,
+  "edition_supply": 70,
+  "edition_label": "11/70",
+  "finish": "standard",
+  "species": "Pachycephalosaurus",
+  "rarity": "Uncommon",
+  "element": "Venom",
+  "image": "ipfs://REPLACE/46.png",
+  "genetics": {
+    "health": 0.9684,
+    "attack": 0.9919,
+    "defense": 1.0188,
+    "speed": 1.0054,
+    "move_1": 1.0632,
+    "move_2": 0.9226,
+    "move_3": 0.9231
+  },
+  "battle_stats": {
+    "health": 75,
+    "attack": 74,
+    "defense": 79,
+    "speed": 70
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Venom Dome Crash",
+      "power": 69
+    },
+    {
+      "slot": 2,
+      "name": "Venom Rush",
+      "power": 84
+    },
+    {
+      "slot": 3,
+      "name": "Toxic Groundbreak",
+      "power": 63
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

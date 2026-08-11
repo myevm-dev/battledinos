@@ -1,0 +1,53 @@
+{
+  "token_id": 19423,
+  "base_id": 196,
+  "name": "Riftfang",
+  "edition": 61,
+  "edition_supply": 85,
+  "edition_label": "61/85",
+  "finish": "standard",
+  "species": "Velociraptor",
+  "rarity": "Rare",
+  "element": "Venom",
+  "image": "ipfs://REPLACE/196.png",
+  "genetics": {
+    "health": 1.0439,
+    "attack": 0.9678,
+    "defense": 0.9782,
+    "speed": 0.9514,
+    "move_1": 0.9465,
+    "move_2": 0.9599,
+    "move_3": 0.9326
+  },
+  "battle_stats": {
+    "health": 69,
+    "attack": 76,
+    "defense": 51,
+    "speed": 90
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Acid Claw",
+      "power": 78
+    },
+    {
+      "slot": 2,
+      "name": "Toxic Ambush",
+      "power": 45
+    },
+    {
+      "slot": 3,
+      "name": "Acid Feint",
+      "power": 58
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

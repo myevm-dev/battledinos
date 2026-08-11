@@ -1,28 +1,44 @@
 {
+  "base_id": 93,
   "name": "Obsidianreaver",
-  "description": "Epic Baryonyx from the Battle Dinos Genesis 333 collection.",
-  "image": "ipfs://REPLACE/93.png",
-  "token_id": 93,
+  "description": "Epic Baryonyx Battle Dinos base archetype.",
   "species": "Baryonyx",
   "rarity": "Epic",
+  "element": "Storm",
+  "image": "ipfs://REPLACE/93.png",
   "visual": {
     "palette": "Rose",
     "description": "Baryonyx with dusty rose scales with burgundy striping, marbled scale pattern, minimal reinforced neck guard, and one chipped horn or crest edge",
     "arena": "red-rock canyon arena at sunset"
   },
+  "base_battle_stats": {
+    "health": 78,
+    "attack": 81,
+    "defense": 64,
+    "speed": 76
+  },
   "moves": [
     {
+      "slot": 1,
       "name": "Tempest Rake",
-      "power": 87
+      "base_power": 87
     },
     {
+      "slot": 2,
       "name": "Lightning Jaw",
-      "power": 62
+      "base_power": 62
     },
     {
+      "slot": 3,
       "name": "Lightning River Rush",
-      "power": 45
+      "base_power": 45
     }
   ],
+  "starting_state": {
+    "level": 1,
+    "xp": 0,
+    "evolution_stage": 0,
+    "mutations": []
+  },
   "image_prompt": "Premium stylized 3D battle dinosaur collectible, designed as a consistent character collection. Full-body dinosaur centered in a powerful three-quarter battle stance, entire body visible from head to feet and tail, strong readable silhouette, oversized expressive eyes with fierce personality, chunky stylized anatomy, detailed scales, polished game-cinematic materials, dramatic rim lighting, high-end animated feature-film quality, collectible game character aesthetic, slightly exaggerated proportions, bold armor and accessory shapes when present, rich color contrast, crisp texture detail, atmospheric prehistoric arena environment, shallow cinematic depth of field, dynamic but uncluttered background, no text, no logos, no UI, no frame, no humans, no duplicate dinosaurs, square 1:1 composition. Keep the visual language consistent across the entire collection while making each dinosaur clearly unique. Character: Obsidianreaver, a Baryonyx with dusty rose scales with burgundy striping, marbled scale pattern, minimal reinforced neck guard, and one chipped horn or crest edge. Pose with confident battle-ready personality in a red-rock canyon arena at sunset. Do not depict attacks, powers, text, numbers, or other combatants."
 }

@@ -1,0 +1,53 @@
+{
+  "token_id": 15016,
+  "base_id": 156,
+  "name": "Jadeback",
+  "edition": 42,
+  "edition_supply": 117,
+  "edition_label": "42/117",
+  "finish": "standard",
+  "species": "Therizinosaurus",
+  "rarity": "Common",
+  "element": "Primal",
+  "image": "ipfs://REPLACE/156.png",
+  "genetics": {
+    "health": 0.9981,
+    "attack": 0.9583,
+    "defense": 1.0037,
+    "speed": 0.9553,
+    "move_1": 1.0339,
+    "move_2": 1.007,
+    "move_3": 0.9673
+  },
+  "battle_stats": {
+    "health": 74,
+    "attack": 85,
+    "defense": 66,
+    "speed": 69
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Wild Talon",
+      "power": 96
+    },
+    {
+      "slot": 2,
+      "name": "Primal Bulwark",
+      "power": 57
+    },
+    {
+      "slot": 3,
+      "name": "Savage Backhand",
+      "power": 71
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

@@ -1,0 +1,53 @@
+{
+  "token_id": 22103,
+  "base_id": 225,
+  "name": "Stormmauler",
+  "edition": 21,
+  "edition_supply": 179,
+  "edition_label": "21/179",
+  "finish": "standard",
+  "species": "Carnotaurus",
+  "rarity": "Common",
+  "element": "Stone",
+  "image": "ipfs://REPLACE/225.png",
+  "genetics": {
+    "health": 0.9503,
+    "attack": 0.9941,
+    "defense": 1.0145,
+    "speed": 1.0189,
+    "move_1": 0.9823,
+    "move_2": 1.0046,
+    "move_3": 1.0006
+  },
+  "battle_stats": {
+    "health": 71,
+    "attack": 84,
+    "defense": 62,
+    "speed": 84
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Granite Horn Strike",
+      "power": 61
+    },
+    {
+      "slot": 2,
+      "name": "Granite Sprint Strike",
+      "power": 49
+    },
+    {
+      "slot": 3,
+      "name": "Stone Jaw",
+      "power": 73
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

@@ -1,0 +1,53 @@
+{
+  "token_id": 11344,
+  "base_id": 119,
+  "name": "Irontail",
+  "edition": 10,
+  "edition_supply": 58,
+  "edition_label": "10/58",
+  "finish": "standard",
+  "species": "Ankylosaurus",
+  "rarity": "Uncommon",
+  "element": "Primal",
+  "image": "ipfs://REPLACE/119.png",
+  "genetics": {
+    "health": 0.9708,
+    "attack": 1.0382,
+    "defense": 1.0424,
+    "speed": 1.029,
+    "move_1": 1.0347,
+    "move_2": 0.9926,
+    "move_3": 0.9683
+  },
+  "battle_stats": {
+    "health": 94,
+    "attack": 67,
+    "defense": 98,
+    "speed": 36
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Alpha Tail Club",
+      "power": 93
+    },
+    {
+      "slot": 2,
+      "name": "Alpha Guard",
+      "power": 63
+    },
+    {
+      "slot": 3,
+      "name": "Savage Iron Rush",
+      "power": 66
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

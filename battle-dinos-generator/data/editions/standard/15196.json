@@ -1,0 +1,53 @@
+{
+  "token_id": 15196,
+  "base_id": 157,
+  "name": "Obsidianscar",
+  "edition": 105,
+  "edition_supply": 128,
+  "edition_label": "105/128",
+  "finish": "standard",
+  "species": "Velociraptor",
+  "rarity": "Common",
+  "element": "Stone",
+  "image": "ipfs://REPLACE/157.png",
+  "genetics": {
+    "health": 1.0403,
+    "attack": 0.9522,
+    "defense": 1.0101,
+    "speed": 0.9815,
+    "move_1": 1.0304,
+    "move_2": 0.9367,
+    "move_3": 1.0012
+  },
+  "battle_stats": {
+    "health": 63,
+    "attack": 73,
+    "defense": 58,
+    "speed": 92
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Quake Rake",
+      "power": 55
+    },
+    {
+      "slot": 2,
+      "name": "Granite Pounce",
+      "power": 43
+    },
+    {
+      "slot": 3,
+      "name": "Stone Feint",
+      "power": 46
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

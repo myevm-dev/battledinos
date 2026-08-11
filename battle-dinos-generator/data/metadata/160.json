@@ -1,28 +1,44 @@
 {
+  "base_id": 160,
   "name": "Wildhorn",
-  "description": "Rare Ceratosaurus from the Battle Dinos Genesis 333 collection.",
-  "image": "ipfs://REPLACE/160.png",
-  "token_id": 160,
+  "description": "Rare Ceratosaurus Battle Dinos base archetype.",
   "species": "Ceratosaurus",
   "rarity": "Rare",
+  "element": "Primal",
+  "image": "ipfs://REPLACE/160.png",
   "visual": {
     "palette": "Cobalt",
     "description": "Ceratosaurus with cobalt blue scales with icy cyan accents, broken dorsal bands, bone-and-leather battle harness, and small battle scars across the snout",
     "arena": "sunlit prehistoric jungle clearing"
   },
+  "base_battle_stats": {
+    "health": 79,
+    "attack": 80,
+    "defense": 67,
+    "speed": 72
+  },
   "moves": [
     {
+      "slot": 1,
       "name": "Alpha Horn Breaker",
-      "power": 59
+      "base_power": 59
     },
     {
+      "slot": 2,
       "name": "Wild Bite",
-      "power": 73
+      "base_power": 73
     },
     {
+      "slot": 3,
       "name": "Wild Bellow",
-      "power": 76
+      "base_power": 76
     }
   ],
+  "starting_state": {
+    "level": 1,
+    "xp": 0,
+    "evolution_stage": 0,
+    "mutations": []
+  },
   "image_prompt": "Premium stylized 3D battle dinosaur collectible, designed as a consistent character collection. Full-body dinosaur centered in a powerful three-quarter battle stance, entire body visible from head to feet and tail, strong readable silhouette, oversized expressive eyes with fierce personality, chunky stylized anatomy, detailed scales, polished game-cinematic materials, dramatic rim lighting, high-end animated feature-film quality, collectible game character aesthetic, slightly exaggerated proportions, bold armor and accessory shapes when present, rich color contrast, crisp texture detail, atmospheric prehistoric arena environment, shallow cinematic depth of field, dynamic but uncluttered background, no text, no logos, no UI, no frame, no humans, no duplicate dinosaurs, square 1:1 composition. Keep the visual language consistent across the entire collection while making each dinosaur clearly unique. Character: Wildhorn, a Ceratosaurus with cobalt blue scales with icy cyan accents, broken dorsal bands, bone-and-leather battle harness, and small battle scars across the snout. Pose with confident battle-ready personality in a sunlit prehistoric jungle clearing. Do not depict attacks, powers, text, numbers, or other combatants."
 }

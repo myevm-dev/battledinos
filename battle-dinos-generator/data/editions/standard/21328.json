@@ -1,0 +1,53 @@
+{
+  "token_id": 21328,
+  "base_id": 214,
+  "name": "Ghosthunter",
+  "edition": 5,
+  "edition_supply": 15,
+  "edition_label": "5/15",
+  "finish": "standard",
+  "species": "Carnotaurus",
+  "rarity": "Legendary",
+  "element": "Tide",
+  "image": "ipfs://REPLACE/214.png",
+  "genetics": {
+    "health": 1.032,
+    "attack": 1.0282,
+    "defense": 1.0018,
+    "speed": 1.0358,
+    "move_1": 1.021,
+    "move_2": 1.0433,
+    "move_3": 0.9263
+  },
+  "battle_stats": {
+    "health": 74,
+    "attack": 85,
+    "defense": 61,
+    "speed": 91
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Aqua Horn Strike",
+      "power": 96
+    },
+    {
+      "slot": 2,
+      "name": "Torrent Sprint Strike",
+      "power": 48
+    },
+    {
+      "slot": 3,
+      "name": "Torrent Jaw",
+      "power": 79
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

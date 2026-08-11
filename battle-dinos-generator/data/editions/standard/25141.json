@@ -1,0 +1,53 @@
+{
+  "token_id": 25141,
+  "base_id": 255,
+  "name": "Sunclaw",
+  "edition": 66,
+  "edition_supply": 117,
+  "edition_label": "66/117",
+  "finish": "standard",
+  "species": "Velociraptor",
+  "rarity": "Uncommon",
+  "element": "Venom",
+  "image": "ipfs://REPLACE/255.png",
+  "genetics": {
+    "health": 1.0091,
+    "attack": 1.0062,
+    "defense": 1.0395,
+    "speed": 1.0255,
+    "move_1": 0.9473,
+    "move_2": 0.9338,
+    "move_3": 1.0072
+  },
+  "battle_stats": {
+    "health": 66,
+    "attack": 75,
+    "defense": 58,
+    "speed": 95
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Viper Claw",
+      "power": 49
+    },
+    {
+      "slot": 2,
+      "name": "Venom Leap",
+      "power": 78
+    },
+    {
+      "slot": 3,
+      "name": "Venom Fakeout",
+      "power": 83
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

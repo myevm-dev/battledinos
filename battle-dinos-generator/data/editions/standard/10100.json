@@ -1,0 +1,53 @@
+{
+  "token_id": 10100,
+  "base_id": 104,
+  "name": "Vortexjaw",
+  "edition": 59,
+  "edition_supply": 89,
+  "edition_label": "59/89",
+  "finish": "standard",
+  "species": "Pachycephalosaurus",
+  "rarity": "Uncommon",
+  "element": "Ember",
+  "image": "ipfs://REPLACE/104.png",
+  "genetics": {
+    "health": 0.9707,
+    "attack": 0.9878,
+    "defense": 1.0443,
+    "speed": 0.9819,
+    "move_1": 0.9841,
+    "move_2": 0.9302,
+    "move_3": 0.9328
+  },
+  "battle_stats": {
+    "health": 81,
+    "attack": 76,
+    "defense": 77,
+    "speed": 67
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Flare Headbutt",
+      "power": 45
+    },
+    {
+      "slot": 2,
+      "name": "Magma Sprint Strike",
+      "power": 72
+    },
+    {
+      "slot": 3,
+      "name": "Inferno Groundbreak",
+      "power": 49
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

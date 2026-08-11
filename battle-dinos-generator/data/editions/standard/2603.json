@@ -1,0 +1,53 @@
+{
+  "token_id": 2603,
+  "base_id": 24,
+  "name": "Razortooth",
+  "edition": 55,
+  "edition_supply": 110,
+  "edition_label": "55/110",
+  "finish": "standard",
+  "species": "Stegosaurus",
+  "rarity": "Common",
+  "element": "Frost",
+  "image": "ipfs://REPLACE/24.png",
+  "genetics": {
+    "health": 1.0496,
+    "attack": 1.0293,
+    "defense": 0.962,
+    "speed": 0.9895,
+    "move_1": 1.0744,
+    "move_2": 0.965,
+    "move_3": 1.0332
+  },
+  "battle_stats": {
+    "health": 97,
+    "attack": 69,
+    "defense": 88,
+    "speed": 37
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Winter Thagomizer",
+      "power": 92
+    },
+    {
+      "slot": 2,
+      "name": "Frost Bulwark",
+      "power": 51
+    },
+    {
+      "slot": 3,
+      "name": "Ice Stomp",
+      "power": 91
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

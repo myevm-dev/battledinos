@@ -1,0 +1,53 @@
+{
+  "token_id": 20502,
+  "base_id": 205,
+  "name": "Frostripper",
+  "edition": 23,
+  "edition_supply": 105,
+  "edition_label": "23/105",
+  "finish": "standard",
+  "species": "Velociraptor",
+  "rarity": "Common",
+  "element": "Tide",
+  "image": "ipfs://REPLACE/205.png",
+  "genetics": {
+    "health": 0.9879,
+    "attack": 1.0489,
+    "defense": 1.0454,
+    "speed": 1.0043,
+    "move_1": 0.9273,
+    "move_2": 1.0517,
+    "move_3": 1.0532
+  },
+  "battle_stats": {
+    "health": 63,
+    "attack": 78,
+    "defense": 60,
+    "speed": 95
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Torrent Rake",
+      "power": 44
+    },
+    {
+      "slot": 2,
+      "name": "Riptide Pounce",
+      "power": 67
+    },
+    {
+      "slot": 3,
+      "name": "Tidal Feint",
+      "power": 73
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

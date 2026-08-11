@@ -1,0 +1,53 @@
+{
+  "token_id": 6782,
+  "base_id": 67,
+  "name": "Duskmauler",
+  "edition": 71,
+  "edition_supply": 81,
+  "edition_label": "71/81",
+  "finish": "standard",
+  "species": "Therizinosaurus",
+  "rarity": "Uncommon",
+  "element": "Frost",
+  "image": "ipfs://REPLACE/67.png",
+  "genetics": {
+    "health": 1.0102,
+    "attack": 1.0356,
+    "defense": 0.9843,
+    "speed": 0.9922,
+    "move_1": 0.9815,
+    "move_2": 0.9512,
+    "move_3": 1.0439
+  },
+  "battle_stats": {
+    "health": 77,
+    "attack": 97,
+    "defense": 61,
+    "speed": 70
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Winter Claw",
+      "power": 48
+    },
+    {
+      "slot": 2,
+      "name": "Glacier Guard",
+      "power": 84
+    },
+    {
+      "slot": 3,
+      "name": "Frost Crosscut",
+      "power": 62
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

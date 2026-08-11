@@ -1,0 +1,53 @@
+{
+  "token_id": 10149,
+  "base_id": 105,
+  "name": "Flintback",
+  "edition": 19,
+  "edition_supply": 104,
+  "edition_label": "19/104",
+  "finish": "standard",
+  "species": "Spinosaurus",
+  "rarity": "Common",
+  "element": "Venom",
+  "image": "ipfs://REPLACE/105.png",
+  "genetics": {
+    "health": 0.9684,
+    "attack": 1.0325,
+    "defense": 0.9943,
+    "speed": 0.9674,
+    "move_1": 1.0127,
+    "move_2": 1.0672,
+    "move_3": 1.0757
+  },
+  "battle_stats": {
+    "health": 78,
+    "attack": 86,
+    "defense": 73,
+    "speed": 66
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Venom Bite",
+      "power": 71
+    },
+    {
+      "slot": 2,
+      "name": "Venom Sail Burst",
+      "power": 92
+    },
+    {
+      "slot": 3,
+      "name": "Venom Crosscut",
+      "power": 49
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

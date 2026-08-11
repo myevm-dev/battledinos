@@ -1,0 +1,53 @@
+{
+  "token_id": 4162,
+  "base_id": 40,
+  "name": "Dustcrusher",
+  "edition": 26,
+  "edition_supply": 82,
+  "edition_label": "26/82",
+  "finish": "standard",
+  "species": "Carnotaurus",
+  "rarity": "Uncommon",
+  "element": "Void",
+  "image": "ipfs://REPLACE/40.png",
+  "genetics": {
+    "health": 0.9965,
+    "attack": 1.0233,
+    "defense": 0.9976,
+    "speed": 0.963,
+    "move_1": 1.0336,
+    "move_2": 1.0452,
+    "move_3": 1.005
+  },
+  "battle_stats": {
+    "health": 77,
+    "attack": 87,
+    "defense": 60,
+    "speed": 82
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Void Horn Breaker",
+      "power": 53
+    },
+    {
+      "slot": 2,
+      "name": "Rift Rush",
+      "power": 96
+    },
+    {
+      "slot": 3,
+      "name": "Null Bite",
+      "power": 79
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

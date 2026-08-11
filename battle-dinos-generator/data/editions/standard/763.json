@@ -1,0 +1,53 @@
+{
+  "token_id": 763,
+  "base_id": 9,
+  "name": "Solarbane",
+  "edition": 9,
+  "edition_supply": 155,
+  "edition_label": "9/155",
+  "finish": "standard",
+  "species": "Styracosaurus",
+  "rarity": "Common",
+  "element": "Solar",
+  "image": "ipfs://REPLACE/9.png",
+  "genetics": {
+    "health": 0.9975,
+    "attack": 0.9732,
+    "defense": 1.0429,
+    "speed": 1.0437,
+    "move_1": 1.0784,
+    "move_2": 1.0375,
+    "move_3": 0.948
+  },
+  "battle_stats": {
+    "health": 86,
+    "attack": 72,
+    "defense": 95,
+    "speed": 51
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Solar Gore",
+      "power": 75
+    },
+    {
+      "slot": 2,
+      "name": "Radiant Rush",
+      "power": 92
+    },
+    {
+      "slot": 3,
+      "name": "Radiant Guard",
+      "power": 61
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

@@ -1,0 +1,53 @@
+{
+  "token_id": 11119,
+  "base_id": 115,
+  "name": "Chromeback",
+  "edition": 28,
+  "edition_supply": 88,
+  "edition_label": "28/88",
+  "finish": "standard",
+  "species": "Triceratops",
+  "rarity": "Rare",
+  "element": "Tide",
+  "image": "ipfs://REPLACE/115.png",
+  "genetics": {
+    "health": 0.9511,
+    "attack": 1.0034,
+    "defense": 0.9654,
+    "speed": 0.9528,
+    "move_1": 1.0375,
+    "move_2": 0.9707,
+    "move_3": 0.9719
+  },
+  "battle_stats": {
+    "health": 87,
+    "attack": 76,
+    "defense": 86,
+    "speed": 42
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Torrent Gore",
+      "power": 50
+    },
+    {
+      "slot": 2,
+      "name": "Riptide Stampede",
+      "power": 53
+    },
+    {
+      "slot": 3,
+      "name": "Aqua Guard",
+      "power": 72
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

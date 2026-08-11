@@ -1,0 +1,53 @@
+{
+  "token_id": 3720,
+  "base_id": 34,
+  "name": "Ghostrage",
+  "edition": 37,
+  "edition_supply": 59,
+  "edition_label": "37/59",
+  "finish": "standard",
+  "species": "Pachycephalosaurus",
+  "rarity": "Rare",
+  "element": "Primal",
+  "image": "ipfs://REPLACE/34.png",
+  "genetics": {
+    "health": 0.9972,
+    "attack": 1.026,
+    "defense": 1.0031,
+    "speed": 0.9782,
+    "move_1": 0.963,
+    "move_2": 0.9631,
+    "move_3": 0.966
+  },
+  "battle_stats": {
+    "health": 76,
+    "attack": 79,
+    "defense": 79,
+    "speed": 67
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Alpha Headbutt",
+      "power": 60
+    },
+    {
+      "slot": 2,
+      "name": "Savage Blitz",
+      "power": 70
+    },
+    {
+      "slot": 3,
+      "name": "Primal Stomp",
+      "power": 58
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

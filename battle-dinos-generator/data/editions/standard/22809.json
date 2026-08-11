@@ -1,0 +1,53 @@
+{
+  "token_id": 22809,
+  "base_id": 231,
+  "name": "Ashripper",
+  "edition": 27,
+  "edition_supply": 79,
+  "edition_label": "27/79",
+  "finish": "standard",
+  "species": "Baryonyx",
+  "rarity": "Rare",
+  "element": "Shadow",
+  "image": "ipfs://REPLACE/231.png",
+  "genetics": {
+    "health": 1.0105,
+    "attack": 0.9847,
+    "defense": 1.008,
+    "speed": 1.0001,
+    "move_1": 0.958,
+    "move_2": 1.0755,
+    "move_3": 1.0069
+  },
+  "battle_stats": {
+    "health": 80,
+    "attack": 78,
+    "defense": 68,
+    "speed": 78
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Phantom Talon",
+      "power": 71
+    },
+    {
+      "slot": 2,
+      "name": "Night Bite",
+      "power": 98
+    },
+    {
+      "slot": 3,
+      "name": "Shadow Snap Lunge",
+      "power": 57
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

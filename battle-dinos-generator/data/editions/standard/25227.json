@@ -1,0 +1,53 @@
+{
+  "token_id": 25227,
+  "base_id": 256,
+  "name": "Vortexspike",
+  "edition": 35,
+  "edition_supply": 112,
+  "edition_label": "35/112",
+  "finish": "standard",
+  "species": "Carnotaurus",
+  "rarity": "Common",
+  "element": "Void",
+  "image": "ipfs://REPLACE/256.png",
+  "genetics": {
+    "health": 1.0162,
+    "attack": 1.049,
+    "defense": 1.0026,
+    "speed": 0.9766,
+    "move_1": 1.0452,
+    "move_2": 1.0479,
+    "move_3": 0.9934
+  },
+  "battle_stats": {
+    "health": 72,
+    "attack": 92,
+    "defense": 59,
+    "speed": 85
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Rift Gore",
+      "power": 57
+    },
+    {
+      "slot": 2,
+      "name": "Rift Rush",
+      "power": 54
+    },
+    {
+      "slot": 3,
+      "name": "Abyss Bite",
+      "power": 75
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

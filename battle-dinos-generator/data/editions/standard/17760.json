@@ -1,0 +1,53 @@
+{
+  "token_id": 17760,
+  "base_id": 183,
+  "name": "Grimripper",
+  "edition": 1,
+  "edition_supply": 43,
+  "edition_label": "1/43",
+  "finish": "standard",
+  "species": "Tyrannosaurus",
+  "rarity": "Epic",
+  "element": "Venom",
+  "image": "ipfs://REPLACE/183.png",
+  "genetics": {
+    "health": 1.0045,
+    "attack": 0.9853,
+    "defense": 0.9641,
+    "speed": 1.0489,
+    "move_1": 1.0372,
+    "move_2": 0.9888,
+    "move_3": 0.9794
+  },
+  "battle_stats": {
+    "health": 84,
+    "attack": 94,
+    "defense": 72,
+    "speed": 58
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Viper Bite",
+      "power": 67
+    },
+    {
+      "slot": 2,
+      "name": "Acid Bellow",
+      "power": 50
+    },
+    {
+      "slot": 3,
+      "name": "Viper Tail Sweep",
+      "power": 64
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

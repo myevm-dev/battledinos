@@ -1,0 +1,53 @@
+{
+  "token_id": 21808,
+  "base_id": 220,
+  "name": "Venomscale",
+  "edition": 29,
+  "edition_supply": 29,
+  "edition_label": "29/29",
+  "finish": "standard",
+  "species": "Styracosaurus",
+  "rarity": "Epic",
+  "element": "Void",
+  "image": "ipfs://REPLACE/220.png",
+  "genetics": {
+    "health": 0.9618,
+    "attack": 1.0212,
+    "defense": 1.0223,
+    "speed": 1.0107,
+    "move_1": 1.0062,
+    "move_2": 0.9224,
+    "move_3": 1.0417
+  },
+  "battle_stats": {
+    "health": 88,
+    "attack": 76,
+    "defense": 86,
+    "speed": 50
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Abyss Horn Breaker",
+      "power": 77
+    },
+    {
+      "slot": 2,
+      "name": "Void Rush",
+      "power": 65
+    },
+    {
+      "slot": 3,
+      "name": "Rift Guard",
+      "power": 96
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

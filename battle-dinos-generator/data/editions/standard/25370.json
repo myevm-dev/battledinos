@@ -1,0 +1,53 @@
+{
+  "token_id": 25370,
+  "base_id": 257,
+  "name": "Savageshard",
+  "edition": 66,
+  "edition_supply": 106,
+  "edition_label": "66/106",
+  "finish": "standard",
+  "species": "Parasaurolophus",
+  "rarity": "Common",
+  "element": "Solar",
+  "image": "ipfs://REPLACE/257.png",
+  "genetics": {
+    "health": 1.027,
+    "attack": 0.9784,
+    "defense": 0.9684,
+    "speed": 1.0495,
+    "move_1": 1.0704,
+    "move_2": 1.0385,
+    "move_3": 1.0483
+  },
+  "battle_stats": {
+    "health": 81,
+    "attack": 57,
+    "defense": 72,
+    "speed": 80
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Solar Crest Pulse",
+      "power": 65
+    },
+    {
+      "slot": 2,
+      "name": "Sun Rush",
+      "power": 90
+    },
+    {
+      "slot": 3,
+      "name": "Sun Tail Crash",
+      "power": 65
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

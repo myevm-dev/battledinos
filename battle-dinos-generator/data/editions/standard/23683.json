@@ -1,0 +1,53 @@
+{
+  "token_id": 23683,
+  "base_id": 241,
+  "name": "Ironhorn",
+  "edition": 101,
+  "edition_supply": 117,
+  "edition_label": "101/117",
+  "finish": "standard",
+  "species": "Styracosaurus",
+  "rarity": "Common",
+  "element": "Primal",
+  "image": "ipfs://REPLACE/241.png",
+  "genetics": {
+    "health": 1.0453,
+    "attack": 1.0406,
+    "defense": 1.0058,
+    "speed": 0.9807,
+    "move_1": 0.9564,
+    "move_2": 0.9204,
+    "move_3": 1.003
+  },
+  "battle_stats": {
+    "health": 91,
+    "attack": 82,
+    "defense": 88,
+    "speed": 46
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Primal Horn Strike",
+      "power": 89
+    },
+    {
+      "slot": 2,
+      "name": "Savage Charge",
+      "power": 81
+    },
+    {
+      "slot": 3,
+      "name": "Alpha Bulwark",
+      "power": 81
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

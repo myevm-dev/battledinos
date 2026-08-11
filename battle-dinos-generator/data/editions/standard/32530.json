@@ -1,0 +1,53 @@
+{
+  "token_id": 32530,
+  "base_id": 325,
+  "name": "Azurejaw",
+  "edition": 5,
+  "edition_supply": 19,
+  "edition_label": "5/19",
+  "finish": "standard",
+  "species": "Ankylosaurus",
+  "rarity": "Legendary",
+  "element": "Ember",
+  "image": "ipfs://REPLACE/325.png",
+  "genetics": {
+    "health": 0.9924,
+    "attack": 1.0461,
+    "defense": 1.0141,
+    "speed": 1.0414,
+    "move_1": 1.0628,
+    "move_2": 1.0525,
+    "move_3": 0.988
+  },
+  "battle_stats": {
+    "health": 95,
+    "attack": 70,
+    "defense": 96,
+    "speed": 33
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Flare Hammer Tail",
+      "power": 85
+    },
+    {
+      "slot": 2,
+      "name": "Inferno Guard",
+      "power": 48
+    },
+    {
+      "slot": 3,
+      "name": "Magma Ram",
+      "power": 53
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

@@ -1,0 +1,53 @@
+{
+  "token_id": 27794,
+  "base_id": 280,
+  "name": "Scarletcrest",
+  "edition": 3,
+  "edition_supply": 104,
+  "edition_label": "3/104",
+  "finish": "standard",
+  "species": "Giganotosaurus",
+  "rarity": "Uncommon",
+  "element": "Ember",
+  "image": "ipfs://REPLACE/280.png",
+  "genetics": {
+    "health": 0.9962,
+    "attack": 0.987,
+    "defense": 0.9785,
+    "speed": 0.9545,
+    "move_1": 1.0389,
+    "move_2": 1.0187,
+    "move_3": 0.9301
+  },
+  "battle_stats": {
+    "health": 88,
+    "attack": 93,
+    "defense": 69,
+    "speed": 57
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Magma Jaw",
+      "power": 90
+    },
+    {
+      "slot": 2,
+      "name": "Magma Roar",
+      "power": 80
+    },
+    {
+      "slot": 3,
+      "name": "Inferno Rush",
+      "power": 60
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

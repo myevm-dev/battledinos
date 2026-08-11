@@ -1,0 +1,53 @@
+{
+  "token_id": 16506,
+  "base_id": 170,
+  "name": "Ivoryrage",
+  "edition": 13,
+  "edition_supply": 26,
+  "edition_label": "13/26",
+  "finish": "standard",
+  "species": "Ankylosaurus",
+  "rarity": "Epic",
+  "element": "Primal",
+  "image": "ipfs://REPLACE/170.png",
+  "genetics": {
+    "health": 0.9574,
+    "attack": 0.9895,
+    "defense": 0.9891,
+    "speed": 1.0471,
+    "move_1": 1.0653,
+    "move_2": 0.9377,
+    "move_3": 0.9357
+  },
+  "battle_stats": {
+    "health": 89,
+    "attack": 65,
+    "defense": 96,
+    "speed": 37
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Primal Tail Club",
+      "power": 87
+    },
+    {
+      "slot": 2,
+      "name": "Primal Bulwark",
+      "power": 62
+    },
+    {
+      "slot": 3,
+      "name": "Wild Iron Rush",
+      "power": 48
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

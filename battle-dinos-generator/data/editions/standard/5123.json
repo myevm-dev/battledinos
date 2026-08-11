@@ -1,0 +1,53 @@
+{
+  "token_id": 5123,
+  "base_id": 50,
+  "name": "Stormscar",
+  "edition": 116,
+  "edition_supply": 139,
+  "edition_label": "116/139",
+  "finish": "standard",
+  "species": "Allosaurus",
+  "rarity": "Common",
+  "element": "Frost",
+  "image": "ipfs://REPLACE/50.png",
+  "genetics": {
+    "health": 1.0044,
+    "attack": 0.9989,
+    "defense": 0.9543,
+    "speed": 1.0433,
+    "move_1": 1.0762,
+    "move_2": 0.9576,
+    "move_3": 0.9284
+  },
+  "battle_stats": {
+    "health": 79,
+    "attack": 84,
+    "defense": 64,
+    "speed": 76
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Winter Jaw",
+      "power": 71
+    },
+    {
+      "slot": 2,
+      "name": "Winter Claw",
+      "power": 77
+    },
+    {
+      "slot": 3,
+      "name": "Ice Sprint Strike",
+      "power": 49
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

@@ -1,0 +1,53 @@
+{
+  "token_id": 20777,
+  "base_id": 208,
+  "name": "Grimtail",
+  "edition": 56,
+  "edition_supply": 89,
+  "edition_label": "56/89",
+  "finish": "standard",
+  "species": "Dilophosaurus",
+  "rarity": "Uncommon",
+  "element": "Venom",
+  "image": "ipfs://REPLACE/208.png",
+  "genetics": {
+    "health": 1.0282,
+    "attack": 0.9553,
+    "defense": 1.0187,
+    "speed": 1.0053,
+    "move_1": 0.9548,
+    "move_2": 0.9606,
+    "move_3": 1.0702
+  },
+  "battle_stats": {
+    "health": 69,
+    "attack": 70,
+    "defense": 54,
+    "speed": 92
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Toxic Crest Pulse",
+      "power": 86
+    },
+    {
+      "slot": 2,
+      "name": "Venom Feint",
+      "power": 52
+    },
+    {
+      "slot": 3,
+      "name": "Venom Chomp",
+      "power": 68
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

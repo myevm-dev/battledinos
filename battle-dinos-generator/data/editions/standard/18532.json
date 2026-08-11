@@ -1,0 +1,53 @@
+{
+  "token_id": 18532,
+  "base_id": 189,
+  "name": "Vortexhorn",
+  "edition": 25,
+  "edition_supply": 64,
+  "edition_label": "25/64",
+  "finish": "standard",
+  "species": "Tyrannosaurus",
+  "rarity": "Uncommon",
+  "element": "Solar",
+  "image": "ipfs://REPLACE/189.png",
+  "genetics": {
+    "health": 1.0349,
+    "attack": 1.0476,
+    "defense": 1.0203,
+    "speed": 1.0204,
+    "move_1": 0.9927,
+    "move_2": 1.0733,
+    "move_3": 1.027
+  },
+  "battle_stats": {
+    "health": 91,
+    "attack": 97,
+    "defense": 72,
+    "speed": 55
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Sun Jaw",
+      "power": 71
+    },
+    {
+      "slot": 2,
+      "name": "Radiant Howl",
+      "power": 49
+    },
+    {
+      "slot": 3,
+      "name": "Radiant Tail Crash",
+      "power": 62
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}

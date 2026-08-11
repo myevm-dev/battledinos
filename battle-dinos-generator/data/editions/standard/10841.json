@@ -1,0 +1,53 @@
+{
+  "token_id": 10841,
+  "base_id": 110,
+  "name": "Ironguard",
+  "edition": 22,
+  "edition_supply": 166,
+  "edition_label": "22/166",
+  "finish": "standard",
+  "species": "Styracosaurus",
+  "rarity": "Common",
+  "element": "Tide",
+  "image": "ipfs://REPLACE/110.png",
+  "genetics": {
+    "health": 0.962,
+    "attack": 0.9623,
+    "defense": 1.0008,
+    "speed": 0.9534,
+    "move_1": 1.0306,
+    "move_2": 1.0123,
+    "move_3": 1.0263
+  },
+  "battle_stats": {
+    "health": 85,
+    "attack": 77,
+    "defense": 91,
+    "speed": 42
+  },
+  "moves": [
+    {
+      "slot": 1,
+      "name": "Aqua Horn Breaker",
+      "power": 46
+    },
+    {
+      "slot": 2,
+      "name": "Torrent Charge",
+      "power": 66
+    },
+    {
+      "slot": 3,
+      "name": "Torrent Shell",
+      "power": 97
+    }
+  ],
+  "level": 1,
+  "xp": {
+    "lifetime": 0,
+    "spent": 0,
+    "available": 0
+  },
+  "evolution_stage": 0,
+  "mutations": []
+}
