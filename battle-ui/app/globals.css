@@ -1,16 +1,25 @@
 @import "tailwindcss";
 
 :root {
-  --background: #050b12;
-  --foreground: #f5f7fa;
-  --panel: rgba(8, 19, 30, 0.88);
-  --panel-strong: rgba(7, 16, 26, 0.96);
-  --line: rgba(143, 164, 184, 0.16);
-  --gold: #f2a526;
-  --gold-soft: #ffc55e;
-  --teal: #13d3c5;
-  --blue: #388cf5;
-  --purple: #b155e8;
+  --background: #050708;
+  --foreground: #e8e4db;
+
+  --panel: rgba(10, 13, 15, 0.94);
+  --panel-strong: rgba(7, 9, 10, 0.98);
+
+  --line: rgba(143, 126, 91, 0.18);
+  --line-strong: rgba(185, 133, 47, 0.34);
+
+  --gold: #c89232;
+  --gold-soft: #dda947;
+  --gold-muted: #7e5c27;
+
+  --metal: #8a8d8e;
+  --muted: #6f7476;
+  --muted-strong: #8a8f90;
+
+  --danger: #a54c40;
+  --success: #6f8a53;
 }
 
 * {
@@ -24,10 +33,31 @@ html {
 body {
   margin: 0;
   background:
-    radial-gradient(circle at 50% -10%, rgba(47, 91, 128, 0.2), transparent 35%),
-    linear-gradient(180deg, #07101a 0%, #03070c 100%);
+    radial-gradient(
+      circle at 50% -10%,
+      rgba(141, 101, 38, 0.10),
+      transparent 34%
+    ),
+    radial-gradient(
+      circle at 12% 20%,
+      rgba(255, 255, 255, 0.025),
+      transparent 24%
+    ),
+    linear-gradient(
+      180deg,
+      #080a0b 0%,
+      #050708 48%,
+      #030405 100%
+    );
+
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+
+  font-family:
+    Arial,
+    Helvetica,
+    sans-serif;
+
+  min-height: 100vh;
 }
 
 button,
@@ -35,26 +65,179 @@ a {
   -webkit-tap-highlight-color: transparent;
 }
 
+button {
+  font: inherit;
+}
+
 ::selection {
-  background: rgba(242, 165, 38, 0.35);
+  background: rgba(200, 146, 50, 0.28);
+  color: #f3eee3;
 }
 
+/*
+  MAIN PANEL
+
+  Replaces the old blue-tinted panel with
+  graphite / black metal styling.
+*/
 .bd-panel {
-  background: linear-gradient(180deg, rgba(12, 25, 38, 0.94), rgba(5, 13, 21, 0.96));
+  background:
+    linear-gradient(
+      180deg,
+      rgba(16, 20, 23, 0.96),
+      rgba(7, 9, 10, 0.98)
+    );
+
   border: 1px solid var(--line);
+
   box-shadow:
-    inset 0 1px 0 rgba(255, 255, 255, 0.025),
-    0 18px 45px rgba(0, 0, 0, 0.22);
+    inset 0 1px 0 rgba(255, 255, 255, 0.018),
+    0 20px 50px rgba(0, 0, 0, 0.28);
 }
 
+/*
+  INDUSTRIAL TITLE
+
+  No longer serif / fantasy.
+*/
 .bd-title {
-  font-family: Georgia, "Times New Roman", serif;
-  letter-spacing: 0.045em;
+  font-family:
+    "Arial Narrow",
+    "Roboto Condensed",
+    Impact,
+    sans-serif;
+
+  font-weight: 900;
+  letter-spacing: 0.09em;
   text-transform: uppercase;
-  text-shadow: 0 3px 18px rgba(0, 0, 0, 0.8);
+
+  text-shadow:
+    0 2px 16px rgba(0, 0, 0, 0.85);
 }
 
+/*
+  Optional stamped title style for:
+  SPECIMEN
+  TRIAL NETWORK
+  GENESIS MARKET
+*/
+.specimen-title {
+  font-family:
+    "Arial Narrow",
+    "Roboto Condensed",
+    Impact,
+    sans-serif;
+
+  font-weight: 900;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+
+  color: #e4e0d7;
+
+  text-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.06),
+    0 3px 20px rgba(0, 0, 0, 0.9);
+}
+
+/*
+  Small technical labels.
+*/
+.specimen-label {
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: #75664e;
+}
+
+/*
+  Metal / amber divider.
+*/
+.specimen-divider {
+  height: 1px;
+  background:
+    linear-gradient(
+      90deg,
+      transparent,
+      rgba(185, 133, 47, 0.55),
+      transparent
+    );
+}
+
+/*
+  Technical panel style for status blocks,
+  specimen data, project labels, etc.
+*/
+.specimen-panel {
+  background:
+    linear-gradient(
+      180deg,
+      rgba(12, 15, 17, 0.98),
+      rgba(6, 8, 9, 0.98)
+    );
+
+  border: 1px solid rgba(132, 119, 91, 0.22);
+
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.015),
+    0 14px 36px rgba(0, 0, 0, 0.22);
+}
+
+/*
+  Gold-highlight panel for selected protocols,
+  specimen deployment, pack actions, etc.
+*/
+.specimen-panel-active {
+  background:
+    linear-gradient(
+      135deg,
+      rgba(104, 72, 23, 0.18),
+      rgba(17, 14, 10, 0.95)
+    );
+
+  border: 1px solid rgba(200, 146, 50, 0.45);
+
+  box-shadow:
+    inset 0 1px 0 rgba(255, 224, 157, 0.03),
+    0 0 28px rgba(200, 146, 50, 0.05);
+}
+
+/*
+  Data-like mono text.
+*/
+.specimen-data {
+  font-family:
+    "Courier New",
+    Courier,
+    monospace;
+
+  letter-spacing: 0.04em;
+}
+
+/*
+  Scrollbars
+*/
 .bd-scrollbar {
   scrollbar-width: thin;
-  scrollbar-color: rgba(242, 165, 38, 0.35) transparent;
+  scrollbar-color:
+    rgba(185, 133, 47, 0.36)
+    transparent;
+}
+
+.bd-scrollbar::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.bd-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.bd-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(185, 133, 47, 0.28);
+  border-radius: 999px;
+}
+
+.bd-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgba(185, 133, 47, 0.45);
 }

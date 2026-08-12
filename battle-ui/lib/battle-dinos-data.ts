@@ -69,7 +69,7 @@ export const selectedDino = {
   name: "Vortexwarden",
   species: "Velociraptor",
   rarity: "Common",
-  image: "/dinos/vortexwarden.png",
+  image: "/dinos/1.png",
   record: "12-7",
   rating: 1247,
   moves: [

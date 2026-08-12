@@ -3,9 +3,9 @@ import { PlaceholderPage } from "@/components/battle-dinos/placeholder-page";
 export default function ProfilePage() {
   return (
     <PlaceholderPage
-      eyebrow="Collection"
-      title="Fighter Profile"
-      description="This route is ready for the connected wallet's dinosaur collection, battle history, rankings, trophies, and replay library."
+      eyebrow="Research Profile"
+      title="Specimen Registry"
+      description="View the connected wallet's specimen collection, trial history, XP progression, mutations, evolution stages, rankings, and replay archive."
     />
   );
 }
