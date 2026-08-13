@@ -140,9 +140,7 @@ export function BattleLobby() {
                       Selected Protocol
                     </span>
 
-                    <span className="text-xs font-semibold text-[#686d70]">
-                      {activeMode.availability}
-                    </span>
+ 
                   </div>
 
                   <h2 className="mt-4 text-2xl font-black uppercase tracking-[0.04em] text-[#e6e2da] sm:text-3xl">

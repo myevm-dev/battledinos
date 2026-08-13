@@ -5,7 +5,7 @@ export type BattleMode = {
   eyebrow: string;
   title: string;
   description: string;
-  availability: string;
+ 
   accent: "teal" | "blue";
 };
 
@@ -22,7 +22,7 @@ export const battleModes: BattleMode[] = [
     title: "1v1 Duel",
     description:
       "Lock in one dino and match against another queued fighter. Opponents do not need to be online at the same time.",
-    availability: "Queue anytime",
+
     accent: "teal",
   },
   {
@@ -31,7 +31,7 @@ export const battleModes: BattleMode[] = [
     title: "Arena Run",
     description:
       "Enter a three-battle gauntlet against dinos already in the arena pool. Survive all three to finish the run.",
-    availability: "No live opponent required",
+   
     accent: "blue",
   },
 ];

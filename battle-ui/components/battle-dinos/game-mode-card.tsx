@@ -49,16 +49,7 @@ export function GameModeCard({ mode, selected, onSelect }: Props) {
           </p>
 
           <div className="mt-4 flex flex-wrap items-center justify-between gap-3">
-            <span
-              className={`inline-flex items-center gap-1.5 rounded-full border px-2.5 py-1 text-[11px] font-bold ${
-                teal
-                  ? "border-teal-400/20 bg-teal-500/10 text-teal-300"
-                  : "border-blue-400/20 bg-blue-500/10 text-blue-300"
-              }`}
-            >
-              <ShieldCheck size={13} />
-              {mode.availability}
-            </span>
+
 
             <span className="flex items-center gap-1 text-xs font-bold text-slate-300 transition group-hover:translate-x-0.5">
               Select

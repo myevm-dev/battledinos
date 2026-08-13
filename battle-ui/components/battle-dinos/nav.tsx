@@ -5,9 +5,9 @@ import { usePathname } from "next/navigation";
 import {
   BookOpen,
   Dna,
+  FlaskConical,
   ShoppingBag,
   Swords,
-  UserRound,
   WalletCards,
 } from "lucide-react";
 
@@ -24,8 +24,8 @@ const nav = [
   },
   {
     href: "/profile",
-    label: "Profile",
-    icon: UserRound,
+    label: "Lab",
+    icon: FlaskConical,
   },
   {
     href: "/docs",

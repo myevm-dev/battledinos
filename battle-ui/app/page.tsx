@@ -27,11 +27,7 @@ export default function HomePage() {
           <div className="relative mx-auto grid min-h-[650px] max-w-[1400px] items-center gap-10 px-4 py-12 sm:px-6 lg:grid-cols-[1fr_0.8fr] xl:px-8">
             {/* COPY */}
             <div className="max-w-3xl">
-              <div className="inline-flex items-center gap-2 rounded-md border border-[#a97826]/35 bg-[#a97826]/[0.06] px-3 py-2 text-xs font-black uppercase tracking-[0.16em] text-[#d2a143]">
-                <Dna size={14} />
-                Project 333
-              </div>
-
+   
               <p className="mt-7 text-xs font-black uppercase tracking-[0.28em] text-[#806b47]">
                 Collect. Develop. Compete.
               </p>
@@ -96,7 +92,7 @@ export default function HomePage() {
           <div className="mx-auto max-w-[1250px] px-4 py-20 sm:px-6 xl:px-8">
             <SectionHeader
               eyebrow="The Project"
-              title="333 Origins. Thousands of Outcomes."
+              title="333 Origins. Infinite Outcomes."
               text="Every collectible begins with one of 333 base creatures, but no specimen is locked into the same future."
             />
 
