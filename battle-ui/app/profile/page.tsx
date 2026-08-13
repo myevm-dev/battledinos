@@ -65,14 +65,7 @@ export default function ProfilePage() {
    * These examples make the Owned Gallery visible
    * while you're building the UI.
    */
-  const ownedBaseIds = [
-    1,
-    7,
-    8,
-    14,
-    21,
-    108,
-  ];
+  const ownedBaseIds: number[] = [];
 
   return (
     <div className="min-h-screen bg-[#050708] pb-24 text-[#e8e4db] md:pb-0">

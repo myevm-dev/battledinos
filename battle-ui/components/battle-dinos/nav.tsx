@@ -114,8 +114,8 @@ export function DesktopNav() {
 
         {/* WALLET */}
         <button className="flex items-center gap-2 rounded-lg border border-[#a97826]/60 bg-[#a97826]/[0.07] px-4 py-2.5 text-sm font-bold text-[#e8dfcb] transition hover:border-[#d0a148]/70 hover:bg-[#a97826]/[0.12]">
-          <WalletCards size={17} />
-          Soon
+         
+          Coming Soon
         </button>
       </div>
     </header>
