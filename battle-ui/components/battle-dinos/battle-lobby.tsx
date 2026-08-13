@@ -53,17 +53,13 @@ export function BattleLobby() {
 
           <div className="mx-auto max-w-[1500px] px-4 pb-8 pt-10 sm:px-6 md:pb-10 md:pt-14 xl:px-10">
             <div className="mx-auto max-w-3xl text-center">
-              <div className="mb-4 inline-flex items-center gap-2 rounded-md border border-[#a97826]/30 bg-[#a97826]/[0.06] px-3 py-1.5 text-[9px] font-black uppercase tracking-[0.24em] text-[#d6a547]">
-                <Radio size={11} />
-                Genesis Network Online
-              </div>
 
               <p className="text-[10px] font-black uppercase tracking-[0.34em] text-[#76634a]">
                 Project 333 / Combat Division
               </p>
 
               <h1 className="mt-3 text-4xl font-black uppercase tracking-[0.08em] text-[#e8e4db] sm:text-5xl md:text-6xl">
-                Trial Network
+                Currently Testing
               </h1>
 
               <p className="mx-auto mt-4 max-w-2xl text-sm leading-6 text-[#85898b] sm:text-base">
