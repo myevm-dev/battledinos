@@ -98,7 +98,7 @@ export function BattleLobby() {
   useEffect(() => {
     const interval = window.setInterval(() => {
       nextArena();
-    }, 4000);
+    }, 3000);
 
     return () => {
       window.clearInterval(interval);
@@ -230,25 +230,46 @@ function ArenaCarousel({
 }) {
   return (
     <section className="relative min-h-[340px] overflow-hidden rounded-xl border border-[#383329] bg-[#080a0b] lg:min-h-0">
-      <Image
-        key={arena.id}
-        src={arena.image}
-        alt={arena.name}
-        fill
-        priority
-        sizes="1000px"
-        className="object-cover"
-      />
+      {/* SLIDING IMAGE TRACK */}
+      <div
+        className="absolute inset-0 flex transition-transform duration-700 ease-in-out"
+        style={{
+          width: `${arenas.length * 100}%`,
+          transform: `translateX(-${
+            (arenaIndex * 100) / arenas.length
+          }%)`,
+        }}
+      >
+        {arenas.map((item) => (
+          <div
+            key={item.id}
+            className="relative h-full shrink-0"
+            style={{
+              width: `${100 / arenas.length}%`,
+            }}
+          >
+            <Image
+              src={item.image}
+              alt={item.name}
+              fill
+              sizes="1000px"
+              className="object-cover"
+            />
+          </div>
+        ))}
+      </div>
 
-      <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(0,0,0,0.08),rgba(0,0,0,0.10)_45%,rgba(0,0,0,0.92))]" />
+      {/* OVERLAY */}
+      <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(180deg,rgba(0,0,0,0.08),rgba(0,0,0,0.08)_45%,rgba(0,0,0,0.92))]" />
 
+      {/* ARENA LABEL */}
       <div className="absolute left-4 top-4 rounded-md border border-white/10 bg-black/70 px-3 py-1.5 backdrop-blur-md">
         <p className="text-[9px] font-black uppercase tracking-[0.18em] text-[#d2a143]">
           Arena
         </p>
       </div>
 
-      {/* LEFT */}
+      {/* LEFT ARROW */}
       <button
         type="button"
         onClick={onPrevious}
@@ -258,7 +279,7 @@ function ArenaCarousel({
         <ChevronLeft size={24} />
       </button>
 
-      {/* RIGHT */}
+      {/* RIGHT ARROW */}
       <button
         type="button"
         onClick={onNext}
@@ -268,17 +289,23 @@ function ArenaCarousel({
         <ChevronRight size={24} />
       </button>
 
-      {/* ARENA NAME */}
-      <div className="absolute inset-x-0 bottom-0 p-5 text-center">
+      {/* CURRENT ARENA INFO */}
+      <div className="absolute inset-x-0 bottom-0 z-10 p-5 text-center">
         <p className="text-[9px] font-black uppercase tracking-[0.22em] text-[#c18e35]">
           Selected Environment
         </p>
 
-        <h1 className="mt-1 text-2xl font-black uppercase tracking-[0.05em] text-white xl:text-3xl">
+        <h1
+          key={`${arena.id}-title`}
+          className="mt-1 animate-[fadeArena_.7s_ease] text-2xl font-black uppercase tracking-[0.05em] text-white xl:text-3xl"
+        >
           {arena.name}
         </h1>
 
-        <p className="mt-1 text-xs text-[#a1a4a4]">
+        <p
+          key={`${arena.id}-subtitle`}
+          className="mt-1 animate-[fadeArena_.7s_ease] text-xs text-[#a1a4a4]"
+        >
           {arena.subtitle}
         </p>
 
@@ -290,7 +317,7 @@ function ArenaCarousel({
               type="button"
               onClick={() => onSelect(index)}
               aria-label={`Select ${item.name}`}
-              className={`h-1.5 rounded-full transition-all ${
+              className={`h-1.5 rounded-full transition-all duration-500 ${
                 index === arenaIndex
                   ? "w-7 bg-[#d2a143]"
                   : "w-1.5 bg-white/30 hover:bg-white/60"
