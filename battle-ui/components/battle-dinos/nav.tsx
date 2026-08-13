@@ -1,10 +1,10 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import {
   BookOpen,
-  Dna,
   FlaskConical,
   ShoppingBag,
   Swords,
@@ -34,12 +34,27 @@ const nav = [
   },
 ];
 
-function SpecimenLogo() {
+function SpecimenLogo({
+  size = 44,
+}: {
+  size?: number;
+}) {
   return (
-    <div className="grid size-11 place-items-center rounded-lg border border-[#b9852f]/60 bg-[#b9852f]/[0.07] text-[#d7a84c] shadow-[0_0_24px_rgba(185,133,47,0.08)]">
-      <div className="relative grid size-7 place-items-center border border-[#b9852f]/70 [clip-path:polygon(25%_6.7%,75%_6.7%,100%_50%,75%_93.3%,25%_93.3%,0%_50%)]">
-        <Dna size={15} />
-      </div>
+    <div
+      className="relative shrink-0 overflow-hidden rounded-lg"
+      style={{
+        width: size,
+        height: size,
+      }}
+    >
+      <Image
+        src="/specimenlogo.png"
+        alt="SPECIMEN"
+        fill
+        priority
+        sizes={`${size}px`}
+        className="object-contain"
+      />
     </div>
   );
 }
@@ -56,7 +71,7 @@ export function DesktopNav() {
           aria-label="SPECIMEN home"
           className="mr-auto flex items-center gap-3 transition hover:opacity-90"
         >
-          <SpecimenLogo />
+          <SpecimenLogo size={48} />
 
           <div>
             <div className="text-[22px] font-black uppercase tracking-[0.13em] text-[#e5e1d8]">
@@ -117,9 +132,7 @@ export function MobileHeader() {
           aria-label="SPECIMEN home"
           className="flex items-center gap-2.5"
         >
-          <div className="grid size-9 place-items-center rounded-lg border border-[#b9852f]/50 bg-[#b9852f]/[0.07] text-[#d7a84c]">
-            <Dna size={17} />
-          </div>
+          <SpecimenLogo size={38} />
 
           <div>
             <div className="text-sm font-black uppercase tracking-[0.14em] text-[#e5e1d8]">

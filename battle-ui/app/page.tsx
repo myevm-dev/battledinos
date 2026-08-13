@@ -346,7 +346,7 @@ export default function HomePage() {
 
               <div>
                 <p className="text-xs font-black uppercase tracking-[0.24em] text-[#806b47]">
-                  Genesis Series
+                  Genesis Collection
                 </p>
 
                 <h2 className="mt-3 text-4xl font-black uppercase leading-tight tracking-[0.035em] text-[#e4dfd4] sm:text-5xl">

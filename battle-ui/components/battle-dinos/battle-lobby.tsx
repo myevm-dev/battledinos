@@ -1,275 +1,425 @@
 "use client";
 
 import Image from "next/image";
-import { useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import {
+  ChevronLeft,
   ChevronRight,
-  Clock3,
-  Radio,
-  ShieldCheck,
-  UsersRound,
+  HelpCircle,
+  Lock,
+  Swords,
 } from "lucide-react";
 
 import { AppNavigation } from "./nav";
-import { ArenaPreview } from "./arena-preview";
-import { GameModeCard } from "./game-mode-card";
-import { RecentBattles } from "./recent-battles";
-import { SelectedDinoCard } from "./selected-dino-card";
 
-import {
-  battleModes,
-  type BattleModeId,
-} from "@/lib/battle-dinos-data";
+type Arena = {
+  id: string;
+  name: string;
+  subtitle: string;
+  image: string;
+};
+
+const arenas: Arena[] = [
+  {
+    id: "frostfang",
+    name: "Frostfang Arena",
+    subtitle: "Frozen Combat Zone",
+    image: "/arenas/frostfang-arena.png",
+  },
+  {
+    id: "stormforge",
+    name: "Stormforge Caldera",
+    subtitle: "Volcanic Combat Zone",
+    image: "/arenas/stormforge-caldera.png",
+  },
+
+  {
+    id: "skyfall",
+    name: "Skyfall Coliseum",
+    subtitle: "High Altitude Arena",
+    image: "/arenas/skyfall-coliseum.png",
+  },
+  {
+    id: "sunscorch",
+    name: "Sunscorch Citadel",
+    subtitle: "Desert Combat Zone",
+    image: "/arenas/sunscorch-citadel.png",
+  },
+  {
+    id: "verdant-maw",
+    name: "Verdant Maw",
+    subtitle: "Overgrown Combat Zone",
+    image: "/arenas/verdant-maw-arena.png",
+  },
+];
+
+const activeSpecimen = {
+  baseId: 108,
+  name: "Vortexwarden",
+  image: "/dinos/108.png",
+};
 
 export function BattleLobby() {
-  const [selectedMode, setSelectedMode] =
-    useState<BattleModeId>("duel");
+  const [arenaIndex, setArenaIndex] = useState(0);
 
-  const activeMode = battleModes.find(
-    (mode) => mode.id === selectedMode,
-  )!;
+  const arena = arenas[arenaIndex];
+
+  const previousArena = useCallback(() => {
+    setArenaIndex((current) =>
+      current === 0 ? arenas.length - 1 : current - 1
+    );
+  }, []);
+
+  const nextArena = useCallback(() => {
+    setArenaIndex((current) =>
+      current === arenas.length - 1 ? 0 : current + 1
+    );
+  }, []);
+
+  useEffect(() => {
+    function handleKeyDown(event: KeyboardEvent) {
+      if (event.key === "ArrowLeft") {
+        previousArena();
+      }
+
+      if (event.key === "ArrowRight") {
+        nextArena();
+      }
+    }
+
+    window.addEventListener("keydown", handleKeyDown);
+
+    return () => {
+      window.removeEventListener("keydown", handleKeyDown);
+    };
+  }, [previousArena, nextArena]);
 
   return (
-    <div className="min-h-screen bg-[#050708] pb-24 text-[#e8e4db] md:pb-0">
+    <div className="min-h-screen bg-[#050708] text-[#e8e4db]">
       <AppNavigation />
 
-      <main>
-        {/* HERO */}
-        <section className="relative isolate overflow-hidden border-b border-[#26241f]">
-          <div className="absolute inset-0 -z-20">
-            <Image
-              src="/arenas/stormforge-caldera.png"
-              alt=""
-              fill
-              priority
-              sizes="100vw"
-              className="object-cover object-center opacity-[0.18] grayscale-[0.35]"
-            />
+      <main
+        className="
+          mx-auto max-w-[1700px] px-3 py-3
+          lg:grid
+          lg:h-[calc(100vh-76px)]
+          lg:grid-rows-[minmax(0,1.45fr)_72px_minmax(0,0.75fr)]
+          lg:gap-3
+          lg:overflow-hidden
+          xl:px-6
+        "
+      >
+        {/* TOP MATCHUP */}
+        <section className="relative min-h-[480px] lg:min-h-0">
+          <div className="absolute left-1/2 top-0 z-20 -translate-x-1/2">
+            <p className="whitespace-nowrap text-[10px] font-black uppercase tracking-[0.3em] text-[#806b47]">
+              Project 333 / Combat Division
+            </p>
           </div>
 
-          <div className="absolute inset-0 -z-10 bg-[linear-gradient(180deg,rgba(5,7,8,0.48),#050708_94%)]" />
+          <div className="grid h-full gap-3 pt-7 lg:grid-cols-[280px_minmax(0,1fr)_280px]">
+            <SpecimenCard />
 
-          <div className="absolute inset-0 -z-10 bg-[radial-gradient(circle_at_50%_15%,rgba(176,126,39,0.10),transparent_38%)]" />
+            <ArenaCarousel
+              arena={arena}
+              arenaIndex={arenaIndex}
+              onPrevious={previousArena}
+              onNext={nextArena}
+              onSelect={setArenaIndex}
+            />
 
-          <div className="mx-auto max-w-[1500px] px-4 pb-8 pt-10 sm:px-6 md:pb-10 md:pt-14 xl:px-10">
-            <div className="mx-auto max-w-3xl text-center">
-
-              <p className="text-[10px] font-black uppercase tracking-[0.34em] text-[#76634a]">
-                Project 333 / Combat Division
-              </p>
-
-              <h1 className="mt-3 text-4xl font-black uppercase tracking-[0.08em] text-[#e8e4db] sm:text-5xl md:text-6xl">
-                Currently Testing
-              </h1>
-
-              <p className="mx-auto mt-4 max-w-2xl text-sm leading-6 text-[#85898b] sm:text-base">
-                Select an active specimen and initiate a controlled combat
-                trial. Outcomes are resolved by the deterministic trial engine
-                before replay reconstruction begins.
-              </p>
-            </div>
-
-            <div className="mx-auto mt-9 grid max-w-5xl gap-3 md:grid-cols-2">
-              {battleModes.map((mode) => (
-                <GameModeCard
-                  key={mode.id}
-                  mode={mode}
-                  selected={selectedMode === mode.id}
-                  onSelect={setSelectedMode}
-                />
-              ))}
-            </div>
+            <UnknownOpponent />
           </div>
         </section>
 
-        {/* MAIN GRID */}
-        <div className="mx-auto grid max-w-[1500px] gap-4 px-4 py-5 sm:px-6 lg:grid-cols-[320px_minmax(0,1fr)] xl:px-10">
-          {/* LEFT */}
-          <div className="space-y-4">
-            <SelectedDinoCard />
+        {/* MODE TOGGLES */}
+        <section className="mt-3 grid gap-2 md:grid-cols-2 lg:mt-0">
+          <ModeToggle
+            label="1v1 Duel"
+            detail="Match against another queued specimen."
+            selected
+          />
 
-            <section className="rounded-xl border border-[#292823] bg-[#0a0d0f] p-4 sm:p-5">
-              <p className="text-[9px] font-black uppercase tracking-[0.22em] text-[#6c6559]">
-                Trial Status
-              </p>
+          <ModeToggle
+            label="Arena Run"
+            detail="Three consecutive combat trials."
+            disabled
+          />
+        </section>
 
-              <div className="mt-4 rounded-lg border border-[#8e702c]/25 bg-[#8e702c]/[0.05] p-4">
-                <div className="flex items-center gap-2 text-sm font-black uppercase tracking-wide text-[#d2a143]">
-                  <span className="size-1.5 rounded-full bg-[#d2a143] shadow-[0_0_9px_rgba(210,161,67,0.65)]" />
-                  Specimen Ready
-                </div>
-
-                <p className="mt-2 text-xs leading-5 text-[#7f8384]">
-                  {selectedMode === "duel"
-                    ? "Active specimen can be paired with another subject currently registered in the trial queue."
-                    : "Active specimen will undergo three consecutive encounters selected from the current field pool."}
-                </p>
-              </div>
-
-              <div className="mt-3 grid grid-cols-2 gap-2">
-                <StatusStat
-                  icon={UsersRound}
-                  label={
-                    selectedMode === "duel"
-                      ? "Queued Subjects"
-                      : "Field Pool"
-                  }
-                  value={selectedMode === "duel" ? "27" : "86"}
-                />
-
-                <StatusStat
-                  icon={Clock3}
-                  label="Deployment"
-                  value={selectedMode === "duel" ? "< 1 min" : "Immediate"}
-                />
-              </div>
-            </section>
-          </div>
-
-          {/* RIGHT */}
-          <div className="min-w-0 space-y-4">
-            <section className="overflow-hidden rounded-xl border border-[#292823] bg-[#0a0d0f]">
-              <div className="grid lg:grid-cols-[1fr_310px]">
-                <div className="p-5 sm:p-6">
-                  <div className="flex flex-wrap items-center gap-2">
-                    <span className="rounded-md border border-[#a97826]/30 bg-[#a97826]/[0.06] px-2.5 py-1 text-[9px] font-black uppercase tracking-[0.2em] text-[#d2a143]">
-                      Selected Protocol
-                    </span>
-
- 
-                  </div>
-
-                  <h2 className="mt-4 text-2xl font-black uppercase tracking-[0.04em] text-[#e6e2da] sm:text-3xl">
-                    {activeMode.title}
-                  </h2>
-
-                  <p className="mt-2 max-w-2xl text-sm leading-6 text-[#85898b]">
-                    {activeMode.description}
-                  </p>
-
-                  <div className="mt-6 flex flex-wrap gap-2 text-xs">
-                    <InfoPill>Verified trial seed</InfoPill>
-                    <InfoPill>Weighted move selection</InfoPill>
-                    <InfoPill>Replay reconstruction</InfoPill>
-                  </div>
-                </div>
-
-                <div className="flex flex-col justify-center border-t border-[#292823] bg-[#080a0b] p-5 lg:border-l lg:border-t-0">
-                  <button className="group flex w-full items-center justify-between rounded-lg border border-[#b8842c]/55 bg-[linear-gradient(110deg,rgba(126,85,21,0.23),rgba(77,48,13,0.10))] px-4 py-4 text-left transition hover:border-[#d2a143]/80">
-                    <span>
-                      <span className="block text-[9px] font-black uppercase tracking-[0.22em] text-[#c79639]">
-                        Deploy Specimen
-                      </span>
-
-                      <span className="mt-1 block text-base font-black text-[#e8e4db]">
-                        Queue Vortexwarden
-                      </span>
-                    </span>
-
-                    <span className="grid size-9 place-items-center rounded-md border border-[#c99739]/50 bg-[#c99739] text-[#080808] transition group-hover:translate-x-0.5">
-                      <ChevronRight size={18} />
-                    </span>
-                  </button>
-
-                  <div className="mt-3 flex items-center justify-center gap-1.5 text-[9px] uppercase tracking-wide text-[#5f6466]">
-                    <ShieldCheck size={11} />
-                    Controlled simulation / no wager
-                  </div>
-                </div>
-              </div>
-            </section>
-
-            <div className="grid gap-4 xl:grid-cols-[0.9fr_1.1fr]">
-              <RecentBattles />
-              <ArenaPreview />
-            </div>
-
-            <section className="rounded-xl border border-[#292823] bg-[#0a0d0f] p-4 sm:p-5">
-              <div className="grid gap-4 sm:grid-cols-3">
-                <FooterStat
-                  label="Series"
-                  value="Genesis I"
-                  detail="Project 333"
-                />
-
-                <FooterStat
-                  label="Trial Rating"
-                  value="1,247"
-                  detail="Top 31%"
-                />
-
-                <FooterStat
-                  label="Research XP"
-                  value="245"
-                  detail="Current cycle"
-                />
-              </div>
-            </section>
-          </div>
-        </div>
+        {/* LOWER COMPONENT */}
+        <section className="mt-3 min-h-[260px] lg:mt-0 lg:min-h-0">
+          <BattleControlPanel />
+        </section>
       </main>
     </div>
   );
 }
 
-function StatusStat({
-  icon: Icon,
-  label,
-  value,
-}: {
-  icon: typeof Clock3;
-  label: string;
-  value: string;
-}) {
+/* -------------------------------------------------------------------------- */
+/* YOUR SPECIMEN                                                              */
+/* -------------------------------------------------------------------------- */
+
+function SpecimenCard() {
   return (
-    <div className="rounded-lg border border-[#242521] bg-[#07090a] p-3">
-      <Icon size={14} className="text-[#806b46]" />
+    <button
+      type="button"
+      className="group relative min-h-[300px] overflow-hidden rounded-xl border border-[#a97826]/45 bg-[#080a0b] text-left lg:min-h-0"
+    >
+      <Image
+        src={activeSpecimen.image}
+        alt={activeSpecimen.name}
+        fill
+        priority
+        sizes="280px"
+        className="object-cover transition duration-500 group-hover:scale-[1.02]"
+      />
 
-      <p className="mt-3 text-[9px] font-bold uppercase tracking-[0.18em] text-[#5d6162]">
-        {label}
-      </p>
+      <div className="absolute inset-0 bg-[linear-gradient(180deg,transparent_28%,rgba(0,0,0,0.96))]" />
 
-      <p className="mt-1 text-sm font-black text-[#dfdcd4]">
-        {value}
-      </p>
-    </div>
+      <div className="absolute left-3 top-3 rounded-md border border-[#a97826]/30 bg-black/65 px-3 py-1.5 backdrop-blur">
+        <p className="text-[9px] font-black uppercase tracking-[0.14em] text-[#d2a143]">
+          Your Specimen
+        </p>
+      </div>
+
+      <div className="absolute inset-x-0 bottom-0 p-4">
+        <p className="font-mono text-[10px] font-bold text-[#a17d43]">
+          #{String(activeSpecimen.baseId).padStart(3, "0")}
+        </p>
+
+        <h2 className="mt-1 truncate text-xl font-black uppercase tracking-[0.03em] text-white">
+          {activeSpecimen.name}
+        </h2>
+
+        <p className="mt-1 text-xs text-[#8d9192]">
+          Active combat specimen
+        </p>
+      </div>
+    </button>
   );
 }
 
-function InfoPill({
-  children,
+/* -------------------------------------------------------------------------- */
+/* ARENAS                                                                     */
+/* -------------------------------------------------------------------------- */
+
+function ArenaCarousel({
+  arena,
+  arenaIndex,
+  onPrevious,
+  onNext,
+  onSelect,
 }: {
-  children: React.ReactNode;
+  arena: Arena;
+  arenaIndex: number;
+  onPrevious: () => void;
+  onNext: () => void;
+  onSelect: (index: number) => void;
 }) {
   return (
-    <span className="rounded-md border border-[#302f29] bg-[#111315] px-3 py-1.5 font-semibold text-[#777c7e]">
-      {children}
-    </span>
+    <section className="relative min-h-[340px] overflow-hidden rounded-xl border border-[#383329] bg-[#080a0b] lg:min-h-0">
+      <Image
+        key={arena.id}
+        src={arena.image}
+        alt={arena.name}
+        fill
+        priority
+        sizes="1000px"
+        className="object-cover"
+      />
+
+      <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(0,0,0,0.08),rgba(0,0,0,0.10)_45%,rgba(0,0,0,0.92))]" />
+
+      <div className="absolute left-4 top-4 rounded-md border border-white/10 bg-black/70 px-3 py-1.5 backdrop-blur-md">
+        <p className="text-[9px] font-black uppercase tracking-[0.18em] text-[#d2a143]">
+          Arena
+        </p>
+      </div>
+
+      {/* LEFT */}
+      <button
+        type="button"
+        onClick={onPrevious}
+        aria-label="Previous arena"
+        className="absolute left-4 top-1/2 z-20 grid size-12 -translate-y-1/2 place-items-center rounded-full border border-white/25 bg-black/70 text-white backdrop-blur transition hover:border-[#d2a143] hover:bg-black"
+      >
+        <ChevronLeft size={24} />
+      </button>
+
+      {/* RIGHT */}
+      <button
+        type="button"
+        onClick={onNext}
+        aria-label="Next arena"
+        className="absolute right-4 top-1/2 z-20 grid size-12 -translate-y-1/2 place-items-center rounded-full border border-white/25 bg-black/70 text-white backdrop-blur transition hover:border-[#d2a143] hover:bg-black"
+      >
+        <ChevronRight size={24} />
+      </button>
+
+      {/* ARENA NAME */}
+      <div className="absolute inset-x-0 bottom-0 p-5 text-center">
+        <p className="text-[9px] font-black uppercase tracking-[0.22em] text-[#c18e35]">
+          Selected Environment
+        </p>
+
+        <h1 className="mt-1 text-2xl font-black uppercase tracking-[0.05em] text-white xl:text-3xl">
+          {arena.name}
+        </h1>
+
+        <p className="mt-1 text-xs text-[#a1a4a4]">
+          {arena.subtitle}
+        </p>
+
+        {/* DOTS */}
+        <div className="mt-3 flex justify-center gap-2">
+          {arenas.map((item, index) => (
+            <button
+              key={item.id}
+              type="button"
+              onClick={() => onSelect(index)}
+              aria-label={`Select ${item.name}`}
+              className={`h-1.5 rounded-full transition-all ${
+                index === arenaIndex
+                  ? "w-7 bg-[#d2a143]"
+                  : "w-1.5 bg-white/30 hover:bg-white/60"
+              }`}
+            />
+          ))}
+        </div>
+      </div>
+    </section>
   );
 }
 
-function FooterStat({
+/* -------------------------------------------------------------------------- */
+/* UNKNOWN OPPONENT                                                           */
+/* -------------------------------------------------------------------------- */
+
+function UnknownOpponent() {
+  return (
+    <section className="relative min-h-[300px] overflow-hidden rounded-xl border border-[#292823] bg-[#080a0b] lg:min-h-0">
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_45%,rgba(169,120,38,0.10),transparent_40%)]" />
+
+      <div className="absolute left-3 top-3 rounded-md border border-[#34332f] bg-black/60 px-3 py-1.5">
+        <p className="text-[9px] font-black uppercase tracking-[0.14em] text-[#767a7b]">
+          Opponent
+        </p>
+      </div>
+
+      <div className="relative flex h-full min-h-[300px] flex-col items-center justify-center text-center lg:min-h-0">
+        <div className="relative grid size-28 place-items-center rounded-full border border-[#34332f] bg-[#050708]">
+          <span className="select-none text-7xl font-black leading-none text-[#393b39]">
+            ?
+          </span>
+
+          <HelpCircle
+            size={21}
+            className="absolute bottom-2 right-2 text-[#806b47]"
+          />
+        </div>
+
+        <h2 className="mt-5 text-xl font-black uppercase tracking-[0.05em] text-[#d7d3cb]">
+          Unknown
+        </h2>
+
+        <p className="mt-1 text-xs text-[#666b6c]">
+          Awaiting matchmaking
+        </p>
+      </div>
+    </section>
+  );
+}
+
+/* -------------------------------------------------------------------------- */
+/* MODE TOGGLES                                                               */
+/* -------------------------------------------------------------------------- */
+
+function ModeToggle({
   label,
-  value,
   detail,
+  selected = false,
+  disabled = false,
 }: {
   label: string;
-  value: string;
   detail: string;
+  selected?: boolean;
+  disabled?: boolean;
 }) {
   return (
-    <div className="rounded-lg border border-[#242521] bg-[#07090a] p-4">
-      <p className="text-[9px] font-black uppercase tracking-[0.22em] text-[#5d6162]">
-        {label}
-      </p>
+    <button
+      type="button"
+      disabled={disabled}
+      className={`flex h-[72px] items-center gap-3 rounded-xl border px-4 text-left transition ${
+        disabled
+          ? "cursor-not-allowed border-[#242526] bg-[#08090a] opacity-40"
+          : selected
+            ? "border-[#a97826]/60 bg-[#a97826]/[0.07]"
+            : "border-[#292823] bg-[#080a0b]"
+      }`}
+    >
+      <div
+        className={`grid size-9 shrink-0 place-items-center rounded-lg border ${
+          selected && !disabled
+            ? "border-[#a97826]/40 bg-[#a97826]/[0.08] text-[#d2a143]"
+            : "border-[#323435] text-[#747879]"
+        }`}
+      >
+        {disabled ? (
+          <Lock size={16} />
+        ) : (
+          <Swords size={17} />
+        )}
+      </div>
 
-      <p className="mt-1 text-lg font-black text-[#dfdcd4]">
-        {value}
-      </p>
+      <div className="min-w-0 flex-1">
+        <div className="flex items-center gap-2">
+          <h3 className="text-sm font-black uppercase tracking-[0.04em] text-[#e5e1d8]">
+            {label}
+          </h3>
 
-      <p className="mt-0.5 text-xs text-[#666b6c]">
-        {detail}
-      </p>
+          {disabled && (
+            <span className="rounded border border-[#454545] px-1.5 py-0.5 text-[7px] font-black uppercase tracking-[0.08em] text-[#777]">
+              Disabled
+            </span>
+          )}
+        </div>
+
+        <p className="mt-0.5 truncate text-[11px] text-[#707576]">
+          {detail}
+        </p>
+      </div>
+
+      {!disabled && (
+        <ChevronRight
+          size={16}
+          className="shrink-0 text-[#806b47]"
+        />
+      )}
+    </button>
+  );
+}
+
+/* -------------------------------------------------------------------------- */
+/* LOWER COMPONENT                                                            */
+/* -------------------------------------------------------------------------- */
+
+function BattleControlPanel() {
+  return (
+    <div className="flex h-full min-h-[220px] items-center justify-center rounded-xl border border-[#292823] bg-[#080a0b] lg:min-h-0">
+      <div className="text-center">
+        <p className="text-[10px] font-black uppercase tracking-[0.22em] text-[#806b47]">
+          Lobby
+        </p>
+
+        <h2 className="mt-2 text-xl font-black uppercase tracking-[0.05em] text-[#dedad1]">
+          Battle Controls
+        </h2>
+
+        <p className="mt-2 text-sm text-[#666b6c]">
+          .
+        </p>
+      </div>
     </div>
   );
 }

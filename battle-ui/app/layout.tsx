@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Specimen",
+  title: "SPECIMEN",
   description: "Collect, battle, and build a legendary dinosaur record.",
 };
 

@@ -1,23 +1,24 @@
 "use client";
 
 import { useState } from "react";
-import Link from "next/link";
 import {
   ChevronRight,
   CircleDollarSign,
   Dna,
-  FlaskConical,
-  HeartPulse,
+  Images,
   ScanSearch,
-  Swords,
   Wrench,
 } from "lucide-react";
-
 
 import { AppNavigation } from "@/components/battle-dinos/nav";
 import { SpecimenDex } from "@/components/battle-dinos/specimen-dex";
 
-type LabTab = "dex" | "evolve" | "repair" | "earn";
+type LabTab =
+  | "dex"
+  | "owned"
+  | "evolve"
+  | "repair"
+  | "earn";
 
 const labTabs = [
   {
@@ -25,6 +26,12 @@ const labTabs = [
     label: "Specimen Dex",
     description: "View collection",
     icon: ScanSearch,
+  },
+  {
+    id: "owned" as const,
+    label: "Owned",
+    description: "Your specimens",
+    icon: Images,
   },
   {
     id: "evolve" as const,
@@ -47,7 +54,25 @@ const labTabs = [
 ];
 
 export default function ProfilePage() {
-  const [activeTab, setActiveTab] = useState<LabTab>("dex");
+  const [activeTab, setActiveTab] =
+    useState<LabTab>("dex");
+
+  /*
+   * TEMPORARY
+   *
+   * Later this comes from the connected wallet.
+   *
+   * These examples make the Owned Gallery visible
+   * while you're building the UI.
+   */
+  const ownedBaseIds = [
+    1,
+    7,
+    8,
+    14,
+    21,
+    108,
+  ];
 
   return (
     <div className="min-h-screen bg-[#050708] pb-24 text-[#e8e4db] md:pb-0">
@@ -57,17 +82,20 @@ export default function ProfilePage() {
         <div className="grid gap-3 lg:h-full lg:grid-cols-[230px_minmax(0,1fr)]">
           {/* LEFT LAB SIDEBAR */}
           <aside className="rounded-xl border border-[#292823] bg-[#080a0b] p-2 lg:h-full">
-            <div className="grid grid-cols-2 gap-2 lg:flex lg:h-full lg:flex-col">
+            <div className="grid grid-cols-2 gap-2 sm:grid-cols-3 lg:flex lg:h-full lg:flex-col">
               {labTabs.map((tab) => {
                 const Icon = tab.icon;
-                const active = activeTab === tab.id;
+                const active =
+                  activeTab === tab.id;
 
                 return (
                   <button
                     key={tab.id}
                     type="button"
-                    onClick={() => setActiveTab(tab.id)}
-                    className={`group flex min-h-[76px] items-center gap-3 rounded-lg border px-3 py-3 text-left transition lg:min-h-[88px] ${
+                    onClick={() =>
+                      setActiveTab(tab.id)
+                    }
+                    className={`group flex min-h-[76px] items-center gap-3 rounded-lg border px-3 py-3 text-left transition lg:min-h-[82px] ${
                       active
                         ? "border-[#a97826]/55 bg-[#a97826]/[0.08]"
                         : "border-transparent bg-[#050708] hover:border-[#34322c]"
@@ -111,7 +139,7 @@ export default function ProfilePage() {
                 );
               })}
 
-              {/* LAB IDENTITY AT BOTTOM */}
+              {/* LAB IDENTITY */}
               <div className="mt-auto hidden border-t border-[#292823] px-3 pb-2 pt-4 lg:block">
                 <div className="flex items-center gap-2">
                   <span className="size-2 rounded-full bg-[#7d8c58]" />
@@ -132,10 +160,25 @@ export default function ProfilePage() {
 
           {/* ACTIVE LAB AREA */}
           <section className="bd-scrollbar min-h-[520px] overflow-y-auto overflow-x-hidden rounded-xl border border-[#292823] bg-[#080a0b] lg:h-full lg:min-h-0">
-            {activeTab === "dex" && <SpecimenDex />}
-            {activeTab === "evolve" && <EvolvePanel />}
-            {activeTab === "repair" && <RepairPanel />}
-            {activeTab === "earn" && <EarnPanel />}
+            {activeTab === "dex" && (
+              <SpecimenDex
+                ownedBaseIds={ownedBaseIds}
+              />
+            )}
+
+            {activeTab === "owned" && (
+              <SpecimenDex
+                ownedBaseIds={ownedBaseIds}
+                ownedOnly
+              />
+            )}
+
+            {activeTab !== "dex" &&
+              activeTab !== "owned" && (
+                <ComingSoonPanel
+                  tab={activeTab}
+                />
+              )}
           </section>
         </div>
       </main>
@@ -143,156 +186,70 @@ export default function ProfilePage() {
   );
 }
 
+function ComingSoonPanel({
+  tab,
+}: {
+  tab: Exclude<
+    LabTab,
+    "dex" | "owned"
+  >;
+}) {
+  const content = {
+    evolve: {
+      eyebrow: "Development",
+      title: "Evolution Chamber",
+      description:
+        "Develop specimens into unique evolutionary forms.",
+      icon: Dna,
+    },
 
+    repair: {
+      eyebrow: "Recovery",
+      title: "Repair Station",
+      description:
+        "Restore specimen condition after combat trials.",
+      icon: Wrench,
+    },
 
-function EvolvePanel() {
+    earn: {
+      eyebrow: "Progression",
+      title: "Earn",
+      description:
+        "Earn XP and future rewards through specimen activity.",
+      icon: CircleDollarSign,
+    },
+  };
+
+  const item = content[tab];
+  const Icon = item.icon;
+
   return (
-    <div className="flex h-full min-h-0 flex-col p-4 sm:p-5">
+    <div className="flex h-full min-h-[520px] flex-col p-4 sm:p-5">
       <PanelHeader
-        eyebrow="Development"
-        title="Evolution Chamber"
-        text="Develop a specimen into a new individual form."
-        icon={Dna}
-      />
-
-      <div className="mt-4 grid min-h-0 flex-1 gap-3 md:grid-cols-[minmax(0,1fr)_320px]">
-        {/* SPECIMEN */}
-        <div className="flex items-center justify-center rounded-xl border border-dashed border-[#34322c] bg-[#050708] p-5">
-          <div className="max-w-md text-center">
-            <div className="mx-auto grid size-16 place-items-center rounded-xl border border-[#a97826]/30 bg-[#a97826]/[0.06] text-[#d2a143]">
-              <Dna size={28} />
-            </div>
-
-            <h2 className="mt-4 text-xl font-black uppercase tracking-[0.05em] text-[#dedad1]">
-              Select A Specimen
-            </h2>
-
-            <p className="mt-2 text-sm leading-6 text-[#777c7d]">
-              Evolution uses the specimen&apos;s genetics, mutations,
-              progression, and existing evolutionary history.
-            </p>
-
-            <button className="mt-5 rounded-lg border border-[#a97826]/45 bg-[#a97826]/[0.07] px-5 py-3 text-sm font-black uppercase tracking-[0.07em] text-[#d2a143] transition hover:border-[#d2a143]/70">
-              Select Specimen
-            </button>
-          </div>
-        </div>
-
-        {/* EVOLUTION DETAILS */}
-        <div className="grid content-start gap-3">
-          <InfoBox
-            label="Status"
-            value="Standby"
-            text="No active specimen."
-          />
-
-          <InfoBox
-            label="Incubation"
-            value="Up To 48 Hours"
-            text="Major changes require biological stabilization."
-          />
-
-          <InfoBox
-            label="Phenotype"
-            value="Unknown"
-            text="The evolved form remains concealed until completion."
-          />
-        </div>
-      </div>
-    </div>
-  );
-}
-
-function RepairPanel() {
-  return (
-    <div className="flex h-full min-h-0 flex-col p-4 sm:p-5">
-      <PanelHeader
-        eyebrow="Recovery"
-        title="Repair"
-        text="Restore specimen condition after trials and procedures."
-        icon={Wrench}
+        eyebrow={item.eyebrow}
+        title={item.title}
+        text={item.description}
+        icon={Icon}
       />
 
       <div className="mt-4 flex min-h-0 flex-1 items-center justify-center rounded-xl border border-dashed border-[#34322c] bg-[#050708]">
         <div className="max-w-md px-6 text-center">
           <div className="mx-auto grid size-16 place-items-center rounded-xl border border-[#a97826]/30 bg-[#a97826]/[0.06] text-[#d2a143]">
-            <HeartPulse size={28} />
+            <Icon size={27} />
           </div>
 
-          <h2 className="mt-4 text-xl font-black uppercase tracking-[0.05em] text-[#dedad1]">
-            Recovery Station
-          </h2>
-
-          <p className="mt-2 text-sm leading-6 text-[#777c7d]">
-            Select a specimen to inspect its condition and available recovery
-            procedures.
+          <p className="mt-5 text-xs font-black uppercase tracking-[0.2em] text-[#806b47]">
+            Project 333
           </p>
 
-          <button className="mt-5 rounded-lg border border-[#a97826]/45 bg-[#a97826]/[0.07] px-5 py-3 text-sm font-black uppercase tracking-[0.07em] text-[#d2a143]">
-            Select Specimen
-          </button>
-        </div>
-      </div>
-    </div>
-  );
-}
+          <h2 className="mt-2 text-2xl font-black uppercase tracking-[0.05em] text-[#dedad1]">
+            Coming Soon
+          </h2>
 
-function EarnPanel() {
-  return (
-    <div className="flex h-full min-h-0 flex-col p-4 sm:p-5">
-      <PanelHeader
-        eyebrow="Progression"
-        title="Earn"
-        text="Use your specimens to earn XP and build progression."
-        icon={CircleDollarSign}
-      />
-
-      <div className="mt-4 grid min-h-0 flex-1 gap-3 md:grid-cols-2">
-        <Link
-          href="/battle"
-          className="group flex flex-col justify-between rounded-xl border border-[#a97826]/30 bg-[#a97826]/[0.05] p-5 transition hover:border-[#d2a143]/60"
-        >
-          <div>
-            <Swords size={26} className="text-[#d2a143]" />
-
-            <h2 className="mt-5 text-2xl font-black uppercase tracking-[0.05em] text-[#dedad1]">
-              Combat Trials
-            </h2>
-
-            <p className="mt-3 max-w-md text-sm leading-7 text-[#777c7d]">
-              Battle specimens to earn XP, strengthen progression, and build
-              their official combat history.
-            </p>
-          </div>
-
-          <div className="mt-6 flex items-center gap-2 text-sm font-black uppercase tracking-[0.08em] text-[#d2a143]">
-            Enter Trials
-            <ChevronRight
-              size={16}
-              className="transition group-hover:translate-x-1"
-            />
-          </div>
-        </Link>
-
-        <div className="flex flex-col justify-between rounded-xl border border-[#292823] bg-[#050708] p-5">
-          <div>
-            <FlaskConical
-              size={26}
-              className="text-[#806b47]"
-            />
-
-            <h2 className="mt-5 text-2xl font-black uppercase tracking-[0.05em] text-[#dedad1]">
-              Progression
-            </h2>
-
-            <p className="mt-3 max-w-md text-sm leading-7 text-[#777c7d]">
-              Earned XP can support leveling, mutation procedures, and future
-              evolutionary development.
-            </p>
-          </div>
-
-          <p className="mt-6 text-xs font-bold uppercase tracking-[0.08em] text-[#606566]">
-            Select a specimen to view progression
+          <p className="mx-auto mt-3 max-w-sm text-sm leading-6 text-[#777c7d]">
+            This system is currently under
+            development and will become
+            available in a future release.
           </p>
         </div>
       </div>
@@ -330,32 +287,6 @@ function PanelHeader({
           {text}
         </p>
       </div>
-    </div>
-  );
-}
-
-function InfoBox({
-  label,
-  value,
-  text,
-}: {
-  label: string;
-  value: string;
-  text: string;
-}) {
-  return (
-    <div className="rounded-xl border border-[#292823] bg-[#050708] p-4">
-      <p className="text-[10px] font-black uppercase tracking-[0.14em] text-[#70695e]">
-        {label}
-      </p>
-
-      <p className="mt-2 text-lg font-black uppercase text-[#dedad1]">
-        {value}
-      </p>
-
-      <p className="mt-1 text-xs leading-5 text-[#6f7475]">
-        {text}
-      </p>
     </div>
   );
 }
