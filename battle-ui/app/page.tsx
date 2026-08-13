@@ -45,9 +45,8 @@ export default function HomePage() {
 
               <p className="mt-7 max-w-2xl text-base leading-8 text-[#96999a] sm:text-lg">
                 SPECIMEN is a collectible creature ecosystem built around 333
-                original prehistoric genetic templates. Open Genesis packs,
-                develop individual specimens, acquire mutations, evolve new
-                forms, and deploy them into deterministic combat trials.
+                original prehistoric base characters. Open Genesis packs to
+                develop unique specimens.
               </p>
 
               <div className="mt-8 flex flex-wrap gap-3">
@@ -176,6 +175,61 @@ export default function HomePage() {
             </div>
           </div>
         </section>
+        {/* UNIQUE EVOLUTION */}
+        <section className="border-b border-[#292823] bg-[#07090a]">
+          <div className="mx-auto max-w-[1250px] px-4 py-20 sm:px-6 xl:px-8">
+            <SectionHeader
+              eyebrow="Adaptive Evolution"
+              title="Same Origin. Different Outcomes."
+              text="Evolution is generated for the individual specimen. Two creatures that begin from the same Project 333 template can develop into completely different forms."
+            />
+
+            <div className="mt-12 grid gap-4 md:grid-cols-3">
+              <EvolutionImageCard
+                stage="Genesis"
+                title="Original Form"
+                text="Every specimen begins with the visual identity of its Project 333 base creature, while its individual genetics establish its starting potential."
+                image="/dinos/54.png"
+              />
+
+              <EvolutionImageCard
+                stage="EVO I"
+                title="Individual Development"
+                text="When evolution begins, the new form is generated from that specimen's genetics, progression, and acquired mutations rather than using one shared evolution image."
+                image="/evolutions/evo-1.png"
+              />
+
+              <EvolutionImageCard
+                stage="EVO II"
+                title="A Unique Lineage"
+                text="Later evolutions inherit earlier biological changes. Horns, armor, body structure, coloration, mutations, and other traits can compound into a form unique to that specimen."
+                image="/evolutions/evo-2.png"
+              />
+            </div>
+
+            <div className="mt-8 rounded-xl border border-[#8e702c]/30 bg-[#8e702c]/[0.045] px-5 py-5 sm:px-6">
+              <div className="grid gap-5 md:grid-cols-[auto_1fr] md:items-center">
+                <div className="grid size-12 place-items-center rounded-lg border border-[#a97826]/35 bg-[#a97826]/[0.07] text-[#d2a143]">
+                  <Dna size={22} />
+                </div>
+
+                <div>
+                  <p className="text-sm font-black uppercase tracking-[0.08em] text-[#ded9cf]">
+                    Evolution Is Generated Per Specimen
+                  </p>
+
+                  <p className="mt-2 max-w-4xl text-sm leading-7 text-[#85898b]">
+                    The original creature acts as the biological foundation. The
+                    specimen&apos;s genetics, mutations, evolution stage, and
+                    developmental history are then used to generate its next visual
+                    form. Two Echoguards can therefore begin alike and eventually look
+                    completely different.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
 
         {/* TRIALS */}
         <section className="relative overflow-hidden border-b border-[#292823] bg-[#07090a]">
@@ -184,31 +238,86 @@ export default function HomePage() {
           <div className="relative mx-auto max-w-[1250px] px-4 py-20 sm:px-6 xl:px-8">
             <SectionHeader
               eyebrow="Combat Trials"
-              title="The Winner Is Decided Before The Camera Rolls."
-              text="SPECIMEN separates game logic from cinematic presentation. Trials are resolved by deterministic rules and seeded randomness, then reconstructed as a visual battle."
+              title="Battle. Earn XP. Develop Your Specimen."
+              text="Deploy your specimen into combat trials to earn XP, improve its capabilities, and build a permanent competitive history. Every official result is resolved by deterministic game logic before the cinematic replay is generated."
             />
 
             <div className="mt-12 grid gap-4 md:grid-cols-3">
               <FeatureCard
-                icon={ShieldCheck}
+                icon={Swords}
                 number="01"
-                title="Deterministic Engine"
-                text="Current stats, moves, elemental matchups, and a verifiable seed determine the official result."
+                title="Compete For Progression"
+                text="Completed trials earn XP for your specimen. Use that XP to level up, pursue mutations, and unlock future evolutionary development."
               />
 
               <FeatureCard
-                icon={Swords}
+                icon={Zap}
                 number="02"
-                title="Canonical Trial"
-                text="The engine records initiative, attacks, hits, criticals, and the finishing move as the official event sequence."
+                title="Put More Into The Trial"
+                text="Certain trial formats can require committed tokens or resources. Some are permanently burned, while outcome-based formats can direct value according to the final result."
               />
 
               <FeatureCard
                 icon={Play}
                 number="03"
-                title="Cinematic Replay"
-                text="AI reconstructs the completed trial into a visual replay without changing who won or what happened."
+                title="Build A History"
+                text="Every finalized trial becomes part of the specimen's record. AI reconstructs the locked result into a cinematic replay without changing what happened."
               />
+            </div>
+            {/* TRIAL VIDEO PLACEHOLDER */}
+            <div className="mt-8 overflow-hidden rounded-xl border border-[#292823] bg-[#050708]">
+              <div className="relative aspect-video min-h-[320px]">
+                <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_45%,rgba(167,112,31,0.12),transparent_42%)]" />
+
+                <div className="relative flex h-full items-center justify-center">
+                  <div className="text-center">
+                    <div className="mx-auto grid size-16 place-items-center rounded-full border border-[#a97826]/40 bg-[#a97826]/[0.08] text-[#d2a143]">
+                      <Play size={28} />
+                    </div>
+
+                    <p className="mt-5 text-sm font-black uppercase tracking-[0.12em] text-[#ded9cf]">
+                      Trial Replay
+                    </p>
+
+                    <p className="mx-auto mt-2 max-w-lg text-sm leading-6 text-[#777c7d]">
+                      Cinematic battle footage will appear here.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="mx-auto mt-8 max-w-4xl rounded-xl border border-[#8e702c]/25 bg-[#8e702c]/[0.045] px-5 py-5">
+              <div className="grid gap-5 sm:grid-cols-3">
+                <div>
+                  <p className="text-sm font-black uppercase tracking-[0.06em] text-[#ded9cf]">
+                    Earn XP
+                  </p>
+                  <p className="mt-1 text-sm leading-6 text-[#818687]">
+                    Combat participation advances the individual specimen.
+                  </p>
+                </div>
+
+                <div>
+                  <p className="text-sm font-black uppercase tracking-[0.06em] text-[#ded9cf]">
+                    Burn Tokens
+                  </p>
+                  <p className="mt-1 text-sm leading-6 text-[#818687]">
+                    Selected actions and competitive formats can permanently remove
+                    tokens from circulation.
+                  </p>
+                </div>
+
+                <div>
+                  <p className="text-sm font-black uppercase tracking-[0.06em] text-[#ded9cf]">
+                    Compete For Value
+                  </p>
+                  <p className="mt-1 text-sm leading-6 text-[#818687]">
+                    Higher-stakes trial formats can attach additional value to the
+                    official outcome.
+                  </p>
+                </div>
+              </div>
             </div>
 
             <div className="mt-10 flex justify-center">
@@ -359,7 +468,7 @@ export default function HomePage() {
                 href="/docs"
                 className="inline-flex items-center gap-2 rounded-lg border border-[#34322c] bg-[#0a0c0d] px-6 py-4 text-sm font-black uppercase tracking-[0.1em] text-[#aaa69d] transition hover:border-[#6b604b] hover:text-white"
               >
-                View Archive
+                View Full Docs
                 <ArrowRight size={17} />
               </Link>
             </div>
@@ -511,6 +620,61 @@ function SimpleCard({
       <p className="mt-2 text-sm leading-6 text-[#797e7f]">
         {text}
       </p>
+    </div>
+  );
+}
+
+function EvolutionImageCard({
+  stage,
+  title,
+  text,
+  image,
+}: {
+  stage: string;
+  title: string;
+  text: string;
+  image?: string;
+}) {
+  return (
+    <div className="overflow-hidden rounded-xl border border-[#292823] bg-[#0a0d0f]">
+      <div className="relative aspect-[4/5] overflow-hidden border-b border-[#292823] bg-[#050708]">
+        {image ? (
+          <img
+            src={image}
+            alt={`${stage} ${title}`}
+            className="h-full w-full object-cover"
+          />
+        ) : (
+          <div className="flex h-full items-center justify-center bg-[radial-gradient(circle_at_50%_45%,rgba(167,112,31,0.12),transparent_40%)]">
+            <div className="text-center">
+              <Dna
+                size={30}
+                className="mx-auto text-[#806b47]"
+              />
+
+              <p className="mt-3 text-xs font-black uppercase tracking-[0.16em] text-[#666159]">
+                Evolution Image
+              </p>
+            </div>
+          </div>
+        )}
+
+        <div className="absolute left-4 top-4 rounded-md border border-[#a97826]/35 bg-[#050708]/85 px-3 py-1.5 backdrop-blur">
+          <span className="text-[10px] font-black uppercase tracking-[0.18em] text-[#d2a143]">
+            {stage}
+          </span>
+        </div>
+      </div>
+
+      <div className="p-5">
+        <h3 className="text-lg font-black uppercase tracking-[0.04em] text-[#dedad1]">
+          {title}
+        </h3>
+
+        <p className="mt-2 text-sm leading-7 text-[#7f8485]">
+          {text}
+        </p>
+      </div>
     </div>
   );
 }
