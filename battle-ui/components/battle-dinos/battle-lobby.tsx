@@ -32,7 +32,6 @@ const arenas: Arena[] = [
     subtitle: "Volcanic Combat Zone",
     image: "/arenas/stormforge-caldera.png",
   },
-
   {
     id: "skyfall",
     name: "Skyfall Coliseum",
@@ -76,6 +75,7 @@ export function BattleLobby() {
     );
   }, []);
 
+  /* KEYBOARD ARROWS */
   useEffect(() => {
     function handleKeyDown(event: KeyboardEvent) {
       if (event.key === "ArrowLeft") {
@@ -93,6 +93,17 @@ export function BattleLobby() {
       window.removeEventListener("keydown", handleKeyDown);
     };
   }, [previousArena, nextArena]);
+
+  /* AUTO ROTATE */
+  useEffect(() => {
+    const interval = window.setInterval(() => {
+      nextArena();
+    }, 4000);
+
+    return () => {
+      window.clearInterval(interval);
+    };
+  }, [nextArena]);
 
   return (
     <div className="min-h-screen bg-[#050708] text-[#e8e4db]">

@@ -35,7 +35,7 @@ const nav = [
 ];
 
 function SpecimenLogo({
-  size = 44,
+  size = 40,
 }: {
   size?: number;
 }) {
