@@ -1,0 +1,261 @@
+========================================
+SPECIMEN PUBLIC BATTLE BENCHMARK V1
+{
+  "benchmarkType": "canonical published-rule reference",
+  "totalScenarioTrials": 300000,
+  "trialsPerScenario": 100000,
+  "randomnessSamples": 100000,
+  "moveSelectionSamples": 100000,
+  "determinismSamples": 10000,
+  "scoreWeights": {
+    "health": 0.25,
+    "attack": 0.3,
+    "defense": 0.2,
+    "speed": 0.15,
+    "averageMovePower": 0.1
+  },
+  "elementMultipliers": {
+    "advantaged": 1.03,
+    "neutral": 1,
+    "disadvantaged": 0.97
+  },
+  "performanceRange": {
+    "min": 0.9,
+    "max": 1.1
+  },
+  "intensityThresholds": {
+    "close": "0% <= gap < 5%",
+    "clear": "5% <= gap < 15%",
+    "dominant": "15% <= gap < 25%",
+    "overwhelming": "gap >= 25%"
+  },
+  "benchmarkFighter": {
+    "stats": {
+      "health": 82,
+      "attack": 79,
+      "defense": 73,
+      "speed": 73
+    },
+    "movePowers": [
+      82,
+      44,
+      64
+    ],
+    "baseScore": 76.0833
+  },
+  "publicSafety": "aggregate benchmark data only"
+}
+
+========================================
+DETERMINISM
+{
+  "repeatedTrials": 10000,
+  "mismatches": 0,
+  "reproducibilityPercent": 100
+}
+
+========================================
+PERFORMANCE RANDOMNESS
+{
+  "samples": 100000,
+  "configuredRange": {
+    "min": 0.9,
+    "max": 1.1
+  },
+  "observed": {
+    "min": 0.900001,
+    "max": 1.099997,
+    "average": 0.999861,
+    "p10": 0.919904,
+    "p50": 0.999636,
+    "p90": 1.080133
+  }
+}
+
+========================================
+WEIGHTED MOVE SELECTION
+{
+  "samples": 100000,
+  "moveWeights": [
+    {
+      "slot": 1,
+      "weight": 82,
+      "expectedPercent": 43.16,
+      "observedPercent": 43.34
+    },
+    {
+      "slot": 2,
+      "weight": 44,
+      "expectedPercent": 23.16,
+      "observedPercent": 22.98
+    },
+    {
+      "slot": 3,
+      "weight": 64,
+      "expectedPercent": 33.68,
+      "observedPercent": 33.68
+    }
+  ]
+}
+
+========================================
+EQUAL NEUTRAL
+{
+  "id": "equal-neutral",
+  "trials": 100000,
+  "elementState": {
+    "specimenA": "neutral",
+    "specimenB": "neutral",
+    "multiplierA": 1,
+    "multiplierB": 1
+  },
+  "winDistribution": {
+    "specimenA": {
+      "count": 50120,
+      "percent": 50.12
+    },
+    "specimenB": {
+      "count": 49880,
+      "percent": 49.88
+    },
+    "ties": {
+      "count": 0,
+      "percent": 0
+    }
+  },
+  "intensityDistribution": {
+    "close": {
+      "count": 42811,
+      "percent": 42.81
+    },
+    "clear": {
+      "count": 48031,
+      "percent": 48.03
+    },
+    "dominant": {
+      "count": 9158,
+      "percent": 9.16
+    },
+    "overwhelming": {
+      "count": 0,
+      "percent": 0
+    }
+  },
+  "scoreGap": {
+    "averagePercent": 7.022,
+    "p50": 6.036,
+    "p90": 14.688,
+    "p99": 19.767
+  }
+}
+
+========================================
+EQUAL A ADVANTAGED
+{
+  "id": "equal-a-advantaged",
+  "trials": 100000,
+  "elementState": {
+    "specimenA": "advantaged",
+    "specimenB": "disadvantaged",
+    "multiplierA": 1.03,
+    "multiplierB": 0.97
+  },
+  "winDistribution": {
+    "specimenA": {
+      "count": 75450,
+      "percent": 75.45
+    },
+    "specimenB": {
+      "count": 24550,
+      "percent": 24.55
+    },
+    "ties": {
+      "count": 0,
+      "percent": 0
+    }
+  },
+  "intensityDistribution": {
+    "close": {
+      "count": 34083,
+      "percent": 34.08
+    },
+    "clear": {
+      "count": 47709,
+      "percent": 47.71
+    },
+    "dominant": {
+      "count": 16448,
+      "percent": 16.45
+    },
+    "overwhelming": {
+      "count": 1760,
+      "percent": 1.76
+    }
+  },
+  "scoreGap": {
+    "averagePercent": 8.856,
+    "p50": 7.47,
+    "p90": 18.68,
+    "p99": 26.12
+  }
+}
+
+========================================
+EQUAL A DISADVANTAGED
+{
+  "id": "equal-a-disadvantaged",
+  "trials": 100000,
+  "elementState": {
+    "specimenA": "disadvantaged",
+    "specimenB": "advantaged",
+    "multiplierA": 0.97,
+    "multiplierB": 1.03
+  },
+  "winDistribution": {
+    "specimenA": {
+      "count": 24665,
+      "percent": 24.66
+    },
+    "specimenB": {
+      "count": 75335,
+      "percent": 75.33
+    },
+    "ties": {
+      "count": 0,
+      "percent": 0
+    }
+  },
+  "intensityDistribution": {
+    "close": {
+      "count": 34032,
+      "percent": 34.03
+    },
+    "clear": {
+      "count": 48047,
+      "percent": 48.05
+    },
+    "dominant": {
+      "count": 16171,
+      "percent": 16.17
+    },
+    "overwhelming": {
+      "count": 1750,
+      "percent": 1.75
+    }
+  },
+  "scoreGap": {
+    "averagePercent": 8.831,
+    "p50": 7.466,
+    "p90": 18.644,
+    "p99": 26.129
+  }
+}
+
+========================================
+INTERPRETATION
+Identical neutral specimens should approach a 50 / 50 win distribution across a large seed set.
+Same snapshots plus the same seed must reproduce the same canonical result.
+Performance randomness is configured from 0.90 through 1.10 and should center near 1.00.
+Element modifiers should produce a measurable strategic advantage without changing the underlying specimen metadata.
+Trial intensity is derived from the final score gap and controls replay direction after the winner is already locked.
+This public V1 script mirrors the documented battle rules. Once the production trial resolver has a stable exported interface, benchmark that resolver directly using this same report format.

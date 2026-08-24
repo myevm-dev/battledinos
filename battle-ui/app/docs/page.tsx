@@ -633,9 +633,9 @@ export default function DocsPage() {
               </Formula>
 
               <div className="mt-4 grid gap-3 sm:grid-cols-3">
-                <ModifierCard label="Element Advantage" value="× 1.07" tone="good" />
+                <ModifierCard label="Element Advantage" value="× 1.03" tone="good" />
                 <ModifierCard label="Neutral" value="× 1.00" tone="neutral" />
-                <ModifierCard label="Element Disadvantage" value="× 0.93" tone="bad" />
+                <ModifierCard label="Element Disadvantage" value="× 0.97" tone="bad" />
               </div>
 
               <Formula>Performance Multiplier = 0.90 + (Seeded Random Roll × 0.20)</Formula>

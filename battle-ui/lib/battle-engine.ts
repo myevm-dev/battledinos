@@ -114,8 +114,8 @@ const ELEMENT_BEATS: Record<DinoElement, DinoElement> = {
   Void: "Ember",
 };
 
-const STRONG_ELEMENT_MODIFIER = 1.07;
-const WEAK_ELEMENT_MODIFIER = 0.93;
+const STRONG_ELEMENT_MODIFIER = 1.03;
+const WEAK_ELEMENT_MODIFIER = 0.97;
 const NEUTRAL_ELEMENT_MODIFIER = 1.0;
 
 /*
