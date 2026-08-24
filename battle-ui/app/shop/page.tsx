@@ -1,135 +1,164 @@
 "use client";
 
-import { useState } from "react";
-import { AppNavigation } from "@/components/battle-dinos/nav";
+import Image from "next/image";
 import {
-  Info,
   PackageOpen,
   ShieldCheck,
   Sparkles,
-  X,
 } from "lucide-react";
-//import { PackOdds } from "@/components/battle-dinos/pack-odds";
+import { AppNavigation } from "@/components/battle-dinos/nav";
 
-  
+const BOX_SUPPLY = 900;
+const PRICE_UNI = 11;
+const PACKS_PER_BOX = 8;
+const CARDS_PER_PACK = 5;
+const CARDS_PER_BOX = PACKS_PER_BOX * CARDS_PER_PACK;
+
+const boosterBoxOdds = [
+  {
+    result: "Common Standard",
+    distribution: "24+ per box",
+    odds: "Guaranteed",
+    detail: "Baseline Standard collation",
+  },
+  {
+    result: "Uncommon Standard",
+    distribution: "8+ per box",
+    odds: "Guaranteed",
+    detail: "At least one in every pack",
+  },
+  {
+    result: "Rare Standard",
+    distribution: "3+ per box",
+    odds: "Guaranteed",
+    detail: "Three base Rare slots",
+  },
+  {
+    result: "Special Finish",
+    distribution: "3 per box",
+    odds: "Guaranteed",
+    detail: "Reverse Holo, Holo, or 1/1 Alt Art",
+  },
+  {
+    result: "Reverse Holo",
+    distribution: "1+ per box",
+    odds: "Guaranteed",
+    detail: "867 of 900 boxes can contain a second",
+  },
+  {
+    result: "Holo",
+    distribution: "600 of 900 boxes",
+    odds: "1 in 1.50 boxes",
+    detail: "66.67% of booster boxes",
+  },
+  {
+    result: "1/1 Alternate Art",
+    distribution: "333 of 900 boxes",
+    odds: "1 in 2.70 boxes",
+    detail: "37.00% of booster boxes",
+  },
+  {
+    result: "Epic Standard",
+    distribution: "708 of 900 boxes",
+    odds: "1 in 1.27 boxes",
+    detail: "78.67% of booster boxes",
+  },
+  {
+    result: "Legendary Standard",
+    distribution: "101 of 900 boxes",
+    odds: "1 in 8.91 boxes",
+    detail: "11.22% of booster boxes",
+  },
+];
 
 export default function ShopPage() {
-  const [showDistribution, setShowDistribution] = useState(false);
-
   return (
     <div className="min-h-screen overflow-x-hidden bg-[#050708] text-[#e8e4db]">
       <AppNavigation />
 
-      <main className="mx-auto max-w-[1400px] px-4 py-4 sm:px-6 xl:px-8">
-        <section className="grid gap-4 lg:h-[calc(100vh-108px)] lg:min-h-[590px] lg:grid-cols-[minmax(0,1.08fr)_minmax(460px,0.92fr)]">
-          {/* PACK DISPLAY */}
-          <div className="relative flex min-h-[460px] items-center justify-center overflow-hidden rounded-xl border border-[#292823] bg-[#030405] lg:min-h-0">
-            <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(167,112,31,0.09),transparent_48%)]" />
+      <main className="mx-auto max-w-[1400px] px-4 py-5 sm:px-6 lg:py-7 xl:px-8">
+        {/* PRODUCT */}
+        <section className="grid gap-5 lg:grid-cols-[minmax(0,1.08fr)_minmax(430px,0.92fr)]">
+          {/* BOOSTER BOX IMAGE */}
+          <div className="relative flex min-h-[430px] items-center justify-center overflow-hidden rounded-xl border border-[#292823] bg-[#030405] p-5 sm:min-h-[560px] sm:p-8">
+            <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_50%_48%,rgba(167,112,31,0.12),transparent_48%)]" />
 
-            <video
-              src="/packs/genesispack.mp4"
-              autoPlay
-              loop
-              muted
-              playsInline
-              preload="auto"
-              className="relative z-10 h-[94%] w-[94%] object-contain"
+            <Image
+              src="/boosterbox.png"
+              alt="SPECIMEN Genesis Series booster box"
+              width={1000}
+              height={1000}
+              priority
+              className="relative z-10 max-h-[520px] w-full object-contain"
             />
 
-            <div className="pointer-events-none absolute left-5 top-5 z-20">
-              <p className="text-xs font-black uppercase tracking-[0.22em] text-[#806b47]">
+            <div className="pointer-events-none absolute left-5 top-5 z-20 sm:left-7 sm:top-7">
+              <p className="text-xs font-black uppercase tracking-[0.2em] text-[#8b734d]">
                 Project 333
               </p>
-
-              <p className="mt-1 text-sm font-black uppercase tracking-[0.12em] text-[#d0cbc0]">
+              <p className="mt-1 text-sm font-black uppercase tracking-[0.1em] text-[#d0cbc0]">
                 Genesis Series
-              </p>
-            </div>
-
-            <div className="pointer-events-none absolute bottom-5 left-5 z-20">
-              <p className="text-xs font-black uppercase tracking-[0.18em] text-[#806b47]">
-                Sealed Issue
-              </p>
-
-              <p className="mt-1 text-base font-black uppercase tracking-[0.08em] text-[#e0dcd3]">
-                5 Cards
               </p>
             </div>
           </div>
 
           {/* PRODUCT PANEL */}
-          <div className="bd-panel flex min-h-0 flex-col rounded-xl p-6">
-            {/* HEADER */}
-            <div className="flex items-start justify-between gap-5">
+          <div className="bd-panel flex flex-col rounded-xl p-5 sm:p-7">
+            <div className="flex flex-wrap items-start justify-between gap-4">
               <div>
                 <p className="text-xs font-black uppercase tracking-[0.2em] text-[#806b47]">
                   Genesis Series
                 </p>
 
-                <h1 className="mt-2 text-4xl font-black uppercase tracking-[0.04em] text-[#e7e2d8]">
-                  5-Card Pack
+                <h1 className="mt-2 text-3xl font-black uppercase tracking-[0.04em] text-[#e7e2d8] sm:text-4xl">
+                  Booster Box
                 </h1>
               </div>
 
-              <div className="shrink-0 rounded-lg border border-[#a97826]/35 bg-[#a97826]/[0.06] px-5 py-3 text-right">
-                <p className="text-[10px] font-black uppercase tracking-[0.14em] text-[#806b47]">
-                  Pack Supply
+              <div className="rounded-lg border border-[#a97826]/35 bg-[#a97826]/[0.06] px-5 py-3 text-right">
+                <p className="text-xs font-black uppercase tracking-[0.12em] text-[#806b47]">
+                  Box Supply
                 </p>
 
                 <p className="mt-1 text-2xl font-black text-[#d2a143]">
-                  7,200
+                  {BOX_SUPPLY.toLocaleString()}
                 </p>
               </div>
             </div>
 
-            {/* DESCRIPTION */}
             <p className="mt-5 text-base leading-7 text-[#9a9d9e]">
-              Each sealed pack contains five randomly distributed cards from
-              the 36,000-card Genesis Series.
+              One sealed Genesis Booster Box contains eight randomized 5-card
+              packs from the Project 333 Genesis Series. Only 900 sealed boxes
+              are available.
             </p>
 
-            {/* MAIN STATS */}
-            <div className="mt-5 grid grid-cols-2 gap-3">
-              <MarketStat
-                label="Cards Per Pack"
-                value="5"
-              />
+            <div className="mt-6 rounded-xl border border-[#8e702c]/35 bg-[#8e702c]/[0.055] p-5">
+              <p className="text-xs font-black uppercase tracking-[0.14em] text-[#9b8053]">
+                Fixed Price
+              </p>
 
-              <MarketStat
-                label="Total Cards"
-                value="36,000"
-              />
-            </div>
-
-            {/* DISTRIBUTION BUTTON */}
-            <button
-              type="button"
-              onClick={() => setShowDistribution(true)}
-              className="group mt-5 flex w-full items-center justify-between rounded-lg border border-[#8e702c]/40 bg-[#8e702c]/[0.06] px-5 py-4 text-left transition hover:border-[#d2a143]/70 hover:bg-[#8e702c]/[0.1]"
-            >
-              <div className="flex items-start gap-3">
-                <div className="grid size-9 shrink-0 place-items-center rounded-lg border border-[#8e702c]/35 bg-[#8e702c]/[0.06] text-[#d2a143]">
-                  <Info size={17} />
-                </div>
-
-                <div>
-                  <p className="text-sm font-black uppercase tracking-[0.08em] text-[#ded8cc]">
-                    Card Distribution
-                  </p>
-
-                  <p className="mt-1 text-xs leading-5 text-[#85898b]">
-                    See Standard, Reverse Holo, Holo, and 1/1 supply
-                  </p>
-                </div>
+              <div className="mt-2 flex items-end gap-2">
+                <span className="text-4xl font-black text-[#e0ab4a] sm:text-5xl">
+                  {PRICE_UNI}
+                </span>
+                <span className="pb-1 text-xl font-black uppercase tracking-[0.08em] text-[#c8b997]">
+                  UNI
+                </span>
               </div>
 
-              <span className="rounded-md border border-[#a97826]/40 px-3 py-2 text-xs font-black uppercase tracking-[0.08em] text-[#d2a143] transition group-hover:border-[#d2a143]/70">
-                View
-              </span>
-            </button>
+              <p className="mt-2 text-sm text-[#85898b]">
+                Per sealed booster box
+              </p>
+            </div>
 
-            {/* RANDOMIZATION */}
-            <div className="mt-5 rounded-lg border border-[#8e702c]/25 bg-[#8e702c]/[0.045] px-5 py-4">
+            <div className="mt-5 grid grid-cols-2 gap-3">
+              <MarketStat label="Packs Per Box" value={String(PACKS_PER_BOX)} />
+              <MarketStat label="Cards Per Box" value={String(CARDS_PER_BOX)} />
+              <MarketStat label="Cards Per Pack" value={String(CARDS_PER_PACK)} />
+              <MarketStat label="Special Finishes" value="3 / Box" />
+            </div>
+
+            <div className="mt-5 rounded-lg border border-[#292823] bg-[#07090a] p-4">
               <div className="flex items-start gap-3">
                 <Sparkles
                   size={18}
@@ -138,118 +167,108 @@ export default function ShopPage() {
 
                 <div>
                   <p className="text-sm font-black uppercase tracking-[0.05em] text-[#dfd7c8]">
-                    Every Pack Is Randomized
+                    Collated, Then Randomized
                   </p>
 
                   <p className="mt-1 text-sm leading-6 text-[#8c8980]">
-                    Each pack contains five randomly selected cards and may
-                    include Standard, Reverse Holo, Holo, or 1/1 Alternate Art
-                    cards.
+                    Each box is built to spread rarities and special finishes
+                    while keeping the location of
+                    chase cards randomized within the eight packs.
                   </p>
                 </div>
               </div>
             </div>
 
-            {/* BUY */}
-            <div className="mt-6">
-              <button className="flex w-full items-center justify-center gap-2 rounded-lg border border-[#b8842c]/70 bg-[linear-gradient(110deg,rgba(126,85,21,0.38),rgba(77,48,13,0.18))] px-5 py-4 text-base font-black uppercase tracking-[0.1em] text-[#eadfca] shadow-[0_0_25px_rgba(174,118,28,0.05)] transition hover:border-[#d2a143] hover:bg-[#8a5f1d]/20">
-                Acquire Genesis Pack
+            <div className="mt-auto pt-6">
+              <button
+                type="button"
+                className="flex w-full items-center justify-center gap-2 rounded-lg border border-[#b8842c]/70 bg-[linear-gradient(110deg,rgba(126,85,21,0.42),rgba(77,48,13,0.2))] px-5 py-4 text-base font-black uppercase tracking-[0.09em] text-[#eadfca] shadow-[0_0_25px_rgba(174,118,28,0.06)] transition hover:border-[#d2a143] hover:bg-[#8a5f1d]/20"
+              >
+                <PackageOpen size={19} />
+                Acquire Booster Box · {PRICE_UNI} UNI
               </button>
 
-              <div className="mt-3 flex items-center justify-center gap-2 text-[10px] font-bold uppercase tracking-[0.12em] text-[#666b6c]">
-                <ShieldCheck size={12} />
+              <div className="mt-3 flex items-center justify-center gap-2 text-xs font-bold uppercase tracking-[0.1em] text-[#666b6c]">
+                <ShieldCheck size={13} />
                 Wallet connection required
               </div>
             </div>
           </div>
         </section>
-       
-      </main>
 
-      {/* DISTRIBUTION MODAL */}
-      {showDistribution && (
-        <div
-          className="fixed inset-0 z-[100] flex items-center justify-center bg-black/80 px-4 backdrop-blur-sm"
-          onClick={() => setShowDistribution(false)}
-        >
-          <div
-            className="w-full max-w-xl rounded-xl border border-[#3a352b] bg-[#0a0d0f] p-6 shadow-[0_30px_100px_rgba(0,0,0,0.7)]"
-            onClick={(event) => event.stopPropagation()}
-          >
-            {/* MODAL HEADER */}
-            <div className="flex items-start justify-between gap-4">
-              <div>
-                <p className="text-xs font-black uppercase tracking-[0.18em] text-[#806b47]">
-                  Genesis Series
-                </p>
+        {/* SINGLE ODDS TABLE */}
+        <section className="mt-6 overflow-hidden rounded-xl border border-[#292823] bg-[#07090a]">
+          <div className="border-b border-[#292823] p-5 sm:p-6">
+            <p className="text-xs font-black uppercase tracking-[0.2em] text-[#806b47]">
+              Genesis Collation
+            </p>
 
-                <h2 className="mt-2 text-3xl font-black uppercase tracking-[0.04em] text-[#e7e2d8]">
-                  Card Distribution
-                </h2>
+            <h2 className="mt-2 text-2xl font-black uppercase tracking-[0.05em] text-[#e7e2d8] sm:text-3xl">
+              Booster Box Odds
+            </h2>
 
-                <p className="mt-2 text-sm leading-6 text-[#85898b]">
-                  The Genesis Series contains 36,000 total cards.
-                </p>
-              </div>
-
-              <button
-                type="button"
-                aria-label="Close distribution"
-                onClick={() => setShowDistribution(false)}
-                className="grid size-10 shrink-0 place-items-center rounded-lg border border-[#292823] bg-[#07090a] text-[#85898b] transition hover:border-[#8e702c]/50 hover:text-[#d2a143]"
-              >
-                <X size={19} />
-              </button>
-            </div>
-
-            {/* DISTRIBUTION */}
-            <div className="mt-6 space-y-3">
-              <DistributionRow
-                label="Standard"
-                value="33,300"
-                percent="92.50%"
-              />
-
-              <DistributionRow
-                label="Reverse Holo"
-                value="1,767"
-                percent="4.91%"
-              />
-
-              <DistributionRow
-                label="Holo"
-                value="600"
-                percent="1.67%"
-              />
-
-              <DistributionRow
-                label="1/1 Alternate Art"
-                value="333"
-                percent="0.93%"
-              />
-            </div>
-
-            {/* TOTAL */}
-            <div className="mt-6 rounded-lg border border-[#8e702c]/25 bg-[#8e702c]/[0.045] p-4">
-              <div className="flex items-end justify-between gap-4">
-                <div>
-                  <p className="text-xs font-black uppercase tracking-[0.14em] text-[#b58a45]">
-                    Total Supply
-                  </p>
-
-                  <p className="mt-1 text-sm text-[#85898b]">
-                    Genesis Series cards
-                  </p>
-                </div>
-
-                <span className="text-3xl font-black text-[#d2a143]">
-                  36,000
-                </span>
-              </div>
-            </div>
+            <p className="mt-3 max-w-3xl text-sm leading-6 text-[#85898b]">
+              Each sealed box contains 40 cards across eight packs. The table
+              below shows the planned box-level distribution across all 900
+              Genesis Booster Boxes.
+            </p>
           </div>
-        </div>
-      )}
+
+          <div className="overflow-x-auto">
+            <table className="w-full min-w-[760px] border-collapse text-left">
+              <thead>
+                <tr className="border-b border-[#292823] bg-[#090b0c]">
+                  <th className="px-5 py-4 text-xs font-black uppercase tracking-[0.1em] text-[#777168]">
+                    Card Type
+                  </th>
+                  <th className="px-5 py-4 text-xs font-black uppercase tracking-[0.1em] text-[#777168]">
+                    Box Distribution
+                  </th>
+                  <th className="px-5 py-4 text-xs font-black uppercase tracking-[0.1em] text-[#777168]">
+                    Box Odds
+                  </th>
+                  <th className="px-5 py-4 text-xs font-black uppercase tracking-[0.1em] text-[#777168]">
+                    Notes
+                  </th>
+                </tr>
+              </thead>
+
+              <tbody>
+                {boosterBoxOdds.map((row) => (
+                  <tr
+                    key={row.result}
+                    className="border-b border-[#202224] last:border-b-0"
+                  >
+                    <td className="px-5 py-4 text-sm font-black text-[#d8d2c7]">
+                      {row.result}
+                    </td>
+
+                    <td className="px-5 py-4 font-mono text-sm text-[#9b9e9f]">
+                      {row.distribution}
+                    </td>
+
+                    <td className="px-5 py-4 font-mono text-sm font-black text-[#d2a143]">
+                      {row.odds}
+                    </td>
+
+                    <td className="px-5 py-4 text-sm text-[#7f8485]">
+                      {row.detail}
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+
+          <div className="border-t border-[#292823] bg-[#090b0c] px-5 py-4 sm:px-6">
+            <p className="text-sm leading-6 text-[#7f8485]">
+              Epic and Legendary figures refer to the generated Standard-edition
+              rarity pool. Special-finish placement is tracked separately so
+              finish and rarity can remain independent collectible traits.
+            </p>
+          </div>
+        </section>
+      </main>
     </div>
   );
 }
@@ -263,50 +282,13 @@ function MarketStat({
 }) {
   return (
     <div className="rounded-lg border border-[#292823] bg-[#07090a] px-4 py-4">
-      <p className="text-[10px] font-black uppercase tracking-[0.14em] text-[#777168]">
+      <p className="text-xs font-black uppercase tracking-[0.1em] text-[#777168]">
         {label}
       </p>
 
       <p className="mt-2 text-2xl font-black text-[#d2a143]">
         {value}
       </p>
-    </div>
-  );
-}
-
-function DistributionRow({
-  label,
-  value,
-  percent,
-}: {
-  label: string;
-  value: string;
-  percent: string;
-}) {
-  return (
-    <div className="rounded-lg border border-[#292823] bg-[#07090a] px-4 py-4">
-      <div className="flex items-center justify-between gap-3">
-        <span className="text-sm font-bold text-[#c5c0b7]">
-          {label}
-        </span>
-
-        <span className="font-mono text-sm font-black text-[#e0dcd3]">
-          {value}
-        </span>
-      </div>
-
-      <div className="mt-3 flex items-center gap-3">
-        <div className="h-2 flex-1 overflow-hidden rounded-full bg-[#17191a]">
-          <div
-            className="h-full rounded-full bg-[#a97826]"
-            style={{ width: percent }}
-          />
-        </div>
-
-        <span className="w-14 text-right font-mono text-xs text-[#85898b]">
-          {percent}
-        </span>
-      </div>
     </div>
   );
 }
