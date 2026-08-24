@@ -83,12 +83,14 @@ export default function ShopPage() {
           <div className="relative flex min-h-[430px] items-center justify-center overflow-hidden rounded-xl border border-[#292823] bg-[#030405] p-5 sm:min-h-[560px] sm:p-8">
             <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_50%_48%,rgba(167,112,31,0.12),transparent_48%)]" />
 
-            <Image
-              src="/boosterbox.png"
-              alt="SPECIMEN Genesis Series booster box"
-              width={1000}
-              height={1000}
-              priority
+            <video
+              src="/boosterbox.mp4"
+              autoPlay
+              loop
+              muted
+              playsInline
+              preload="auto"
+              aria-label="SPECIMEN Genesis Series booster box"
               className="relative z-10 max-h-[520px] w-full object-contain"
             />
 
