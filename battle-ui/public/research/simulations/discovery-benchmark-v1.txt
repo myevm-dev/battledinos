@@ -1,0 +1,193 @@
+========================================
+SPECIMEN MUTATION DISCOVERY SIMULATION
+{
+  requestedTotalExperiments: 10000,
+  experimentsPerDuration: 2500,
+  labsPerDuration: 100,
+  experimentsPerLab: 25,
+  researchPath: 'Defensive',
+  secondaryPath: 'Structural'
+}
+
+========================================
+3 DAY DISCOVERY SIMULATION
+{
+  durationDays: 3,
+  experiments: 2500,
+  labs: 100,
+  experimentsPerLab: 25,
+  totalResearchHours: 225000,
+  discoveries: 548,
+  discoveryRatePerExperiment: 21.92,
+  discoveriesPer1000ResearchHours: 2.436,
+  averageUniqueDiscoveriesPerLab: 5.48,
+  uniqueMutationsAcrossLabs: 266,
+  pathAlignment: {
+    onPath: { count: 433, percent: 79.01 },
+    offPath: { count: 115, percent: 20.99 },
+    wildcard: { count: 0, percent: 0 }
+  },
+  rarityDistribution: {
+    Common: { count: 316, percent: 57.66 },
+    Uncommon: { count: 154, percent: 28.1 },
+    Rare: { count: 63, percent: 11.5 },
+    Epic: { count: 15, percent: 2.74 }
+  },
+  legendary: { count: 0, percentOfDiscoveries: 0, per1000Experiments: 0 },
+  familyDistribution: {
+    Defensive: { count: 173, percent: 31.57 },
+    Structural: { count: 141, percent: 25.73 },
+    Metabolic: { count: 73, percent: 13.32 },
+    Offensive: { count: 46, percent: 8.39 },
+    Elemental: { count: 27, percent: 4.93 },
+    Neural: { count: 25, percent: 4.56 },
+    Mobility: { count: 24, percent: 4.38 },
+    'Cross-Species': { count: 20, percent: 3.65 },
+    Wildcard: { count: 19, percent: 3.47 }
+  },
+  noDiscovery: {
+    rollMisses: 1952,
+    noEligible: 0,
+    preferredPoolExhausted: 0,
+    exhaustionRate: 0
+  },
+  averageFinalResearchLevel: 4
+}
+
+========================================
+7 DAY DISCOVERY SIMULATION
+{
+  durationDays: 7,
+  experiments: 2500,
+  labs: 100,
+  experimentsPerLab: 25,
+  totalResearchHours: 525000,
+  discoveries: 893,
+  discoveryRatePerExperiment: 35.72,
+  discoveriesPer1000ResearchHours: 1.701,
+  averageUniqueDiscoveriesPerLab: 8.93,
+  uniqueMutationsAcrossLabs: 351,
+  pathAlignment: {
+    onPath: { count: 759, percent: 84.99 },
+    offPath: { count: 134, percent: 15.01 },
+    wildcard: { count: 0, percent: 0 }
+  },
+  rarityDistribution: {
+    Common: { count: 489, percent: 54.76 },
+    Uncommon: { count: 239, percent: 26.76 },
+    Rare: { count: 114, percent: 12.77 },
+    Epic: { count: 46, percent: 5.15 },
+    Legendary: { count: 5, percent: 0.56 }
+  },
+  legendary: { count: 5, percentOfDiscoveries: 0.56, per1000Experiments: 2 },
+  familyDistribution: {
+    Defensive: { count: 290, percent: 32.47 },
+    Structural: { count: 216, percent: 24.19 },
+    Metabolic: { count: 157, percent: 17.58 },
+    Offensive: { count: 96, percent: 10.75 },
+    Elemental: { count: 31, percent: 3.47 },
+    Mobility: { count: 31, percent: 3.47 },
+    'Cross-Species': { count: 30, percent: 3.36 },
+    Neural: { count: 22, percent: 2.46 },
+    Wildcard: { count: 20, percent: 2.24 }
+  },
+  noDiscovery: {
+    rollMisses: 1607,
+    noEligible: 0,
+    preferredPoolExhausted: 0,
+    exhaustionRate: 0
+  },
+  averageFinalResearchLevel: 5
+}
+
+========================================
+30 DAY DISCOVERY SIMULATION
+{
+  durationDays: 30,
+  experiments: 2500,
+  labs: 100,
+  experimentsPerLab: 25,
+  totalResearchHours: 2250000,
+  discoveries: 1385,
+  discoveryRatePerExperiment: 55.4,
+  discoveriesPer1000ResearchHours: 0.616,
+  averageUniqueDiscoveriesPerLab: 13.85,
+  uniqueMutationsAcrossLabs: 338,
+  pathAlignment: {
+    onPath: { count: 1277, percent: 92.2 },
+    offPath: { count: 108, percent: 7.8 },
+    wildcard: { count: 0, percent: 0 }
+  },
+  rarityDistribution: {
+    Common: { count: 766, percent: 55.31 },
+    Uncommon: { count: 360, percent: 25.99 },
+    Rare: { count: 185, percent: 13.36 },
+    Epic: { count: 63, percent: 4.55 },
+    Legendary: { count: 11, percent: 0.79 }
+  },
+  legendary: { count: 11, percentOfDiscoveries: 0.79, per1000Experiments: 4.4 },
+  familyDistribution: {
+    Defensive: { count: 502, percent: 36.25 },
+    Structural: { count: 343, percent: 24.77 },
+    Metabolic: { count: 281, percent: 20.29 },
+    Offensive: { count: 151, percent: 10.9 },
+    'Cross-Species': { count: 24, percent: 1.73 },
+    Wildcard: { count: 24, percent: 1.73 },
+    Elemental: { count: 23, percent: 1.66 },
+    Mobility: { count: 22, percent: 1.59 },
+    Neural: { count: 15, percent: 1.08 }
+  },
+  noDiscovery: {
+    rollMisses: 1115,
+    noEligible: 0,
+    preferredPoolExhausted: 0,
+    exhaustionRate: 0
+  },
+  averageFinalResearchLevel: 6
+}
+
+========================================
+90 DAY DISCOVERY SIMULATION
+{
+  durationDays: 90,
+  experiments: 2500,
+  labs: 100,
+  experimentsPerLab: 25,
+  totalResearchHours: 6750000,
+  discoveries: 1871,
+  discoveryRatePerExperiment: 74.84,
+  discoveriesPer1000ResearchHours: 0.277,
+  averageUniqueDiscoveriesPerLab: 18.71,
+  uniqueMutationsAcrossLabs: 332,
+  pathAlignment: {
+    onPath: { count: 1787, percent: 95.51 },
+    offPath: { count: 84, percent: 4.49 },
+    wildcard: { count: 0, percent: 0 }
+  },
+  rarityDistribution: {
+    Common: { count: 1038, percent: 55.48 },
+    Uncommon: { count: 466, percent: 24.91 },
+    Rare: { count: 247, percent: 13.2 },
+    Epic: { count: 92, percent: 4.92 },
+    Legendary: { count: 28, percent: 1.5 }
+  },
+  legendary: { count: 28, percentOfDiscoveries: 1.5, per1000Experiments: 11.2 },
+  familyDistribution: {
+    Defensive: { count: 721, percent: 38.54 },
+    Structural: { count: 472, percent: 25.23 },
+    Metabolic: { count: 367, percent: 19.62 },
+    Offensive: { count: 227, percent: 12.13 },
+    Elemental: { count: 22, percent: 1.18 },
+    'Cross-Species': { count: 17, percent: 0.91 },
+    Mobility: { count: 16, percent: 0.86 },
+    Neural: { count: 15, percent: 0.8 },
+    Wildcard: { count: 14, percent: 0.75 }
+  },
+  noDiscovery: {
+    rollMisses: 629,
+    noEligible: 0,
+    preferredPoolExhausted: 0,
+    exhaustionRate: 0
+  },
+  averageFinalResearchLevel: 7
+}

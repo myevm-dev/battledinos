@@ -1,0 +1,438 @@
+========================================
+SPECIMEN RESEARCH OUTCOME BENCHMARK V1
+{
+  "requestedTotalExperiments": 20000,
+  "experimentsPerScenario": 2500,
+  "scenarios": 8,
+  "mutationLibraryCount": 600,
+  "mutationLibraryValid": true,
+  "researchPath": "Defensive",
+  "secondaryPath": "Structural",
+  "intensity": "standard",
+  "serumComparison": "project reference formula",
+  "publicSafety": "aggregate statistics only"
+}
+
+========================================
+3 DAY / NO SERUM
+{
+  "durationDays": 3,
+  "serum": false,
+  "experiments": 2500,
+  "anomalyRate": 1.08,
+  "zeroMutationRate": 17.96,
+  "averageMutationCount": 1.086,
+  "averageExpression": 0.6075,
+  "expressionStdDev": 0.1457,
+  "expressionP10": 0.403,
+  "expressionP50": 0.6143,
+  "expressionP90": 0.8043,
+  "averageStability": 0.6441,
+  "stabilityP10": 0.5234,
+  "stabilityP50": 0.6487,
+  "stabilityP90": 0.7626,
+  "targetDirectionShare": 44.14,
+  "referenceClusterShare": 57.07,
+  "familyDistribution": {
+    "Defensive": 26.6,
+    "Structural": 17.54,
+    "Metabolic": 12.93,
+    "Elemental": 7.92,
+    "Offensive": 7.7,
+    "Neural": 7.26,
+    "Wildcard": 6.93,
+    "Cross-Species": 6.89,
+    "Mobility": 6.23
+  },
+  "rarityDistribution": {
+    "Common": 41.27,
+    "Uncommon": 25.9,
+    "Rare": 17.83,
+    "Epic": 9.54,
+    "Legendary": 5.45
+  }
+}
+
+========================================
+3 DAY / WITH REFERENCE SERUM
+{
+  "durationDays": 3,
+  "serum": true,
+  "experiments": 2500,
+  "anomalyRate": 1.68,
+  "zeroMutationRate": 19.08,
+  "averageMutationCount": 1.074,
+  "averageExpression": 0.5993,
+  "expressionStdDev": 0.1443,
+  "expressionP10": 0.4014,
+  "expressionP50": 0.6003,
+  "expressionP90": 0.7955,
+  "averageStability": 0.6875,
+  "stabilityP10": 0.5677,
+  "stabilityP50": 0.6854,
+  "stabilityP90": 0.808,
+  "targetDirectionShare": 50.83,
+  "referenceClusterShare": 63.01,
+  "familyDistribution": {
+    "Defensive": 32.77,
+    "Structural": 18.06,
+    "Metabolic": 12.18,
+    "Offensive": 6.89,
+    "Elemental": 6.63,
+    "Mobility": 6.33,
+    "Cross-Species": 6.29,
+    "Wildcard": 5.88,
+    "Neural": 4.95
+  },
+  "rarityDistribution": {
+    "Common": 37.99,
+    "Uncommon": 28.9,
+    "Rare": 18.18,
+    "Epic": 8.53,
+    "Legendary": 6.41
+  }
+}
+
+========================================
+7 DAY / NO SERUM
+{
+  "durationDays": 7,
+  "serum": false,
+  "experiments": 2500,
+  "anomalyRate": 1.08,
+  "zeroMutationRate": 15,
+  "averageMutationCount": 1.198,
+  "averageExpression": 0.6028,
+  "expressionStdDev": 0.1169,
+  "expressionP10": 0.4442,
+  "expressionP50": 0.6012,
+  "expressionP90": 0.7661,
+  "averageStability": 0.7113,
+  "stabilityP10": 0.5904,
+  "stabilityP50": 0.7109,
+  "stabilityP90": 0.8319,
+  "targetDirectionShare": 44.33,
+  "referenceClusterShare": 57.48,
+  "familyDistribution": {
+    "Defensive": 26.74,
+    "Structural": 17.59,
+    "Metabolic": 13.15,
+    "Offensive": 8.01,
+    "Cross-Species": 7.44,
+    "Mobility": 7.18,
+    "Elemental": 7.01,
+    "Neural": 6.58,
+    "Wildcard": 6.31
+  },
+  "rarityDistribution": {
+    "Common": 38.22,
+    "Uncommon": 27.6,
+    "Rare": 18.72,
+    "Epic": 10.91,
+    "Legendary": 4.54
+  }
+}
+
+========================================
+7 DAY / WITH REFERENCE SERUM
+{
+  "durationDays": 7,
+  "serum": true,
+  "experiments": 2500,
+  "anomalyRate": 0.96,
+  "zeroMutationRate": 15.84,
+  "averageMutationCount": 1.192,
+  "averageExpression": 0.5967,
+  "expressionStdDev": 0.1152,
+  "expressionP10": 0.4391,
+  "expressionP50": 0.5963,
+  "expressionP90": 0.7575,
+  "averageStability": 0.759,
+  "stabilityP10": 0.6387,
+  "stabilityP50": 0.7591,
+  "stabilityP90": 0.8768,
+  "targetDirectionShare": 56.36,
+  "referenceClusterShare": 68.68,
+  "familyDistribution": {
+    "Defensive": 35.41,
+    "Structural": 20.95,
+    "Metabolic": 12.32,
+    "Offensive": 7.02,
+    "Cross-Species": 5.64,
+    "Elemental": 5.14,
+    "Mobility": 4.97,
+    "Wildcard": 4.36,
+    "Neural": 4.2
+  },
+  "rarityDistribution": {
+    "Common": 36.99,
+    "Uncommon": 28.57,
+    "Rare": 16.95,
+    "Epic": 11.55,
+    "Legendary": 5.94
+  }
+}
+
+========================================
+30 DAY / NO SERUM
+{
+  "durationDays": 30,
+  "serum": false,
+  "experiments": 2500,
+  "anomalyRate": 1.04,
+  "zeroMutationRate": 11.52,
+  "averageMutationCount": 1.314,
+  "averageExpression": 0.6058,
+  "expressionStdDev": 0.0773,
+  "expressionP10": 0.5009,
+  "expressionP50": 0.6053,
+  "expressionP90": 0.7125,
+  "averageStability": 0.8047,
+  "stabilityP10": 0.682,
+  "stabilityP50": 0.8041,
+  "stabilityP90": 0.9237,
+  "targetDirectionShare": 47.47,
+  "referenceClusterShare": 58.31,
+  "familyDistribution": {
+    "Defensive": 28.41,
+    "Structural": 19.06,
+    "Metabolic": 10.84,
+    "Offensive": 8.25,
+    "Elemental": 7.89,
+    "Neural": 7.13,
+    "Cross-Species": 7.03,
+    "Mobility": 6.18,
+    "Wildcard": 5.21
+  },
+  "rarityDistribution": {
+    "Common": 38.43,
+    "Uncommon": 27.19,
+    "Rare": 17.63,
+    "Epic": 10.17,
+    "Legendary": 6.58
+  }
+}
+
+========================================
+30 DAY / WITH REFERENCE SERUM
+{
+  "durationDays": 30,
+  "serum": true,
+  "experiments": 2500,
+  "anomalyRate": 0.68,
+  "zeroMutationRate": 10.92,
+  "averageMutationCount": 1.313,
+  "averageExpression": 0.5972,
+  "expressionStdDev": 0.0741,
+  "expressionP10": 0.4941,
+  "expressionP50": 0.5975,
+  "expressionP90": 0.7,
+  "averageStability": 0.851,
+  "stabilityP10": 0.7304,
+  "stabilityP50": 0.8509,
+  "stabilityP90": 0.9711,
+  "targetDirectionShare": 62.26,
+  "referenceClusterShare": 73.38,
+  "familyDistribution": {
+    "Defensive": 40.88,
+    "Structural": 21.38,
+    "Metabolic": 11.12,
+    "Elemental": 5.54,
+    "Cross-Species": 5,
+    "Offensive": 4.87,
+    "Neural": 4.6,
+    "Mobility": 4.08,
+    "Wildcard": 2.53
+  },
+  "rarityDistribution": {
+    "Common": 37.98,
+    "Uncommon": 28.45,
+    "Rare": 17.88,
+    "Epic": 10.08,
+    "Legendary": 5.6
+  }
+}
+
+========================================
+90 DAY / NO SERUM
+{
+  "durationDays": 90,
+  "serum": false,
+  "experiments": 2500,
+  "anomalyRate": 0.8,
+  "zeroMutationRate": 8.76,
+  "averageMutationCount": 1.392,
+  "averageExpression": 0.6073,
+  "expressionStdDev": 0.0413,
+  "expressionP10": 0.5508,
+  "expressionP50": 0.6071,
+  "expressionP90": 0.6647,
+  "averageStability": 0.8698,
+  "stabilityP10": 0.7512,
+  "stabilityP50": 0.8702,
+  "stabilityP90": 0.9898,
+  "targetDirectionShare": 50.09,
+  "referenceClusterShare": 61.35,
+  "familyDistribution": {
+    "Defensive": 29.63,
+    "Structural": 20.46,
+    "Metabolic": 11.26,
+    "Offensive": 7.7,
+    "Cross-Species": 7.04,
+    "Neural": 6.95,
+    "Elemental": 6.87,
+    "Mobility": 5.4,
+    "Wildcard": 4.68
+  },
+  "rarityDistribution": {
+    "Common": 37.33,
+    "Uncommon": 27.61,
+    "Rare": 18.85,
+    "Epic": 10.46,
+    "Legendary": 5.75
+  }
+}
+
+========================================
+90 DAY / WITH REFERENCE SERUM
+{
+  "durationDays": 90,
+  "serum": true,
+  "experiments": 2500,
+  "anomalyRate": 1,
+  "zeroMutationRate": 9.8,
+  "averageMutationCount": 1.356,
+  "averageExpression": 0.5976,
+  "expressionStdDev": 0.041,
+  "expressionP10": 0.5406,
+  "expressionP50": 0.5976,
+  "expressionP90": 0.6544,
+  "averageStability": 0.9099,
+  "stabilityP10": 0.798,
+  "stabilityP50": 0.9179,
+  "stabilityP90": 1,
+  "targetDirectionShare": 66.07,
+  "referenceClusterShare": 77.14,
+  "familyDistribution": {
+    "Defensive": 42.64,
+    "Structural": 23.43,
+    "Metabolic": 11.07,
+    "Elemental": 4.6,
+    "Offensive": 4.51,
+    "Cross-Species": 4.01,
+    "Neural": 3.63,
+    "Mobility": 3.33,
+    "Wildcard": 2.77
+  },
+  "rarityDistribution": {
+    "Common": 37.47,
+    "Uncommon": 28.06,
+    "Rare": 18,
+    "Epic": 10.42,
+    "Legendary": 6.05
+  }
+}
+
+========================================
+SERUM COMPARISON BY DURATION
+[
+  {
+    "durationDays": 3,
+    "targetDirection": {
+      "noSerum": 44.14,
+      "withSerum": 50.83,
+      "serumDelta": 6.69
+    },
+    "expressionVariance": {
+      "noSerumStdDev": 0.1457,
+      "withSerumStdDev": 0.1443,
+      "delta": -0.0014
+    },
+    "averageStability": {
+      "noSerum": 0.6441,
+      "withSerum": 0.6875,
+      "delta": 0.0434
+    },
+    "legendaryShare": {
+      "noSerum": 5.45,
+      "withSerum": 6.41,
+      "delta": 0.96
+    }
+  },
+  {
+    "durationDays": 7,
+    "targetDirection": {
+      "noSerum": 44.33,
+      "withSerum": 56.36,
+      "serumDelta": 12.03
+    },
+    "expressionVariance": {
+      "noSerumStdDev": 0.1169,
+      "withSerumStdDev": 0.1152,
+      "delta": -0.0017
+    },
+    "averageStability": {
+      "noSerum": 0.7113,
+      "withSerum": 0.759,
+      "delta": 0.0477
+    },
+    "legendaryShare": {
+      "noSerum": 4.54,
+      "withSerum": 5.94,
+      "delta": 1.4
+    }
+  },
+  {
+    "durationDays": 30,
+    "targetDirection": {
+      "noSerum": 47.47,
+      "withSerum": 62.26,
+      "serumDelta": 14.79
+    },
+    "expressionVariance": {
+      "noSerumStdDev": 0.0773,
+      "withSerumStdDev": 0.0741,
+      "delta": -0.0032
+    },
+    "averageStability": {
+      "noSerum": 0.8047,
+      "withSerum": 0.851,
+      "delta": 0.0463
+    },
+    "legendaryShare": {
+      "noSerum": 6.58,
+      "withSerum": 5.6,
+      "delta": -0.98
+    }
+  },
+  {
+    "durationDays": 90,
+    "targetDirection": {
+      "noSerum": 50.09,
+      "withSerum": 66.07,
+      "serumDelta": 15.98
+    },
+    "expressionVariance": {
+      "noSerumStdDev": 0.0413,
+      "withSerumStdDev": 0.041,
+      "delta": -0.0003
+    },
+    "averageStability": {
+      "noSerum": 0.8698,
+      "withSerum": 0.9099,
+      "delta": 0.0401
+    },
+    "legendaryShare": {
+      "noSerum": 5.75,
+      "withSerum": 6.05,
+      "delta": 0.3
+    }
+  }
+]
+
+========================================
+INTERPRETATION
+Duration is intended to increase control and narrow expression variance rather than directly increase mutation rarity.
+The reference serum is intended to concentrate outcomes toward its research direction while preserving mutation diversity.
+Rarity percentages are observed benchmark results, not guarantees for an individual experiment.
+No mutation names, mutation IDs, formula mutation targets, or production seeds are included in this public report.

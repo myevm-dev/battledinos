@@ -44,6 +44,16 @@ export type CreateExperimentalFormulaInput = {
   catalystPath?: ResearchPath;
   seed: string;
   mutations: readonly OutcomeMutation[];
+
+  /**
+   * Mutation knowledge available to the formula creator.
+   *
+   * Lab-created formulas may only intentionally target mutations that the
+   * creating lab has actually discovered. Project formulas are allowed to use
+   * the complete curated library.
+   */
+  discoveredMutationIds?: readonly string[];
+
   description?: string;
   createdAt?: number;
 };
@@ -143,12 +153,14 @@ function chooseFormulaMutationWeights({
   mutations,
   familyWeights,
   seed,
+  allowedMutationIds,
 }: {
   mutations: readonly OutcomeMutation[];
   familyWeights: Partial<
     Record<MutationFamily, number>
   >;
   seed: string;
+  allowedMutationIds?: ReadonlySet<string>;
 }) {
   const rng =
     createSeededRandom(
@@ -160,6 +172,13 @@ function chooseFormulaMutationWeights({
 
   const candidates =
     mutations
+      .filter(
+        (mutation) =>
+          !allowedMutationIds ||
+          allowedMutationIds.has(
+            mutation.id,
+          ),
+      )
       .map((mutation) => ({
         mutation,
         score:
@@ -238,6 +257,7 @@ export function createExperimentalFormula({
   catalystPath,
   seed,
   mutations,
+  discoveredMutationIds,
   description,
   createdAt = Date.now(),
 }: CreateExperimentalFormulaInput): SerumFormula {
@@ -248,11 +268,19 @@ export function createExperimentalFormula({
       catalystPath,
     });
 
+  const allowedMutationIds =
+    origin === "lab"
+      ? new Set(
+          discoveredMutationIds ?? [],
+        )
+      : undefined;
+
   const mutationWeights =
     chooseFormulaMutationWeights({
       mutations,
       familyWeights,
       seed,
+      allowedMutationIds,
     });
 
   const rng =
@@ -421,16 +449,47 @@ export function createRefinedFormulaVersion({
   formula,
   seed,
   mutations,
+  discoveredMutationIds,
   createdAt = Date.now(),
 }: {
   formula: SerumFormula;
   seed: string;
   mutations: readonly OutcomeMutation[];
+
+  /**
+   * Required knowledge boundary for lab-created formula refinement.
+   * Observations of an undiscovered mutation can contribute evidence, but they
+   * may not become an intentional mutation target until the lab documents it.
+   */
+  discoveredMutationIds?: readonly string[];
+
   createdAt?: number;
 }): SerumFormula {
+  const discoveredSet =
+    formula.origin === "lab"
+      ? new Set(
+          discoveredMutationIds ?? [],
+        )
+      : undefined;
+
   const analyticsTargets =
     formula.outcomes
       .mutationObservations
+      .filter(
+        (observation) =>
+          mutations.some(
+            (mutation) =>
+              mutation.id ===
+              observation.mutationId,
+          ),
+      )
+      .filter(
+        (observation) =>
+          !discoveredSet ||
+          discoveredSet.has(
+            observation.mutationId,
+          ),
+      )
       .slice(0, 5);
 
   const rng =

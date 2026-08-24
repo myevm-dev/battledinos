@@ -39,11 +39,20 @@ export type FormulaCertificationResult = {
 export function evaluateFormulaCertification({
   formula,
   records,
+  discoveredMutationIds,
   requirements =
     DEFAULT_FORMULA_CERTIFICATION_REQUIREMENTS,
 }: {
   formula: SerumFormula;
   records: readonly SerumResearchRecord[];
+
+  /**
+   * Lab formulas may only certify intentional mutation targets that the lab
+   * has actually discovered. Broad family-only formulas do not require a
+   * mutation target.
+   */
+  discoveredMutationIds?: readonly string[];
+
   requirements?: FormulaCertificationRequirements;
 }): FormulaCertificationResult {
   const analytics =
@@ -55,6 +64,27 @@ export function evaluateFormulaCertification({
   const maximumAnomalyRate =
     requirements.maximumAnomalyRate ??
     1;
+
+  const targetedMutationIds =
+    Object.keys(
+      formula.profile.mutationWeights,
+    );
+
+  const discoveredSet = new Set(
+    discoveredMutationIds ?? [],
+  );
+
+  const knowledgeCheckRequired =
+    formula.origin === "lab" &&
+    targetedMutationIds.length > 0;
+
+  const knownTargetCount =
+    targetedMutationIds.filter(
+      (mutationId) =>
+        discoveredSet.has(
+          mutationId,
+        ),
+    ).length;
 
   const checks: FormulaCertificationCheck[] = [
     {
@@ -112,6 +142,21 @@ export function evaluateFormulaCertification({
       required:
         maximumAnomalyRate,
     },
+    ...(knowledgeCheckRequired
+      ? [
+          {
+            key: "discovered-targets",
+            label: "Discovered Mutation Targets",
+            passed:
+              knownTargetCount ===
+              targetedMutationIds.length,
+            current:
+              knownTargetCount,
+            required:
+              targetedMutationIds.length,
+          },
+        ]
+      : []),
   ];
 
   const eligible =

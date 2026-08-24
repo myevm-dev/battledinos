@@ -13,6 +13,8 @@ import type {
 } from "./research-engine";
 
 import type {
+  MutationExpression,
+  MutationRarity,
   SpecimenResearchState,
 } from "./research-types";
 
@@ -20,9 +22,24 @@ import type {
 /*                                   TYPES                                    */
 /* -------------------------------------------------------------------------- */
 
+export type PhenotypeExpressionBand =
+  | "Subtle"
+  | "Visible"
+  | "Pronounced"
+  | "Dominant";
+
+export type PhenotypeMutationInfluence = {
+  mutationId: string;
+  mutationName: string;
+  rarity: MutationRarity;
+  family: string;
+  expressionBand: PhenotypeExpressionBand;
+  visualHint?: string;
+  evolutionHints: string[];
+};
+
 export type PhenotypeBuildInput = {
   specimen: SpecimenResearchState;
-
   result: CanonicalResearchResult;
 
   /**
@@ -41,12 +58,217 @@ export type EvolutionPhenotypePlan = {
   specimenTokenId: number;
   stage: string;
   previousStage: string;
+
+  /**
+   * Existing lineage anchors. Kept deliberately short to avoid asking the AI
+   * to mash every historical mutation into the same frame.
+   */
   mustPreserve: string[];
+
+  primaryVisualMutation?: PhenotypeMutationInfluence;
+  secondaryVisualMutation?: PhenotypeMutationInfluence;
+
+  /**
+   * Mechanical/new mutations that do not need to become an obvious visual
+   * feature in this image. They remain part of the specimen state and can
+   * influence later development.
+   */
+  latentMutations: string[];
+
   newTraits: string[];
   biologicalContext: string[];
   avoid: string[];
   prompt: string;
 };
+
+/* -------------------------------------------------------------------------- */
+/*                              EXPRESSION BAND                               */
+/* -------------------------------------------------------------------------- */
+
+export function getPhenotypeExpressionBand(
+  strength: number,
+): PhenotypeExpressionBand {
+  if (strength >= 0.8) {
+    return "Dominant";
+  }
+
+  if (strength >= 0.6) {
+    return "Pronounced";
+  }
+
+  if (strength >= 0.4) {
+    return "Visible";
+  }
+
+  return "Subtle";
+}
+
+const RARITY_VISUAL_PRIORITY: Record<
+  MutationRarity,
+  number
+> = {
+  Common: 1,
+  Uncommon: 1.15,
+  Rare: 1.4,
+  Epic: 1.75,
+  Legendary: 2.2,
+};
+
+function mutationVisualPriority(
+  expression: MutationExpression,
+) {
+  return (
+    RARITY_VISUAL_PRIORITY[
+      expression.rarity
+    ] *
+    (0.55 +
+      expression.expressionStrength *
+        0.45)
+  );
+}
+
+function toPhenotypeInfluence(
+  expression: MutationExpression,
+): PhenotypeMutationInfluence | undefined {
+  const mutation =
+    getResearchMutationById(
+      expression.mutationId,
+    );
+
+  if (!mutation) {
+    return undefined;
+  }
+
+  const evolutionHints =
+    Array.isArray(
+      mutation.evolutionInfluence,
+    )
+      ? mutation.evolutionInfluence
+      : mutation.evolutionInfluence
+        ? [mutation.evolutionInfluence]
+        : [];
+
+  return {
+    mutationId: mutation.id,
+    mutationName: mutation.name,
+    rarity: expression.rarity,
+    family: expression.family,
+    expressionBand:
+      getPhenotypeExpressionBand(
+        expression.expressionStrength,
+      ),
+    visualHint:
+      mutation.visualEffect ||
+      mutation.description,
+    evolutionHints,
+  };
+}
+
+/* -------------------------------------------------------------------------- */
+/*                          EXISTING LINEAGE ANCHORS                          */
+/* -------------------------------------------------------------------------- */
+
+function buildLineageAnchors(
+  specimen: SpecimenResearchState,
+) {
+  return [...specimen.mutations]
+    .sort(
+      (a, b) =>
+        mutationVisualPriority(b) -
+        mutationVisualPriority(a),
+    )
+    .slice(0, 3)
+    .map(toPhenotypeInfluence)
+    .filter(
+      (
+        influence,
+      ): influence is PhenotypeMutationInfluence =>
+        influence !== undefined,
+    );
+}
+
+/* -------------------------------------------------------------------------- */
+/*                              NEW VISUAL DRIVERS                            */
+/* -------------------------------------------------------------------------- */
+
+function selectNewVisualDrivers(
+  result: CanonicalResearchResult,
+) {
+  const expressions = [
+    ...result.outcome.mutations,
+    ...(result.outcome.anomaly
+      ? [result.outcome.anomaly]
+      : []),
+  ];
+
+  const ranked = expressions
+    .map((expression) => ({
+      expression,
+      influence:
+        toPhenotypeInfluence(
+          expression,
+        ),
+      score:
+        mutationVisualPriority(
+          expression,
+        ),
+    }))
+    .filter(
+      (
+        item,
+      ): item is typeof item & {
+        influence: PhenotypeMutationInfluence;
+      } =>
+        item.influence !==
+        undefined,
+    )
+    .sort(
+      (a, b) => b.score - a.score,
+    );
+
+  const primary =
+    ranked[0]?.influence;
+
+  /**
+   * At most one secondary visual driver. This is the central anti-mashup
+   * guardrail for evolved artwork.
+   */
+  const secondary =
+    ranked[1]?.influence;
+
+  const latent = ranked
+    .slice(2)
+    .map(
+      ({ influence }) =>
+        influence.mutationName,
+    );
+
+  return {
+    primary,
+    secondary,
+    latent,
+  };
+}
+
+function describeInfluence(
+  influence: PhenotypeMutationInfluence,
+) {
+  const hints = [
+    influence.visualHint,
+    ...influence.evolutionHints,
+  ]
+    .filter(
+      (value): value is string =>
+        Boolean(value?.trim()),
+    )
+    .slice(0, 3)
+    .join("; ");
+
+  return `${influence.mutationName} (${influence.expressionBand}): ${
+    hints ||
+    "interpret the biological adaptation organically for this individual"
+  }`;
+}
 
 /* -------------------------------------------------------------------------- */
 /*                                  BUILDER                                   */
@@ -58,21 +280,14 @@ export function buildEvolutionPhenotypePlan({
   currentVisualDescription,
   baseImagePrompt,
 }: PhenotypeBuildInput): EvolutionPhenotypePlan {
-  const existingMutationDefinitions =
-    specimen.mutations
-      .map((mutation) =>
-        getResearchMutationById(
-          mutation.mutationId,
-        ),
-      )
-      .filter(
-        (mutation): mutation is NonNullable<typeof mutation> =>
-          mutation !== undefined,
-      );
+  const lineageAnchors =
+    buildLineageAnchors(
+      specimen,
+    );
 
-  const newMutationDefinitions =
-    result.mutationDetails.map(
-      (detail) => detail.mutation,
+  const newDrivers =
+    selectNewVisualDrivers(
+      result,
     );
 
   const mustPreserve = Array.from(
@@ -80,42 +295,28 @@ export function buildEvolutionPhenotypePlan({
       ...(currentVisualDescription
         ? [currentVisualDescription]
         : []),
-      ...existingMutationDefinitions.flatMap(
-        (mutation) =>
-          mutation
-            ? [
-                mutation.visualEffect,
-                ...(Array.isArray(
-                  mutation.evolutionInfluence,
-                )
-                  ? mutation.evolutionInfluence
-                  : [
-                      mutation.evolutionInfluence,
-                    ]),
-              ]
-            : [],
+      ...lineageAnchors.map(
+        describeInfluence,
       ),
     ]),
-  ).filter(
-    (value): value is string =>
-      typeof value === "string" &&
-      value.length > 0,
   );
 
-  const newTraits = Array.from(
-    new Set([
-      ...result.outcome
-        .phenotypeInfluences,
-      ...newMutationDefinitions.map(
-        (mutation) =>
-          mutation.visualEffect,
-      ),
-    ]),
-  ).filter(
-    (value): value is string =>
-      typeof value === "string" &&
-      value.length > 0,
-  );
+  const newTraits = [
+    ...(newDrivers.primary
+      ? [
+          describeInfluence(
+            newDrivers.primary,
+          ),
+        ]
+      : []),
+    ...(newDrivers.secondary
+      ? [
+          describeInfluence(
+            newDrivers.secondary,
+          ),
+        ]
+      : []),
+  ];
 
   const biologicalContext = [
     `Specimen: ${specimen.name}`,
@@ -129,21 +330,19 @@ export function buildEvolutionPhenotypePlan({
       : "",
     `Research duration: ${result.outcome.durationDays} days`,
     `Research intensity: ${result.outcome.intensity}`,
-    `Predictability: ${Math.round(
+    `Research predictability: ${Math.round(
       result.predictability * 100,
     )}%`,
-  ].filter(
-    (value): value is string =>
-      typeof value === "string" &&
-      value.length > 0,
-  );
+  ].filter(Boolean);
 
   const avoid = [
     "Do not redesign the creature as an unrelated species.",
     "Do not remove established lineage-defining traits.",
-    "Do not repeat the same new mutation visually multiple times just to make the evolution look stronger.",
-    "Do not add unexplained anatomy that is not supported by the specimen lineage or current research result.",
-    "Do not change the official combat result or game statistics through artwork.",
+    "Do not visualize every mechanical mutation at once.",
+    "Do not interpret expression-strength decimals as simple color shades or repeated copies of the same anatomy.",
+    "Do not cover the creature with unrelated horns, crystals, armor, spikes, glowing eyes, and other features just because multiple mutations exist.",
+    "Do not copy one predetermined anatomy pattern for every specimen with the same mutation.",
+    "Do not change official combat statistics through artwork.",
   ];
 
   const previousStage =
@@ -158,6 +357,27 @@ export function buildEvolutionPhenotypePlan({
         .nextEvolutionStage,
     );
 
+  const primaryInstruction =
+    newDrivers.primary
+      ? `Primary new visual driver: ${describeInfluence(
+          newDrivers.primary,
+        )}. Treat this as biological inspiration, not a rigid prefab design. Choose anatomy, placement, texture, scale, and shape that make sense for this specimen's species, element, existing body plan, and prior lineage.`
+      : "No major new visual driver was expressed. Develop maturity and anatomy subtly without inventing unrelated features.";
+
+  const secondaryInstruction =
+    newDrivers.secondary
+      ? `Secondary visual influence: ${describeInfluence(
+          newDrivers.secondary,
+        )}. Keep it subordinate to the primary visual driver.`
+      : "";
+
+  const latentInstruction =
+    newDrivers.latent.length
+      ? `Other newly acquired mutations (${newDrivers.latent.join(
+          ", ",
+        )}) are mechanically real but should remain latent, internal, behavioral, or too subtle to dominate this image.`
+      : "";
+
   const promptParts = [
     "Create the next canonical visual evolution of this SPECIMEN collectible.",
     baseImagePrompt
@@ -167,25 +387,21 @@ export function buildEvolutionPhenotypePlan({
       ? `Current visible form: ${currentVisualDescription}`
       : "",
     `Transition: ${previousStage} to ${stage}.`,
-    `Preserve the identity of ${specimen.name} and make the new form clearly recognizable as the same individual organism after biological development.`,
+    `Preserve the identity of ${specimen.name}. The new form must clearly remain the same individual organism after biological development.`,
     mustPreserve.length
-      ? `Inherited traits that must remain visible in some recognizable form: ${mustPreserve.join(
+      ? `Important inherited lineage anchors: ${mustPreserve.join(
           "; ",
-        )}.`
+        )}. Preserve their recognizable influence without mechanically copying every detail.`
       : "",
-    newTraits.length
-      ? `Newly expressed traits from this research: ${newTraits.join(
-          "; ",
-        )}.`
-      : "No major visible mutation expressed. Evolve maturity and anatomy subtly without inventing unrelated traits.",
+    primaryInstruction,
+    secondaryInstruction,
+    latentInstruction,
     `Elemental identity: ${specimen.element}.`,
+    "Use qualitative mutation expression such as Subtle, Visible, Pronounced, or Dominant. Do not turn numeric expression values into ten cosmetic shades of the same feature.",
+    "Phenotype interpretation should contain individual variation. Two specimens with the same named mutation should be allowed to express it through different anatomically plausible structures, locations, proportions, textures, and developmental patterns.",
     "The evolution should compound prior development rather than resetting to the Genesis creature.",
     "Use a high-detail collectible creature presentation consistent with the existing SPECIMEN visual universe.",
-  ].filter(
-    (value): value is string =>
-      typeof value === "string" &&
-      value.length > 0,
-  );
+  ].filter(Boolean);
 
   return {
     specimenTokenId:
@@ -193,6 +409,12 @@ export function buildEvolutionPhenotypePlan({
     stage,
     previousStage,
     mustPreserve,
+    primaryVisualMutation:
+      newDrivers.primary,
+    secondaryVisualMutation:
+      newDrivers.secondary,
+    latentMutations:
+      newDrivers.latent,
     newTraits,
     biologicalContext,
     avoid,

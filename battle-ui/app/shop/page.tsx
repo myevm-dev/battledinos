@@ -9,7 +9,7 @@ import {
   Sparkles,
   X,
 } from "lucide-react";
-import { PackOdds } from "@/components/battle-dinos/pack-odds";
+//import { PackOdds } from "@/components/battle-dinos/pack-odds";
 
   
 
@@ -163,7 +163,7 @@ export default function ShopPage() {
             </div>
           </div>
         </section>
-        <PackOdds />       
+       
       </main>
 
       {/* DISTRIBUTION MODAL */}
