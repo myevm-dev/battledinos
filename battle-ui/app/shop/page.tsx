@@ -9,6 +9,9 @@ import {
   Sparkles,
   X,
 } from "lucide-react";
+import { PackOdds } from "@/components/battle-dinos/pack-odds";
+
+  
 
 export default function ShopPage() {
   const [showDistribution, setShowDistribution] = useState(false);
@@ -160,6 +163,7 @@ export default function ShopPage() {
             </div>
           </div>
         </section>
+        <PackOdds />       
       </main>
 
       {/* DISTRIBUTION MODAL */}

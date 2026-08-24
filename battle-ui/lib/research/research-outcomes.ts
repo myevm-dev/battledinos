@@ -125,18 +125,18 @@ export type AnomalyResult = {
  *
  * Example:
  *
- * statBias.defense = 0.8
+ * statBias.defense = 10
  * expressionStrength = 0.75
  *
- * 0.8 × 0.75 × 8
- * = roughly +5 defense
+ * 10 × 0.75 × 1
+ * = roughly +8 defense
  *
  * This is intentionally centralized here so it can be rebalanced easily.
  *
- * If your existing mutation-library statBias values are already intended
- * to represent direct stat points, change this to 1.
+ * The current 600-mutation library already stores statBias as direct point
+ * tendencies, so this stays at 1.
  */
-const STAT_BIAS_POINT_SCALE = 8;
+const STAT_BIAS_POINT_SCALE = 1;
 
 /**
  * Prevent any single normal mutation from creating an extreme immediate

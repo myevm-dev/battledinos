@@ -216,6 +216,21 @@ const researchOutcomeExample = `{
   ]
 }`;
 
+const mutationDiscoveryExample = `{
+  "discovery_id": "D-00481",
+  "mutation_id": "iron-hide",
+  "lab_id": "LAB-0x82F",
+  "wallet": "0x...",
+  "specimen_token_id": 685,
+  "base_id": 8,
+  "research_id": "R-01924",
+  "research_path": "Defensive",
+  "duration_days": 30,
+  "research_hours_at_discovery": 1482,
+  "first_global_discovery": true,
+  "discovered_at": 1787488200
+}`;
+
 const serumExample = `{
   "formula_id": "ironbloom-7",
   "name": "Ironbloom-7",
@@ -276,18 +291,31 @@ Cinematic replay`;
 
 const researchFileRoadmap = [
   ["research-types.ts", "Shared research, serum, mutation expression, and outcome types."],
-  ["research-config.ts", "Global balancing constants for mutation counts, intensity, stability, rarity, and duration."],
+  ["research-config.ts", "Global balancing constants for mutation counts, intensity, stability, rarity, duration, and predictability."],
   ["research-paths.ts", "Nine research paths and the mutation-family weights each path favors."],
-  ["research-rng.ts", "Seeded deterministic random helpers. Research engine should not use Math.random directly."],
-  ["research-weights.ts", "Combines base weights, path bias, serum bias, genetics, lineage, and stage."],
-  ["research-compatibility.ts", "Calculates how a specimen responds to a path and optional serum."],
-  ["serum-types.ts", "Formula and serum schemas."],
-  ["serum-engine.ts", "Applies formula influence without guaranteeing a specific mutation."],
-  ["research-outcomes.ts", "Canonical result shape written to research history."],
-  ["research-engine.ts", "Main orchestrator for deterministic research resolution."],
-  ["clone-research.ts", "Runs simulations and generates compatibility and outcome evidence without changing the specimen."],
-  ["research-tree.ts", "Transforms observed simulation or formula history into UI-friendly outcome branches."],
-  ["evolution-engine.ts", "Applies research outcomes to the specimen lineage and creates the next evolution snapshot."],
+  ["research-rng.ts", "Seeded deterministic random helpers. Canonical research should not use Math.random directly."],
+  ["research-weights.ts", "Combines mutation weights, path bias, serum bias, genetics, lineage, and duration focus."],
+  ["research-compatibility.ts", "Calculates how an individual specimen responds to a path and optional serum."],
+  ["research-outcomes.ts", "Resolves rarity, mutation count, expression strength, stability, anomalies, stats, and phenotype influences."],
+  ["research-engine.ts", "Main deterministic research orchestrator."],
+  ["mutation-library-adapter.ts", "Validates and adapts the 600 authored mutations for the research engine."],
+  ["serum-types.ts", "Formula, serum batch, evidence, and engine-profile schemas."],
+  ["serum-engine.ts", "Applies formula influence without guaranteeing one exact mutation."],
+  ["clone-research.ts", "Runs predictive simulations without changing the real specimen."],
+  ["research-tree.ts", "Turns simulations and formula history into UI-friendly probability branches."],
+  ["formula-engine.ts", "Creates and refines formulas from discovered biological knowledge and observed research evidence."],
+  ["formula-analytics.ts", "Calculates observed consistency, stability, anomaly rate, duration performance, and compatibility breadth."],
+  ["formula-certification.ts", "Moves formulas through experimental, observed, certified, and retired states."],
+  ["research-record.ts", "Creates canonical research history records and provenance."],
+  ["evolution-engine.ts", "Applies completed research to specimen lineage and creates the next evolution snapshot."],
+  ["phenotype-builder.ts", "Builds hierarchical visual guidance from lineage and mutation expression without mashing every trait together."],
+  ["discovery-types.ts", "Lab research state, mutation discovery, research-depth, and provenance types."],
+  ["discovery-config.ts", "Research-hour eligibility thresholds and discovery balancing rules."],
+  ["discovery-weights.ts", "Weights undiscovered mutation candidates using path, specimen, rarity, element, and wildcard influence."],
+  ["discovery-engine.ts", "Deterministically rolls mutation discovery separately from mutation expression."],
+  ["lab-research.ts", "Accumulates research hours by path and tracks the lab's known mutation set."],
+  ["discovery-record.ts", "Persists first-observed and first-global discovery provenance."],
+  ["index.ts", "Public exports for the research subsystem."],
 ];
 
 const battleFileRoadmap = [
@@ -332,8 +360,8 @@ export default function DocsPage() {
               <div className="mt-7 grid gap-3 sm:grid-cols-2 xl:grid-cols-5">
                 <StatusSummary label="Genesis Data" value="Built" tone="done" />
                 <StatusSummary label="Battle Math" value="Built" tone="done" />
-                <StatusSummary label="Matchmaking" value="Next" tone="next" />
-                <StatusSummary label="Research Engine" value="Next" tone="next" />
+                <StatusSummary label="Research Engine" value="Built" tone="done" />
+                <StatusSummary label="Mutation Discovery" value="Next" tone="next" />
                 <StatusSummary label="Advanced Research" value="Later" tone="later" />
               </div>
 
@@ -342,7 +370,8 @@ export default function DocsPage() {
                 <Pill icon={PackageOpen}>36,000 Genesis Cards</Pill>
                 <Pill icon={Zap}>738 Named Moves</Pill>
                 <Pill icon={Dices}>Seeded Battle Logic</Pill>
-                <Pill icon={FlaskConical}>600 Mutation Library</Pill>
+                <Pill icon={FlaskConical}>600 Mutation Discovery Pool</Pill>
+                <Pill icon={Database}>Lab Research Knowledge</Pill>
                 <Pill icon={Sparkles}>Individual Evolution</Pill>
               </div>
             </div>
@@ -367,15 +396,16 @@ export default function DocsPage() {
               <DocLink href="#xp">09. XP Economy</DocLink>
               <DocLink href="#research">10. XP Research</DocLink>
               <DocLink href="#duration">11. Research Duration</DocLink>
-              <DocLink href="#serums">12. Serums & Formulas</DocLink>
-              <DocLink href="#clone">13. Clone Research</DocLink>
-              <DocLink href="#evolution">14. Evolution Process</DocLink>
-              <DocLink href="#staking">15. Token Research Funding</DocLink>
-              <DocLink href="#advanced">16. Advanced Research</DocLink>
-              <DocLink href="#architecture">17. Data Architecture</DocLink>
-              <DocLink href="#files">18. TS File Roadmap</DocLink>
-              <DocLink href="#milestones">19. Build Milestones</DocLink>
-              <DocLink href="#decisions">20. Locked Decisions</DocLink>
+              <DocLink href="#discovery">12. Mutation Discovery</DocLink>
+              <DocLink href="#serums">13. Serums & Formulas</DocLink>
+              <DocLink href="#clone">14. Clone Research</DocLink>
+              <DocLink href="#evolution">15. Evolution Process</DocLink>
+              <DocLink href="#staking">16. Token Research Funding</DocLink>
+              <DocLink href="#advanced">17. Advanced Research</DocLink>
+              <DocLink href="#architecture">18. Data Architecture</DocLink>
+              <DocLink href="#files">19. TS File Roadmap</DocLink>
+              <DocLink href="#milestones">20. Build Milestones</DocLink>
+              <DocLink href="#decisions">21. Locked Decisions</DocLink>
             </div>
           </aside>
 
@@ -401,6 +431,7 @@ export default function DocsPage() {
                   "Battle trials",
                   "Earn XP",
                   "Research",
+                  "Mutation discovery",
                   "Serum influence",
                   "Mutation expression",
                   "Evolution snapshot",
@@ -419,7 +450,7 @@ export default function DocsPage() {
               number="02"
               icon={Activity}
               title="Current Project Status"
-              subtitle="The core content and battle math exist. The next work is orchestration, research logic, and persistence."
+              subtitle="The core content, battle math, and deterministic research engine exist. The next work is discovery, battle orchestration, and persistence."
             >
               <div className="grid gap-3 md:grid-cols-2 xl:grid-cols-3">
                 <RoadmapCard
@@ -469,15 +500,15 @@ export default function DocsPage() {
                   ]}
                 />
                 <RoadmapCard
-                  status="next"
+                  status="active"
                   title="Research System"
                   items={[
-                    "XP research flow",
-                    "3 / 7 / 30 / 90 day commitments",
-                    "Research paths",
-                    "Serum weighting",
-                    "Clone simulations",
-                    "Evolution snapshot engine",
+                    "Deterministic research engine assembled",
+                    "600-mutation library validates cleanly",
+                    "3 / 7 / 30 / 90 day predictability simulation working",
+                    "Serum, clone, formula, and evolution modules created",
+                    "Next: mutation discovery and lab research hours",
+                    "Next: persistence and production integration",
                   ]}
                 />
                 <RoadmapCard
@@ -711,22 +742,23 @@ export default function DocsPage() {
             >
               <StatusBanner tone="next" title="Core progression system">
                 Players spend earned XP to initiate research on a specimen. The player chooses the
-                experiment. The engine chooses the mutation outcome using deterministic weighted
-                randomness.
+                experiment. The engine resolves mutation expression with deterministic weighted
+                randomness, while a separate discovery layer can expand the laboratory's known
+                biological possibilities over time.
               </StatusBanner>
 
               <div className="grid gap-3 md:grid-cols-2 xl:grid-cols-4">
                 <ResearchChoice label="Research Path" detail="Structural, Metabolic, Neural, Cross-Species, Elemental, Defensive, Offensive, Mobility, or Wildcard." />
                 <ResearchChoice label="Serum" detail="Optional. Narrows and biases outcomes but does not guarantee one exact mutation." />
                 <ResearchChoice label="Intensity" detail="Low, Standard, or High. Trades stability against stronger or rarer expression." />
-                <ResearchChoice label="Duration" detail="3, 7, 30, or 90 days. Longer work improves depth, stability, data quality, and predictability." />
+                <ResearchChoice label="Duration" detail="3, 7, 30, or 90 days. Longer work narrows variance, improves stability and evidence quality, and contributes more research hours." />
               </div>
 
               <CodeBlock code={researchInputExample} />
               <CodeBlock code={researchOutcomeExample} />
 
               <Formula>
-                Final Mutation Weight = Base Weight × Research Path × Serum × Genetics × Lineage × Evolution Stage
+                Mutation Expression Weight = Base Weight × Research Path × Serum × Genetics × Lineage × Duration Focus
               </Formula>
             </Section>
 
@@ -738,55 +770,129 @@ export default function DocsPage() {
               subtitle="Long research commitments should improve depth and consistency, not guarantee stronger creatures."
             >
               <div className="grid gap-3 sm:grid-cols-2 xl:grid-cols-4">
-                <DurationCard period="3 Days" title="Experimental" lines={["Wide outcome range", "Fastest commitment", "Lower confidence", "Basic research evidence"]} />
-                <DurationCard period="7 Days" title="Standard" lines={["Improved stability", "Better compatibility signal", "More useful formula data", "Moderate commitment"]} />
-                <DurationCard period="30 Days" title="Deep Research" lines={["Narrower serum outcomes", "Higher confidence", "Stronger research dataset", "Better XP efficiency target"]} />
-                <DurationCard period="90 Days" title="Long-Term Study" lines={["Highest consistency target", "Best research evidence", "Strongest formula refinement", "Longest capital/time commitment"]} />
+                <DurationCard period="3 Days" title="Experimental" lines={["72 research hours", "Widest expression variance", "Lower confidence", "Fast discovery attempts"]} />
+                <DurationCard period="7 Days" title="Standard" lines={["168 research hours", "Moderate variance", "Improved stability", "Stronger research evidence"]} />
+                <DurationCard period="30 Days" title="Deep Research" lines={["720 research hours", "Tighter expression range", "High confidence", "Strong formula evidence"]} />
+                <DurationCard period="90 Days" title="Long-Term Study" lines={["2,160 research hours", "Tightest expression range", "Highest predictability", "Deepest single-study evidence"]} />
               </div>
 
               <Callout>
-                A 90-day study should not automatically create a Legendary mutation. Duration improves
-                research quality, stability, confidence, and serum consistency. Mutation rarity still
-                follows the research engine.
+                Duration primarily controls predictability and evidence quality. The simulation confirms
+                that expression variance narrows substantially from 3 to 90 days while average expression
+                strength remains approximately stable. Longer research should not simply mean stronger.
               </Callout>
 
               <Flow
                 steps={[
                   "Research commitment",
-                  "3 / 7 / 30 / 90 days",
-                  "Research completes",
+                  "Accumulate path hours",
+                  "Expand discovery eligibility",
+                  "Resolve research",
+                  "Update lab knowledge",
                   "Evolution ready",
-                  "Short final incubation",
-                  "Reveal next form",
                 ]}
               />
             </Section>
 
             <Section
-              id="serums"
+              id="discovery"
               number="12"
+              icon={Dna}
+              title="Mutation Discovery"
+              subtitle="Research builds laboratory knowledge. The 600 authored mutations begin as a hidden discovery universe rather than a public shopping list."
+            >
+              <StatusBanner tone="next" title="Next research milestone">
+                Add a discovery layer beside mutation expression. Completing research contributes
+                cumulative hours to the selected path and creates deterministic opportunities to
+                discover previously undocumented mutations.
+              </StatusBanner>
+
+              <div className="grid gap-3 sm:grid-cols-2 xl:grid-cols-5">
+                <CollectionStat label="Common Depth" value="24h" detail="Eligible for discovery" />
+                <CollectionStat label="Uncommon Depth" value="72h" detail="Eligible for discovery" />
+                <CollectionStat label="Rare Depth" value="168h" detail="Eligible for discovery" />
+                <CollectionStat label="Epic Depth" value="720h" detail="Eligible for discovery" />
+                <CollectionStat label="Legendary Depth" value="2,160h" detail="Eligible for discovery" />
+              </div>
+
+              <p className="mt-5">
+                These thresholds unlock eligibility, not guaranteed rewards. A laboratory that reaches
+                2,160 hours of Defensive research can encounter Legendary Defensive biology, but the
+                discovery still uses seeded weighting and can resolve to lower-rarity or no new discovery.
+                Research depth is cumulative, so many short studies can eventually reach deep discovery
+                tiers just as a smaller number of long studies can.
+              </p>
+
+              <div className="mt-4 grid gap-3 md:grid-cols-3">
+                <Principle icon={FlaskConical} title="Lab Specialization" text="Research hours accumulate by path, allowing different labs to become known for different branches of biology." />
+                <Principle icon={Dices} title="Eligibility, Not Guarantee" text="Hours open deeper rarity pools. They never guarantee that the next discovery is Rare, Epic, or Legendary." />
+                <Principle icon={Database} title="Permanent Provenance" text="Discoveries record the lab, wallet, specimen, research job, path, research depth, timestamp, and first-global status." />
+              </div>
+
+              <Flow
+                steps={[
+                  "Run research",
+                  "Add primary path hours",
+                  "Add secondary path credit",
+                  "Build undiscovered candidate pool",
+                  "Roll discovery",
+                  "Record lab knowledge",
+                  "Enable future formula targeting",
+                ]}
+              />
+
+              <Formula>
+                Primary Path Research Credit = 100% of completed research hours
+              </Formula>
+              <Formula>
+                Secondary Path Research Credit = 25% of completed research hours
+              </Formula>
+
+              <CodeBlock code={mutationDiscoveryExample} />
+
+              <Callout>
+                Discovery and expression are separate events. A lab may discover that Iron Hide exists
+                without the current specimen expressing Iron Hide. Likewise, the first observed expression
+                of an unknown mutation can also create its discovery record.
+              </Callout>
+
+              <Callout>
+                Do not expose all 600 mutation names as an unlock checklist. The UI should show known
+                mutations, research depth, and undocumented signatures so discovery retains mystery.
+              </Callout>
+            </Section>
+
+            <Section
+              id="serums"
+              number="13"
               icon={Atom}
               title="Serums & Formulas"
               subtitle="Serums are probability-control tools. They make outcomes more consistent without removing uncertainty."
             >
               <p>
                 The platform can provide a small set of baseline reference serums. The larger economy
-                should come from lab-created formulas discovered by players through repeated research
-                and clone testing. Formula creation is programmatic and therefore does not require
-                hand-producing unique art for every formula.
+                should come from lab-created formulas built from mutations the laboratory has actually
+                discovered and supported with repeated research evidence. Formula creation is programmatic
+                and does not require hand-producing unique art for every formula.
               </p>
 
               <div className="mt-4 grid gap-3 md:grid-cols-3">
                 <Principle icon={Dices} title="Raw Research" text="Broad search space and wider mutation distribution." />
-                <Principle icon={FlaskConical} title="Serum" text="Narrows the distribution toward a known family or mutation cluster." />
+                <Principle icon={FlaskConical} title="Serum" text="Strongly biases a known biological direction while preserving meaningful diversity among exact expressions." />
                 <Principle icon={Database} title="Formula Evidence" text="Repeated observed outcomes create a research record and formula confidence." />
               </div>
 
               <CodeBlock code={serumExample} />
 
               <Formula>
-                Formula = saved research weighting strategy. Serum = usable instance manufactured from that formula.
+                Formula = discovered biological knowledge + saved weighting strategy + observed evidence. Serum = usable instance manufactured from that formula.
               </Formula>
+
+              <Callout>
+                A lab-created formula may intentionally weight only mutations that laboratory has
+                discovered. Serums should be predictable at the family or phenotype-cluster level without
+                making every specimen converge on the exact same visual result.
+              </Callout>
 
               <Callout>
                 Use observed result rates when displaying historical test data. Only label values as
@@ -796,7 +902,7 @@ export default function DocsPage() {
 
             <Section
               id="clone"
-              number="13"
+              number="14"
               icon={Dna}
               title="Clone Research"
               subtitle="Clone testing is the premium intelligence layer and a natural place to charge because AI visualization has a real marginal cost."
@@ -817,13 +923,15 @@ export default function DocsPage() {
 
               <Callout>
                 Clone results should normally be predictive rather than a guaranteed preview of the
-                exact real evolution. A future premium lock mechanic could be designed separately if desired.
+                exact real evolution. When simulations encounter biology the lab has not discovered, the
+                UI can report an undocumented signature without exposing the hidden canonical mutation name.
+                A future premium lock mechanic could be designed separately if desired.
               </Callout>
             </Section>
 
             <Section
               id="evolution"
-              number="14"
+              number="15"
               icon={Sparkles}
               title="Evolution Process"
               subtitle="Evolution is the major developmental transformation. Mutation describes the traits expressed during that transformation."
@@ -855,11 +963,19 @@ export default function DocsPage() {
                 Evolution imagery should compound earlier changes. EVO II inherits EVO I traits and
                 adds new expression rather than regenerating from the Genesis image with unrelated anatomy.
               </Callout>
+
+              <Callout>
+                Mutation values are biological guidance, not ten decimal shades of the same artwork.
+                The phenotype builder should translate expression into qualitative levels such as Subtle,
+                Visible, Pronounced, and Dominant, then choose one primary visual driver and at most one
+                secondary visual influence. Other mutations can remain mechanical, behavioral, metabolic,
+                or latent. This keeps later evolutions coherent instead of mashing every acquired trait together.
+              </Callout>
             </Section>
 
             <Section
               id="staking"
-              number="15"
+              number="16"
               icon={Coins}
               title="Token Research Funding"
               subtitle="A future staking loop can let collectors fund long research commitments and accumulate XP without making token balance equal direct power."
@@ -888,7 +1004,7 @@ export default function DocsPage() {
 
             <Section
               id="advanced"
-              number="16"
+              number="17"
               icon={Award}
               title="Advanced Research"
               subtitle="Later expansion: connect high-level specimen research to real AI-assisted computational discovery."
@@ -938,12 +1054,12 @@ export default function DocsPage() {
 
             <Section
               id="architecture"
-              number="17"
+              number="18"
               icon={Database}
               title="Data Architecture"
               subtitle="Keep permanent identity, mutable game state, canonical outcomes, and generated media in separate layers."
             >
-              <div className="grid gap-3 md:grid-cols-2 xl:grid-cols-4">
+              <div className="grid gap-3 md:grid-cols-2 xl:grid-cols-5">
                 <ArchitectureCard
                   title="Base Template"
                   lines={[
@@ -981,6 +1097,17 @@ export default function DocsPage() {
                   ]}
                 />
                 <ArchitectureCard
+                  title="Lab Knowledge"
+                  lines={[
+                    "Research hours by path",
+                    "Discovered mutation IDs",
+                    "Research level",
+                    "Known formulas",
+                    "Discovery provenance",
+                    "Undocumented signature count",
+                  ]}
+                />
+                <ArchitectureCard
                   title="History / Media"
                   lines={[
                     "Evolution snapshots",
@@ -1003,7 +1130,7 @@ export default function DocsPage() {
 
             <Section
               id="files"
-              number="18"
+              number="19"
               icon={Braces}
               title="TypeScript File Roadmap"
               subtitle="The next code should be modular math and orchestration rather than another giant content library."
@@ -1015,14 +1142,15 @@ export default function DocsPage() {
               <FileRoadmap items={battleFileRoadmap} />
 
               <Callout>
-                Existing mutation-library.ts remains the pool of biological outcomes. Existing move-library.ts
+                Existing mutation-library.ts remains the authored pool of 600 possible biological outcomes,
+                but the discovery layer controls which mutations each lab actually knows. Existing move-library.ts
                 remains the permanent move interpretation layer for cinematic reconstruction.
               </Callout>
             </Section>
 
             <Section
               id="milestones"
-              number="19"
+              number="20"
               icon={Trophy}
               title="Recommended Build Milestones"
               subtitle="A practical sequence from the current prototype to a complete playable loop."
@@ -1033,14 +1161,15 @@ export default function DocsPage() {
                   ["M2", "Run the existing battle engine from the matchup record and save canonical Trial JSON."],
                   ["M3", "Award XP from trusted backend logic and update live specimen state."],
                   ["M4", "Build battle-replay.ts and the Grok video adapter."],
-                  ["M5", "Implement research types, config, paths, RNG, weights, and compatibility."],
-                  ["M6", "Implement serum formulas and the canonical research engine."],
-                  ["M7", "Implement clone research simulations and research outcome trees."],
-                  ["M8", "Implement evolution snapshots, lineage inheritance, and AI evolution artwork."],
-                  ["M9", "Add 3 / 7 / 30 / 90 day research commitments and optional token research funding."],
-                  ["M10", "Balance XP costs, research durations, serum consistency, and mutation expression."],
-                  ["M11", "Add formula certification, research provenance, and serum marketplace mechanics."],
-                  ["M12", "Explore sponsored Advanced Research only after the core game loop is working."],
+                  ["M5", "Integrate the completed deterministic research engine with persistent specimen state."],
+                  ["M6", "Add lab research hours, mutation discovery eligibility, discovery rolls, and provenance."],
+                  ["M7", "Gate lab-created formula targeting behind discovered mutation knowledge."],
+                  ["M8", "Connect clone simulations, research trees, formula analytics, and certification."],
+                  ["M9", "Implement evolution snapshots, hierarchical phenotype guidance, and AI evolution artwork."],
+                  ["M10", "Add production 3 / 7 / 30 / 90 day commitments and optional token research funding."],
+                  ["M11", "Run large simulations and tune discovery pace, serum concentration, rarity, stability, and anomaly behavior."],
+                  ["M12", "Add discovery history, formula provenance, and serum marketplace mechanics."],
+                  ["M13", "Explore sponsored Advanced Research only after the core game loop is working."],
                 ].map(([code, step], index, steps) => (
                   <div key={code} className="flex items-center gap-3 rounded-lg border border-[#292823] bg-[#080a0b] px-4 py-3">
                     <div className="grid size-9 shrink-0 place-items-center rounded-md border border-[#a97826]/30 bg-[#a97826]/[0.06] text-[10px] font-black text-[#d2a143]">
@@ -1055,7 +1184,7 @@ export default function DocsPage() {
 
             <Section
               id="decisions"
-              number="20"
+              number="21"
               icon={ShieldCheck}
               title="Locked Decisions & Guardrails"
               subtitle="Decisions that should remain stable unless there is a deliberate design change."
@@ -1064,8 +1193,13 @@ export default function DocsPage() {
                 <Decision title="AI never decides battle winners" text="The deterministic battle engine resolves the official outcome first. AI only reconstructs it visually." />
                 <Decision title="Individual editions evolve" text="The base 333 templates remain shared origins. Each token develops its own lineage." />
                 <Decision title="Evolution history is preserved" text="Create stage snapshots instead of destructively replacing all earlier metadata." />
+                <Decision title="Phenotypes use visual hierarchy" text="AI receives one primary visual mutation, at most one secondary visual influence, inherited lineage, and qualitative expression guidance instead of every mutation as an equal art instruction." />
                 <Decision title="Mutations are outcomes" text="Players choose the research experiment, not an exact mutation from a purchase menu." />
-                <Decision title="Serums narrow outcomes" text="Serums provide consistency and probability control without normally guaranteeing one result." />
+                <Decision title="Serums narrow directions" text="Serums provide strong family or phenotype-cluster consistency while preserving diversity among exact mutation and visual outcomes." />
+                <Decision title="The 600 mutations begin hidden" text="The authored mutation library is a discovery universe. Players see their lab's known biology and undocumented signatures rather than a complete unlock checklist." />
+                <Decision title="Research hours unlock eligibility" text="24 / 72 / 168 / 720 / 2,160 hour depth thresholds open Common through Legendary discovery pools. Reaching a threshold never guarantees that rarity." />
+                <Decision title="Discovery is separate from expression" text="A lab can discover a mutation without the active specimen expressing it, and first observation of an unknown expression can create a discovery record." />
+                <Decision title="Formulas require knowledge" text="Lab-created formulas can intentionally weight only mutations the laboratory has discovered and supported with evidence." />
                 <Decision title="Clone research is informational" text="Clone tests do not alter the real specimen and can support paid AI phenotype previews." />
                 <Decision title="XP is progression currency" text="Battle and approved research activity produce XP. XP is spent on development." />
                 <Decision title="Token staking is optional funding" text="Token locks may generate research XP later, but effective stake should be capped to reduce pay-to-win pressure." />
