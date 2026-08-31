@@ -8,7 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
-    "@myevm/ecosystem": "file:../../ecosystem-identity/ecosystem/packages/ecosystem",
+    "@myevm/ecosystem": "^0.1.0",
     "@privy-io/react-auth": "^3.38.0",
     "@stripe/stripe-js": "^1.54.2",
     "lucide-react": "latest",
