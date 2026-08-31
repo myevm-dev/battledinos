@@ -14,15 +14,15 @@ import {
 } from "lucide-react";
 
 const nav = [
+    {
+    href: "/shop",
+    label: "Market",
+    icon: ShoppingBag,
+  },
   {
     href: "/battle",
     label: "Battle",
     icon: Swords,
-  },
-  {
-    href: "/shop",
-    label: "Market",
-    icon: ShoppingBag,
   },
   {
     href: "/profile",

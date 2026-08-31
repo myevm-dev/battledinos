@@ -1,15 +1,21 @@
 "use client";
 
+import { useState } from "react";
 import Image from "next/image";
+import { usePrivy } from "@privy-io/react-auth";
 import {
+  CreditCard,
+  LoaderCircle,
   PackageOpen,
   ShieldCheck,
   Sparkles,
 } from "lucide-react";
+
 import { AppNavigation } from "@/components/battle-dinos/nav";
 
 const BOX_SUPPLY = 900;
-const PRICE_UNI = 11;
+const PRICE_USDC = 43;
+const PRICE_CARD_USD = 49;
 const PACKS_PER_BOX = 8;
 const CARDS_PER_PACK = 5;
 const CARDS_PER_BOX = PACKS_PER_BOX * CARDS_PER_PACK;
@@ -72,6 +78,113 @@ const boosterBoxOdds = [
 ];
 
 export default function ShopPage() {
+  const {
+    ready,
+    authenticated,
+    user,
+    login,
+    getAccessToken,
+  } = usePrivy();
+
+  const [cardLoading, setCardLoading] = useState(false);
+  const [checkoutError, setCheckoutError] = useState<string | null>(null);
+
+    async function handleCardCheckout() {
+    setCheckoutError(null);
+
+    if (!ready) {
+      return;
+    }
+
+    if (!authenticated) {
+      login();
+      return;
+    }
+
+    const walletAddress = user?.wallet?.address;
+
+    if (!walletAddress) {
+      setCheckoutError(
+        "Connect a wallet before purchasing so the booster box has a destination wallet.",
+      );
+      return;
+    }
+
+    const apiUrl =
+      process.env.NEXT_PUBLIC_MYEVM_API_URL;
+
+    if (!apiUrl) {
+      setCheckoutError(
+        "MyEVM checkout is not configured.",
+      );
+      return;
+    }
+
+    setCardLoading(true);
+
+    try {
+      const token =
+        await getAccessToken();
+
+      if (!token) {
+        throw new Error(
+          "Unable to get MyEVM authentication token.",
+        );
+      }
+
+      const response = await fetch(
+        `${apiUrl}/api/commerce/checkout`,
+        {
+          method: "POST",
+
+          headers: {
+            Authorization: `Bearer ${token}`,
+            "Content-Type": "application/json",
+            "x-myevm-app-id": "specimen-game",
+          },
+
+          body: JSON.stringify({
+            productId: "genesis-booster-box",
+            walletAddress,
+            quantity: 1,
+            successPath: "/shop/success",
+            cancelPath: "/shop",
+          }),
+        },
+      );
+
+      const data = (await response.json()) as {
+        checkoutUrl?: string;
+        error?: string;
+      };
+
+      if (!response.ok) {
+        throw new Error(
+          data.error ??
+            "Unable to create checkout.",
+        );
+      }
+
+      if (!data.checkoutUrl) {
+        throw new Error(
+          "Stripe checkout URL was not returned.",
+        );
+      }
+
+      window.location.href =
+        data.checkoutUrl;
+    } catch (error) {
+      setCheckoutError(
+        error instanceof Error
+          ? error.message
+          : "Unable to start checkout.",
+      );
+
+      setCardLoading(false);
+    }
+  }
+
+  
   return (
     <div className="min-h-screen overflow-x-hidden bg-[#050708] text-[#e8e4db]">
       <AppNavigation />
@@ -135,23 +248,40 @@ export default function ShopPage() {
             </p>
 
             <div className="mt-6 rounded-xl border border-[#8e702c]/35 bg-[#8e702c]/[0.055] p-5">
-              <p className="text-xs font-black uppercase tracking-[0.14em] text-[#9b8053]">
-                Fixed Price
-              </p>
+            <p className="text-xs font-black uppercase tracking-[0.14em] text-[#9b8053]">
+              Booster Box Price
+            </p>
 
-              <div className="mt-2 flex items-end gap-2">
+            <div className="mt-3 flex flex-wrap items-end gap-x-4 gap-y-2">
+              <div className="flex items-end gap-2">
                 <span className="text-4xl font-black text-[#e0ab4a] sm:text-5xl">
-                  {PRICE_UNI}
+                  {PRICE_USDC}
                 </span>
+
                 <span className="pb-1 text-xl font-black uppercase tracking-[0.08em] text-[#c8b997]">
-                  UNI
+                  USDC
                 </span>
               </div>
 
-              <p className="mt-2 text-sm text-[#85898b]">
-                Per sealed booster box
-              </p>
+              <span className="pb-1 text-sm font-bold uppercase text-[#706b61]">
+                or
+              </span>
+
+              <div className="flex items-end gap-2">
+                <span className="text-3xl font-black text-[#d7dce0]">
+                  ${PRICE_CARD_USD}
+                </span>
+
+                <span className="pb-1 text-sm font-black uppercase tracking-[0.08em] text-[#777d82]">
+                  Card
+                </span>
+              </div>
             </div>
+
+            <p className="mt-2 text-sm text-[#85898b]">
+              Per sealed booster box
+            </p>
+          </div>
 
             <div className="mt-5 grid grid-cols-2 gap-3">
               <MarketStat label="Packs Per Box" value={String(PACKS_PER_BOX)} />
@@ -182,17 +312,52 @@ export default function ShopPage() {
             </div>
 
             <div className="mt-auto pt-6">
-              <button
-                type="button"
-                className="flex w-full items-center justify-center gap-2 rounded-lg border border-[#b8842c]/70 bg-[linear-gradient(110deg,rgba(126,85,21,0.42),rgba(77,48,13,0.2))] px-5 py-4 text-base font-black uppercase tracking-[0.09em] text-[#eadfca] shadow-[0_0_25px_rgba(174,118,28,0.06)] transition hover:border-[#d2a143] hover:bg-[#8a5f1d]/20"
-              >
-                <PackageOpen size={19} />
-                Acquire Booster Box · {PRICE_UNI} UNI
-              </button>
+              <div className="grid gap-3 sm:grid-cols-2">
+                <button
+                  type="button"
+                  disabled
+                  title="Direct USDC checkout coming next"
+                  className="flex items-center justify-center gap-2 rounded-lg border border-[#b8842c]/70 bg-[linear-gradient(110deg,rgba(126,85,21,0.42),rgba(77,48,13,0.2))] px-5 py-4 text-sm font-black uppercase tracking-[0.09em] text-[#eadfca] opacity-70"
+                >
+                  <PackageOpen size={19} />
+                  Buy for {PRICE_USDC} USDC
+                </button>
+
+                <button
+                  type="button"
+                  onClick={handleCardCheckout}
+                  disabled={cardLoading || !ready}
+                  className="flex items-center justify-center gap-2 rounded-lg border border-[#53606d] bg-[#11161a] px-5 py-4 text-sm font-black uppercase tracking-[0.09em] text-[#e3e6e8] transition hover:border-[#8997a4] hover:bg-[#171d22] disabled:cursor-not-allowed disabled:opacity-50"
+                >
+                  {cardLoading ? (
+                    <>
+                      <LoaderCircle
+                        size={19}
+                        className="animate-spin"
+                      />
+                      Opening Checkout
+                    </>
+                  ) : (
+                    <>
+                      <CreditCard size={19} />
+                      Pay ${PRICE_CARD_USD} with Card
+                    </>
+                  )}
+                </button>
+              </div>
+
+              {checkoutError && (
+                <p className="mt-3 text-center text-sm font-medium text-red-400">
+                  {checkoutError}
+                </p>
+              )}
 
               <div className="mt-3 flex items-center justify-center gap-2 text-xs font-bold uppercase tracking-[0.1em] text-[#666b6c]">
                 <ShieldCheck size={13} />
-                Wallet connection required
+
+                {authenticated
+                  ? "MyEVM account connected"
+                  : "Sign in required to purchase"}
               </div>
             </div>
           </div>
