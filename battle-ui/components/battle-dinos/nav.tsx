@@ -16,7 +16,7 @@ import {
 const nav = [
     {
     href: "/shop",
-    label: "Market",
+    label: "Shop",
     icon: ShoppingBag,
   },
   {
@@ -25,7 +25,7 @@ const nav = [
     icon: Swords,
   },
   {
-    href: "/profile",
+    href: "/lab",
     label: "Lab",
     icon: FlaskConical,
   },
