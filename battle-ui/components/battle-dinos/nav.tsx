@@ -3,12 +3,14 @@
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { usePrivy } from "@privy-io/react-auth";
 import {
   BookOpen,
   FlaskConical,
   ShoppingBag,
   Swords,
   WalletCards,
+  LogOut,
 } from "lucide-react";
 
 const nav = [
@@ -59,6 +61,113 @@ function SpecimenLogo({
   );
 }
 
+function shortenAddress(address?: string | null) {
+  if (!address) return null;
+
+  return `${address.slice(0, 6)}...${address.slice(-4)}`;
+}
+
+function DesktopAccountButton() {
+  const {
+    ready,
+    authenticated,
+    user,
+    login,
+    logout,
+  } = usePrivy();
+
+  if (!ready) {
+    return (
+      <button
+        disabled
+        className="flex items-center gap-2 rounded-lg border border-[#a97826]/30 bg-[#a97826]/[0.04] px-4 py-2.5 text-sm font-bold text-[#6f6759]"
+      >
+        <WalletCards size={16} />
+        Loading
+      </button>
+    );
+  }
+
+  if (!authenticated) {
+    return (
+      <button
+        onClick={login}
+        className="flex items-center gap-2 rounded-lg border border-[#a97826]/60 bg-[#a97826]/[0.07] px-4 py-2.5 text-sm font-bold text-[#e8dfcb] transition hover:border-[#d0a148]/70 hover:bg-[#a97826]/[0.12]"
+      >
+        <WalletCards size={16} />
+        Sign In
+      </button>
+    );
+  }
+
+  const wallet = shortenAddress(
+    user?.wallet?.address,
+  );
+
+  const email =
+    user?.email?.address ?? null;
+
+  return (
+    <button
+      onClick={() => logout()}
+      title="Sign out"
+      className="flex items-center gap-2 rounded-lg border border-[#a97826]/60 bg-[#a97826]/[0.07] px-4 py-2.5 text-sm font-bold text-[#e8dfcb] transition hover:border-[#d0a148]/70 hover:bg-[#a97826]/[0.12]"
+    >
+      <WalletCards size={16} />
+
+      <span>
+        {wallet ?? email ?? "MyEVM"}
+      </span>
+
+      <LogOut
+        size={14}
+        className="ml-1 text-[#8e8370]"
+      />
+    </button>
+  );
+}
+
+function MobileAccountButton() {
+  const {
+    ready,
+    authenticated,
+    login,
+    logout,
+  } = usePrivy();
+
+  return (
+    <button
+      aria-label={
+        authenticated
+          ? "Sign out"
+          : "Sign in"
+      }
+      disabled={!ready}
+      onClick={() => {
+        if (!ready) return;
+
+        if (authenticated) {
+          void logout();
+          return;
+        }
+
+        login();
+      }}
+      className={`grid size-10 place-items-center rounded-lg border transition ${
+        authenticated
+          ? "border-[#d7a84c]/70 bg-[#a97826]/[0.13] text-[#f0c66c]"
+          : "border-[#a97826]/50 bg-[#a97826]/[0.07] text-[#d7a84c]"
+      }`}
+    >
+      {authenticated ? (
+        <LogOut size={18} />
+      ) : (
+        <WalletCards size={18} />
+      )}
+    </button>
+  );
+}
+
 export function DesktopNav() {
   const pathname = usePathname();
 
@@ -88,7 +197,8 @@ export function DesktopNav() {
         <nav className="flex h-full items-center gap-1">
           {nav.map((item) => {
             const Icon = item.icon;
-            const active = pathname.startsWith(item.href);
+            const active =
+              pathname.startsWith(item.href);
 
             return (
               <Link
@@ -100,7 +210,10 @@ export function DesktopNav() {
                     : "text-[#737a80] hover:text-[#dedbd3]"
                 }`}
               >
-                <Icon size={16} strokeWidth={1.8} />
+                <Icon
+                  size={16}
+                  strokeWidth={1.8}
+                />
 
                 {item.label}
 
@@ -112,11 +225,8 @@ export function DesktopNav() {
           })}
         </nav>
 
-        {/* WALLET */}
-        <button className="flex items-center gap-2 rounded-lg border border-[#a97826]/60 bg-[#a97826]/[0.07] px-4 py-2.5 text-sm font-bold text-[#e8dfcb] transition hover:border-[#d0a148]/70 hover:bg-[#a97826]/[0.12]">
-         
-          Coming Soon
-        </button>
+        {/* MYEVM ACCOUNT */}
+        <DesktopAccountButton />
       </div>
     </header>
   );
@@ -145,13 +255,8 @@ export function MobileHeader() {
           </div>
         </Link>
 
-        {/* WALLET */}
-        <button
-          aria-label="Connect wallet"
-          className="grid size-10 place-items-center rounded-lg border border-[#a97826]/50 bg-[#a97826]/[0.07] text-[#d7a84c]"
-        >
-          <WalletCards size={18} />
-        </button>
+        {/* MYEVM ACCOUNT */}
+        <MobileAccountButton />
       </div>
     </header>
   );
@@ -165,7 +270,8 @@ export function MobileBottomNav() {
       <div className="mx-auto grid max-w-xl grid-cols-4">
         {nav.map((item) => {
           const Icon = item.icon;
-          const active = pathname.startsWith(item.href);
+          const active =
+            pathname.startsWith(item.href);
 
           return (
             <Link
@@ -177,7 +283,10 @@ export function MobileBottomNav() {
                   : "text-[#626970] hover:text-[#9b9fa1]"
               }`}
             >
-              <Icon size={19} strokeWidth={1.8} />
+              <Icon
+                size={19}
+                strokeWidth={1.8}
+              />
               {item.label}
             </Link>
           );
